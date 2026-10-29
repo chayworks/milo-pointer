@@ -1,0 +1,9 @@
+# Reproducing the paper's numbers from released outputs needs only the Python standard library (3.10+).
+# Running the model, the ONNX export and the frontier harness need:
+torch==2.14.0
+transformers==5.17.0
+safetensors==0.8.0
+onnxruntime==1.31.1   # desktop; the phone benchmark used onnxruntime-android 1.20.0
+numpy==2.1.3
+anthropic==2.3.0   # only to re-run the Claude arms (costs money)
+pytest

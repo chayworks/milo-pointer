@@ -1,0 +1,70 @@
+{
+ "goal": "Set a 5 minute timer in the Clock app",
+ "steps": [
+  {
+   "instruction": "Go to the Timers tab",
+   "action": {
+    "action_type": "click",
+    "element": 38,
+    "x": 540,
+    "y": 2253,
+    "confidence": 0.9877,
+    "defer": false
+   },
+   "target": "Timers",
+   "model_ms": 224
+  },
+  {
+   "instruction": "Tap 5",
+   "action": {
+    "action_type": "click",
+    "element": 37,
+    "x": 540,
+    "y": 1595,
+    "confidence": 0.9987,
+    "defer": false
+   },
+   "target": "5",
+   "model_ms": 307
+  },
+  {
+   "instruction": "Tap 0",
+   "action": {
+    "action_type": "click",
+    "element": 43,
+    "x": 540,
+    "y": 1951,
+    "confidence": 0.996,
+    "defer": false
+   },
+   "target": "0",
+   "model_ms": 287
+  },
+  {
+   "instruction": "Tap 0",
+   "action": {
+    "action_type": "click",
+    "element": 43,
+    "x": 540,
+    "y": 1951,
+    "confidence": 0.996,
+    "defer": false
+   },
+   "target": "0",
+   "model_ms": 290
+  },
+  {
+   "instruction": "Start the timer",
+   "action": {
+    "action_type": "click",
+    "element": 30,
+    "x": 540,
+    "y": 1142,
+    "confidence": 0.9937,
+    "defer": false
+   },
+   "target": "Start",
+   "model_ms": 293
+  }
+ ]
+}

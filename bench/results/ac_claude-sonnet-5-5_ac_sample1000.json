@@ -1,0 +1,9800 @@
+{
+"model": "claude-sonnet-5-5",
+"n": 1000,
+"ok": 804,
+"tokens_in": 2816994,
+"tokens_out": 36549,
+"est_cost_usd": 4.4996,
+"rows": [
+{
+"i": 8,
+"ep": 1727,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": true
+},
+{
+"i": 14,
+"ep": 2488,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 166
+},
+"ok": true
+},
+{
+"i": 22,
+"ep": 2488,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 57
+},
+"ok": false
+},
+{
+"i": 25,
+"ep": 2488,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 38
+},
+"ok": false
+},
+{
+"i": 44,
+"ep": 2991,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 34
+},
+"ok": false
+},
+{
+"i": 49,
+"ep": 2991,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 59
+},
+"ok": true
+},
+{
+"i": 51,
+"ep": 2991,
+"gt": "scroll_right",
+"got": {
+"action_type": "scroll_left"
+},
+"ok": false
+},
+{
+"i": 69,
+"ep": 3814,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 74
+},
+"ok": false
+},
+{
+"i": 75,
+"ep": 3814,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 84,
+"ep": 4194,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 97
+},
+"ok": true
+},
+{
+"i": 85,
+"ep": 4194,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 97
+},
+"ok": false
+},
+{
+"i": 86,
+"ep": 4194,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 89,
+"ep": 4414,
+"gt": "navigate_back",
+"got": {
+"action_type": "click",
+"element": 40
+},
+"ok": false
+},
+{
+"i": 100,
+"ep": 4635,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 62
+},
+"ok": false
+},
+{
+"i": 116,
+"ep": 4796,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 40
+},
+"ok": true
+},
+{
+"i": 135,
+"ep": 5779,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 91
+},
+"ok": true
+},
+{
+"i": 138,
+"ep": 5779,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 73
+},
+"ok": true
+},
+{
+"i": 142,
+"ep": 5779,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 61
+},
+"ok": true
+},
+{
+"i": 143,
+"ep": 6041,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Contacts"
+},
+"ok": true
+},
+{
+"i": 144,
+"ep": 6041,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 69
+},
+"ok": true
+},
+{
+"i": 145,
+"ep": 6041,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 29
+},
+"ok": true
+},
+{
+"i": 146,
+"ep": 6081,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 170,
+"ep": 7643,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 182,
+"ep": 8885,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 60
+},
+"ok": true
+},
+{
+"i": 196,
+"ep": 9467,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 33
+},
+"ok": true
+},
+{
+"i": 197,
+"ep": 9547,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 64
+},
+"ok": true
+},
+{
+"i": 206,
+"ep": 9767,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 166
+},
+"ok": true
+},
+{
+"i": 213,
+"ep": 10590,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 104
+},
+"ok": true
+},
+{
+"i": 219,
+"ep": 10711,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 71
+},
+"ok": true
+},
+{
+"i": 222,
+"ep": 10711,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 55
+},
+"ok": true
+},
+{
+"i": 227,
+"ep": 10911,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 43
+},
+"ok": true
+},
+{
+"i": 241,
+"ep": 11234,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 76
+},
+"ok": true
+},
+{
+"i": 243,
+"ep": 11234,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 249,
+"ep": 11274,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 255,
+"ep": 11274,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 256,
+"ep": 11274,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 109
+},
+"ok": false
+},
+{
+"i": 261,
+"ep": 11454,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 55
+},
+"ok": true
+},
+{
+"i": 273,
+"ep": 11595,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": false
+},
+{
+"i": 280,
+"ep": 11695,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 86
+},
+"ok": true
+},
+{
+"i": 311,
+"ep": 13704,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Ukrain News"
+},
+"ok": true
+},
+{
+"i": 314,
+"ep": 14628,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 33
+},
+"ok": true
+},
+{
+"i": 327,
+"ep": 14768,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 160
+},
+"ok": false
+},
+{
+"i": 339,
+"ep": 14989,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 128
+},
+"ok": true
+},
+{
+"i": 360,
+"ep": 16275,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 42
+},
+"ok": true
+},
+{
+"i": 368,
+"ep": 16979,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 137
+},
+"ok": false
+},
+{
+"i": 372,
+"ep": 17102,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 54
+},
+"ok": true
+},
+{
+"i": 382,
+"ep": 18066,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 50
+},
+"ok": true
+},
+{
+"i": 393,
+"ep": 18306,
+"gt": "wait",
+"got": {
+"action_type": "input_text",
+"text": "craft art"
+},
+"ok": false
+},
+{
+"i": 409,
+"ep": 19269,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 39
+},
+"ok": false
+},
+{
+"i": 415,
+"ep": 19349,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 50
+},
+"ok": true
+},
+{
+"i": 420,
+"ep": 19349,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 445,
+"ep": 904,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Omio"
+},
+"ok": true
+},
+{
+"i": 450,
+"ep": 904,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Oxford"
+},
+"ok": true
+},
+{
+"i": 454,
+"ep": 1024,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 462,
+"ep": 1024,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 49
+},
+"ok": true
+},
+{
+"i": 464,
+"ep": 1024,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Self Art"
+},
+"ok": true
+},
+{
+"i": 465,
+"ep": 1024,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 172
+},
+"ok": true
+},
+{
+"i": 480,
+"ep": 2426,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 45
+},
+"ok": true
+},
+{
+"i": 489,
+"ep": 2748,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 149
+},
+"ok": true
+},
+{
+"i": 490,
+"ep": 3449,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 36
+},
+"ok": true
+},
+{
+"i": 492,
+"ep": 3530,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Phases of the moon"
+},
+"ok": true
+},
+{
+"i": 509,
+"ep": 5215,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 37
+},
+"ok": true
+},
+{
+"i": 510,
+"ep": 5215,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 55
+},
+"ok": true
+},
+{
+"i": 514,
+"ep": 5235,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 64
+},
+"ok": true
+},
+{
+"i": 519,
+"ep": 5355,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 43
+},
+"ok": true
+},
+{
+"i": 534,
+"ep": 5677,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 537,
+"ep": 5837,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 47
+},
+"ok": true
+},
+{
+"i": 542,
+"ep": 5918,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": true
+},
+{
+"i": 559,
+"ep": 6640,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down",
+"element": 47
+},
+"ok": true
+},
+{
+"i": 564,
+"ep": 6760,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 36
+},
+"ok": true
+},
+{
+"i": 572,
+"ep": 7101,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Abstract paintings"
+},
+"ok": true
+},
+{
+"i": 576,
+"ep": 7201,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 29
+},
+"ok": true
+},
+{
+"i": 578,
+"ep": 7821,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 101
+},
+"ok": true
+},
+{
+"i": 593,
+"ep": 8262,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 90
+},
+"ok": false
+},
+{
+"i": 594,
+"ep": 8262,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 49
+},
+"ok": true
+},
+{
+"i": 601,
+"ep": 8703,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "DeviantArt"
+},
+"ok": true
+},
+{
+"i": 622,
+"ep": 10366,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 69
+},
+"ok": true
+},
+{
+"i": 623,
+"ep": 10366,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 59
+},
+"ok": true
+},
+{
+"i": 625,
+"ep": 10608,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 87
+},
+"ok": true
+},
+{
+"i": 631,
+"ep": 10809,
+"gt": "click",
+"got": {
+"action_type": "input_text",
+"text": "Sports news"
+},
+"ok": false
+},
+{
+"i": 635,
+"ep": 11332,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Pantaloons"
+},
+"ok": true
+},
+{
+"i": 656,
+"ep": 11714,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 42
+},
+"ok": true
+},
+{
+"i": 657,
+"ep": 11935,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 658,
+"ep": 11935,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 42
+},
+"ok": true
+},
+{
+"i": 659,
+"ep": 11935,
+"gt": "click",
+"got": {
+"action_type": "input_text",
+"text": "Paramedic news"
+},
+"ok": false
+},
+{
+"i": 662,
+"ep": 11935,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 671,
+"ep": 12176,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 196
+},
+"ok": true
+},
+{
+"i": 699,
+"ep": 12678,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 45
+},
+"ok": true
+},
+{
+"i": 706,
+"ep": 13019,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 69
+},
+"ok": true
+},
+{
+"i": 725,
+"ep": 15048,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 24
+},
+"ok": true
+},
+{
+"i": 752,
+"ep": 15752,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 51
+},
+"ok": true
+},
+{
+"i": 755,
+"ep": 15752,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 768,
+"ep": 16656,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 772,
+"ep": 16696,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 61
+},
+"ok": true
+},
+{
+"i": 792,
+"ep": 17481,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 817,
+"ep": 18544,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 28
+},
+"ok": true
+},
+{
+"i": 818,
+"ep": 18544,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 94
+},
+"ok": false
+},
+{
+"i": 824,
+"ep": 18645,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 46
+},
+"ok": true
+},
+{
+"i": 865,
+"ep": 905,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 44
+},
+"ok": true
+},
+{
+"i": 879,
+"ep": 1045,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 59
+},
+"ok": true
+},
+{
+"i": 887,
+"ep": 1045,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 76
+},
+"ok": false
+},
+{
+"i": 898,
+"ep": 1586,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 42
+},
+"ok": true
+},
+{
+"i": 900,
+"ep": 2146,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 48
+},
+"ok": true
+},
+{
+"i": 902,
+"ep": 2387,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Pizza Max"
+},
+"ok": true
+},
+{
+"i": 916,
+"ep": 2387,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 41
+},
+"ok": false
+},
+{
+"i": 934,
+"ep": 2889,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 31
+},
+"ok": false
+},
+{
+"i": 937,
+"ep": 2889,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": true
+},
+{
+"i": 943,
+"ep": 3250,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 40
+},
+"ok": true
+},
+{
+"i": 944,
+"ep": 3591,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 119
+},
+"ok": true
+},
+{
+"i": 971,
+"ep": 4413,
+"gt": "open_app",
+"got": {
+"action_type": "click",
+"element": 44
+},
+"ok": false
+},
+{
+"i": 980,
+"ep": 4876,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 117
+},
+"ok": true
+},
+{
+"i": 981,
+"ep": 4876,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 48
+},
+"ok": false
+},
+{
+"i": 1003,
+"ep": 5076,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 47
+},
+"ok": true
+},
+{
+"i": 1013,
+"ep": 5276,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 172
+},
+"ok": true
+},
+{
+"i": 1059,
+"ep": 7382,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 179
+},
+"ok": true
+},
+{
+"i": 1067,
+"ep": 8324,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 54
+},
+"ok": false
+},
+{
+"i": 1084,
+"ep": 9466,
+"gt": "scroll_right",
+"got": {
+"action_type": "scroll_right"
+},
+"ok": true
+},
+{
+"i": 1095,
+"ep": 10067,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 97
+},
+"ok": true
+},
+{
+"i": 1107,
+"ep": 10167,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "nivea body cream"
+},
+"ok": true
+},
+{
+"i": 1117,
+"ep": 11091,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 62
+},
+"ok": true
+},
+{
+"i": 1118,
+"ep": 11091,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 66
+},
+"ok": true
+},
+{
+"i": 1128,
+"ep": 11132,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 30
+},
+"ok": true
+},
+{
+"i": 1130,
+"ep": 11132,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 31
+},
+"ok": true
+},
+{
+"i": 1132,
+"ep": 11132,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": true
+},
+{
+"i": 1146,
+"ep": 11896,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Maps"
+},
+"ok": true
+},
+{
+"i": 1165,
+"ep": 12739,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 53
+},
+"ok": true
+},
+{
+"i": 1176,
+"ep": 13440,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 1178,
+"ep": 13440,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 32
+},
+"ok": true
+},
+{
+"i": 1184,
+"ep": 13440,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 1188,
+"ep": 13560,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 86
+},
+"ok": false
+},
+{
+"i": 1193,
+"ep": 14265,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 159
+},
+"ok": true
+},
+{
+"i": 1202,
+"ep": 14787,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "french country"
+},
+"ok": true
+},
+{
+"i": 1217,
+"ep": 15993,
+"gt": "click",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": false
+},
+{
+"i": 1222,
+"ep": 16154,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 1241,
+"ep": 17402,
+"gt": "input_text",
+"got": {
+"action_type": "click",
+"element": 163
+},
+"ok": false
+},
+{
+"i": 1246,
+"ep": 17422,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Honda city"
+},
+"ok": true
+},
+{
+"i": 1252,
+"ep": 17522,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": true
+},
+{
+"i": 1254,
+"ep": 17563,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 56
+},
+"ok": true
+},
+{
+"i": 1255,
+"ep": 17563,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 58
+},
+"ok": true
+},
+{
+"i": 1257,
+"ep": 17563,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 76
+},
+"ok": true
+},
+{
+"i": 1270,
+"ep": 19088,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 1272,
+"ep": 19268,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 84
+},
+"ok": true
+},
+{
+"i": 1273,
+"ep": 19268,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Ambience Mall Gurgaon"
+},
+"ok": true
+},
+{
+"i": 1287,
+"ep": 140,
+"gt": "long_press",
+"got": {
+"action_type": "long_press",
+"element": 97
+},
+"ok": true
+},
+{
+"i": 1295,
+"ep": 662,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Artsy"
+},
+"ok": true
+},
+{
+"i": 1299,
+"ep": 662,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 71
+},
+"ok": false
+},
+{
+"i": 1303,
+"ep": 803,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 53
+},
+"ok": true
+},
+{
+"i": 1312,
+"ep": 1364,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 31
+},
+"ok": true
+},
+{
+"i": 1337,
+"ep": 1764,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "HealthifyMe"
+},
+"ok": true
+},
+{
+"i": 1347,
+"ep": 2405,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 21
+},
+"ok": true
+},
+{
+"i": 1359,
+"ep": 2626,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 64
+},
+"ok": true
+},
+{
+"i": 1374,
+"ep": 3128,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 37
+},
+"ok": true
+},
+{
+"i": 1376,
+"ep": 3148,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": true
+},
+{
+"i": 1377,
+"ep": 3148,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 40
+},
+"ok": true
+},
+{
+"i": 1389,
+"ep": 4451,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Flower Drawings"
+},
+"ok": true
+},
+{
+"i": 1394,
+"ep": 4491,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 71
+},
+"ok": true
+},
+{
+"i": 1399,
+"ep": 4692,
+"gt": "scroll_up",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": true
+},
+{
+"i": 1403,
+"ep": 4833,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Vocabulary.com"
+},
+"ok": false
+},
+{
+"i": 1415,
+"ep": 5234,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 56
+},
+"ok": true
+},
+{
+"i": 1430,
+"ep": 5676,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "DeftPDF"
+},
+"ok": true
+},
+{
+"i": 1463,
+"ep": 6239,
+"gt": "open_app",
+"got": {
+"action_type": "click",
+"element": 49
+},
+"ok": false
+},
+{
+"i": 1469,
+"ep": 6759,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 64
+},
+"ok": true
+},
+{
+"i": 1476,
+"ep": 6779,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 74
+},
+"ok": true
+},
+{
+"i": 1487,
+"ep": 7320,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 55
+},
+"ok": true
+},
+{
+"i": 1497,
+"ep": 8261,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Emily Carr artwork"
+},
+"ok": true
+},
+{
+"i": 1498,
+"ep": 8261,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 78
+},
+"ok": true
+},
+{
+"i": 1509,
+"ep": 8982,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 1515,
+"ep": 9464,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 48
+},
+"ok": true
+},
+{
+"i": 1528,
+"ep": 9804,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 53
+},
+"ok": true
+},
+{
+"i": 1539,
+"ep": 10265,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 112
+},
+"ok": true
+},
+{
+"i": 1549,
+"ep": 10928,
+"gt": "input_text",
+"got": {
+"action_type": "click",
+"element": 194
+},
+"ok": false
+},
+{
+"i": 1561,
+"ep": 11571,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 79
+},
+"ok": false
+},
+{
+"i": 1563,
+"ep": 11571,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Janedbwpersonatest@gmail.com"
+},
+"ok": true
+},
+{
+"i": 1564,
+"ep": 11571,
+"gt": "click",
+"got": {
+"action_type": "wait"
+},
+"ok": false
+},
+{
+"i": 1583,
+"ep": 13018,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 38
+},
+"ok": true
+},
+{
+"i": 1596,
+"ep": 13619,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 168
+},
+"ok": true
+},
+{
+"i": 1603,
+"ep": 13841,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 49
+},
+"ok": true
+},
+{
+"i": 1609,
+"ep": 14525,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 1611,
+"ep": 14525,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 28
+},
+"ok": true
+},
+{
+"i": 1613,
+"ep": 15168,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 49
+},
+"ok": false
+},
+{
+"i": 1619,
+"ep": 15409,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Maps"
+},
+"ok": true
+},
+{
+"i": 1628,
+"ep": 15690,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 50
+},
+"ok": false
+},
+{
+"i": 1638,
+"ep": 16212,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 1654,
+"ep": 17621,
+"gt": "navigate_back",
+"got": {
+"action_type": "click",
+"element": 37
+},
+"ok": false
+},
+{
+"i": 1658,
+"ep": 17621,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 37
+},
+"ok": false
+},
+{
+"i": 1660,
+"ep": 17621,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 38
+},
+"ok": true
+},
+{
+"i": 1661,
+"ep": 17661,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 40
+},
+"ok": true
+},
+{
+"i": 1678,
+"ep": 19366,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 55
+},
+"ok": true
+},
+{
+"i": 1680,
+"ep": 19887,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Weather Live & Forecast"
+},
+"ok": true
+},
+{
+"i": 1686,
+"ep": 19928,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 45
+},
+"ok": false
+},
+{
+"i": 1712,
+"ep": 787,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 204
+},
+"ok": true
+},
+{
+"i": 1737,
+"ep": 1908,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": false
+},
+{
+"i": 1747,
+"ep": 2630,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 1756,
+"ep": 2771,
+"gt": "scroll_up",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": true
+},
+{
+"i": 1774,
+"ep": 3152,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 63
+},
+"ok": true
+},
+{
+"i": 1775,
+"ep": 3292,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 1787,
+"ep": 3613,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 71
+},
+"ok": true
+},
+{
+"i": 1805,
+"ep": 4797,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "REI Co-op"
+},
+"ok": true
+},
+{
+"i": 1850,
+"ep": 6623,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": false
+},
+{
+"i": 1878,
+"ep": 6944,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 44
+},
+"ok": false
+},
+{
+"i": 1880,
+"ep": 6944,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 25
+},
+"ok": true
+},
+{
+"i": 1895,
+"ep": 7644,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 42
+},
+"ok": true
+},
+{
+"i": 1902,
+"ep": 8044,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "NYTimes"
+},
+"ok": true
+},
+{
+"i": 1910,
+"ep": 8064,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 39
+},
+"ok": true
+},
+{
+"i": 1919,
+"ep": 8726,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 40
+},
+"ok": true
+},
+{
+"i": 1933,
+"ep": 8886,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 34
+},
+"ok": true
+},
+{
+"i": 1934,
+"ep": 8886,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 69
+},
+"ok": true
+},
+{
+"i": 1937,
+"ep": 9588,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 67
+},
+"ok": true
+},
+{
+"i": 1943,
+"ep": 9628,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 89
+},
+"ok": true
+},
+{
+"i": 1979,
+"ep": 12581,
+"gt": "click",
+"got": {
+"action_type": "input_text",
+"text": "spiritual lounge"
+},
+"ok": false
+},
+{
+"i": 1982,
+"ep": 12581,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 70
+},
+"ok": true
+},
+{
+"i": 1992,
+"ep": 13182,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 59
+},
+"ok": false
+},
+{
+"i": 2022,
+"ep": 13885,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 49
+},
+"ok": true
+},
+{
+"i": 2029,
+"ep": 14287,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 149
+},
+"ok": true
+},
+{
+"i": 2037,
+"ep": 14307,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Myntra"
+},
+"ok": true
+},
+{
+"i": 2042,
+"ep": 15252,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 39
+},
+"ok": true
+},
+{
+"i": 2049,
+"ep": 15613,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 2057,
+"ep": 15613,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 31
+},
+"ok": true
+},
+{
+"i": 2067,
+"ep": 15775,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 209
+},
+"ok": true
+},
+{
+"i": 2101,
+"ep": 16860,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 53
+},
+"ok": false
+},
+{
+"i": 2108,
+"ep": 17444,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 51
+},
+"ok": true
+},
+{
+"i": 2124,
+"ep": 19170,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 49
+},
+"ok": true
+},
+{
+"i": 2125,
+"ep": 19170,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 2144,
+"ep": 406,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 53
+},
+"ok": true
+},
+{
+"i": 2170,
+"ep": 828,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": false
+},
+{
+"i": 2178,
+"ep": 1089,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 124
+},
+"ok": true
+},
+{
+"i": 2198,
+"ep": 1309,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 85
+},
+"ok": true
+},
+{
+"i": 2201,
+"ep": 1309,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 70
+},
+"ok": true
+},
+{
+"i": 2213,
+"ep": 1489,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 188
+},
+"ok": true
+},
+{
+"i": 2215,
+"ep": 1569,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 2216,
+"ep": 1589,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 126
+},
+"ok": true
+},
+{
+"i": 2220,
+"ep": 1589,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 72
+},
+"ok": true
+},
+{
+"i": 2221,
+"ep": 1589,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 72
+},
+"ok": true
+},
+{
+"i": 2240,
+"ep": 2269,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 67
+},
+"ok": true
+},
+{
+"i": 2241,
+"ep": 2269,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "House rent"
+},
+"ok": true
+},
+{
+"i": 2255,
+"ep": 2269,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 32
+},
+"ok": true
+},
+{
+"i": 2272,
+"ep": 3373,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 45
+},
+"ok": true
+},
+{
+"i": 2273,
+"ep": 3715,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 42
+},
+"ok": true
+},
+{
+"i": 2275,
+"ep": 4216,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Artsy"
+},
+"ok": true
+},
+{
+"i": 2280,
+"ep": 4336,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 48
+},
+"ok": true
+},
+{
+"i": 2285,
+"ep": 4516,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Yummly"
+},
+"ok": true
+},
+{
+"i": 2286,
+"ep": 4516,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 45
+},
+"ok": true
+},
+{
+"i": 2289,
+"ep": 4516,
+"gt": "input_text",
+"got": {
+"action_type": "click",
+"element": 68
+},
+"ok": false
+},
+{
+"i": 2310,
+"ep": 5199,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "fifa world cup"
+},
+"ok": true
+},
+{
+"i": 2315,
+"ep": 5741,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 136
+},
+"ok": true
+},
+{
+"i": 2316,
+"ep": 5741,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 34
+},
+"ok": true
+},
+{
+"i": 2327,
+"ep": 6404,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Olx India"
+},
+"ok": true
+},
+{
+"i": 2329,
+"ep": 6404,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 98
+},
+"ok": true
+},
+{
+"i": 2331,
+"ep": 6424,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Babbel"
+},
+"ok": true
+},
+{
+"i": 2350,
+"ep": 7565,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 65
+},
+"ok": true
+},
+{
+"i": 2358,
+"ep": 7705,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Spykar Regular Collar Men slim fit jacket"
+},
+"ok": true
+},
+{
+"i": 2359,
+"ep": 7705,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 53
+},
+"ok": true
+},
+{
+"i": 2386,
+"ep": 8307,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 28
+},
+"ok": true
+},
+{
+"i": 2388,
+"ep": 9307,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 30
+},
+"ok": true
+},
+{
+"i": 2390,
+"ep": 9307,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "creamy mac and cheese"
+},
+"ok": true
+},
+{
+"i": 2393,
+"ep": 9609,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 47
+},
+"ok": true
+},
+{
+"i": 2416,
+"ep": 11296,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 46
+},
+"ok": true
+},
+{
+"i": 2423,
+"ep": 11296,
+"gt": "scroll_left",
+"got": {
+"action_type": "click",
+"element": 54
+},
+"ok": false
+},
+{
+"i": 2427,
+"ep": 12642,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 42
+},
+"ok": true
+},
+{
+"i": 2468,
+"ep": 13886,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 15
+},
+"ok": true
+},
+{
+"i": 2471,
+"ep": 14107,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 34
+},
+"ok": true
+},
+{
+"i": 2472,
+"ep": 14107,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": true
+},
+{
+"i": 2479,
+"ep": 15032,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "natalie.larson1998@gmail.com"
+},
+"ok": true
+},
+{
+"i": 2489,
+"ep": 17325,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 2491,
+"ep": 17807,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 2492,
+"ep": 18068,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 2498,
+"ep": 18950,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Vancouver Island"
+},
+"ok": true
+},
+{
+"i": 2507,
+"ep": 18950,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 90
+},
+"ok": true
+},
+{
+"i": 2539,
+"ep": 20033,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Canada de Gomez"
+},
+"ok": true
+},
+{
+"i": 2559,
+"ep": 548,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 52
+},
+"ok": true
+},
+{
+"i": 2564,
+"ep": 1049,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 54
+},
+"ok": true
+},
+{
+"i": 2573,
+"ep": 1170,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "evankramer@gmail.com"
+},
+"ok": true
+},
+{
+"i": 2576,
+"ep": 1330,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 81
+},
+"ok": true
+},
+{
+"i": 2583,
+"ep": 2010,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 2585,
+"ep": 2250,
+"gt": "click",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": false
+},
+{
+"i": 2610,
+"ep": 2673,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 166
+},
+"ok": false
+},
+{
+"i": 2612,
+"ep": 2673,
+"gt": "scroll_right",
+"got": {
+"action_type": "scroll_right",
+"element": 58
+},
+"ok": true
+},
+{
+"i": 2622,
+"ep": 3034,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 49
+},
+"ok": true
+},
+{
+"i": 2635,
+"ep": 4437,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 2637,
+"ep": 4437,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 2638,
+"ep": 4437,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 2644,
+"ep": 4537,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Weekday schedule"
+},
+"ok": true
+},
+{
+"i": 2646,
+"ep": 5200,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 87
+},
+"ok": true
+},
+{
+"i": 2653,
+"ep": 5742,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 49
+},
+"ok": true
+},
+{
+"i": 2675,
+"ep": 6405,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 47
+},
+"ok": true
+},
+{
+"i": 2684,
+"ep": 6405,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 4
+},
+"ok": true
+},
+{
+"i": 2687,
+"ep": 6405,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 32
+},
+"ok": false
+},
+{
+"i": 2692,
+"ep": 6445,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 57
+},
+"ok": true
+},
+{
+"i": 2704,
+"ep": 6645,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 42
+},
+"ok": false
+},
+{
+"i": 2709,
+"ep": 7806,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 45
+},
+"ok": true
+},
+{
+"i": 2738,
+"ep": 8488,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "NYTimes"
+},
+"ok": true
+},
+{
+"i": 2758,
+"ep": 9168,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 30
+},
+"ok": true
+},
+{
+"i": 2762,
+"ep": 9208,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "dbwscratch.test.id4@gmail.com"
+},
+"ok": true
+},
+{
+"i": 2768,
+"ep": 11217,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 92
+},
+"ok": true
+},
+{
+"i": 2786,
+"ep": 11800,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 181
+},
+"ok": true
+},
+{
+"i": 2789,
+"ep": 11800,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 63
+},
+"ok": true
+},
+{
+"i": 2793,
+"ep": 11840,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 36
+},
+"ok": true
+},
+{
+"i": 2802,
+"ep": 11900,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 44
+},
+"ok": true
+},
+{
+"i": 2808,
+"ep": 12483,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 2810,
+"ep": 12483,
+"gt": "click",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": false
+},
+{
+"i": 2811,
+"ep": 12483,
+"gt": "navigate_back",
+"got": {
+"action_type": "click",
+"element": 70
+},
+"ok": false
+},
+{
+"i": 2824,
+"ep": 12743,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 2826,
+"ep": 12904,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 44
+},
+"ok": false
+},
+{
+"i": 2832,
+"ep": 12904,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 2836,
+"ep": 12904,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 2846,
+"ep": 12904,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 2852,
+"ep": 13887,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "dbwscratch.test.id10@gmail.com"
+},
+"ok": true
+},
+{
+"i": 2854,
+"ep": 14027,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "DeviantArt"
+},
+"ok": true
+},
+{
+"i": 2864,
+"ep": 14269,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 55
+},
+"ok": true
+},
+{
+"i": 2866,
+"ep": 14269,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 2867,
+"ep": 14269,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 89
+},
+"ok": true
+},
+{
+"i": 2872,
+"ep": 14390,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 50
+},
+"ok": false
+},
+{
+"i": 2885,
+"ep": 15857,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 142
+},
+"ok": true
+},
+{
+"i": 2886,
+"ep": 15857,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 83
+},
+"ok": true
+},
+{
+"i": 2899,
+"ep": 17065,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "barbeque salad"
+},
+"ok": true
+},
+{
+"i": 2905,
+"ep": 17085,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 163
+},
+"ok": true
+},
+{
+"i": 2913,
+"ep": 17969,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 30
+},
+"ok": false
+},
+{
+"i": 2933,
+"ep": 19572,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 79
+},
+"ok": true
+},
+{
+"i": 2946,
+"ep": 19813,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 101
+},
+"ok": true
+},
+{
+"i": 2948,
+"ep": 19813,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 105
+},
+"ok": true
+},
+{
+"i": 2950,
+"ep": 19813,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 91
+},
+"ok": false
+},
+{
+"i": 2954,
+"ep": 27,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 108
+},
+"ok": true
+},
+{
+"i": 2962,
+"ep": 127,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": true
+},
+{
+"i": 2968,
+"ep": 227,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 2978,
+"ep": 569,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 57
+},
+"ok": false
+},
+{
+"i": 2983,
+"ep": 569,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 2989,
+"ep": 569,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 3004,
+"ep": 2754,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "shoes"
+},
+"ok": true
+},
+{
+"i": 3006,
+"ep": 2754,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 60
+},
+"ok": false
+},
+{
+"i": 3022,
+"ep": 3315,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 47
+},
+"ok": true
+},
+{
+"i": 3032,
+"ep": 3898,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 41
+},
+"ok": false
+},
+{
+"i": 3040,
+"ep": 4158,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 38
+},
+"ok": true
+},
+{
+"i": 3046,
+"ep": 4358,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 146
+},
+"ok": true
+},
+{
+"i": 3063,
+"ep": 4699,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 130
+},
+"ok": true
+},
+{
+"i": 3066,
+"ep": 4699,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Amsterdam"
+},
+"ok": true
+},
+{
+"i": 3087,
+"ep": 5602,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 3101,
+"ep": 6446,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 45
+},
+"ok": true
+},
+{
+"i": 3113,
+"ep": 7247,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 32
+},
+"ok": true
+},
+{
+"i": 3127,
+"ep": 7587,
+"gt": "scroll_up",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": false
+},
+{
+"i": 3128,
+"ep": 7607,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "The Hindu"
+},
+"ok": true
+},
+{
+"i": 3129,
+"ep": 7607,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 96
+},
+"ok": true
+},
+{
+"i": 3135,
+"ep": 7767,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 170
+},
+"ok": true
+},
+{
+"i": 3136,
+"ep": 7767,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 3141,
+"ep": 7827,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 4
+},
+"ok": false
+},
+{
+"i": 3143,
+"ep": 7827,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 3148,
+"ep": 8389,
+"gt": "scroll_up",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": true
+},
+{
+"i": 3149,
+"ep": 8389,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 50
+},
+"ok": true
+},
+{
+"i": 3151,
+"ep": 8489,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 39
+},
+"ok": true
+},
+{
+"i": 3154,
+"ep": 8489,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "google testing ai"
+},
+"ok": true
+},
+{
+"i": 3163,
+"ep": 9711,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 136
+},
+"ok": false
+},
+{
+"i": 3165,
+"ep": 9711,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 3166,
+"ep": 9711,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 3171,
+"ep": 10232,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 3172,
+"ep": 10232,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 3179,
+"ep": 10554,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Whole Grilled Fish"
+},
+"ok": true
+},
+{
+"i": 3187,
+"ep": 11218,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 76
+},
+"ok": true
+},
+{
+"i": 3188,
+"ep": 12182,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "KLM"
+},
+"ok": true
+},
+{
+"i": 3189,
+"ep": 12182,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 45
+},
+"ok": true
+},
+{
+"i": 3196,
+"ep": 12182,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 53
+},
+"ok": true
+},
+{
+"i": 3197,
+"ep": 12182,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 52
+},
+"ok": true
+},
+{
+"i": 3203,
+"ep": 12624,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 39
+},
+"ok": true
+},
+{
+"i": 3208,
+"ep": 12624,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 34
+},
+"ok": true
+},
+{
+"i": 3219,
+"ep": 12965,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Moon Phase Calendar"
+},
+"ok": true
+},
+{
+"i": 3220,
+"ep": 13385,
+"gt": "scroll_up",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": false
+},
+{
+"i": 3227,
+"ep": 13405,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 56
+},
+"ok": true
+},
+{
+"i": 3234,
+"ep": 13605,
+"gt": "click",
+"got": {
+"action_type": "wait"
+},
+"ok": false
+},
+{
+"i": 3238,
+"ep": 13668,
+"gt": "navigate_back",
+"got": {
+"action_type": "click",
+"element": 39
+},
+"ok": false
+},
+{
+"i": 3249,
+"ep": 14109,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 105
+},
+"ok": true
+},
+{
+"i": 3265,
+"ep": 14953,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Rentalia"
+},
+"ok": true
+},
+{
+"i": 3270,
+"ep": 15316,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 72
+},
+"ok": false
+},
+{
+"i": 3298,
+"ep": 16379,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 63
+},
+"ok": true
+},
+{
+"i": 3305,
+"ep": 16501,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "ArtStation"
+},
+"ok": true
+},
+{
+"i": 3331,
+"ep": 18932,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 1
+},
+"ok": true
+},
+{
+"i": 3338,
+"ep": 19033,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": false
+},
+{
+"i": 3340,
+"ep": 19033,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": false
+},
+{
+"i": 3352,
+"ep": 20055,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 37
+},
+"ok": false
+},
+{
+"i": 3360,
+"ep": 20055,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 93
+},
+"ok": true
+},
+{
+"i": 3363,
+"ep": 228,
+"gt": "click",
+"got": {
+"action_type": "wait"
+},
+"ok": false
+},
+{
+"i": 3364,
+"ep": 228,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 1
+},
+"ok": true
+},
+{
+"i": 3379,
+"ep": 971,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 3385,
+"ep": 1512,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 53
+},
+"ok": true
+},
+{
+"i": 3396,
+"ep": 1632,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 175
+},
+"ok": true
+},
+{
+"i": 3415,
+"ep": 2473,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 72
+},
+"ok": false
+},
+{
+"i": 3418,
+"ep": 2553,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "English willow cricket bat grade 1"
+},
+"ok": true
+},
+{
+"i": 3430,
+"ep": 2775,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 12
+},
+"ok": true
+},
+{
+"i": 3432,
+"ep": 2775,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 2
+},
+"ok": false
+},
+{
+"i": 3455,
+"ep": 4159,
+"gt": "scroll_up",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": true
+},
+{
+"i": 3460,
+"ep": 4579,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 81
+},
+"ok": true
+},
+{
+"i": 3470,
+"ep": 4902,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 46
+},
+"ok": true
+},
+{
+"i": 3484,
+"ep": 5342,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 54
+},
+"ok": true
+},
+{
+"i": 3487,
+"ep": 5342,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 15
+},
+"ok": true
+},
+{
+"i": 3490,
+"ep": 5342,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 10
+},
+"ok": true
+},
+{
+"i": 3499,
+"ep": 5342,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 10
+},
+"ok": true
+},
+{
+"i": 3501,
+"ep": 5563,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "First Cry"
+},
+"ok": false
+},
+{
+"i": 3504,
+"ep": 5563,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 87
+},
+"ok": true
+},
+{
+"i": 3506,
+"ep": 5563,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 64
+},
+"ok": true
+},
+{
+"i": 3508,
+"ep": 5563,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 89
+},
+"ok": true
+},
+{
+"i": 3520,
+"ep": 5684,
+"gt": "click",
+"got": {
+"action_type": "wait"
+},
+"ok": false
+},
+{
+"i": 3531,
+"ep": 6147,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 3552,
+"ep": 6207,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 49
+},
+"ok": false
+},
+{
+"i": 3555,
+"ep": 6707,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "hammer drill"
+},
+"ok": true
+},
+{
+"i": 3565,
+"ep": 7548,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 90
+},
+"ok": true
+},
+{
+"i": 3586,
+"ep": 8188,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 3595,
+"ep": 8770,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 42
+},
+"ok": true
+},
+{
+"i": 3596,
+"ep": 8770,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 32
+},
+"ok": true
+},
+{
+"i": 3610,
+"ep": 10053,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 109
+},
+"ok": true
+},
+{
+"i": 3612,
+"ep": 10273,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "DigiCal"
+},
+"ok": true
+},
+{
+"i": 3618,
+"ep": 11077,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Pantaloons"
+},
+"ok": true
+},
+{
+"i": 3636,
+"ep": 11239,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 45
+},
+"ok": true
+},
+{
+"i": 3639,
+"ep": 11379,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "The Hindu"
+},
+"ok": true
+},
+{
+"i": 3644,
+"ep": 12223,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 43
+},
+"ok": true
+},
+{
+"i": 3681,
+"ep": 13526,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": false
+},
+{
+"i": 3689,
+"ep": 13669,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 52
+},
+"ok": true
+},
+{
+"i": 3695,
+"ep": 13669,
+"gt": "scroll_left",
+"got": {
+"action_type": "click",
+"element": 49
+},
+"ok": false
+},
+{
+"i": 3698,
+"ep": 14251,
+"gt": "navigate_back",
+"got": {
+"action_type": "click",
+"element": 31
+},
+"ok": false
+},
+{
+"i": 3707,
+"ep": 14493,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 9
+},
+"ok": true
+},
+{
+"i": 3708,
+"ep": 14493,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 23
+},
+"ok": false
+},
+{
+"i": 3711,
+"ep": 15055,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 39
+},
+"ok": true
+},
+{
+"i": 3731,
+"ep": 15597,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 48
+},
+"ok": false
+},
+{
+"i": 3743,
+"ep": 15718,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 50
+},
+"ok": true
+},
+{
+"i": 3745,
+"ep": 15718,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 65
+},
+"ok": true
+},
+{
+"i": 3747,
+"ep": 15999,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 3765,
+"ep": 16562,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 3768,
+"ep": 16562,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 3782,
+"ep": 17127,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 3804,
+"ep": 18351,
+"gt": "scroll_right",
+"got": {
+"action_type": "scroll_right",
+"element": 51
+},
+"ok": true
+},
+{
+"i": 3806,
+"ep": 18491,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 3831,
+"ep": 19394,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": false
+},
+{
+"i": 3852,
+"ep": 229,
+"gt": "navigate_back",
+"got": {
+"action_type": "click",
+"element": 36
+},
+"ok": false
+},
+{
+"i": 3853,
+"ep": 229,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 46
+},
+"ok": true
+},
+{
+"i": 3864,
+"ep": 270,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 55
+},
+"ok": true
+},
+{
+"i": 3877,
+"ep": 892,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": true
+},
+{
+"i": 3879,
+"ep": 892,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 3903,
+"ep": 1693,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 3906,
+"ep": 1853,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 3919,
+"ep": 1933,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 3920,
+"ep": 2093,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 3937,
+"ep": 2856,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 54
+},
+"ok": true
+},
+{
+"i": 3940,
+"ep": 3297,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 52
+},
+"ok": true
+},
+{
+"i": 3948,
+"ep": 4560,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 3954,
+"ep": 4782,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 31
+},
+"ok": true
+},
+{
+"i": 3960,
+"ep": 4943,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 97
+},
+"ok": true
+},
+{
+"i": 3980,
+"ep": 5926,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "USA News"
+},
+"ok": true
+},
+{
+"i": 3984,
+"ep": 6328,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 67
+},
+"ok": true
+},
+{
+"i": 3987,
+"ep": 6328,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 39
+},
+"ok": false
+},
+{
+"i": 3988,
+"ep": 6328,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 52
+},
+"ok": true
+},
+{
+"i": 3999,
+"ep": 6768,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Bruschetta"
+},
+"ok": true
+},
+{
+"i": 4008,
+"ep": 7249,
+"gt": "wait",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": false
+},
+{
+"i": 4011,
+"ep": 7329,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 61
+},
+"ok": true
+},
+{
+"i": 4020,
+"ep": 7609,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 65
+},
+"ok": true
+},
+{
+"i": 4029,
+"ep": 7869,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 4030,
+"ep": 7869,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 42
+},
+"ok": true
+},
+{
+"i": 4047,
+"ep": 8871,
+"gt": "navigate_back",
+"got": {
+"action_type": "click",
+"element": 27
+},
+"ok": false
+},
+{
+"i": 4050,
+"ep": 8871,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 59
+},
+"ok": true
+},
+{
+"i": 4069,
+"ep": 9131,
+"gt": "scroll_left",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": false
+},
+{
+"i": 4074,
+"ep": 9231,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 4084,
+"ep": 9793,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 27
+},
+"ok": false
+},
+{
+"i": 4088,
+"ep": 9793,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 33
+},
+"ok": true
+},
+{
+"i": 4093,
+"ep": 9893,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 46
+},
+"ok": true
+},
+{
+"i": 4119,
+"ep": 11520,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 31
+},
+"ok": true
+},
+{
+"i": 4127,
+"ep": 11843,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 159
+},
+"ok": true
+},
+{
+"i": 4130,
+"ep": 12123,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 29
+},
+"ok": true
+},
+{
+"i": 4132,
+"ep": 12123,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 40
+},
+"ok": true
+},
+{
+"i": 4140,
+"ep": 12163,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 158
+},
+"ok": true
+},
+{
+"i": 4142,
+"ep": 12163,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 57
+},
+"ok": true
+},
+{
+"i": 4145,
+"ep": 12364,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "black formal pants for women"
+},
+"ok": true
+},
+{
+"i": 4157,
+"ep": 13307,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 4165,
+"ep": 13327,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 4171,
+"ep": 13327,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": true
+},
+{
+"i": 4172,
+"ep": 13327,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 4173,
+"ep": 13367,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Reuters"
+},
+"ok": true
+},
+{
+"i": 4175,
+"ep": 13367,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 45
+},
+"ok": true
+},
+{
+"i": 4178,
+"ep": 13367,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 191
+},
+"ok": true
+},
+{
+"i": 4179,
+"ep": 13367,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 172
+},
+"ok": true
+},
+{
+"i": 4180,
+"ep": 13970,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 30
+},
+"ok": true
+},
+{
+"i": 4186,
+"ep": 14212,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 31
+},
+"ok": false
+},
+{
+"i": 4191,
+"ep": 14514,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 81
+},
+"ok": true
+},
+{
+"i": 4206,
+"ep": 14774,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Artier"
+},
+"ok": true
+},
+{
+"i": 4211,
+"ep": 14774,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "dbwscratch.test.id10@gmail.com"
+},
+"ok": true
+},
+{
+"i": 4222,
+"ep": 15036,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 159
+},
+"ok": false
+},
+{
+"i": 4229,
+"ep": 15076,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 55
+},
+"ok": true
+},
+{
+"i": 4231,
+"ep": 15076,
+"gt": "scroll_up",
+"got": {
+"action_type": "click",
+"element": 44
+},
+"ok": false
+},
+{
+"i": 4251,
+"ep": 16321,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Google News"
+},
+"ok": true
+},
+{
+"i": 4257,
+"ep": 16402,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 109
+},
+"ok": true
+},
+{
+"i": 4260,
+"ep": 16402,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 72
+},
+"ok": true
+},
+{
+"i": 4262,
+"ep": 16503,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 83
+},
+"ok": true
+},
+{
+"i": 4276,
+"ep": 18673,
+"gt": "scroll_up",
+"got": {
+"action_type": "click",
+"element": 37
+},
+"ok": false
+},
+{
+"i": 4281,
+"ep": 18894,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 4290,
+"ep": 19315,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 65
+},
+"ok": true
+},
+{
+"i": 4301,
+"ep": 19375,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 171
+},
+"ok": true
+},
+{
+"i": 4313,
+"ep": 19676,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 43
+},
+"ok": true
+},
+{
+"i": 4329,
+"ep": 672,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "The Hindu"
+},
+"ok": true
+},
+{
+"i": 4336,
+"ep": 1074,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 43
+},
+"ok": true
+},
+{
+"i": 4352,
+"ep": 1654,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 4363,
+"ep": 2697,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 4379,
+"ep": 3198,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 24
+},
+"ok": true
+},
+{
+"i": 4393,
+"ep": 3438,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 49
+},
+"ok": false
+},
+{
+"i": 4403,
+"ep": 3559,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 60
+},
+"ok": true
+},
+{
+"i": 4406,
+"ep": 3559,
+"gt": "scroll_right",
+"got": {
+"action_type": "scroll_right"
+},
+"ok": true
+},
+{
+"i": 4410,
+"ep": 3700,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 42
+},
+"ok": true
+},
+{
+"i": 4426,
+"ep": 4581,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Realism"
+},
+"ok": true
+},
+{
+"i": 4429,
+"ep": 4662,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 60
+},
+"ok": true
+},
+{
+"i": 4434,
+"ep": 4803,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "alexej von jawlensky"
+},
+"ok": true
+},
+{
+"i": 4437,
+"ep": 4964,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 62
+},
+"ok": true
+},
+{
+"i": 4445,
+"ep": 5806,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 61
+},
+"ok": true
+},
+{
+"i": 4449,
+"ep": 6449,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 47
+},
+"ok": true
+},
+{
+"i": 4464,
+"ep": 6809,
+"gt": "navigate_back",
+"got": {
+"action_type": "click",
+"element": 30
+},
+"ok": false
+},
+{
+"i": 4466,
+"ep": 6809,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 170
+},
+"ok": true
+},
+{
+"i": 4469,
+"ep": 6809,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 48
+},
+"ok": false
+},
+{
+"i": 4470,
+"ep": 6930,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 4475,
+"ep": 6930,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 4480,
+"ep": 7030,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 29
+},
+"ok": true
+},
+{
+"i": 4498,
+"ep": 8271,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 164
+},
+"ok": false
+},
+{
+"i": 4500,
+"ep": 8271,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 55
+},
+"ok": false
+},
+{
+"i": 4527,
+"ep": 9935,
+"gt": "scroll_right",
+"got": {
+"action_type": "scroll_right"
+},
+"ok": true
+},
+{
+"i": 4533,
+"ep": 10235,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 33
+},
+"ok": false
+},
+{
+"i": 4544,
+"ep": 10738,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 34
+},
+"ok": false
+},
+{
+"i": 4568,
+"ep": 11682,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 70
+},
+"ok": false
+},
+{
+"i": 4624,
+"ep": 14172,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 39
+},
+"ok": true
+},
+{
+"i": 4625,
+"ep": 14172,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 33
+},
+"ok": true
+},
+{
+"i": 4629,
+"ep": 14454,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 37
+},
+"ok": true
+},
+{
+"i": 4632,
+"ep": 14454,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 27
+},
+"ok": false
+},
+{
+"i": 4639,
+"ep": 14495,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 4640,
+"ep": 14495,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 4641,
+"ep": 14735,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "New York Times News"
+},
+"ok": false
+},
+{
+"i": 4647,
+"ep": 15017,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 100
+},
+"ok": true
+},
+{
+"i": 4649,
+"ep": 15017,
+"gt": "wait",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": false
+},
+{
+"i": 4650,
+"ep": 15017,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 4
+},
+"ok": false
+},
+{
+"i": 4670,
+"ep": 16584,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 4672,
+"ep": 16584,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 31
+},
+"ok": true
+},
+{
+"i": 4679,
+"ep": 16705,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 77
+},
+"ok": true
+},
+{
+"i": 4689,
+"ep": 17410,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 105
+},
+"ok": true
+},
+{
+"i": 4703,
+"ep": 17611,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 49
+},
+"ok": true
+},
+{
+"i": 4708,
+"ep": 17712,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 37
+},
+"ok": true
+},
+{
+"i": 4718,
+"ep": 18173,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Daily art"
+},
+"ok": false
+},
+{
+"i": 4719,
+"ep": 18173,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 54
+},
+"ok": false
+},
+{
+"i": 4722,
+"ep": 18513,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 44
+},
+"ok": true
+},
+{
+"i": 4729,
+"ep": 18875,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 39
+},
+"ok": false
+},
+{
+"i": 4732,
+"ep": 18875,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 31
+},
+"ok": true
+},
+{
+"i": 4734,
+"ep": 18875,
+"gt": "scroll_up",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": true
+},
+{
+"i": 4735,
+"ep": 18875,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 43
+},
+"ok": true
+},
+{
+"i": 4744,
+"ep": 19657,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 4750,
+"ep": 19657,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 4762,
+"ep": 19877,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 106
+},
+"ok": true
+},
+{
+"i": 4767,
+"ep": 19897,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 71
+},
+"ok": true
+},
+{
+"i": 4771,
+"ep": 231,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 125
+},
+"ok": true
+},
+{
+"i": 4781,
+"ep": 1815,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 4794,
+"ep": 3099,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 87
+},
+"ok": true
+},
+{
+"i": 4805,
+"ep": 3419,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 33
+},
+"ok": true
+},
+{
+"i": 4827,
+"ep": 4422,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 173
+},
+"ok": true
+},
+{
+"i": 4831,
+"ep": 4422,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 74
+},
+"ok": true
+},
+{
+"i": 4835,
+"ep": 4602,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Steak"
+},
+"ok": true
+},
+{
+"i": 4842,
+"ep": 4724,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 112
+},
+"ok": true
+},
+{
+"i": 4867,
+"ep": 5385,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 4874,
+"ep": 5446,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 31
+},
+"ok": false
+},
+{
+"i": 4881,
+"ep": 5707,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 174
+},
+"ok": false
+},
+{
+"i": 4896,
+"ep": 6670,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 4907,
+"ep": 7271,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 68
+},
+"ok": true
+},
+{
+"i": 4921,
+"ep": 9755,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 93
+},
+"ok": true
+},
+{
+"i": 4924,
+"ep": 9755,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 4928,
+"ep": 9835,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 63
+},
+"ok": true
+},
+{
+"i": 4933,
+"ep": 10558,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 47
+},
+"ok": true
+},
+{
+"i": 4938,
+"ep": 10699,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 64
+},
+"ok": true
+},
+{
+"i": 4946,
+"ep": 10739,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 64
+},
+"ok": true
+},
+{
+"i": 4947,
+"ep": 10739,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 68
+},
+"ok": true
+},
+{
+"i": 4949,
+"ep": 10739,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": true
+},
+{
+"i": 4950,
+"ep": 10739,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 51
+},
+"ok": false
+},
+{
+"i": 4959,
+"ep": 11040,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 14
+},
+"ok": true
+},
+{
+"i": 4963,
+"ep": 11040,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 33
+},
+"ok": true
+},
+{
+"i": 4970,
+"ep": 11040,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 15
+},
+"ok": true
+},
+{
+"i": 4972,
+"ep": 11222,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 43
+},
+"ok": true
+},
+{
+"i": 4990,
+"ep": 11623,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 48
+},
+"ok": true
+},
+{
+"i": 4994,
+"ep": 11885,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 108
+},
+"ok": true
+},
+{
+"i": 5001,
+"ep": 11885,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 118
+},
+"ok": true
+},
+{
+"i": 5003,
+"ep": 11885,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 86
+},
+"ok": true
+},
+{
+"i": 5004,
+"ep": 12045,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Daff Moon"
+},
+"ok": true
+},
+{
+"i": 5009,
+"ep": 12045,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 34
+},
+"ok": false
+},
+{
+"i": 5013,
+"ep": 12508,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 52
+},
+"ok": false
+},
+{
+"i": 5024,
+"ep": 12648,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 54
+},
+"ok": true
+},
+{
+"i": 5076,
+"ep": 14556,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 5083,
+"ep": 15802,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "SmartNews"
+},
+"ok": true
+},
+{
+"i": 5087,
+"ep": 15802,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 5102,
+"ep": 16464,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 83
+},
+"ok": true
+},
+{
+"i": 5105,
+"ep": 16464,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 83
+},
+"ok": true
+},
+{
+"i": 5108,
+"ep": 16464,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 83
+},
+"ok": true
+},
+{
+"i": 5109,
+"ep": 16464,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 83
+},
+"ok": true
+},
+{
+"i": 5115,
+"ep": 16787,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 31
+},
+"ok": true
+},
+{
+"i": 5121,
+"ep": 17853,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 89
+},
+"ok": true
+},
+{
+"i": 5124,
+"ep": 17853,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "clarawagner98b@gmail.com"
+},
+"ok": true
+},
+{
+"i": 5140,
+"ep": 18574,
+"gt": "navigate_back",
+"got": {
+"action_type": "wait"
+},
+"ok": false
+},
+{
+"i": 5159,
+"ep": 19277,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 46
+},
+"ok": true
+},
+{
+"i": 5163,
+"ep": 19277,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 5167,
+"ep": 19537,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Eurostar"
+},
+"ok": true
+},
+{
+"i": 5175,
+"ep": 19537,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 62
+},
+"ok": true
+},
+{
+"i": 5179,
+"ep": 19537,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 5191,
+"ep": 19979,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 5200,
+"ep": 674,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 48
+},
+"ok": false
+},
+{
+"i": 5204,
+"ep": 674,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 58
+},
+"ok": true
+},
+{
+"i": 5211,
+"ep": 1736,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 18
+},
+"ok": true
+},
+{
+"i": 5217,
+"ep": 1836,
+"gt": "open_app",
+"got": {
+"action_type": "click",
+"element": 48
+},
+"ok": false
+},
+{
+"i": 5229,
+"ep": 3000,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 5242,
+"ep": 4123,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 85
+},
+"ok": true
+},
+{
+"i": 5250,
+"ep": 4603,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "United Airlines Flight 175 crashes into the South Tower of the World Trade Center. "
+},
+"ok": true
+},
+{
+"i": 5258,
+"ep": 5366,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 61
+},
+"ok": true
+},
+{
+"i": 5259,
+"ep": 5366,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 64
+},
+"ok": true
+},
+{
+"i": 5261,
+"ep": 5366,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 176
+},
+"ok": true
+},
+{
+"i": 5274,
+"ep": 6471,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 28
+},
+"ok": true
+},
+{
+"i": 5283,
+"ep": 7472,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 5284,
+"ep": 7472,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": false
+},
+{
+"i": 5309,
+"ep": 10137,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 76
+},
+"ok": false
+},
+{
+"i": 5310,
+"ep": 10137,
+"gt": "scroll_left",
+"got": {
+"action_type": "scroll_left"
+},
+"ok": true
+},
+{
+"i": 5321,
+"ep": 11926,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 52
+},
+"ok": true
+},
+{
+"i": 5328,
+"ep": 11946,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": false
+},
+{
+"i": 5331,
+"ep": 12166,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "The Scotch Egg"
+},
+"ok": true
+},
+{
+"i": 5338,
+"ep": 12227,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Kitchen Stories"
+},
+"ok": true
+},
+{
+"i": 5349,
+"ep": 12649,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Janedbwpersonatest@gmail.com"
+},
+"ok": true
+},
+{
+"i": 5351,
+"ep": 12649,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 162
+},
+"ok": true
+},
+{
+"i": 5374,
+"ep": 13390,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 65
+},
+"ok": false
+},
+{
+"i": 5379,
+"ep": 13470,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 5382,
+"ep": 13470,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 143
+},
+"ok": false
+},
+{
+"i": 5386,
+"ep": 13490,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 5395,
+"ep": 14114,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 16
+},
+"ok": true
+},
+{
+"i": 5404,
+"ep": 14537,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 52
+},
+"ok": true
+},
+{
+"i": 5407,
+"ep": 15541,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 5409,
+"ep": 15541,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 5413,
+"ep": 15843,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 5425,
+"ep": 15843,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Fashion news"
+},
+"ok": true
+},
+{
+"i": 5436,
+"ep": 16324,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 43
+},
+"ok": true
+},
+{
+"i": 5442,
+"ep": 16526,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 186
+},
+"ok": true
+},
+{
+"i": 5452,
+"ep": 17111,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 65
+},
+"ok": true
+},
+{
+"i": 5477,
+"ep": 19719,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 54
+},
+"ok": true
+},
+{
+"i": 5480,
+"ep": 19719,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "clarawagner@gmail.com"
+},
+"ok": true
+},
+{
+"i": 5486,
+"ep": 55,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "2 Piece sweatshirt"
+},
+"ok": true
+},
+{
+"i": 5488,
+"ep": 55,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 184
+},
+"ok": true
+},
+{
+"i": 5495,
+"ep": 697,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 66
+},
+"ok": true
+},
+{
+"i": 5500,
+"ep": 898,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 59
+},
+"ok": true
+},
+{
+"i": 5512,
+"ep": 1359,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 76
+},
+"ok": true
+},
+{
+"i": 5520,
+"ep": 1819,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "The Guardian"
+},
+"ok": true
+},
+{
+"i": 5530,
+"ep": 1959,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 32
+},
+"ok": true
+},
+{
+"i": 5531,
+"ep": 1959,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Hand mixer"
+},
+"ok": true
+},
+{
+"i": 5534,
+"ep": 2079,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 5546,
+"ep": 2139,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 37
+},
+"ok": true
+},
+{
+"i": 5554,
+"ep": 2802,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 38
+},
+"ok": false
+},
+{
+"i": 5556,
+"ep": 2802,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 26
+},
+"ok": true
+},
+{
+"i": 5559,
+"ep": 2822,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 162
+},
+"ok": false
+},
+{
+"i": 5568,
+"ep": 3023,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": false
+},
+{
+"i": 5574,
+"ep": 3023,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 25
+},
+"ok": true
+},
+{
+"i": 5597,
+"ep": 4406,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 63
+},
+"ok": true
+},
+{
+"i": 5602,
+"ep": 4406,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 5609,
+"ep": 5029,
+"gt": "click",
+"got": {
+"action_type": "input_text",
+"text": "Knoxville news"
+},
+"ok": false
+},
+{
+"i": 5618,
+"ep": 5691,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 45
+},
+"ok": true
+},
+{
+"i": 5624,
+"ep": 5791,
+"gt": "input_text",
+"got": {
+"action_type": "click",
+"element": 170
+},
+"ok": false
+},
+{
+"i": 5628,
+"ep": 5791,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 86
+},
+"ok": true
+},
+{
+"i": 5633,
+"ep": 6574,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 51
+},
+"ok": true
+},
+{
+"i": 5634,
+"ep": 6574,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 48
+},
+"ok": true
+},
+{
+"i": 5635,
+"ep": 6574,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Godfather"
+},
+"ok": true
+},
+{
+"i": 5636,
+"ep": 6574,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 61
+},
+"ok": true
+},
+{
+"i": 5638,
+"ep": 6714,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 77
+},
+"ok": true
+},
+{
+"i": 5650,
+"ep": 7455,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "MobiDrive"
+},
+"ok": true
+},
+{
+"i": 5663,
+"ep": 7935,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 219
+},
+"ok": false
+},
+{
+"i": 5670,
+"ep": 8537,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 73
+},
+"ok": true
+},
+{
+"i": 5688,
+"ep": 8537,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 5697,
+"ep": 8917,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 77
+},
+"ok": true
+},
+{
+"i": 5702,
+"ep": 8997,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Google News"
+},
+"ok": true
+},
+{
+"i": 5719,
+"ep": 10441,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 5721,
+"ep": 11185,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 5724,
+"ep": 11185,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 30
+},
+"ok": false
+},
+{
+"i": 5730,
+"ep": 11185,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 5732,
+"ep": 11185,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 5745,
+"ep": 11829,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 47
+},
+"ok": true
+},
+{
+"i": 5753,
+"ep": 12390,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 51
+},
+"ok": true
+},
+{
+"i": 5766,
+"ep": 14157,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 84
+},
+"ok": true
+},
+{
+"i": 5802,
+"ep": 15344,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 5804,
+"ep": 15344,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 5808,
+"ep": 15886,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 5812,
+"ep": 15966,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Flora"
+},
+"ok": true
+},
+{
+"i": 5813,
+"ep": 15966,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 5818,
+"ep": 15966,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 5831,
+"ep": 16951,
+"gt": "scroll_up",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": true
+},
+{
+"i": 5832,
+"ep": 16951,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 170
+},
+"ok": true
+},
+{
+"i": 5867,
+"ep": 18078,
+"gt": "click",
+"got": {
+"action_type": "wait"
+},
+"ok": false
+},
+{
+"i": 5868,
+"ep": 18078,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 104
+},
+"ok": false
+},
+{
+"i": 5871,
+"ep": 18078,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 122
+},
+"ok": true
+},
+{
+"i": 5898,
+"ep": 18679,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Confidence"
+},
+"ok": true
+},
+{
+"i": 5904,
+"ep": 18800,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 50
+},
+"ok": false
+},
+{
+"i": 5908,
+"ep": 18800,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 71
+},
+"ok": false
+},
+{
+"i": 5913,
+"ep": 19061,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 96
+},
+"ok": true
+},
+{
+"i": 5921,
+"ep": 19461,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 66
+},
+"ok": false
+},
+{
+"i": 5937,
+"ep": 777,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 40
+},
+"ok": true
+},
+{
+"i": 5938,
+"ep": 777,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 5954,
+"ep": 937,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 74
+},
+"ok": true
+},
+{
+"i": 5963,
+"ep": 1198,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 45
+},
+"ok": false
+},
+{
+"i": 5972,
+"ep": 1438,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 43
+},
+"ok": false
+},
+{
+"i": 5991,
+"ep": 3242,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Sculpture Art"
+},
+"ok": true
+},
+{
+"i": 5995,
+"ep": 3845,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Origami Sekai"
+},
+"ok": true
+},
+{
+"i": 5996,
+"ep": 3845,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 5999,
+"ep": 3845,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": false
+},
+{
+"i": 6003,
+"ep": 3845,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 6010,
+"ep": 4045,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 94
+},
+"ok": true
+},
+{
+"i": 6021,
+"ep": 4545,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 54
+},
+"ok": true
+},
+{
+"i": 6037,
+"ep": 5288,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "rick.weinstein@dayrep.com"
+},
+"ok": true
+},
+{
+"i": 6039,
+"ep": 5288,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 155
+},
+"ok": true
+},
+{
+"i": 6054,
+"ep": 6413,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 49
+},
+"ok": true
+},
+{
+"i": 6059,
+"ep": 7014,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 6089,
+"ep": 9698,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 113
+},
+"ok": true
+},
+{
+"i": 6090,
+"ep": 10319,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 6092,
+"ep": 10319,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": true
+},
+{
+"i": 6106,
+"ep": 11848,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 6114,
+"ep": 12289,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 9
+},
+"ok": true
+},
+{
+"i": 6118,
+"ep": 12289,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 179
+},
+"ok": true
+},
+{
+"i": 6120,
+"ep": 12289,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 6125,
+"ep": 12571,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 66
+},
+"ok": true
+},
+{
+"i": 6133,
+"ep": 13512,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 6134,
+"ep": 13512,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 6147,
+"ep": 13975,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 6158,
+"ep": 14297,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 73
+},
+"ok": false
+},
+{
+"i": 6162,
+"ep": 14358,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 47
+},
+"ok": true
+},
+{
+"i": 6184,
+"ep": 16467,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 41
+},
+"ok": true
+},
+{
+"i": 6191,
+"ep": 16467,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 41
+},
+"ok": true
+},
+{
+"i": 6194,
+"ep": 16467,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 48
+},
+"ok": true
+},
+{
+"i": 6201,
+"ep": 16669,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 42
+},
+"ok": true
+},
+{
+"i": 6206,
+"ep": 16830,
+"gt": "click",
+"got": {
+"action_type": "input_text",
+"text": "Janedbwpersonatest@gmail.com"
+},
+"ok": false
+},
+{
+"i": 6208,
+"ep": 17334,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 76
+},
+"ok": false
+},
+{
+"i": 6214,
+"ep": 17977,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 6218,
+"ep": 18557,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 67
+},
+"ok": true
+},
+{
+"i": 6223,
+"ep": 18577,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "SkyView Free"
+},
+"ok": true
+},
+{
+"i": 6230,
+"ep": 19300,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 6232,
+"ep": 19300,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 6239,
+"ep": 19300,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 6246,
+"ep": 19460,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 70
+},
+"ok": false
+},
+{
+"i": 6249,
+"ep": 19721,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Discover magazine"
+},
+"ok": true
+},
+{
+"i": 6251,
+"ep": 19721,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 80
+},
+"ok": true
+},
+{
+"i": 6252,
+"ep": 19721,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 94
+},
+"ok": true
+},
+{
+"i": 6262,
+"ep": 53,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 55
+},
+"ok": true
+},
+{
+"i": 6268,
+"ep": 394,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 40
+},
+"ok": true
+},
+{
+"i": 6284,
+"ep": 916,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 111
+},
+"ok": false
+},
+{
+"i": 6285,
+"ep": 916,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 61
+},
+"ok": false
+},
+{
+"i": 6287,
+"ep": 916,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 191
+},
+"ok": true
+},
+{
+"i": 6290,
+"ep": 936,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 54
+},
+"ok": true
+},
+{
+"i": 6294,
+"ep": 2860,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 64
+},
+"ok": true
+},
+{
+"i": 6304,
+"ep": 2961,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 39
+},
+"ok": true
+},
+{
+"i": 6320,
+"ep": 3281,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 172
+},
+"ok": true
+},
+{
+"i": 6325,
+"ep": 4204,
+"gt": "scroll_up",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": true
+},
+{
+"i": 6327,
+"ep": 4204,
+"gt": "click",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": false
+},
+{
+"i": 6335,
+"ep": 4564,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Apple MacBook Pro M3"
+},
+"ok": true
+},
+{
+"i": 6340,
+"ep": 4806,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 165
+},
+"ok": true
+},
+{
+"i": 6355,
+"ep": 5407,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 46
+},
+"ok": true
+},
+{
+"i": 6356,
+"ep": 5407,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": false
+},
+{
+"i": 6378,
+"ep": 6792,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 14
+},
+"ok": false
+},
+{
+"i": 6379,
+"ep": 6792,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 46
+},
+"ok": true
+},
+{
+"i": 6386,
+"ep": 7633,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 6400,
+"ep": 7753,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 6410,
+"ep": 7993,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": false
+},
+{
+"i": 6412,
+"ep": 7993,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 6415,
+"ep": 8193,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": true
+},
+{
+"i": 6418,
+"ep": 8193,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 44
+},
+"ok": true
+},
+{
+"i": 6421,
+"ep": 8193,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Sculpture art"
+},
+"ok": true
+},
+{
+"i": 6431,
+"ep": 8795,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "CNN News"
+},
+"ok": true
+},
+{
+"i": 6432,
+"ep": 8795,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 70
+},
+"ok": true
+},
+{
+"i": 6436,
+"ep": 9195,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 42
+},
+"ok": false
+},
+{
+"i": 6437,
+"ep": 9195,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 57
+},
+"ok": true
+},
+{
+"i": 6441,
+"ep": 9195,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 33
+},
+"ok": false
+},
+{
+"i": 6451,
+"ep": 10058,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 53
+},
+"ok": false
+},
+{
+"i": 6454,
+"ep": 10058,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 148
+},
+"ok": true
+},
+{
+"i": 6467,
+"ep": 10318,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 6468,
+"ep": 10318,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 54
+},
+"ok": false
+},
+{
+"i": 6469,
+"ep": 10520,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 1
+},
+"ok": true
+},
+{
+"i": 6473,
+"ep": 10841,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 58
+},
+"ok": true
+},
+{
+"i": 6481,
+"ep": 11304,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 51
+},
+"ok": false
+},
+{
+"i": 6490,
+"ep": 11404,
+"gt": "click",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": false
+},
+{
+"i": 6516,
+"ep": 11847,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 6521,
+"ep": 11847,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": false
+},
+{
+"i": 6531,
+"ep": 12248,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Digital Timer"
+},
+"ok": true
+},
+{
+"i": 6533,
+"ep": 12248,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 50
+},
+"ok": true
+},
+{
+"i": 6534,
+"ep": 12248,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 30
+},
+"ok": false
+},
+{
+"i": 6537,
+"ep": 12248,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 6541,
+"ep": 13674,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 205
+},
+"ok": true
+},
+{
+"i": 6544,
+"ep": 13674,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 77
+},
+"ok": true
+},
+{
+"i": 6547,
+"ep": 13754,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 6566,
+"ep": 14296,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 33
+},
+"ok": true
+},
+{
+"i": 6574,
+"ep": 15020,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 78
+},
+"ok": true
+},
+{
+"i": 6593,
+"ep": 15402,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 37
+},
+"ok": true
+},
+{
+"i": 6598,
+"ep": 15442,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 43
+},
+"ok": false
+},
+{
+"i": 6629,
+"ep": 16668,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 55
+},
+"ok": true
+},
+{
+"i": 6632,
+"ep": 16829,
+"gt": "navigate_back",
+"got": {
+"action_type": "click",
+"element": 27
+},
+"ok": false
+},
+{
+"i": 6638,
+"ep": 17293,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 32
+},
+"ok": true
+},
+{
+"i": 6645,
+"ep": 17293,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 29
+},
+"ok": true
+},
+{
+"i": 6647,
+"ep": 17533,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 130
+},
+"ok": true
+},
+{
+"i": 6649,
+"ep": 17533,
+"gt": "scroll_up",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": false
+},
+{
+"i": 6653,
+"ep": 18938,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 32
+},
+"ok": true
+},
+{
+"i": 6654,
+"ep": 18938,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 24
+},
+"ok": true
+},
+{
+"i": 6657,
+"ep": 19019,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 30
+},
+"ok": true
+},
+{
+"i": 6658,
+"ep": 19019,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Sauerbraten"
+},
+"ok": true
+},
+{
+"i": 6674,
+"ep": 19339,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "dbwscratch.test.id2@gmail.com"
+},
+"ok": true
+},
+{
+"i": 6687,
+"ep": 19680,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 38
+},
+"ok": true
+},
+{
+"i": 6688,
+"ep": 19880,
+"gt": "open_app",
+"got": {
+"action_type": "click",
+"element": 38
+},
+"ok": false
+},
+{
+"i": 6694,
+"ep": 19880,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 0
+},
+"ok": false
+},
+{
+"i": 6703,
+"ep": 640,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 23
+},
+"ok": true
+},
+{
+"i": 6709,
+"ep": 841,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Kitchen Stories"
+},
+"ok": true
+},
+{
+"i": 6716,
+"ep": 1082,
+"gt": "scroll_down",
+"got": {
+"action_type": "click",
+"element": 148
+},
+"ok": false
+},
+{
+"i": 6726,
+"ep": 1082,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 6734,
+"ep": 1542,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Amazon"
+},
+"ok": true
+},
+{
+"i": 6737,
+"ep": 1542,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Centre table"
+},
+"ok": true
+},
+{
+"i": 6739,
+"ep": 1842,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Arts & Culture"
+},
+"ok": true
+},
+{
+"i": 6749,
+"ep": 2122,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 62
+},
+"ok": true
+},
+{
+"i": 6755,
+"ep": 2302,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 37
+},
+"ok": true
+},
+{
+"i": 6758,
+"ep": 2302,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 38
+},
+"ok": true
+},
+{
+"i": 6772,
+"ep": 3026,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Wanderu"
+},
+"ok": true
+},
+{
+"i": 6774,
+"ep": 3026,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 56
+},
+"ok": true
+},
+{
+"i": 6790,
+"ep": 3708,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 81
+},
+"ok": true
+},
+{
+"i": 6798,
+"ep": 4670,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 93
+},
+"ok": true
+},
+{
+"i": 6815,
+"ep": 5794,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 6835,
+"ep": 7538,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "ReadEra"
+},
+"ok": true
+},
+{
+"i": 6838,
+"ep": 7538,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 6839,
+"ep": 7538,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 6860,
+"ep": 8158,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "dbwscratch.test.id3@gmail.com"
+},
+"ok": true
+},
+{
+"i": 6861,
+"ep": 8158,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 188
+},
+"ok": true
+},
+{
+"i": 6864,
+"ep": 8500,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 84
+},
+"ok": true
+},
+{
+"i": 6881,
+"ep": 9120,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Nike sports shoes"
+},
+"ok": false
+},
+{
+"i": 6906,
+"ep": 10183,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 38
+},
+"ok": true
+},
+{
+"i": 6926,
+"ep": 10726,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 53
+},
+"ok": true
+},
+{
+"i": 6927,
+"ep": 10726,
+"gt": "scroll_left",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": false
+},
+{
+"i": 6928,
+"ep": 10786,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 82
+},
+"ok": true
+},
+{
+"i": 6930,
+"ep": 10786,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 6945,
+"ep": 11128,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 28
+},
+"ok": true
+},
+{
+"i": 6967,
+"ep": 11912,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "main door lock set"
+},
+"ok": true
+},
+{
+"i": 6968,
+"ep": 11912,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 53
+},
+"ok": true
+},
+{
+"i": 6970,
+"ep": 11972,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 62
+},
+"ok": true
+},
+{
+"i": 6988,
+"ep": 13176,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 52
+},
+"ok": true
+},
+{
+"i": 6990,
+"ep": 13176,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 6997,
+"ep": 13596,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 45
+},
+"ok": false
+},
+{
+"i": 7003,
+"ep": 13659,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 31
+},
+"ok": true
+},
+{
+"i": 7006,
+"ep": 14523,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 48
+},
+"ok": true
+},
+{
+"i": 7012,
+"ep": 14723,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7014,
+"ep": 14723,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7016,
+"ep": 14723,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7021,
+"ep": 14843,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 36
+},
+"ok": true
+},
+{
+"i": 7027,
+"ep": 15267,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7029,
+"ep": 15447,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 56
+},
+"ok": true
+},
+{
+"i": 7036,
+"ep": 15527,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7039,
+"ep": 15527,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7054,
+"ep": 15749,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 24
+},
+"ok": true
+},
+{
+"i": 7056,
+"ep": 16532,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7070,
+"ep": 17237,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 7077,
+"ep": 17840,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 37
+},
+"ok": true
+},
+{
+"i": 7079,
+"ep": 17880,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 7081,
+"ep": 17880,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 60
+},
+"ok": true
+},
+{
+"i": 7085,
+"ep": 17880,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 84
+},
+"ok": true
+},
+{
+"i": 7099,
+"ep": 18141,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 28
+},
+"ok": true
+},
+{
+"i": 7105,
+"ep": 18181,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 48
+},
+"ok": true
+},
+{
+"i": 7152,
+"ep": 19946,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 184
+},
+"ok": true
+},
+{
+"i": 7158,
+"ep": 237,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 140
+},
+"ok": true
+},
+{
+"i": 7164,
+"ep": 719,
+"gt": "open_app",
+"got": {
+"action_type": "click",
+"element": 92
+},
+"ok": false
+},
+{
+"i": 7168,
+"ep": 719,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 70
+},
+"ok": true
+},
+{
+"i": 7196,
+"ep": 1741,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 7219,
+"ep": 2442,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 56
+},
+"ok": true
+},
+{
+"i": 7224,
+"ep": 2582,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 36
+},
+"ok": false
+},
+{
+"i": 7264,
+"ep": 4608,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 103
+},
+"ok": false
+},
+{
+"i": 7268,
+"ep": 4790,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7273,
+"ep": 5251,
+"gt": "navigate_back",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": false
+},
+{
+"i": 7274,
+"ep": 5251,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 59
+},
+"ok": true
+},
+{
+"i": 7287,
+"ep": 5673,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Street art"
+},
+"ok": true
+},
+{
+"i": 7297,
+"ep": 5773,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 68
+},
+"ok": true
+},
+{
+"i": 7299,
+"ep": 5773,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 44
+},
+"ok": true
+},
+{
+"i": 7329,
+"ep": 8899,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 59
+},
+"ok": true
+},
+{
+"i": 7331,
+"ep": 8939,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7343,
+"ep": 9721,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 62
+},
+"ok": true
+},
+{
+"i": 7345,
+"ep": 10062,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 70
+},
+"ok": true
+},
+{
+"i": 7349,
+"ep": 10142,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 47
+},
+"ok": true
+},
+{
+"i": 7359,
+"ep": 10443,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 67
+},
+"ok": true
+},
+{
+"i": 7364,
+"ep": 10925,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 38
+},
+"ok": true
+},
+{
+"i": 7368,
+"ep": 10986,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 72
+},
+"ok": true
+},
+{
+"i": 7380,
+"ep": 11448,
+"gt": "navigate_back",
+"got": {
+"action_type": "click",
+"element": 120
+},
+"ok": false
+},
+{
+"i": 7382,
+"ep": 11448,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 132
+},
+"ok": true
+},
+{
+"i": 7386,
+"ep": 11488,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 68
+},
+"ok": true
+},
+{
+"i": 7410,
+"ep": 12514,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 80
+},
+"ok": true
+},
+{
+"i": 7421,
+"ep": 12614,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Young Girl by Anne Frank"
+},
+"ok": true
+},
+{
+"i": 7423,
+"ep": 12614,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 53
+},
+"ok": false
+},
+{
+"i": 7435,
+"ep": 13838,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "SideChef"
+},
+"ok": true
+},
+{
+"i": 7436,
+"ep": 13838,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 94
+},
+"ok": true
+},
+{
+"i": 7438,
+"ep": 13838,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 208
+},
+"ok": true
+},
+{
+"i": 7439,
+"ep": 13838,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 87
+},
+"ok": true
+},
+{
+"i": 7446,
+"ep": 14321,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 87
+},
+"ok": true
+},
+{
+"i": 7452,
+"ep": 14401,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 38
+},
+"ok": true
+},
+{
+"i": 7475,
+"ep": 15768,
+"gt": "scroll_up",
+"got": {
+"action_type": "click",
+"element": 22
+},
+"ok": false
+},
+{
+"i": 7476,
+"ep": 15768,
+"gt": "scroll_right",
+"got": {
+"action_type": "click",
+"element": 22
+},
+"ok": false
+},
+{
+"i": 7493,
+"ep": 15908,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7497,
+"ep": 15908,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7518,
+"ep": 16712,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "dbwscratch.test.id4@gmail.com"
+},
+"ok": true
+},
+{
+"i": 7520,
+"ep": 16712,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 158
+},
+"ok": true
+},
+{
+"i": 7544,
+"ep": 17598,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 46
+},
+"ok": true
+},
+{
+"i": 7554,
+"ep": 18360,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 64
+},
+"ok": false
+},
+{
+"i": 7561,
+"ep": 19003,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 7565,
+"ep": 19003,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 51
+},
+"ok": false
+},
+{
+"i": 7570,
+"ep": 136,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Daniel Richter"
+},
+"ok": true
+},
+{
+"i": 7571,
+"ep": 136,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 7577,
+"ep": 216,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Black dress And"
+},
+"ok": true
+},
+{
+"i": 7590,
+"ep": 1260,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 59
+},
+"ok": false
+},
+{
+"i": 7592,
+"ep": 1260,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 63
+},
+"ok": true
+},
+{
+"i": 7594,
+"ep": 1280,
+"gt": "long_press",
+"got": {
+"action_type": "long_press",
+"element": 83
+},
+"ok": true
+},
+{
+"i": 7603,
+"ep": 1300,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 152
+},
+"ok": true
+},
+{
+"i": 7615,
+"ep": 1820,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": true
+},
+{
+"i": 7619,
+"ep": 1820,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 167
+},
+"ok": true
+},
+{
+"i": 7629,
+"ep": 2200,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 130
+},
+"ok": false
+},
+{
+"i": 7634,
+"ep": 2200,
+"gt": "click",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": false
+},
+{
+"i": 7638,
+"ep": 2743,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 7
+},
+"ok": true
+},
+{
+"i": 7640,
+"ep": 3124,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 51
+},
+"ok": true
+},
+{
+"i": 7665,
+"ep": 5431,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7670,
+"ep": 5431,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7676,
+"ep": 5611,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 53
+},
+"ok": false
+},
+{
+"i": 7719,
+"ep": 7456,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7721,
+"ep": 8216,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 6
+},
+"ok": true
+},
+{
+"i": 7722,
+"ep": 8216,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 39
+},
+"ok": false
+},
+{
+"i": 7729,
+"ep": 8658,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 61
+},
+"ok": true
+},
+{
+"i": 7733,
+"ep": 8658,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 55
+},
+"ok": true
+},
+{
+"i": 7739,
+"ep": 8738,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 40
+},
+"ok": true
+},
+{
+"i": 7741,
+"ep": 8738,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 43
+},
+"ok": false
+},
+{
+"i": 7747,
+"ep": 8998,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Artier"
+},
+"ok": true
+},
+{
+"i": 7755,
+"ep": 9318,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 38
+},
+"ok": true
+},
+{
+"i": 7768,
+"ep": 9961,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 43
+},
+"ok": true
+},
+{
+"i": 7771,
+"ep": 10081,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 63
+},
+"ok": true
+},
+{
+"i": 7776,
+"ep": 10241,
+"gt": "scroll_up",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": true
+},
+{
+"i": 7790,
+"ep": 10724,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 111
+},
+"ok": true
+},
+{
+"i": 7796,
+"ep": 10844,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 42
+},
+"ok": true
+},
+{
+"i": 7797,
+"ep": 10844,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 42
+},
+"ok": true
+},
+{
+"i": 7799,
+"ep": 10844,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 62
+},
+"ok": true
+},
+{
+"i": 7823,
+"ep": 11890,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 31
+},
+"ok": true
+},
+{
+"i": 7830,
+"ep": 12473,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 80
+},
+"ok": true
+},
+{
+"i": 7838,
+"ep": 12633,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 53
+},
+"ok": true
+},
+{
+"i": 7840,
+"ep": 12633,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Literature"
+},
+"ok": true
+},
+{
+"i": 7849,
+"ep": 13274,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 51
+},
+"ok": true
+},
+{
+"i": 7887,
+"ep": 14219,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 7900,
+"ep": 14942,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Singapore"
+},
+"ok": true
+},
+{
+"i": 7903,
+"ep": 14942,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 46
+},
+"ok": true
+},
+{
+"i": 7907,
+"ep": 14942,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 45
+},
+"ok": true
+},
+{
+"i": 7908,
+"ep": 14942,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 98
+},
+"ok": false
+},
+{
+"i": 7919,
+"ep": 15204,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 34
+},
+"ok": true
+},
+{
+"i": 7922,
+"ep": 15204,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 34
+},
+"ok": true
+},
+{
+"i": 7944,
+"ep": 15485,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Reuters News"
+},
+"ok": true
+},
+{
+"i": 7950,
+"ep": 15625,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 93
+},
+"ok": true
+},
+{
+"i": 7956,
+"ep": 16128,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 174
+},
+"ok": true
+},
+{
+"i": 7963,
+"ep": 16208,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 67
+},
+"ok": true
+},
+{
+"i": 7968,
+"ep": 16208,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 31
+},
+"ok": true
+},
+{
+"i": 7969,
+"ep": 16228,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Times of India"
+},
+"ok": false
+},
+{
+"i": 7978,
+"ep": 17959,
+"gt": "navigate_back",
+"got": {
+"action_type": "click",
+"element": 60
+},
+"ok": false
+},
+{
+"i": 7979,
+"ep": 17959,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 67
+},
+"ok": false
+},
+{
+"i": 7997,
+"ep": 219,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 8012,
+"ep": 1203,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Readers Digest"
+},
+"ok": true
+},
+{
+"i": 8021,
+"ep": 2706,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 46
+},
+"ok": true
+},
+{
+"i": 8028,
+"ep": 2886,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 41
+},
+"ok": false
+},
+{
+"i": 8043,
+"ep": 4090,
+"gt": "wait",
+"got": {
+"action_type": "input_text",
+"text": "chair"
+},
+"ok": false
+},
+{
+"i": 8056,
+"ep": 4550,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Best Hikes in UK"
+},
+"ok": true
+},
+{
+"i": 8077,
+"ep": 5574,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 53
+},
+"ok": true
+},
+{
+"i": 8081,
+"ep": 5996,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": false
+},
+{
+"i": 8083,
+"ep": 6158,
+"gt": "scroll_up",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": true
+},
+{
+"i": 8087,
+"ep": 6158,
+"gt": "scroll_up",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": true
+},
+{
+"i": 8094,
+"ep": 6258,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 8112,
+"ep": 6418,
+"gt": "scroll_right",
+"got": {
+"action_type": "scroll_right"
+},
+"ok": true
+},
+{
+"i": 8113,
+"ep": 6418,
+"gt": "scroll_right",
+"got": {
+"action_type": "scroll_right"
+},
+"ok": true
+},
+{
+"i": 8116,
+"ep": 6418,
+"gt": "scroll_right",
+"got": {
+"action_type": "scroll_right"
+},
+"ok": true
+},
+{
+"i": 8130,
+"ep": 6578,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 32
+},
+"ok": true
+},
+{
+"i": 8135,
+"ep": 6638,
+"gt": "navigate_back",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": false
+},
+{
+"i": 8148,
+"ep": 6919,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 86
+},
+"ok": false
+},
+{
+"i": 8159,
+"ep": 7119,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 38
+},
+"ok": true
+},
+{
+"i": 8167,
+"ep": 7379,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 49
+},
+"ok": true
+},
+{
+"i": 8171,
+"ep": 7399,
+"gt": "navigate_back",
+"got": {
+"action_type": "click",
+"element": 49
+},
+"ok": false
+},
+{
+"i": 8175,
+"ep": 7499,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "History of art"
+},
+"ok": true
+},
+{
+"i": 8195,
+"ep": 9683,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 37
+},
+"ok": true
+},
+{
+"i": 8200,
+"ep": 9783,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 182
+},
+"ok": true
+},
+{
+"i": 8210,
+"ep": 9823,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 144
+},
+"ok": true
+},
+{
+"i": 8211,
+"ep": 9823,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 17
+},
+"ok": true
+},
+{
+"i": 8216,
+"ep": 9823,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 41
+},
+"ok": true
+},
+{
+"i": 8222,
+"ep": 10384,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 65
+},
+"ok": true
+},
+{
+"i": 8233,
+"ep": 11028,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 8234,
+"ep": 11028,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 48
+},
+"ok": true
+},
+{
+"i": 8237,
+"ep": 11390,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 73
+},
+"ok": false
+},
+{
+"i": 8240,
+"ep": 11390,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 8245,
+"ep": 11410,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 78
+},
+"ok": true
+},
+{
+"i": 8250,
+"ep": 11490,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 51
+},
+"ok": true
+},
+{
+"i": 8255,
+"ep": 11490,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 102
+},
+"ok": true
+},
+{
+"i": 8263,
+"ep": 12736,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 89
+},
+"ok": true
+},
+{
+"i": 8269,
+"ep": 13217,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 102
+},
+"ok": false
+},
+{
+"i": 8275,
+"ep": 13497,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 187
+},
+"ok": true
+},
+{
+"i": 8278,
+"ep": 13497,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 183
+},
+"ok": false
+},
+{
+"i": 8286,
+"ep": 14343,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 106
+},
+"ok": true
+},
+{
+"i": 8289,
+"ep": 14343,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 48
+},
+"ok": true
+},
+{
+"i": 8306,
+"ep": 14985,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 68
+},
+"ok": true
+},
+{
+"i": 8343,
+"ep": 16674,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Easy Time Zone Converter"
+},
+"ok": false
+},
+{
+"i": 8367,
+"ep": 17841,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 46
+},
+"ok": false
+},
+{
+"i": 8370,
+"ep": 17841,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 107
+},
+"ok": true
+},
+{
+"i": 8371,
+"ep": 17841,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 105
+},
+"ok": false
+},
+{
+"i": 8378,
+"ep": 18182,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 8393,
+"ep": 18643,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 40
+},
+"ok": true
+},
+{
+"i": 8394,
+"ep": 18643,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 77
+},
+"ok": true
+},
+{
+"i": 8400,
+"ep": 18723,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 58
+},
+"ok": false
+},
+{
+"i": 8407,
+"ep": 18723,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 38
+},
+"ok": true
+},
+{
+"i": 8410,
+"ep": 18944,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "98104"
+},
+"ok": true
+},
+{
+"i": 8416,
+"ep": 18944,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 69
+},
+"ok": true
+},
+{
+"i": 8420,
+"ep": 19565,
+"gt": "scroll_up",
+"got": {
+"action_type": "click",
+"element": 44
+},
+"ok": false
+},
+{
+"i": 8434,
+"ep": 19846,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": true
+}
+]
+}
