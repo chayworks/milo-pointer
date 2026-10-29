@@ -742,3 +742,19 @@ margin 2. Reported: costs from billed tokens. Spend cap: $1.50 (total budget nea
   865 (+6.0 [+4.3, +7.7] vs Haiku alone, p < 1e-12); vs Opus-FS alone -1.7 [-3.5, +0.1] (fails the 2-point margin); vs pointer alone
   -0.4 (p = 0.74): a fallback weaker than the pointer on hard steps adds nothing. Cost $0.26 per 1k for Haiku alone (Batch). Batch
   msgbatch_0112g2XY7rmoa1QPCuVN11Wx, $0.26. Total Anthropic spend $97.50.
+
+## AC-LearnedRouter (registered 2026-10-29 00:01 EDT, before any model sees these steps): confirm the learned deferral rule
+Exploratory result being confirmed: on ac_fresh1000, a learned rule (two logistic regressions fit on ac_sample1000: P(small model right)
+and P(Opus-FS right); keep local when the difference is at least a fixed threshold) routed to Opus-FS scored 902 vs 882 for Opus alone.
+Frozen before this entry: bench/results/learned_router_frozen.json (weights and threshold -0.01005, the value keeping 70.7% of ac_fresh1000
+local), features from bench/ac_features.py (unchanged checkpoint pointer_v2), harness bench/ac_fewshot.py unchanged (Opus 5.5, effort
+medium, 16 retrieved TRAIN examples).
+Steps: bench/ac_confirm650.json = 650 test steps drawn (random.seed(20261029)) from the 257 test episodes used in neither ac_sample1000
+nor ac_fresh1000 (the last unused test episodes).
+H-LR1 (primary): learned-rule cascade better than Opus-FS alone (paired exact McNemar, two-sided, alpha 0.05).
+H-LR2: learned-rule cascade non-inferior to Opus-FS alone, margin 2 points.
+Also reported: the registered max-probability rule (THR 0.9854) on the same steps, local shares, cost. Spend cap: $7.
+- **AC-LearnedRouter result (2026-10-29): H-LR1 SUPPORTED, H-LR2 SUPPORTED.** 650 steps (247 episodes): Opus-FS alone 581, small model alone
+  581; learned-rule cascade 599 (73.7% local), +2.8 [+1.0, +4.5] vs Opus alone (+26/-8), McNemar p = 0.003. Registered max-probability
+  rule on the same steps: 595 (73.5% local), +2.2 [+0.5, +3.9], p = 0.020. Learned vs registered rule: +0.6 [-0.7, +1.9], p = 0.48.
+  Batch msgbatch_01RwgNVPwRbQxhBpmwu7NCNi, $6.15 (estimate).

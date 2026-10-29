@@ -1,0 +1,6379 @@
+{
+"model": "claude-opus-5-5",
+"n": 650,
+"ok": 581,
+"errored": 0,
+"tokens_in": 2962822,
+"tokens_out": 22176,
+"est_cost_usd": 6.1474,
+"rows": [
+{
+"i": 33,
+"ep": 2588,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 61
+},
+"ok": true
+},
+{
+"i": 111,
+"ep": 4756,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 112,
+"ep": 4756,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 113,
+"ep": 4756,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 83
+},
+"ok": true
+},
+{
+"i": 168,
+"ep": 6903,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 43
+},
+"ok": true
+},
+{
+"i": 169,
+"ep": 6903,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 33
+},
+"ok": false
+},
+{
+"i": 258,
+"ep": 11294,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "The Hindu"
+},
+"ok": true
+},
+{
+"i": 259,
+"ep": 11294,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 106
+},
+"ok": true
+},
+{
+"i": 260,
+"ep": 11294,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 45
+},
+"ok": true
+},
+{
+"i": 267,
+"ep": 11494,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 40
+},
+"ok": true
+},
+{
+"i": 268,
+"ep": 11494,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 36
+},
+"ok": true
+},
+{
+"i": 269,
+"ep": 11494,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Navy Blue shirt for men"
+},
+"ok": true
+},
+{
+"i": 294,
+"ep": 12901,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 62
+},
+"ok": true
+},
+{
+"i": 295,
+"ep": 12901,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 40
+},
+"ok": true
+},
+{
+"i": 297,
+"ep": 12901,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 65
+},
+"ok": true
+},
+{
+"i": 370,
+"ep": 17082,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Startracker"
+},
+"ok": true
+},
+{
+"i": 401,
+"ep": 19189,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 402,
+"ep": 19189,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 403,
+"ep": 19189,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 404,
+"ep": 19189,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 54
+},
+"ok": true
+},
+{
+"i": 405,
+"ep": 19189,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 28
+},
+"ok": true
+},
+{
+"i": 427,
+"ep": 261,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 128
+},
+"ok": true
+},
+{
+"i": 467,
+"ep": 1665,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 56
+},
+"ok": true
+},
+{
+"i": 468,
+"ep": 1665,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 31
+},
+"ok": false
+},
+{
+"i": 469,
+"ep": 2005,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 41
+},
+"ok": true
+},
+{
+"i": 470,
+"ep": 2005,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": true
+},
+{
+"i": 502,
+"ep": 3792,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 37
+},
+"ok": true
+},
+{
+"i": 504,
+"ep": 3792,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 50
+},
+"ok": true
+},
+{
+"i": 505,
+"ep": 3792,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 45
+},
+"ok": true
+},
+{
+"i": 506,
+"ep": 3792,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 38
+},
+"ok": true
+},
+{
+"i": 507,
+"ep": 3812,
+"gt": "click",
+"got": {
+"action_type": "wait"
+},
+"ok": false
+},
+{
+"i": 547,
+"ep": 5958,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 32
+},
+"ok": true
+},
+{
+"i": 587,
+"ep": 8141,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 33
+},
+"ok": true
+},
+{
+"i": 600,
+"ep": 8583,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Time Zone Converter"
+},
+"ok": true
+},
+{
+"i": 608,
+"ep": 9143,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 106
+},
+"ok": true
+},
+{
+"i": 612,
+"ep": 9283,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 50
+},
+"ok": true
+},
+{
+"i": 614,
+"ep": 9283,
+"gt": "click",
+"got": {
+"action_type": "input_text",
+"text": "Oye como va"
+},
+"ok": false
+},
+{
+"i": 616,
+"ep": 9283,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 167
+},
+"ok": true
+},
+{
+"i": 654,
+"ep": 11552,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 655,
+"ep": 11673,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 40
+},
+"ok": true
+},
+{
+"i": 709,
+"ep": 13459,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 710,
+"ep": 13459,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 711,
+"ep": 13459,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 713,
+"ep": 13459,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 761,
+"ep": 16353,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Shopsy"
+},
+"ok": true
+},
+{
+"i": 762,
+"ep": 16353,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 45
+},
+"ok": true
+},
+{
+"i": 763,
+"ep": 16353,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Football training hurdle"
+},
+"ok": false
+},
+{
+"i": 764,
+"ep": 16353,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 67
+},
+"ok": true
+},
+{
+"i": 833,
+"ep": 20109,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 93
+},
+"ok": true
+},
+{
+"i": 834,
+"ep": 20109,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 97
+},
+"ok": true
+},
+{
+"i": 861,
+"ep": 423,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 38
+},
+"ok": true
+},
+{
+"i": 869,
+"ep": 945,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 870,
+"ep": 945,
+"gt": "scroll_right",
+"got": {
+"action_type": "scroll_right"
+},
+"ok": true
+},
+{
+"i": 871,
+"ep": 945,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 50
+},
+"ok": true
+},
+{
+"i": 890,
+"ep": 1306,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 56
+},
+"ok": true
+},
+{
+"i": 893,
+"ep": 1306,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "tiago121@gmail.com"
+},
+"ok": true
+},
+{
+"i": 894,
+"ep": 1306,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 186
+},
+"ok": true
+},
+{
+"i": 899,
+"ep": 2086,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 55
+},
+"ok": true
+},
+{
+"i": 923,
+"ep": 2527,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 939,
+"ep": 3010,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 82
+},
+"ok": true
+},
+{
+"i": 940,
+"ep": 3010,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 10
+},
+"ok": true
+},
+{
+"i": 941,
+"ep": 3010,
+"gt": "scroll_left",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": false
+},
+{
+"i": 967,
+"ep": 4093,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": true
+},
+{
+"i": 968,
+"ep": 4093,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 30
+},
+"ok": true
+},
+{
+"i": 969,
+"ep": 4093,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 29
+},
+"ok": true
+},
+{
+"i": 970,
+"ep": 4093,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 31
+},
+"ok": true
+},
+{
+"i": 975,
+"ep": 4674,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 86
+},
+"ok": true
+},
+{
+"i": 976,
+"ep": 4674,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 108
+},
+"ok": true
+},
+{
+"i": 977,
+"ep": 4674,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Coledbwpersonatest@gmail.com"
+},
+"ok": true
+},
+{
+"i": 978,
+"ep": 4674,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 163
+},
+"ok": true
+},
+{
+"i": 979,
+"ep": 4674,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 93
+},
+"ok": false
+},
+{
+"i": 1000,
+"ep": 5016,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 112
+},
+"ok": true
+},
+{
+"i": 1001,
+"ep": 5016,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 124
+},
+"ok": true
+},
+{
+"i": 1002,
+"ep": 5016,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 122
+},
+"ok": true
+},
+{
+"i": 1049,
+"ep": 6681,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 46
+},
+"ok": true
+},
+{
+"i": 1050,
+"ep": 6681,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 66
+},
+"ok": true
+},
+{
+"i": 1052,
+"ep": 6681,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 176
+},
+"ok": true
+},
+{
+"i": 1069,
+"ep": 8484,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 107
+},
+"ok": true
+},
+{
+"i": 1070,
+"ep": 8484,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 71
+},
+"ok": true
+},
+{
+"i": 1078,
+"ep": 8864,
+"gt": "scroll_up",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": true
+},
+{
+"i": 1115,
+"ep": 10710,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 99
+},
+"ok": true
+},
+{
+"i": 1116,
+"ep": 10710,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 81
+},
+"ok": true
+},
+{
+"i": 1134,
+"ep": 11373,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 39
+},
+"ok": true
+},
+{
+"i": 1135,
+"ep": 11373,
+"gt": "click",
+"got": {
+"action_type": "input_text",
+"text": "Paramedic news"
+},
+"ok": false
+},
+{
+"i": 1136,
+"ep": 11373,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Paramedic news"
+},
+"ok": true
+},
+{
+"i": 1137,
+"ep": 11373,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 63
+},
+"ok": true
+},
+{
+"i": 1140,
+"ep": 11816,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 36
+},
+"ok": true
+},
+{
+"i": 1141,
+"ep": 11816,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 62
+},
+"ok": true
+},
+{
+"i": 1142,
+"ep": 11816,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 1143,
+"ep": 11816,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "naomi.rousseau@example.com"
+},
+"ok": true
+},
+{
+"i": 1144,
+"ep": 11816,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 195
+},
+"ok": false
+},
+{
+"i": 1145,
+"ep": 11816,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 174
+},
+"ok": true
+},
+{
+"i": 1157,
+"ep": 12217,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 1213,
+"ep": 15591,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 77
+},
+"ok": true
+},
+{
+"i": 1214,
+"ep": 15591,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "pasta al limone"
+},
+"ok": true
+},
+{
+"i": 1215,
+"ep": 15591,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 1258,
+"ep": 17824,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Reuters"
+},
+"ok": true
+},
+{
+"i": 1259,
+"ep": 17824,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 93
+},
+"ok": true
+},
+{
+"i": 1328,
+"ep": 1624,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Amazon"
+},
+"ok": true
+},
+{
+"i": 1329,
+"ep": 1624,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 34
+},
+"ok": true
+},
+{
+"i": 1330,
+"ep": 1624,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Sofa"
+},
+"ok": true
+},
+{
+"i": 1331,
+"ep": 1624,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 176
+},
+"ok": true
+},
+{
+"i": 1418,
+"ep": 5455,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 16
+},
+"ok": false
+},
+{
+"i": 1419,
+"ep": 5455,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 21
+},
+"ok": true
+},
+{
+"i": 1421,
+"ep": 5455,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": " bianca.rossi1967@gmail.com"
+},
+"ok": true
+},
+{
+"i": 1422,
+"ep": 5455,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 75
+},
+"ok": true
+},
+{
+"i": 1572,
+"ep": 11672,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 24
+},
+"ok": true
+},
+{
+"i": 1573,
+"ep": 12577,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 32
+},
+"ok": true
+},
+{
+"i": 1574,
+"ep": 12577,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 59
+},
+"ok": true
+},
+{
+"i": 1575,
+"ep": 12978,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 47
+},
+"ok": true
+},
+{
+"i": 1576,
+"ep": 12978,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "killing"
+},
+"ok": true
+},
+{
+"i": 1577,
+"ep": 12978,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 68
+},
+"ok": true
+},
+{
+"i": 1673,
+"ep": 18103,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 36
+},
+"ok": true
+},
+{
+"i": 1691,
+"ep": 84,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Yalla Toys"
+},
+"ok": true
+},
+{
+"i": 1692,
+"ep": 84,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 98
+},
+"ok": true
+},
+{
+"i": 1693,
+"ep": 84,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 104
+},
+"ok": true
+},
+{
+"i": 1694,
+"ep": 84,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 58
+},
+"ok": true
+},
+{
+"i": 1695,
+"ep": 84,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 1697,
+"ep": 104,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 52
+},
+"ok": true
+},
+{
+"i": 1698,
+"ep": 104,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Covid 19"
+},
+"ok": true
+},
+{
+"i": 1699,
+"ep": 104,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 178
+},
+"ok": true
+},
+{
+"i": 1725,
+"ep": 1027,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Freshtohome"
+},
+"ok": true
+},
+{
+"i": 1726,
+"ep": 1027,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 36
+},
+"ok": true
+},
+{
+"i": 1727,
+"ep": 1027,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Fish"
+},
+"ok": true
+},
+{
+"i": 1729,
+"ep": 1168,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 45
+},
+"ok": true
+},
+{
+"i": 1730,
+"ep": 1168,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 1792,
+"ep": 4015,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 1793,
+"ep": 4015,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 1794,
+"ep": 4015,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 76
+},
+"ok": true
+},
+{
+"i": 1809,
+"ep": 4858,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 48
+},
+"ok": true
+},
+{
+"i": 1811,
+"ep": 4998,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 45
+},
+"ok": true
+},
+{
+"i": 1844,
+"ep": 6463,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 64
+},
+"ok": true
+},
+{
+"i": 1845,
+"ep": 6463,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 1846,
+"ep": 6463,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 68
+},
+"ok": true
+},
+{
+"i": 1891,
+"ep": 7204,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 1893,
+"ep": 7204,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 1898,
+"ep": 7884,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 10
+},
+"ok": true
+},
+{
+"i": 1899,
+"ep": 7884,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 10
+},
+"ok": true
+},
+{
+"i": 1900,
+"ep": 7884,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 1901,
+"ep": 7884,
+"gt": "scroll_down",
+"got": {
+"action_type": "wait"
+},
+"ok": false
+},
+{
+"i": 1912,
+"ep": 8084,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 22
+},
+"ok": true
+},
+{
+"i": 1913,
+"ep": 8084,
+"gt": "scroll_left",
+"got": {
+"action_type": "scroll_left"
+},
+"ok": true
+},
+{
+"i": 1914,
+"ep": 8084,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 14
+},
+"ok": true
+},
+{
+"i": 1969,
+"ep": 10672,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "CNN"
+},
+"ok": true
+},
+{
+"i": 1970,
+"ep": 10672,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 66
+},
+"ok": true
+},
+{
+"i": 1971,
+"ep": 10672,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 83
+},
+"ok": true
+},
+{
+"i": 1972,
+"ep": 10672,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 81
+},
+"ok": true
+},
+{
+"i": 1973,
+"ep": 10672,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 78
+},
+"ok": true
+},
+{
+"i": 1974,
+"ep": 10912,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Stellarium"
+},
+"ok": true
+},
+{
+"i": 1975,
+"ep": 10912,
+"gt": "click",
+"got": {
+"action_type": "wait"
+},
+"ok": false
+},
+{
+"i": 2079,
+"ep": 15975,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 44
+},
+"ok": true
+},
+{
+"i": 2080,
+"ep": 15975,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 93
+},
+"ok": true
+},
+{
+"i": 2084,
+"ep": 16679,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 20
+},
+"ok": true
+},
+{
+"i": 2085,
+"ep": 16679,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 2086,
+"ep": 16679,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 2087,
+"ep": 16679,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 37
+},
+"ok": true
+},
+{
+"i": 2088,
+"ep": 16760,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Vimeo"
+},
+"ok": true
+},
+{
+"i": 2089,
+"ep": 16760,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": true
+},
+{
+"i": 2090,
+"ep": 16760,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 32
+},
+"ok": true
+},
+{
+"i": 2091,
+"ep": 16760,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 28
+},
+"ok": true
+},
+{
+"i": 2092,
+"ep": 16760,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Beach"
+},
+"ok": true
+},
+{
+"i": 2093,
+"ep": 16760,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 153
+},
+"ok": true
+},
+{
+"i": 2094,
+"ep": 16760,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 44
+},
+"ok": true
+},
+{
+"i": 2096,
+"ep": 16760,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 40
+},
+"ok": true
+},
+{
+"i": 2097,
+"ep": 16760,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 32
+},
+"ok": true
+},
+{
+"i": 2098,
+"ep": 16760,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 2099,
+"ep": 16760,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": true
+},
+{
+"i": 2126,
+"ep": 19190,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 108
+},
+"ok": true
+},
+{
+"i": 2127,
+"ep": 19190,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 81
+},
+"ok": true
+},
+{
+"i": 2128,
+"ep": 19190,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 79
+},
+"ok": true
+},
+{
+"i": 2130,
+"ep": 19510,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Drive"
+},
+"ok": true
+},
+{
+"i": 2133,
+"ep": 19510,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 97
+},
+"ok": false
+},
+{
+"i": 2134,
+"ep": 45,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 2135,
+"ep": 45,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 68
+},
+"ok": true
+},
+{
+"i": 2136,
+"ep": 45,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 27
+},
+"ok": true
+},
+{
+"i": 2137,
+"ep": 45,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 40
+},
+"ok": true
+},
+{
+"i": 2138,
+"ep": 45,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 32
+},
+"ok": true
+},
+{
+"i": 2156,
+"ep": 567,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "SkyView Free"
+},
+"ok": true
+},
+{
+"i": 2157,
+"ep": 567,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 2
+},
+"ok": true
+},
+{
+"i": 2227,
+"ep": 1969,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 74
+},
+"ok": false
+},
+{
+"i": 2228,
+"ep": 1969,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 191
+},
+"ok": true
+},
+{
+"i": 2229,
+"ep": 1969,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 140
+},
+"ok": false
+},
+{
+"i": 2230,
+"ep": 1969,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 68
+},
+"ok": true
+},
+{
+"i": 2233,
+"ep": 1969,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 80
+},
+"ok": true
+},
+{
+"i": 2234,
+"ep": 1969,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 2235,
+"ep": 1969,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "coledbwpersonatest@gmail.com"
+},
+"ok": true
+},
+{
+"i": 2236,
+"ep": 1969,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 213
+},
+"ok": true
+},
+{
+"i": 2237,
+"ep": 1969,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 191
+},
+"ok": true
+},
+{
+"i": 2320,
+"ep": 5902,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 42
+},
+"ok": true
+},
+{
+"i": 2344,
+"ep": 7205,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 29
+},
+"ok": true
+},
+{
+"i": 2407,
+"ep": 11135,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Google News"
+},
+"ok": true
+},
+{
+"i": 2408,
+"ep": 11135,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 2409,
+"ep": 11135,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 2410,
+"ep": 11135,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 64
+},
+"ok": false
+},
+{
+"i": 2411,
+"ep": 11135,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 2412,
+"ep": 11135,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 2413,
+"ep": 11135,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 2441,
+"ep": 12863,
+"gt": "long_press",
+"got": {
+"action_type": "long_press",
+"element": 91
+},
+"ok": true
+},
+{
+"i": 2442,
+"ep": 12863,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 59
+},
+"ok": true
+},
+{
+"i": 2443,
+"ep": 12863,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 29
+},
+"ok": true
+},
+{
+"i": 2457,
+"ep": 13806,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 2458,
+"ep": 13806,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 100
+},
+"ok": true
+},
+{
+"i": 2459,
+"ep": 13806,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 84
+},
+"ok": true
+},
+{
+"i": 2460,
+"ep": 13806,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 70
+},
+"ok": true
+},
+{
+"i": 2461,
+"ep": 13806,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 2488,
+"ep": 16579,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 74
+},
+"ok": false
+},
+{
+"i": 2765,
+"ep": 11035,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 51
+},
+"ok": true
+},
+{
+"i": 2773,
+"ep": 11377,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 86
+},
+"ok": true
+},
+{
+"i": 2894,
+"ep": 16178,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 60
+},
+"ok": false
+},
+{
+"i": 2895,
+"ep": 16178,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 2906,
+"ep": 17506,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Moon Phase Calendar"
+},
+"ok": true
+},
+{
+"i": 2912,
+"ep": 17748,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 76
+},
+"ok": true
+},
+{
+"i": 2971,
+"ep": 348,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 47
+},
+"ok": true
+},
+{
+"i": 2998,
+"ep": 2412,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 3027,
+"ep": 3476,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 77
+},
+"ok": false
+},
+{
+"i": 3028,
+"ep": 3476,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 3104,
+"ep": 6606,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 135
+},
+"ok": true
+},
+{
+"i": 3144,
+"ep": 8248,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Phases of the Moon"
+},
+"ok": true
+},
+{
+"i": 3156,
+"ep": 8629,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 37
+},
+"ok": true
+},
+{
+"i": 3157,
+"ep": 8629,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 46
+},
+"ok": true
+},
+{
+"i": 3159,
+"ep": 8629,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 160
+},
+"ok": true
+},
+{
+"i": 3247,
+"ep": 13688,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 83
+},
+"ok": true
+},
+{
+"i": 3248,
+"ep": 13688,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 177
+},
+"ok": true
+},
+{
+"i": 3283,
+"ep": 15778,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "AccuWeather"
+},
+"ok": true
+},
+{
+"i": 3285,
+"ep": 15778,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 3310,
+"ep": 17588,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 4
+},
+"ok": true
+},
+{
+"i": 3311,
+"ep": 17588,
+"gt": "click",
+"got": {
+"action_type": "wait"
+},
+"ok": false
+},
+{
+"i": 3318,
+"ep": 17929,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 49
+},
+"ok": true
+},
+{
+"i": 3319,
+"ep": 17929,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 50
+},
+"ok": false
+},
+{
+"i": 3320,
+"ep": 18310,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 42
+},
+"ok": true
+},
+{
+"i": 3321,
+"ep": 18310,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Newark"
+},
+"ok": true
+},
+{
+"i": 3322,
+"ep": 18310,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 151
+},
+"ok": true
+},
+{
+"i": 3346,
+"ep": 19593,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 3347,
+"ep": 19593,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 71
+},
+"ok": true
+},
+{
+"i": 3348,
+"ep": 19593,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 36
+},
+"ok": false
+},
+{
+"i": 3349,
+"ep": 19593,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 36
+},
+"ok": true
+},
+{
+"i": 3350,
+"ep": 19593,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 3449,
+"ep": 3738,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 71
+},
+"ok": false
+},
+{
+"i": 3456,
+"ep": 4299,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 91
+},
+"ok": true
+},
+{
+"i": 3457,
+"ep": 4299,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 94
+},
+"ok": true
+},
+{
+"i": 3463,
+"ep": 4640,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "World Clock Smart Alarm"
+},
+"ok": true
+},
+{
+"i": 3464,
+"ep": 4640,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 57
+},
+"ok": true
+},
+{
+"i": 3524,
+"ep": 5704,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 50
+},
+"ok": true
+},
+{
+"i": 3525,
+"ep": 5704,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 94
+},
+"ok": true
+},
+{
+"i": 3580,
+"ep": 7748,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 23
+},
+"ok": true
+},
+{
+"i": 3581,
+"ep": 7748,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 22
+},
+"ok": true
+},
+{
+"i": 3605,
+"ep": 9452,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 56
+},
+"ok": true
+},
+{
+"i": 3606,
+"ep": 9452,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 57
+},
+"ok": true
+},
+{
+"i": 3607,
+"ep": 9812,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 32
+},
+"ok": true
+},
+{
+"i": 3641,
+"ep": 11559,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 18
+},
+"ok": true
+},
+{
+"i": 3650,
+"ep": 12303,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Easy Voice Recorder"
+},
+"ok": true
+},
+{
+"i": 3651,
+"ep": 12303,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 62
+},
+"ok": true
+},
+{
+"i": 3652,
+"ep": 12303,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 56
+},
+"ok": false
+},
+{
+"i": 3653,
+"ep": 12303,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 63
+},
+"ok": true
+},
+{
+"i": 3673,
+"ep": 13126,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Redbubble"
+},
+"ok": true
+},
+{
+"i": 3674,
+"ep": 13126,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 54
+},
+"ok": true
+},
+{
+"i": 3675,
+"ep": 13126,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 64
+},
+"ok": true
+},
+{
+"i": 3676,
+"ep": 13126,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Antanas"
+},
+"ok": true
+},
+{
+"i": 3677,
+"ep": 13126,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 78
+},
+"ok": true
+},
+{
+"i": 3678,
+"ep": 13126,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 3746,
+"ep": 15979,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 36
+},
+"ok": true
+},
+{
+"i": 3847,
+"ep": 20116,
+"gt": "click",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": false
+},
+{
+"i": 3848,
+"ep": 20116,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 94
+},
+"ok": false
+},
+{
+"i": 3873,
+"ep": 631,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 47
+},
+"ok": true
+},
+{
+"i": 3926,
+"ep": 2313,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 49
+},
+"ok": true
+},
+{
+"i": 3927,
+"ep": 2313,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 50
+},
+"ok": true
+},
+{
+"i": 3928,
+"ep": 2313,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 29
+},
+"ok": true
+},
+{
+"i": 3929,
+"ep": 2313,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 30
+},
+"ok": true
+},
+{
+"i": 3930,
+"ep": 2676,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 42
+},
+"ok": true
+},
+{
+"i": 3941,
+"ep": 3317,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 3942,
+"ep": 3317,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 37
+},
+"ok": true
+},
+{
+"i": 3943,
+"ep": 3317,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 36
+},
+"ok": true
+},
+{
+"i": 4031,
+"ep": 7889,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 42
+},
+"ok": true
+},
+{
+"i": 4032,
+"ep": 7889,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 62
+},
+"ok": true
+},
+{
+"i": 4033,
+"ep": 7889,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 43
+},
+"ok": false
+},
+{
+"i": 4044,
+"ep": 8651,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "File Manager"
+},
+"ok": true
+},
+{
+"i": 4045,
+"ep": 8651,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 71
+},
+"ok": true
+},
+{
+"i": 4076,
+"ep": 9593,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 4113,
+"ep": 11260,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 4114,
+"ep": 11260,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 30
+},
+"ok": true
+},
+{
+"i": 4115,
+"ep": 11260,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "nike hiking shoes for men"
+},
+"ok": true
+},
+{
+"i": 4116,
+"ep": 11260,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 49
+},
+"ok": true
+},
+{
+"i": 4147,
+"ep": 12546,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 4148,
+"ep": 12546,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 42
+},
+"ok": true
+},
+{
+"i": 4149,
+"ep": 12546,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 81
+},
+"ok": false
+},
+{
+"i": 4150,
+"ep": 12546,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 39
+},
+"ok": true
+},
+{
+"i": 4271,
+"ep": 17831,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 58
+},
+"ok": false
+},
+{
+"i": 4272,
+"ep": 17831,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 85
+},
+"ok": false
+},
+{
+"i": 4273,
+"ep": 17831,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 4274,
+"ep": 17831,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 4348,
+"ep": 1394,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 72
+},
+"ok": true
+},
+{
+"i": 4372,
+"ep": 2777,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 4374,
+"ep": 2777,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 46
+},
+"ok": true
+},
+{
+"i": 4375,
+"ep": 2777,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 165
+},
+"ok": true
+},
+{
+"i": 4376,
+"ep": 2777,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 112
+},
+"ok": true
+},
+{
+"i": 4377,
+"ep": 2777,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 55
+},
+"ok": true
+},
+{
+"i": 4378,
+"ep": 2777,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 40
+},
+"ok": true
+},
+{
+"i": 4384,
+"ep": 3238,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Pinterest"
+},
+"ok": true
+},
+{
+"i": 4386,
+"ep": 3238,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "landscape art"
+},
+"ok": true
+},
+{
+"i": 4387,
+"ep": 3238,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 67
+},
+"ok": true
+},
+{
+"i": 4388,
+"ep": 3238,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 4421,
+"ep": 4501,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 55
+},
+"ok": true
+},
+{
+"i": 4460,
+"ep": 6689,
+"gt": "scroll_up",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": true
+},
+{
+"i": 4461,
+"ep": 6689,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 28
+},
+"ok": true
+},
+{
+"i": 4462,
+"ep": 6689,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 25
+},
+"ok": true
+},
+{
+"i": 4513,
+"ep": 9112,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 85
+},
+"ok": true
+},
+{
+"i": 4580,
+"ep": 13108,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 76
+},
+"ok": true
+},
+{
+"i": 4581,
+"ep": 13108,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 46
+},
+"ok": true
+},
+{
+"i": 4586,
+"ep": 13248,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Flipkart"
+},
+"ok": true
+},
+{
+"i": 4587,
+"ep": 13248,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 38
+},
+"ok": false
+},
+{
+"i": 4588,
+"ep": 13248,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "chicken soup"
+},
+"ok": true
+},
+{
+"i": 4589,
+"ep": 13248,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 150
+},
+"ok": true
+},
+{
+"i": 4651,
+"ep": 15057,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 4653,
+"ep": 15057,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 111
+},
+"ok": true
+},
+{
+"i": 4654,
+"ep": 15057,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 79
+},
+"ok": true
+},
+{
+"i": 4659,
+"ep": 15981,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 32
+},
+"ok": true
+},
+{
+"i": 4660,
+"ep": 15981,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 50
+},
+"ok": true
+},
+{
+"i": 4661,
+"ep": 15981,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 47
+},
+"ok": true
+},
+{
+"i": 4667,
+"ep": 16022,
+"gt": "long_press",
+"got": {
+"action_type": "long_press",
+"element": 123
+},
+"ok": true
+},
+{
+"i": 4668,
+"ep": 16022,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 46
+},
+"ok": true
+},
+{
+"i": 4669,
+"ep": 16022,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 55
+},
+"ok": false
+},
+{
+"i": 4796,
+"ep": 3159,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Moonly"
+},
+"ok": true
+},
+{
+"i": 4797,
+"ep": 3159,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 4838,
+"ep": 4622,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 50
+},
+"ok": true
+},
+{
+"i": 4839,
+"ep": 4622,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": false
+},
+{
+"i": 4849,
+"ep": 5025,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 97
+},
+"ok": true
+},
+{
+"i": 4850,
+"ep": 5025,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 101
+},
+"ok": true
+},
+{
+"i": 4851,
+"ep": 5025,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 82
+},
+"ok": true
+},
+{
+"i": 4852,
+"ep": 5025,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 81
+},
+"ok": true
+},
+{
+"i": 4916,
+"ep": 9373,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 2
+},
+"ok": true
+},
+{
+"i": 4917,
+"ep": 9373,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 19
+},
+"ok": true
+},
+{
+"i": 4918,
+"ep": 9373,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "nachhaltiger"
+},
+"ok": true
+},
+{
+"i": 4919,
+"ep": 9373,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 49
+},
+"ok": true
+},
+{
+"i": 4977,
+"ep": 11342,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 42
+},
+"ok": true
+},
+{
+"i": 4978,
+"ep": 11342,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 32
+},
+"ok": true
+},
+{
+"i": 5027,
+"ep": 12829,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 44
+},
+"ok": true
+},
+{
+"i": 5028,
+"ep": 12829,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 80
+},
+"ok": false
+},
+{
+"i": 5029,
+"ep": 12829,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Study session"
+},
+"ok": true
+},
+{
+"i": 5030,
+"ep": 12829,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 168
+},
+"ok": true
+},
+{
+"i": 5062,
+"ep": 13992,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 41
+},
+"ok": true
+},
+{
+"i": 5063,
+"ep": 14395,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 1
+},
+"ok": true
+},
+{
+"i": 5064,
+"ep": 14395,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 5065,
+"ep": 14395,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 5088,
+"ep": 16223,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 40
+},
+"ok": true
+},
+{
+"i": 5089,
+"ep": 16223,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 40
+},
+"ok": true
+},
+{
+"i": 5116,
+"ep": 17190,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 33
+},
+"ok": true
+},
+{
+"i": 5117,
+"ep": 17190,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 23
+},
+"ok": true
+},
+{
+"i": 5118,
+"ep": 17190,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 44
+},
+"ok": true
+},
+{
+"i": 5127,
+"ep": 17994,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 40
+},
+"ok": false
+},
+{
+"i": 5128,
+"ep": 17994,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 5164,
+"ep": 19477,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 39
+},
+"ok": true
+},
+{
+"i": 5165,
+"ep": 19477,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "93.5 FM"
+},
+"ok": true
+},
+{
+"i": 5166,
+"ep": 19477,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 59
+},
+"ok": true
+},
+{
+"i": 5205,
+"ep": 1336,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Etsy"
+},
+"ok": true
+},
+{
+"i": 5206,
+"ep": 1336,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 63
+},
+"ok": true
+},
+{
+"i": 5207,
+"ep": 1336,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "mandala string art"
+},
+"ok": true
+},
+{
+"i": 5208,
+"ep": 1336,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 54
+},
+"ok": true
+},
+{
+"i": 5235,
+"ep": 3100,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 42
+},
+"ok": true
+},
+{
+"i": 5236,
+"ep": 3240,
+"gt": "scroll_up",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": true
+},
+{
+"i": 5275,
+"ep": 6932,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 5276,
+"ep": 6932,
+"gt": "scroll_up",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": true
+},
+{
+"i": 5278,
+"ep": 6932,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 95
+},
+"ok": true
+},
+{
+"i": 5279,
+"ep": 6932,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 5280,
+"ep": 6932,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 5335,
+"ep": 12187,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 70
+},
+"ok": true
+},
+{
+"i": 5336,
+"ep": 12187,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 57
+},
+"ok": false
+},
+{
+"i": 5337,
+"ep": 12187,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 62
+},
+"ok": true
+},
+{
+"i": 5362,
+"ep": 13070,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 31
+},
+"ok": true
+},
+{
+"i": 5363,
+"ep": 13070,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 5364,
+"ep": 13070,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 5390,
+"ep": 13733,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Weather&Radar"
+},
+"ok": true
+},
+{
+"i": 5397,
+"ep": 14154,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Arts & Culture"
+},
+"ok": true
+},
+{
+"i": 5398,
+"ep": 14154,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 55
+},
+"ok": false
+},
+{
+"i": 5445,
+"ep": 16768,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Recorder"
+},
+"ok": true
+},
+{
+"i": 5446,
+"ep": 16768,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 55
+},
+"ok": true
+},
+{
+"i": 5447,
+"ep": 16768,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 52
+},
+"ok": true
+},
+{
+"i": 5462,
+"ep": 18335,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 36
+},
+"ok": true
+},
+{
+"i": 5463,
+"ep": 18335,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 54
+},
+"ok": true
+},
+{
+"i": 5510,
+"ep": 1099,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 76
+},
+"ok": true
+},
+{
+"i": 5549,
+"ep": 2682,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 36
+},
+"ok": true
+},
+{
+"i": 5550,
+"ep": 2682,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 41
+},
+"ok": true
+},
+{
+"i": 5551,
+"ep": 2682,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 138
+},
+"ok": true
+},
+{
+"i": 5552,
+"ep": 2682,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Yoga"
+},
+"ok": true
+},
+{
+"i": 5553,
+"ep": 2682,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 146
+},
+"ok": true
+},
+{
+"i": 5576,
+"ep": 3484,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 59
+},
+"ok": true
+},
+{
+"i": 5577,
+"ep": 3484,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "All about eve and Schindler\u2019s list"
+},
+"ok": false
+},
+{
+"i": 5578,
+"ep": 3484,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 177
+},
+"ok": true
+},
+{
+"i": 5630,
+"ep": 5932,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 34
+},
+"ok": true
+},
+{
+"i": 5631,
+"ep": 5932,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 63
+},
+"ok": true
+},
+{
+"i": 5664,
+"ep": 7955,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 48
+},
+"ok": true
+},
+{
+"i": 5713,
+"ep": 10140,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 5756,
+"ep": 12933,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Artier"
+},
+"ok": true
+},
+{
+"i": 5758,
+"ep": 12933,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 65
+},
+"ok": false
+},
+{
+"i": 5759,
+"ep": 12933,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 5760,
+"ep": 12933,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 48
+},
+"ok": true
+},
+{
+"i": 5833,
+"ep": 17114,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Decathlon"
+},
+"ok": true
+},
+{
+"i": 5834,
+"ep": 17114,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 59
+},
+"ok": true
+},
+{
+"i": 5835,
+"ep": 17114,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Sports shoes"
+},
+"ok": true
+},
+{
+"i": 5836,
+"ep": 17114,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 61
+},
+"ok": true
+},
+{
+"i": 5850,
+"ep": 17677,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 5851,
+"ep": 17677,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 51
+},
+"ok": true
+},
+{
+"i": 5852,
+"ep": 17677,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 5922,
+"ep": 54,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 46
+},
+"ok": true
+},
+{
+"i": 5923,
+"ep": 54,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 75
+},
+"ok": false
+},
+{
+"i": 6028,
+"ep": 4988,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 46
+},
+"ok": true
+},
+{
+"i": 6029,
+"ep": 4988,
+"gt": "scroll_up",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": true
+},
+{
+"i": 6040,
+"ep": 5850,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 41
+},
+"ok": true
+},
+{
+"i": 6041,
+"ep": 5850,
+"gt": "click",
+"got": {
+"action_type": "wait"
+},
+"ok": false
+},
+{
+"i": 6042,
+"ep": 5850,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 81
+},
+"ok": true
+},
+{
+"i": 6043,
+"ep": 6153,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 74
+},
+"ok": true
+},
+{
+"i": 6044,
+"ep": 6153,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 6057,
+"ep": 6934,
+"gt": "scroll_up",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": false
+},
+{
+"i": 6064,
+"ep": 7194,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Slides"
+},
+"ok": true
+},
+{
+"i": 6065,
+"ep": 7194,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 38
+},
+"ok": true
+},
+{
+"i": 6066,
+"ep": 7194,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 43
+},
+"ok": true
+},
+{
+"i": 6082,
+"ep": 8074,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Deliveroo"
+},
+"ok": true
+},
+{
+"i": 6083,
+"ep": 8074,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 6084,
+"ep": 8074,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 40
+},
+"ok": true
+},
+{
+"i": 6085,
+"ep": 8074,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Oats"
+},
+"ok": true
+},
+{
+"i": 6086,
+"ep": 8074,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 58
+},
+"ok": true
+},
+{
+"i": 6087,
+"ep": 8336,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 115
+},
+"ok": true
+},
+{
+"i": 6088,
+"ep": 9376,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 32
+},
+"ok": true
+},
+{
+"i": 6096,
+"ep": 10501,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 49
+},
+"ok": false
+},
+{
+"i": 6138,
+"ep": 13735,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 32
+},
+"ok": true
+},
+{
+"i": 6139,
+"ep": 13735,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 39
+},
+"ok": true
+},
+{
+"i": 6163,
+"ep": 14639,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 74
+},
+"ok": true
+},
+{
+"i": 6164,
+"ep": 14779,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "RtistiQ"
+},
+"ok": true
+},
+{
+"i": 6165,
+"ep": 14779,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 6172,
+"ep": 15283,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 25
+},
+"ok": true
+},
+{
+"i": 6203,
+"ep": 16810,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 6264,
+"ep": 73,
+"gt": "scroll_right",
+"got": {
+"action_type": "scroll_right"
+},
+"ok": true
+},
+{
+"i": 6265,
+"ep": 73,
+"gt": "scroll_right",
+"got": {
+"action_type": "wait"
+},
+"ok": false
+},
+{
+"i": 6272,
+"ep": 495,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "DeviantArt"
+},
+"ok": true
+},
+{
+"i": 6273,
+"ep": 495,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 49
+},
+"ok": true
+},
+{
+"i": 6274,
+"ep": 495,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 6275,
+"ep": 495,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 6276,
+"ep": 495,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 6277,
+"ep": 495,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 37
+},
+"ok": true
+},
+{
+"i": 6298,
+"ep": 2921,
+"gt": "long_press",
+"got": {
+"action_type": "long_press",
+"element": 106
+},
+"ok": true
+},
+{
+"i": 6299,
+"ep": 2921,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 48
+},
+"ok": false
+},
+{
+"i": 6300,
+"ep": 2921,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 41
+},
+"ok": true
+},
+{
+"i": 6307,
+"ep": 3041,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 6308,
+"ep": 3041,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 164
+},
+"ok": true
+},
+{
+"i": 6310,
+"ep": 3041,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 52
+},
+"ok": true
+},
+{
+"i": 6311,
+"ep": 3061,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 79
+},
+"ok": true
+},
+{
+"i": 6312,
+"ep": 3061,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Natalie Larson"
+},
+"ok": true
+},
+{
+"i": 6313,
+"ep": 3061,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 86
+},
+"ok": true
+},
+{
+"i": 6363,
+"ep": 6312,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 6444,
+"ep": 9335,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 41
+},
+"ok": true
+},
+{
+"i": 6445,
+"ep": 9837,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 94
+},
+"ok": true
+},
+{
+"i": 6446,
+"ep": 9837,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 6476,
+"ep": 11042,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 57
+},
+"ok": true
+},
+{
+"i": 6477,
+"ep": 11042,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 59
+},
+"ok": true
+},
+{
+"i": 6478,
+"ep": 11042,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 34
+},
+"ok": true
+},
+{
+"i": 6610,
+"ep": 16426,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 48
+},
+"ok": true
+},
+{
+"i": 6611,
+"ep": 16426,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 6612,
+"ep": 16426,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 6613,
+"ep": 16527,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 46
+},
+"ok": false
+},
+{
+"i": 6669,
+"ep": 19199,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 83
+},
+"ok": true
+},
+{
+"i": 6670,
+"ep": 19199,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 46
+},
+"ok": false
+},
+{
+"i": 6727,
+"ep": 1302,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 70
+},
+"ok": true
+},
+{
+"i": 6728,
+"ep": 1302,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 70
+},
+"ok": true
+},
+{
+"i": 6729,
+"ep": 1302,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 61
+},
+"ok": true
+},
+{
+"i": 6730,
+"ep": 1482,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 49
+},
+"ok": true
+},
+{
+"i": 6731,
+"ep": 1482,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 56
+},
+"ok": true
+},
+{
+"i": 6732,
+"ep": 1482,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": true
+},
+{
+"i": 6733,
+"ep": 1482,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 36
+},
+"ok": true
+},
+{
+"i": 6802,
+"ep": 5072,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 74
+},
+"ok": true
+},
+{
+"i": 6803,
+"ep": 5072,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 50
+},
+"ok": true
+},
+{
+"i": 6804,
+"ep": 5072,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "evankramer@gmail.com"
+},
+"ok": true
+},
+{
+"i": 6805,
+"ep": 5072,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 165
+},
+"ok": true
+},
+{
+"i": 6806,
+"ep": 5312,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 23
+},
+"ok": false
+},
+{
+"i": 6807,
+"ep": 5312,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 42
+},
+"ok": true
+},
+{
+"i": 6808,
+"ep": 5312,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "dbwscratch.test.id10@gmail.com"
+},
+"ok": true
+},
+{
+"i": 6810,
+"ep": 5332,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Daff Moon"
+},
+"ok": true
+},
+{
+"i": 6821,
+"ep": 6177,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Artsy"
+},
+"ok": true
+},
+{
+"i": 6823,
+"ep": 6177,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Literature"
+},
+"ok": true
+},
+{
+"i": 6824,
+"ep": 6177,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 145
+},
+"ok": true
+},
+{
+"i": 6849,
+"ep": 7878,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 6850,
+"ep": 7878,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 74
+},
+"ok": true
+},
+{
+"i": 6851,
+"ep": 7878,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 124
+},
+"ok": true
+},
+{
+"i": 6852,
+"ep": 7878,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 60
+},
+"ok": false
+},
+{
+"i": 6853,
+"ep": 7878,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 6869,
+"ep": 8740,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 88
+},
+"ok": false
+},
+{
+"i": 6870,
+"ep": 8740,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "yogurt"
+},
+"ok": true
+},
+{
+"i": 6872,
+"ep": 8740,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 80
+},
+"ok": true
+},
+{
+"i": 6873,
+"ep": 8780,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 6874,
+"ep": 8780,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 6875,
+"ep": 8780,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 33
+},
+"ok": false
+},
+{
+"i": 6876,
+"ep": 8780,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Paramedic"
+},
+"ok": true
+},
+{
+"i": 6892,
+"ep": 9320,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "UN News"
+},
+"ok": true
+},
+{
+"i": 6893,
+"ep": 9320,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 71
+},
+"ok": true
+},
+{
+"i": 6894,
+"ep": 9320,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 6895,
+"ep": 9320,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 49
+},
+"ok": true
+},
+{
+"i": 6909,
+"ep": 10223,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 56
+},
+"ok": true
+},
+{
+"i": 6910,
+"ep": 10223,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Coledbwpersonatest@gmail.com"
+},
+"ok": true
+},
+{
+"i": 6982,
+"ep": 13036,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 79
+},
+"ok": true
+},
+{
+"i": 7129,
+"ep": 18983,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Why does India have a substandard drugs problem?"
+},
+"ok": false
+},
+{
+"i": 7130,
+"ep": 18983,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 61
+},
+"ok": true
+},
+{
+"i": 7131,
+"ep": 18983,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 47
+},
+"ok": true
+},
+{
+"i": 7132,
+"ep": 18983,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 58
+},
+"ok": true
+},
+{
+"i": 7133,
+"ep": 18983,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 7140,
+"ep": 19805,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 136
+},
+"ok": true
+},
+{
+"i": 7142,
+"ep": 19805,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 150
+},
+"ok": true
+},
+{
+"i": 7154,
+"ep": 20086,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 40
+},
+"ok": true
+},
+{
+"i": 7160,
+"ep": 318,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7161,
+"ep": 318,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7162,
+"ep": 318,
+"gt": "scroll_up",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": false
+},
+{
+"i": 7163,
+"ep": 318,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7172,
+"ep": 880,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 91
+},
+"ok": true
+},
+{
+"i": 7173,
+"ep": 1381,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Moglix"
+},
+"ok": true
+},
+{
+"i": 7174,
+"ep": 1381,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 73
+},
+"ok": true
+},
+{
+"i": 7175,
+"ep": 1381,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Lock"
+},
+"ok": true
+},
+{
+"i": 7176,
+"ep": 1381,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 54
+},
+"ok": true
+},
+{
+"i": 7210,
+"ep": 2121,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Weather&Radar"
+},
+"ok": true
+},
+{
+"i": 7211,
+"ep": 2121,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 39
+},
+"ok": true
+},
+{
+"i": 7212,
+"ep": 2201,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "MoonX"
+},
+"ok": true
+},
+{
+"i": 7240,
+"ep": 3506,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 42
+},
+"ok": true
+},
+{
+"i": 7241,
+"ep": 3506,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 37
+},
+"ok": true
+},
+{
+"i": 7246,
+"ep": 3747,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 59
+},
+"ok": true
+},
+{
+"i": 7247,
+"ep": 3747,
+"gt": "wait",
+"got": {
+"action_type": "input_text",
+"text": "A_short_history_of_Germany"
+},
+"ok": false
+},
+{
+"i": 7248,
+"ep": 3747,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 59
+},
+"ok": true
+},
+{
+"i": 7249,
+"ep": 3747,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 7256,
+"ep": 4348,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Google News"
+},
+"ok": true
+},
+{
+"i": 7257,
+"ep": 4348,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 53
+},
+"ok": true
+},
+{
+"i": 7258,
+"ep": 4348,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Conjunctivitis symptoms"
+},
+"ok": true
+},
+{
+"i": 7259,
+"ep": 4348,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 144
+},
+"ok": false
+},
+{
+"i": 7290,
+"ep": 5693,
+"gt": "scroll_up",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": true
+},
+{
+"i": 7291,
+"ep": 5693,
+"gt": "scroll_up",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": true
+},
+{
+"i": 7316,
+"ep": 7337,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Phase of the Moon"
+},
+"ok": false
+},
+{
+"i": 7322,
+"ep": 8197,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 75
+},
+"ok": false
+},
+{
+"i": 7323,
+"ep": 8197,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 78
+},
+"ok": false
+},
+{
+"i": 7324,
+"ep": 8197,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 78
+},
+"ok": false
+},
+{
+"i": 7325,
+"ep": 8579,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Phases of the Moon"
+},
+"ok": true
+},
+{
+"i": 7336,
+"ep": 9420,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 43
+},
+"ok": true
+},
+{
+"i": 7337,
+"ep": 9420,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 33
+},
+"ok": true
+},
+{
+"i": 7338,
+"ep": 9420,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 40
+},
+"ok": false
+},
+{
+"i": 7339,
+"ep": 9420,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 48
+},
+"ok": true
+},
+{
+"i": 7340,
+"ep": 9420,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 41
+},
+"ok": false
+},
+{
+"i": 7416,
+"ep": 12594,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": true
+},
+{
+"i": 7417,
+"ep": 12594,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 95
+},
+"ok": true
+},
+{
+"i": 7418,
+"ep": 12594,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 87
+},
+"ok": true
+},
+{
+"i": 7453,
+"ep": 14562,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 75
+},
+"ok": true
+},
+{
+"i": 7454,
+"ep": 14562,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7455,
+"ep": 14562,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7456,
+"ep": 14562,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7508,
+"ep": 16169,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 58
+},
+"ok": true
+},
+{
+"i": 7509,
+"ep": 16169,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 38
+},
+"ok": true
+},
+{
+"i": 7510,
+"ep": 16169,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "New York"
+},
+"ok": true
+},
+{
+"i": 7512,
+"ep": 16491,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "My Moon Phase"
+},
+"ok": true
+},
+{
+"i": 7513,
+"ep": 16491,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_up"
+},
+"ok": false
+},
+{
+"i": 7526,
+"ep": 17136,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "PressReader"
+},
+"ok": true
+},
+{
+"i": 7527,
+"ep": 17136,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 101
+},
+"ok": true
+},
+{
+"i": 7528,
+"ep": 17136,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Saudis to host Ukraine peace summit"
+},
+"ok": true
+},
+{
+"i": 7529,
+"ep": 17136,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 145
+},
+"ok": true
+},
+{
+"i": 7530,
+"ep": 17136,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 7540,
+"ep": 17517,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 43
+},
+"ok": true
+},
+{
+"i": 7559,
+"ep": 18741,
+"gt": "scroll_left",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": false
+},
+{
+"i": 7560,
+"ep": 18741,
+"gt": "scroll_left",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": false
+},
+{
+"i": 7695,
+"ep": 6555,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 55
+},
+"ok": true
+},
+{
+"i": 7697,
+"ep": 6555,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 169
+},
+"ok": true
+},
+{
+"i": 7698,
+"ep": 6876,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Easy Voice Recorder"
+},
+"ok": true
+},
+{
+"i": 7742,
+"ep": 8898,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 46
+},
+"ok": true
+},
+{
+"i": 7743,
+"ep": 8898,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 45
+},
+"ok": true
+},
+{
+"i": 7744,
+"ep": 8898,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 78
+},
+"ok": false
+},
+{
+"i": 7745,
+"ep": 8898,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 55
+},
+"ok": true
+},
+{
+"i": 7746,
+"ep": 8898,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 190
+},
+"ok": true
+},
+{
+"i": 7753,
+"ep": 9298,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 37
+},
+"ok": true
+},
+{
+"i": 7845,
+"ep": 12653,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7865,
+"ep": 13554,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7866,
+"ep": 13554,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 52
+},
+"ok": true
+},
+{
+"i": 7867,
+"ep": 13554,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7870,
+"ep": 13554,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7871,
+"ep": 13554,
+"gt": "scroll_right",
+"got": {
+"action_type": "scroll_right"
+},
+"ok": true
+},
+{
+"i": 7872,
+"ep": 13554,
+"gt": "scroll_right",
+"got": {
+"action_type": "scroll_right"
+},
+"ok": true
+},
+{
+"i": 7874,
+"ep": 13697,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Nike"
+},
+"ok": true
+},
+{
+"i": 7876,
+"ep": 13697,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 38
+},
+"ok": true
+},
+{
+"i": 7877,
+"ep": 13697,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 38
+},
+"ok": true
+},
+{
+"i": 7878,
+"ep": 13697,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Women sneakers"
+},
+"ok": true
+},
+{
+"i": 7879,
+"ep": 13697,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 128
+},
+"ok": true
+},
+{
+"i": 7880,
+"ep": 14178,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7881,
+"ep": 14178,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7882,
+"ep": 14178,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7883,
+"ep": 14178,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7884,
+"ep": 14178,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 7886,
+"ep": 14178,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 7890,
+"ep": 14259,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 82
+},
+"ok": true
+},
+{
+"i": 7913,
+"ep": 15063,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Artsy"
+},
+"ok": true
+},
+{
+"i": 7914,
+"ep": 15063,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 29
+},
+"ok": true
+},
+{
+"i": 7916,
+"ep": 15063,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Art work"
+},
+"ok": true
+},
+{
+"i": 7917,
+"ep": 15063,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 161
+},
+"ok": false
+},
+{
+"i": 7931,
+"ep": 15244,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 48
+},
+"ok": true
+},
+{
+"i": 7932,
+"ep": 15244,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 54
+},
+"ok": true
+},
+{
+"i": 7933,
+"ep": 15244,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 27
+},
+"ok": true
+},
+{
+"i": 7934,
+"ep": 15244,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 34
+},
+"ok": true
+},
+{
+"i": 7940,
+"ep": 15425,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Arts & Culture"
+},
+"ok": true
+},
+{
+"i": 7941,
+"ep": 15425,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 48
+},
+"ok": true
+},
+{
+"i": 7942,
+"ep": 15425,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Literature"
+},
+"ok": true
+},
+{
+"i": 7943,
+"ep": 15425,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 74
+},
+"ok": true
+},
+{
+"i": 7995,
+"ep": 19602,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 37
+},
+"ok": true
+},
+{
+"i": 8005,
+"ep": 300,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"i": 8006,
+"ep": 300,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 39
+},
+"ok": true
+},
+{
+"i": 8008,
+"ep": 300,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 44
+},
+"ok": true
+},
+{
+"i": 8030,
+"ep": 2947,
+"gt": "scroll_left",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": false
+},
+{
+"i": 8045,
+"ep": 4190,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 115
+},
+"ok": true
+},
+{
+"i": 8046,
+"ep": 4190,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 85
+},
+"ok": true
+},
+{
+"i": 8047,
+"ep": 4190,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 57
+},
+"ok": true
+},
+{
+"i": 8048,
+"ep": 4190,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 67
+},
+"ok": true
+},
+{
+"i": 8049,
+"ep": 4190,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 49
+},
+"ok": true
+},
+{
+"i": 8080,
+"ep": 5956,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 96
+},
+"ok": true
+},
+{
+"i": 8181,
+"ep": 7999,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 66
+},
+"ok": true
+},
+{
+"i": 8182,
+"ep": 7999,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 77
+},
+"ok": true
+},
+{
+"i": 8246,
+"ep": 11450,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 71
+},
+"ok": true
+},
+{
+"i": 8258,
+"ep": 11550,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 33
+},
+"ok": true
+},
+{
+"i": 8259,
+"ep": 11550,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 55
+},
+"ok": true
+},
+{
+"i": 8291,
+"ep": 14403,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 61
+},
+"ok": true
+},
+{
+"i": 8292,
+"ep": 14764,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Google News"
+},
+"ok": true
+},
+{
+"i": 8293,
+"ep": 14764,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 65
+},
+"ok": false
+},
+{
+"i": 8295,
+"ep": 14764,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 53
+},
+"ok": true
+},
+{
+"i": 8296,
+"ep": 14764,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "dbwscratch.test.id3@gmail.com"
+},
+"ok": true
+},
+{
+"i": 8297,
+"ep": 14764,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 180
+},
+"ok": false
+},
+{
+"i": 8298,
+"ep": 14764,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 165
+},
+"ok": true
+},
+{
+"i": 8300,
+"ep": 14804,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"i": 8301,
+"ep": 14804,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 65
+},
+"ok": true
+},
+{
+"i": 8303,
+"ep": 14804,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 143
+},
+"ok": true
+},
+{
+"i": 8335,
+"ep": 16614,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Maps"
+},
+"ok": true
+},
+{
+"i": 8336,
+"ep": 16614,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 78
+},
+"ok": true
+},
+{
+"i": 8337,
+"ep": 16614,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Moody Gardens"
+},
+"ok": true
+},
+{
+"i": 8338,
+"ep": 16614,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 49
+},
+"ok": true
+},
+{
+"i": 8339,
+"ep": 16614,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 57
+},
+"ok": true
+},
+{
+"i": 8340,
+"ep": 16614,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 51
+},
+"ok": true
+},
+{
+"i": 8341,
+"ep": 16614,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Galveston 77550"
+},
+"ok": true
+},
+{
+"i": 8357,
+"ep": 17258,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 77
+},
+"ok": true
+},
+{
+"i": 8358,
+"ep": 17258,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 58
+},
+"ok": true
+},
+{
+"i": 8359,
+"ep": 17258,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 59
+},
+"ok": true
+},
+{
+"i": 8396,
+"ep": 18703,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "Lazada"
+},
+"ok": true
+},
+{
+"i": 8397,
+"ep": 18703,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 187
+},
+"ok": true
+},
+{
+"i": 8398,
+"ep": 18703,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Nike sports shoes"
+},
+"ok": true
+},
+{
+"i": 8399,
+"ep": 18703,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 107
+},
+"ok": true
+},
+{
+"i": 8425,
+"ep": 19585,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 20
+},
+"ok": true
+},
+{
+"i": 8426,
+"ep": 19585,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 48
+},
+"ok": true
+},
+{
+"i": 8427,
+"ep": 19585,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Shanesato10@gmail.com"
+},
+"ok": true
+},
+{
+"i": 8428,
+"ep": 19585,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 155
+},
+"ok": true
+},
+{
+"i": 8429,
+"ep": 19666,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 8430,
+"ep": 19666,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 8431,
+"ep": 19666,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 8432,
+"ep": 19666,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"i": 8433,
+"ep": 19766,
+"gt": "open_app",
+"got": {
+"action_type": "open_app",
+"app_name": "My Moon Phase"
+},
+"ok": true
+},
+{
+"i": 8437,
+"ep": 19906,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 57
+},
+"ok": true
+},
+{
+"i": 8438,
+"ep": 19906,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 51
+},
+"ok": true
+}
+]
+}

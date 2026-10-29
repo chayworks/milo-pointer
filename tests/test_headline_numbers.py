@@ -59,3 +59,9 @@ def test_routing_to_haiku_does_not_reach_opus():
 
 def test_reproduce_script_runs():
     subprocess.run(["bash", str(ROOT / "reproduce.sh")], check=True, capture_output=True)
+
+
+def test_confirmatory_learned_router_beats_opus():
+    """AC-LearnedRouter: frozen learned rule on the last 650 unused test steps."""
+    out = subprocess.run([sys.executable, str(ROOT / "bench/ac_confirm_score.py")], check=True, capture_output=True, text=True).stdout
+    assert "cascade 599/650  Opus alone 581" in out and "H-LR1 (better than Opus alone): SUPPORTED" in out
