@@ -1,0 +1,15990 @@
+{
+"seed": 20261029,
+"tau": 0.9842157616263094,
+"rows": [
+{
+"k": 0,
+"ep": 5900,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9978122711181641,
+"local": true,
+"top5": [
+62,
+61,
+36,
+37,
+60
+],
+"gold_in_top5": null
+},
+{
+"k": 1,
+"ep": 5900,
+"gt": "click",
+"ok": true,
+"conf": 0.3600166731156431,
+"local": false,
+"top5": [
+41,
+38,
+42,
+82,
+101
+],
+"gold_in_top5": true
+},
+{
+"k": 4,
+"ep": 5900,
+"gt": "wait",
+"ok": true,
+"conf": 0.9993114471435547,
+"local": true,
+"top5": [
+92,
+40,
+44,
+69,
+38
+],
+"gold_in_top5": null
+},
+{
+"k": 6,
+"ep": 5900,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9981774091720581,
+"local": true,
+"top5": [
+87,
+70,
+98,
+100,
+104
+],
+"gold_in_top5": null
+},
+{
+"k": 7,
+"ep": 5940,
+"gt": "click",
+"ok": false,
+"conf": 0.33155740610571627,
+"local": false,
+"top5": [
+34,
+32,
+29,
+37,
+39
+],
+"gold_in_top5": true
+},
+{
+"k": 8,
+"ep": 5940,
+"gt": "click",
+"ok": true,
+"conf": 0.9854822316316607,
+"local": true,
+"top5": [
+58,
+46,
+67,
+35,
+56
+],
+"gold_in_top5": true
+},
+{
+"k": 9,
+"ep": 5940,
+"gt": "click",
+"ok": true,
+"conf": 0.9997475880221174,
+"local": true,
+"top5": [
+26,
+25,
+23,
+68,
+21
+],
+"gold_in_top5": true
+},
+{
+"k": 20,
+"ep": 5980,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9997557997703552,
+"local": true,
+"top5": [
+39,
+31,
+26,
+27,
+36
+],
+"gold_in_top5": null
+},
+{
+"k": 21,
+"ep": 5980,
+"gt": "click",
+"ok": false,
+"conf": 0.9395061625188816,
+"local": false,
+"top5": [
+39,
+37,
+40,
+38,
+54
+],
+"gold_in_top5": true
+},
+{
+"k": 22,
+"ep": 5980,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9987959861755371,
+"local": true,
+"top5": [
+160,
+181,
+159,
+163,
+157
+],
+"gold_in_top5": null
+},
+{
+"k": 23,
+"ep": 5980,
+"gt": "click",
+"ok": true,
+"conf": 0.9968985396475993,
+"local": true,
+"top5": [
+180,
+181,
+162,
+168,
+157
+],
+"gold_in_top5": true
+},
+{
+"k": 24,
+"ep": 5980,
+"gt": "click",
+"ok": true,
+"conf": 0.9992718056836125,
+"local": true,
+"top5": [
+39,
+38,
+55,
+75,
+40
+],
+"gold_in_top5": true
+},
+{
+"k": 25,
+"ep": 5980,
+"gt": "click",
+"ok": true,
+"conf": 0.9988539757385837,
+"local": true,
+"top5": [
+54,
+52,
+53,
+44,
+56
+],
+"gold_in_top5": true
+},
+{
+"k": 26,
+"ep": 5980,
+"gt": "click",
+"ok": true,
+"conf": 0.9992500021268569,
+"local": true,
+"top5": [
+36,
+28,
+37,
+25,
+29
+],
+"gold_in_top5": true
+},
+{
+"k": 27,
+"ep": 5980,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9983798265457153,
+"local": true,
+"top5": [
+54,
+42,
+44,
+29,
+41
+],
+"gold_in_top5": null
+},
+{
+"k": 28,
+"ep": 5980,
+"gt": "click",
+"ok": true,
+"conf": 0.9979188416223224,
+"local": true,
+"top5": [
+67,
+66,
+65,
+64,
+70
+],
+"gold_in_top5": true
+},
+{
+"k": 29,
+"ep": 5980,
+"gt": "click",
+"ok": true,
+"conf": 0.9956977786353463,
+"local": true,
+"top5": [
+44,
+76,
+72,
+75,
+46
+],
+"gold_in_top5": true
+},
+{
+"k": 30,
+"ep": 5980,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9982832670211792,
+"local": true,
+"top5": [
+78,
+38,
+59,
+39,
+86
+],
+"gold_in_top5": null
+},
+{
+"k": 48,
+"ep": 12460,
+"gt": "click",
+"ok": true,
+"conf": 0.9991794314560991,
+"local": true,
+"top5": [
+44,
+41,
+43,
+59,
+61
+],
+"gold_in_top5": true
+},
+{
+"k": 73,
+"ep": 12540,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9997044205665588,
+"local": true,
+"top5": [
+76,
+52,
+49,
+46,
+64
+],
+"gold_in_top5": null
+},
+{
+"k": 74,
+"ep": 12540,
+"gt": "click",
+"ok": true,
+"conf": 0.9990502224664368,
+"local": true,
+"top5": [
+85,
+87,
+98,
+93,
+94
+],
+"gold_in_top5": true
+},
+{
+"k": 75,
+"ep": 12540,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9982849955558777,
+"local": true,
+"top5": [
+206,
+207,
+205,
+188,
+191
+],
+"gold_in_top5": null
+},
+{
+"k": 79,
+"ep": 12540,
+"gt": "click",
+"ok": true,
+"conf": 0.9624990150987287,
+"local": false,
+"top5": [
+186,
+187,
+177,
+185,
+188
+],
+"gold_in_top5": true
+},
+{
+"k": 80,
+"ep": 12540,
+"gt": "click",
+"ok": false,
+"conf": 0.6196539088733743,
+"local": false,
+"top5": [
+95,
+94,
+86,
+88,
+101
+],
+"gold_in_top5": true
+},
+{
+"k": 81,
+"ep": 12540,
+"gt": "click",
+"ok": true,
+"conf": 0.696851529769134,
+"local": false,
+"top5": [
+67,
+52,
+64,
+62,
+59
+],
+"gold_in_top5": true
+},
+{
+"k": 91,
+"ep": 12580,
+"gt": "click",
+"ok": true,
+"conf": 0.9955353036719607,
+"local": true,
+"top5": [
+30,
+26,
+29,
+25,
+12
+],
+"gold_in_top5": true
+},
+{
+"k": 93,
+"ep": 12620,
+"gt": "click",
+"ok": true,
+"conf": 0.998877720776747,
+"local": true,
+"top5": [
+52,
+56,
+54,
+53,
+61
+],
+"gold_in_top5": true
+},
+{
+"k": 95,
+"ep": 12620,
+"gt": "click",
+"ok": true,
+"conf": 0.9949083901385549,
+"local": true,
+"top5": [
+100,
+83,
+85,
+86,
+65
+],
+"gold_in_top5": true
+},
+{
+"k": 96,
+"ep": 12620,
+"gt": "click",
+"ok": true,
+"conf": 0.9997478220037834,
+"local": true,
+"top5": [
+41,
+42,
+43,
+40,
+39
+],
+"gold_in_top5": true
+},
+{
+"k": 97,
+"ep": 12620,
+"gt": "click",
+"ok": true,
+"conf": 0.9894047051427464,
+"local": true,
+"top5": [
+58,
+48,
+109,
+57,
+46
+],
+"gold_in_top5": true
+},
+{
+"k": 106,
+"ep": 12660,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9997910857200623,
+"local": true,
+"top5": [
+37,
+48,
+31,
+65,
+57
+],
+"gold_in_top5": null
+},
+{
+"k": 107,
+"ep": 12660,
+"gt": "click",
+"ok": true,
+"conf": 0.9859969470799612,
+"local": true,
+"top5": [
+126,
+125,
+123,
+124,
+130
+],
+"gold_in_top5": true
+},
+{
+"k": 108,
+"ep": 12660,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9988760352134705,
+"local": true,
+"top5": [
+169,
+193,
+178,
+168,
+179
+],
+"gold_in_top5": null
+},
+{
+"k": 110,
+"ep": 12700,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9998157620429993,
+"local": true,
+"top5": [
+33,
+40,
+47,
+48,
+45
+],
+"gold_in_top5": null
+},
+{
+"k": 111,
+"ep": 12700,
+"gt": "click",
+"ok": true,
+"conf": 0.9994437678862553,
+"local": true,
+"top5": [
+33,
+38,
+39,
+25,
+32
+],
+"gold_in_top5": true
+},
+{
+"k": 113,
+"ep": 12700,
+"gt": "click",
+"ok": true,
+"conf": 0.9996075361204149,
+"local": true,
+"top5": [
+54,
+129,
+67,
+126,
+36
+],
+"gold_in_top5": true
+},
+{
+"k": 114,
+"ep": 12700,
+"gt": "click",
+"ok": true,
+"conf": 0.9996603409801423,
+"local": true,
+"top5": [
+32,
+37,
+31,
+30,
+36
+],
+"gold_in_top5": true
+},
+{
+"k": 139,
+"ep": 17020,
+"gt": "click",
+"ok": true,
+"conf": 0.9543618110062546,
+"local": false,
+"top5": [
+215,
+233,
+125,
+145,
+234
+],
+"gold_in_top5": true
+},
+{
+"k": 146,
+"ep": 6140,
+"gt": "click",
+"ok": true,
+"conf": 0.9988051191962555,
+"local": true,
+"top5": [
+59,
+63,
+57,
+58,
+41
+],
+"gold_in_top5": true
+},
+{
+"k": 147,
+"ep": 6140,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9984303116798401,
+"local": true,
+"top5": [
+62,
+41,
+58,
+54,
+68
+],
+"gold_in_top5": null
+},
+{
+"k": 155,
+"ep": 6220,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9995787739753723,
+"local": true,
+"top5": [
+62,
+54,
+59,
+67,
+55
+],
+"gold_in_top5": null
+},
+{
+"k": 156,
+"ep": 6220,
+"gt": "click",
+"ok": true,
+"conf": 0.9996491361009987,
+"local": true,
+"top5": [
+110,
+108,
+52,
+92,
+86
+],
+"gold_in_top5": true
+},
+{
+"k": 162,
+"ep": 6260,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9977715015411377,
+"local": true,
+"top5": [
+134,
+127,
+99,
+80,
+72
+],
+"gold_in_top5": null
+},
+{
+"k": 163,
+"ep": 6260,
+"gt": "click",
+"ok": true,
+"conf": 0.2435257131330033,
+"local": false,
+"top5": [
+147,
+136,
+80,
+118,
+104
+],
+"gold_in_top5": true
+},
+{
+"k": 169,
+"ep": 6260,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9971784353256226,
+"local": true,
+"top5": [
+61,
+55,
+35,
+64,
+62
+],
+"gold_in_top5": null
+},
+{
+"k": 170,
+"ep": 6260,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9975135326385498,
+"local": true,
+"top5": [
+47,
+49,
+55,
+48,
+53
+],
+"gold_in_top5": null
+},
+{
+"k": 171,
+"ep": 6260,
+"gt": "click",
+"ok": true,
+"conf": 0.9973342991145593,
+"local": true,
+"top5": [
+64,
+53,
+54,
+52,
+51
+],
+"gold_in_top5": true
+},
+{
+"k": 173,
+"ep": 6260,
+"gt": "click",
+"ok": true,
+"conf": 0.5740885100723077,
+"local": false,
+"top5": [
+56,
+49,
+50,
+38,
+58
+],
+"gold_in_top5": true
+},
+{
+"k": 174,
+"ep": 6260,
+"gt": "input_text",
+"ok": false,
+"conf": 0.9166028499603271,
+"local": false,
+"top5": [
+185,
+179,
+181,
+178,
+167
+],
+"gold_in_top5": null
+},
+{
+"k": 175,
+"ep": 6260,
+"gt": "click",
+"ok": true,
+"conf": 0.9990991105625255,
+"local": true,
+"top5": [
+179,
+178,
+185,
+180,
+181
+],
+"gold_in_top5": true
+},
+{
+"k": 176,
+"ep": 6260,
+"gt": "wait",
+"ok": true,
+"conf": 0.9500085711479187,
+"local": false,
+"top5": [
+179,
+178,
+185,
+89,
+136
+],
+"gold_in_top5": null
+},
+{
+"k": 177,
+"ep": 6260,
+"gt": "click",
+"ok": true,
+"conf": 0.9994653259484494,
+"local": true,
+"top5": [
+43,
+42,
+38,
+40,
+39
+],
+"gold_in_top5": true
+},
+{
+"k": 185,
+"ep": 6300,
+"gt": "click",
+"ok": true,
+"conf": 0.9989145966122805,
+"local": true,
+"top5": [
+47,
+64,
+48,
+46,
+57
+],
+"gold_in_top5": true
+},
+{
+"k": 186,
+"ep": 6300,
+"gt": "click",
+"ok": true,
+"conf": 0.9991386120132439,
+"local": true,
+"top5": [
+33,
+32,
+23,
+24,
+25
+],
+"gold_in_top5": true
+},
+{
+"k": 188,
+"ep": 6300,
+"gt": "click",
+"ok": true,
+"conf": 0.9983069900383974,
+"local": true,
+"top5": [
+28,
+34,
+64,
+69,
+49
+],
+"gold_in_top5": true
+},
+{
+"k": 190,
+"ep": 6340,
+"gt": "click",
+"ok": true,
+"conf": 0.9988843305023565,
+"local": true,
+"top5": [
+39,
+55,
+34,
+52,
+44
+],
+"gold_in_top5": true
+},
+{
+"k": 198,
+"ep": 6380,
+"gt": "scroll",
+"ok": true,
+"conf": 0.996505618095398,
+"local": true,
+"top5": [
+95,
+103,
+106,
+119,
+118
+],
+"gold_in_top5": null
+},
+{
+"k": 208,
+"ep": 6420,
+"gt": "click",
+"ok": true,
+"conf": 0.9972345050233073,
+"local": true,
+"top5": [
+51,
+47,
+48,
+50,
+49
+],
+"gold_in_top5": true
+},
+{
+"k": 221,
+"ep": 6540,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9974945783615112,
+"local": true,
+"top5": [
+58,
+70,
+59,
+81,
+105
+],
+"gold_in_top5": null
+},
+{
+"k": 222,
+"ep": 6540,
+"gt": "wait",
+"ok": false,
+"conf": 0.9865952730178833,
+"local": true,
+"top5": [
+61,
+64,
+66,
+63,
+65
+],
+"gold_in_top5": null
+},
+{
+"k": 223,
+"ep": 6540,
+"gt": "click",
+"ok": true,
+"conf": 0.9956541212887302,
+"local": true,
+"top5": [
+78,
+61,
+65,
+230,
+76
+],
+"gold_in_top5": true
+},
+{
+"k": 224,
+"ep": 6540,
+"gt": "click",
+"ok": true,
+"conf": 0.9995965417264756,
+"local": true,
+"top5": [
+50,
+53,
+51,
+52,
+54
+],
+"gold_in_top5": true
+},
+{
+"k": 232,
+"ep": 6580,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9989044666290283,
+"local": true,
+"top5": [
+55,
+87,
+58,
+89,
+88
+],
+"gold_in_top5": null
+},
+{
+"k": 244,
+"ep": 6620,
+"gt": "click",
+"ok": false,
+"conf": 0.5376979418729206,
+"local": false,
+"top5": [
+68,
+52,
+67,
+75,
+58
+],
+"gold_in_top5": true
+},
+{
+"k": 246,
+"ep": 6660,
+"gt": "click",
+"ok": true,
+"conf": 0.9970290867824474,
+"local": true,
+"top5": [
+121,
+122,
+120,
+105,
+123
+],
+"gold_in_top5": true
+},
+{
+"k": 247,
+"ep": 6660,
+"gt": "click",
+"ok": true,
+"conf": 0.982593493780417,
+"local": false,
+"top5": [
+98,
+99,
+92,
+97,
+96
+],
+"gold_in_top5": true
+},
+{
+"k": 249,
+"ep": 6660,
+"gt": "click",
+"ok": true,
+"conf": 0.9554309680780726,
+"local": false,
+"top5": [
+102,
+94,
+103,
+114,
+98
+],
+"gold_in_top5": true
+},
+{
+"k": 250,
+"ep": 6660,
+"gt": "click",
+"ok": true,
+"conf": 0.9995952571333362,
+"local": true,
+"top5": [
+116,
+101,
+92,
+95,
+93
+],
+"gold_in_top5": true
+},
+{
+"k": 253,
+"ep": 6700,
+"gt": "click",
+"ok": true,
+"conf": 0.9578948892812384,
+"local": false,
+"top5": [
+33,
+38,
+86,
+48,
+89
+],
+"gold_in_top5": true
+},
+{
+"k": 254,
+"ep": 6700,
+"gt": "wait",
+"ok": true,
+"conf": 0.9989179372787476,
+"local": true,
+"top5": [
+41,
+34,
+36,
+56,
+65
+],
+"gold_in_top5": null
+},
+{
+"k": 258,
+"ep": 6820,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9969525337219238,
+"local": true,
+"top5": [
+45,
+39,
+40,
+41,
+34
+],
+"gold_in_top5": null
+},
+{
+"k": 260,
+"ep": 6820,
+"gt": "click",
+"ok": true,
+"conf": 0.9992080698498995,
+"local": true,
+"top5": [
+63,
+58,
+62,
+56,
+55
+],
+"gold_in_top5": true
+},
+{
+"k": 261,
+"ep": 6820,
+"gt": "click",
+"ok": true,
+"conf": 0.740873190644642,
+"local": false,
+"top5": [
+40,
+39,
+38,
+37,
+44
+],
+"gold_in_top5": true
+},
+{
+"k": 263,
+"ep": 13620,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9989373087882996,
+"local": true,
+"top5": [
+42,
+58,
+59,
+56,
+30
+],
+"gold_in_top5": null
+},
+{
+"k": 264,
+"ep": 13620,
+"gt": "click",
+"ok": true,
+"conf": 0.9944310556485725,
+"local": true,
+"top5": [
+42,
+30,
+71,
+50,
+36
+],
+"gold_in_top5": true
+},
+{
+"k": 265,
+"ep": 13620,
+"gt": "click",
+"ok": true,
+"conf": 0.9995689850680343,
+"local": true,
+"top5": [
+44,
+43,
+41,
+45,
+46
+],
+"gold_in_top5": true
+},
+{
+"k": 266,
+"ep": 13620,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9990430474281311,
+"local": true,
+"top5": [
+171,
+166,
+172,
+168,
+90
+],
+"gold_in_top5": null
+},
+{
+"k": 269,
+"ep": 17060,
+"gt": "click",
+"ok": true,
+"conf": 0.9997735151723646,
+"local": true,
+"top5": [
+29,
+28,
+33,
+30,
+32
+],
+"gold_in_top5": true
+},
+{
+"k": 270,
+"ep": 17060,
+"gt": "click",
+"ok": false,
+"conf": 0.4858344761419442,
+"local": false,
+"top5": [
+32,
+31,
+27,
+34,
+33
+],
+"gold_in_top5": true
+},
+{
+"k": 272,
+"ep": 17060,
+"gt": "click",
+"ok": true,
+"conf": 0.996435985991333,
+"local": true,
+"top5": [
+30,
+22,
+21,
+23,
+24
+],
+"gold_in_top5": true
+},
+{
+"k": 273,
+"ep": 17060,
+"gt": "click",
+"ok": true,
+"conf": 0.6965837112782083,
+"local": false,
+"top5": [
+87,
+34,
+54,
+161,
+160
+],
+"gold_in_top5": true
+},
+{
+"k": 274,
+"ep": 17060,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9989328980445862,
+"local": true,
+"top5": [
+162,
+159,
+161,
+160,
+87
+],
+"gold_in_top5": null
+},
+{
+"k": 280,
+"ep": 17100,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9998059868812561,
+"local": true,
+"top5": [
+34,
+37,
+40,
+39,
+33
+],
+"gold_in_top5": null
+},
+{
+"k": 281,
+"ep": 17100,
+"gt": "wait",
+"ok": true,
+"conf": 0.9993096590042114,
+"local": true,
+"top5": [
+11,
+17,
+14,
+18,
+23
+],
+"gold_in_top5": null
+},
+{
+"k": 282,
+"ep": 17100,
+"gt": "click",
+"ok": true,
+"conf": 0.985960456651295,
+"local": true,
+"top5": [
+36,
+29,
+69,
+38,
+70
+],
+"gold_in_top5": true
+},
+{
+"k": 296,
+"ep": 17140,
+"gt": "click",
+"ok": true,
+"conf": 0.8063029168233413,
+"local": false,
+"top5": [
+103,
+72,
+104,
+105,
+150
+],
+"gold_in_top5": true
+},
+{
+"k": 297,
+"ep": 17140,
+"gt": "wait",
+"ok": true,
+"conf": 0.9966344237327576,
+"local": true,
+"top5": [
+36,
+34,
+11,
+35,
+14
+],
+"gold_in_top5": null
+},
+{
+"k": 298,
+"ep": 17140,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9975524544715881,
+"local": true,
+"top5": [
+79,
+70,
+80,
+77,
+76
+],
+"gold_in_top5": null
+},
+{
+"k": 299,
+"ep": 17140,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9968500733375549,
+"local": true,
+"top5": [
+77,
+52,
+78,
+71,
+36
+],
+"gold_in_top5": null
+},
+{
+"k": 315,
+"ep": 17260,
+"gt": "click",
+"ok": true,
+"conf": 0.9989259401133666,
+"local": true,
+"top5": [
+142,
+58,
+147,
+141,
+157
+],
+"gold_in_top5": true
+},
+{
+"k": 316,
+"ep": 6060,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9991310238838196,
+"local": true,
+"top5": [
+23,
+22,
+24,
+32,
+31
+],
+"gold_in_top5": null
+},
+{
+"k": 317,
+"ep": 6060,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9726506471633911,
+"local": false,
+"top5": [
+40,
+25,
+45,
+46,
+49
+],
+"gold_in_top5": null
+},
+{
+"k": 318,
+"ep": 6060,
+"gt": "click",
+"ok": true,
+"conf": 0.9980112769586995,
+"local": true,
+"top5": [
+36,
+37,
+43,
+50,
+61
+],
+"gold_in_top5": true
+},
+{
+"k": 320,
+"ep": 6060,
+"gt": "click",
+"ok": true,
+"conf": 0.9996288167170171,
+"local": true,
+"top5": [
+55,
+155,
+68,
+130,
+54
+],
+"gold_in_top5": true
+},
+{
+"k": 323,
+"ep": 6100,
+"gt": "click",
+"ok": false,
+"conf": 0.7025108607013308,
+"local": false,
+"top5": [
+39,
+38,
+63,
+40,
+64
+],
+"gold_in_top5": false
+},
+{
+"k": 324,
+"ep": 6100,
+"gt": "click",
+"ok": true,
+"conf": 0.9988750397772108,
+"local": true,
+"top5": [
+43,
+42,
+54,
+46,
+29
+],
+"gold_in_top5": true
+},
+{
+"k": 325,
+"ep": 6100,
+"gt": "click",
+"ok": false,
+"conf": 0.9084896445274353,
+"local": false,
+"top5": [
+39,
+40,
+38,
+66,
+65
+],
+"gold_in_top5": false
+},
+{
+"k": 326,
+"ep": 6100,
+"gt": "input_text",
+"ok": false,
+"conf": 0.996368408203125,
+"local": true,
+"top5": [
+199,
+197,
+189,
+168,
+187
+],
+"gold_in_top5": null
+},
+{
+"k": 327,
+"ep": 6100,
+"gt": "click",
+"ok": false,
+"conf": 0.630859334097579,
+"local": false,
+"top5": [
+160,
+159,
+161,
+185,
+193
+],
+"gold_in_top5": true
+},
+{
+"k": 328,
+"ep": 6100,
+"gt": "wait",
+"ok": false,
+"conf": 0.3185656164827222,
+"local": false,
+"top5": [
+36,
+35,
+34,
+52,
+65
+],
+"gold_in_top5": null
+},
+{
+"k": 338,
+"ep": 12820,
+"gt": "click",
+"ok": true,
+"conf": 0.9990336779372022,
+"local": true,
+"top5": [
+64,
+46,
+162,
+180,
+255
+],
+"gold_in_top5": true
+},
+{
+"k": 351,
+"ep": 12940,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9407362341880798,
+"local": false,
+"top5": [
+100,
+96,
+99,
+43,
+93
+],
+"gold_in_top5": null
+},
+{
+"k": 366,
+"ep": 13140,
+"gt": "click",
+"ok": true,
+"conf": 0.6718201993802779,
+"local": false,
+"top5": [
+102,
+110,
+96,
+125,
+115
+],
+"gold_in_top5": true
+},
+{
+"k": 380,
+"ep": 13220,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9990334510803223,
+"local": true,
+"top5": [
+41,
+30,
+58,
+45,
+57
+],
+"gold_in_top5": null
+},
+{
+"k": 381,
+"ep": 13220,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9911717772483826,
+"local": true,
+"top5": [
+32,
+115,
+121,
+116,
+49
+],
+"gold_in_top5": null
+},
+{
+"k": 383,
+"ep": 13220,
+"gt": "click",
+"ok": true,
+"conf": 0.9968082671023382,
+"local": true,
+"top5": [
+62,
+73,
+74,
+55,
+72
+],
+"gold_in_top5": true
+},
+{
+"k": 384,
+"ep": 13220,
+"gt": "click",
+"ok": true,
+"conf": 0.9995982439736295,
+"local": true,
+"top5": [
+57,
+58,
+49,
+68,
+55
+],
+"gold_in_top5": true
+},
+{
+"k": 388,
+"ep": 13220,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9919707775115967,
+"local": true,
+"top5": [
+74,
+110,
+72,
+84,
+170
+],
+"gold_in_top5": null
+},
+{
+"k": 410,
+"ep": 13340,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9983483552932739,
+"local": true,
+"top5": [
+57,
+56,
+30,
+53,
+31
+],
+"gold_in_top5": null
+},
+{
+"k": 411,
+"ep": 13340,
+"gt": "click",
+"ok": true,
+"conf": 0.9777461355114099,
+"local": false,
+"top5": [
+63,
+64,
+61,
+62,
+60
+],
+"gold_in_top5": true
+},
+{
+"k": 414,
+"ep": 13340,
+"gt": "click",
+"ok": true,
+"conf": 0.7293753564264165,
+"local": false,
+"top5": [
+45,
+50,
+61,
+55,
+62
+],
+"gold_in_top5": true
+},
+{
+"k": 415,
+"ep": 13340,
+"gt": "click",
+"ok": true,
+"conf": 0.9865094028046428,
+"local": true,
+"top5": [
+47,
+53,
+54,
+55,
+61
+],
+"gold_in_top5": true
+},
+{
+"k": 423,
+"ep": 13420,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.998792290687561,
+"local": true,
+"top5": [
+48,
+45,
+66,
+40,
+41
+],
+"gold_in_top5": null
+},
+{
+"k": 424,
+"ep": 13420,
+"gt": "click",
+"ok": true,
+"conf": 0.9986287317459563,
+"local": true,
+"top5": [
+55,
+53,
+56,
+57,
+52
+],
+"gold_in_top5": true
+},
+{
+"k": 428,
+"ep": 13460,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9991105198860168,
+"local": true,
+"top5": [
+48,
+61,
+47,
+44,
+49
+],
+"gold_in_top5": null
+},
+{
+"k": 429,
+"ep": 13460,
+"gt": "click",
+"ok": true,
+"conf": 0.9990912492713449,
+"local": true,
+"top5": [
+47,
+50,
+54,
+55,
+48
+],
+"gold_in_top5": true
+},
+{
+"k": 431,
+"ep": 13460,
+"gt": "click",
+"ok": true,
+"conf": 0.9982668998117283,
+"local": true,
+"top5": [
+48,
+49,
+42,
+43,
+46
+],
+"gold_in_top5": true
+},
+{
+"k": 433,
+"ep": 13460,
+"gt": "click",
+"ok": true,
+"conf": 0.9568294275331439,
+"local": false,
+"top5": [
+61,
+62,
+64,
+58,
+54
+],
+"gold_in_top5": true
+},
+{
+"k": 434,
+"ep": 13460,
+"gt": "click",
+"ok": true,
+"conf": 0.9995468106131966,
+"local": true,
+"top5": [
+41,
+42,
+47,
+40,
+63
+],
+"gold_in_top5": true
+},
+{
+"k": 439,
+"ep": 13500,
+"gt": "click",
+"ok": true,
+"conf": 0.9893582721046812,
+"local": true,
+"top5": [
+51,
+41,
+59,
+53,
+98
+],
+"gold_in_top5": true
+},
+{
+"k": 440,
+"ep": 13500,
+"gt": "click",
+"ok": true,
+"conf": 0.9837725761502547,
+"local": false,
+"top5": [
+166,
+178,
+89,
+177,
+180
+],
+"gold_in_top5": true
+},
+{
+"k": 441,
+"ep": 13500,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9986617565155029,
+"local": true,
+"top5": [
+191,
+176,
+189,
+186,
+164
+],
+"gold_in_top5": null
+},
+{
+"k": 443,
+"ep": 13580,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9998906850814819,
+"local": true,
+"top5": [
+10,
+55,
+33,
+56,
+48
+],
+"gold_in_top5": null
+},
+{
+"k": 444,
+"ep": 13580,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.999233603477478,
+"local": true,
+"top5": [
+40,
+55,
+58,
+91,
+63
+],
+"gold_in_top5": null
+},
+{
+"k": 445,
+"ep": 13580,
+"gt": "click",
+"ok": true,
+"conf": 0.9997711310595463,
+"local": true,
+"top5": [
+34,
+35,
+33,
+30,
+39
+],
+"gold_in_top5": true
+},
+{
+"k": 446,
+"ep": 13580,
+"gt": "click",
+"ok": true,
+"conf": 0.998882903160073,
+"local": true,
+"top5": [
+40,
+34,
+26,
+39,
+42
+],
+"gold_in_top5": true
+},
+{
+"k": 451,
+"ep": 20,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9964840412139893,
+"local": true,
+"top5": [
+84,
+92,
+79,
+68,
+44
+],
+"gold_in_top5": null
+},
+{
+"k": 456,
+"ep": 60,
+"gt": "open_app",
+"ok": true,
+"conf": 0.999211311340332,
+"local": true,
+"top5": [
+41,
+63,
+53,
+47,
+64
+],
+"gold_in_top5": null
+},
+{
+"k": 458,
+"ep": 60,
+"gt": "wait",
+"ok": true,
+"conf": 0.7856733202934265,
+"local": false,
+"top5": [
+36,
+39,
+38,
+37,
+35
+],
+"gold_in_top5": null
+},
+{
+"k": 460,
+"ep": 60,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9980065226554871,
+"local": true,
+"top5": [
+166,
+170,
+168,
+165,
+167
+],
+"gold_in_top5": null
+},
+{
+"k": 465,
+"ep": 100,
+"gt": "click",
+"ok": true,
+"conf": 0.999757066192501,
+"local": true,
+"top5": [
+118,
+116,
+117,
+126,
+122
+],
+"gold_in_top5": true
+},
+{
+"k": 466,
+"ep": 100,
+"gt": "click",
+"ok": true,
+"conf": 0.9976672975773369,
+"local": true,
+"top5": [
+80,
+79,
+62,
+63,
+81
+],
+"gold_in_top5": true
+},
+{
+"k": 475,
+"ep": 220,
+"gt": "wait",
+"ok": true,
+"conf": 0.9930949807167053,
+"local": true,
+"top5": [
+92,
+75,
+78,
+94,
+93
+],
+"gold_in_top5": null
+},
+{
+"k": 476,
+"ep": 220,
+"gt": "click",
+"ok": true,
+"conf": 0.9986313429577365,
+"local": true,
+"top5": [
+39,
+37,
+36,
+38,
+35
+],
+"gold_in_top5": true
+},
+{
+"k": 477,
+"ep": 220,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9986087679862976,
+"local": true,
+"top5": [
+44,
+67,
+68,
+76,
+88
+],
+"gold_in_top5": null
+},
+{
+"k": 478,
+"ep": 220,
+"gt": "click",
+"ok": false,
+"conf": 0.6962112325616054,
+"local": false,
+"top5": [
+32,
+101,
+72,
+47,
+93
+],
+"gold_in_top5": false
+},
+{
+"k": 491,
+"ep": 260,
+"gt": "click",
+"ok": true,
+"conf": 0.998556088612709,
+"local": true,
+"top5": [
+41,
+86,
+40,
+32,
+87
+],
+"gold_in_top5": true
+},
+{
+"k": 493,
+"ep": 260,
+"gt": "click",
+"ok": true,
+"conf": 0.9966564788942129,
+"local": true,
+"top5": [
+44,
+40,
+89,
+90,
+43
+],
+"gold_in_top5": true
+},
+{
+"k": 498,
+"ep": 6860,
+"gt": "click",
+"ok": true,
+"conf": 0.9995374574367943,
+"local": true,
+"top5": [
+107,
+103,
+104,
+106,
+105
+],
+"gold_in_top5": true
+},
+{
+"k": 500,
+"ep": 6860,
+"gt": "click",
+"ok": true,
+"conf": 0.9752565538629199,
+"local": false,
+"top5": [
+80,
+79,
+81,
+53,
+54
+],
+"gold_in_top5": true
+},
+{
+"k": 517,
+"ep": 6940,
+"gt": "click",
+"ok": true,
+"conf": 0.8605250653133112,
+"local": false,
+"top5": [
+120,
+140,
+98,
+137,
+119
+],
+"gold_in_top5": true
+},
+{
+"k": 518,
+"ep": 6940,
+"gt": "click",
+"ok": true,
+"conf": 0.9439049765549647,
+"local": false,
+"top5": [
+42,
+35,
+44,
+43,
+37
+],
+"gold_in_top5": true
+},
+{
+"k": 519,
+"ep": 6940,
+"gt": "click",
+"ok": true,
+"conf": 0.9976719342280376,
+"local": true,
+"top5": [
+69,
+70,
+46,
+50,
+67
+],
+"gold_in_top5": true
+},
+{
+"k": 520,
+"ep": 6940,
+"gt": "input_text",
+"ok": true,
+"conf": 0.999446451663971,
+"local": true,
+"top5": [
+194,
+191,
+187,
+193,
+192
+],
+"gold_in_top5": null
+},
+{
+"k": 521,
+"ep": 6940,
+"gt": "click",
+"ok": true,
+"conf": 0.9994188775038282,
+"local": true,
+"top5": [
+57,
+37,
+164,
+160,
+165
+],
+"gold_in_top5": true
+},
+{
+"k": 527,
+"ep": 7060,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9997910857200623,
+"local": true,
+"top5": [
+49,
+53,
+44,
+50,
+74
+],
+"gold_in_top5": null
+},
+{
+"k": 529,
+"ep": 7060,
+"gt": "click",
+"ok": true,
+"conf": 0.99949598479418,
+"local": true,
+"top5": [
+41,
+39,
+40,
+37,
+42
+],
+"gold_in_top5": true
+},
+{
+"k": 534,
+"ep": 7060,
+"gt": "click",
+"ok": true,
+"conf": 0.9995863858140801,
+"local": true,
+"top5": [
+41,
+42,
+40,
+37,
+47
+],
+"gold_in_top5": true
+},
+{
+"k": 551,
+"ep": 7180,
+"gt": "click",
+"ok": true,
+"conf": 0.7980136531350013,
+"local": false,
+"top5": [
+199,
+198,
+172,
+182,
+215
+],
+"gold_in_top5": true
+},
+{
+"k": 553,
+"ep": 7180,
+"gt": "click",
+"ok": true,
+"conf": 0.9981561000645485,
+"local": true,
+"top5": [
+121,
+83,
+58,
+122,
+129
+],
+"gold_in_top5": true
+},
+{
+"k": 554,
+"ep": 7180,
+"gt": "click",
+"ok": true,
+"conf": 0.5547757887340374,
+"local": false,
+"top5": [
+122,
+84,
+58,
+56,
+111
+],
+"gold_in_top5": true
+},
+{
+"k": 555,
+"ep": 7180,
+"gt": "click",
+"ok": true,
+"conf": 0.9232460843950463,
+"local": false,
+"top5": [
+42,
+51,
+144,
+61,
+60
+],
+"gold_in_top5": true
+},
+{
+"k": 556,
+"ep": 7180,
+"gt": "click",
+"ok": true,
+"conf": 0.9967944000157232,
+"local": true,
+"top5": [
+66,
+65,
+57,
+64,
+53
+],
+"gold_in_top5": true
+},
+{
+"k": 558,
+"ep": 7180,
+"gt": "click",
+"ok": true,
+"conf": 0.8540331330732265,
+"local": false,
+"top5": [
+45,
+48,
+47,
+51,
+49
+],
+"gold_in_top5": true
+},
+{
+"k": 560,
+"ep": 7180,
+"gt": "wait",
+"ok": true,
+"conf": 0.9994069337844849,
+"local": true,
+"top5": [
+51,
+46,
+47,
+48,
+49
+],
+"gold_in_top5": null
+},
+{
+"k": 566,
+"ep": 7220,
+"gt": "click",
+"ok": true,
+"conf": 0.9991967246752438,
+"local": true,
+"top5": [
+50,
+57,
+44,
+46,
+56
+],
+"gold_in_top5": true
+},
+{
+"k": 568,
+"ep": 7220,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9976447224617004,
+"local": true,
+"top5": [
+86,
+82,
+87,
+88,
+89
+],
+"gold_in_top5": null
+},
+{
+"k": 591,
+"ep": 7300,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9994437098503113,
+"local": true,
+"top5": [
+35,
+60,
+36,
+39,
+47
+],
+"gold_in_top5": null
+},
+{
+"k": 592,
+"ep": 7300,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9937738180160522,
+"local": true,
+"top5": [
+34,
+48,
+50,
+63,
+35
+],
+"gold_in_top5": null
+},
+{
+"k": 593,
+"ep": 7300,
+"gt": "click",
+"ok": false,
+"conf": 0.1539461382446099,
+"local": false,
+"top5": [
+63,
+70,
+86,
+96,
+85
+],
+"gold_in_top5": false
+},
+{
+"k": 595,
+"ep": 7300,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9987884163856506,
+"local": true,
+"top5": [
+165,
+163,
+162,
+167,
+164
+],
+"gold_in_top5": null
+},
+{
+"k": 596,
+"ep": 7300,
+"gt": "click",
+"ok": true,
+"conf": 0.9926309678098022,
+"local": true,
+"top5": [
+156,
+154,
+155,
+157,
+151
+],
+"gold_in_top5": true
+},
+{
+"k": 597,
+"ep": 7300,
+"gt": "wait",
+"ok": true,
+"conf": 0.9982689619064331,
+"local": true,
+"top5": [
+29,
+31,
+28,
+30,
+32
+],
+"gold_in_top5": null
+},
+{
+"k": 600,
+"ep": 7340,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9990814924240112,
+"local": true,
+"top5": [
+173,
+174,
+176,
+175,
+179
+],
+"gold_in_top5": null
+},
+{
+"k": 601,
+"ep": 7340,
+"gt": "click",
+"ok": true,
+"conf": 0.9997385898980724,
+"local": true,
+"top5": [
+46,
+122,
+60,
+45,
+27
+],
+"gold_in_top5": true
+},
+{
+"k": 607,
+"ep": 7380,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9985916018486023,
+"local": true,
+"top5": [
+102,
+87,
+101,
+107,
+103
+],
+"gold_in_top5": null
+},
+{
+"k": 612,
+"ep": 7420,
+"gt": "click",
+"ok": true,
+"conf": 0.9983308639354007,
+"local": true,
+"top5": [
+89,
+84,
+82,
+85,
+88
+],
+"gold_in_top5": true
+},
+{
+"k": 614,
+"ep": 7420,
+"gt": "click",
+"ok": true,
+"conf": 0.9964835718384393,
+"local": true,
+"top5": [
+51,
+49,
+73,
+48,
+53
+],
+"gold_in_top5": true
+},
+{
+"k": 622,
+"ep": 7460,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9990724325180054,
+"local": true,
+"top5": [
+192,
+193,
+194,
+183,
+185
+],
+"gold_in_top5": null
+},
+{
+"k": 625,
+"ep": 7500,
+"gt": "click",
+"ok": true,
+"conf": 0.9800194972299039,
+"local": false,
+"top5": [
+48,
+63,
+64,
+44,
+47
+],
+"gold_in_top5": true
+},
+{
+"k": 626,
+"ep": 7500,
+"gt": "click",
+"ok": false,
+"conf": 0.7045503795956023,
+"local": false,
+"top5": [
+88,
+97,
+90,
+98,
+99
+],
+"gold_in_top5": true
+},
+{
+"k": 628,
+"ep": 7540,
+"gt": "wait",
+"ok": true,
+"conf": 0.9966064691543579,
+"local": true,
+"top5": [
+47,
+34,
+133,
+45,
+50
+],
+"gold_in_top5": null
+},
+{
+"k": 630,
+"ep": 7540,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9992295503616333,
+"local": true,
+"top5": [
+170,
+177,
+158,
+179,
+164
+],
+"gold_in_top5": null
+},
+{
+"k": 632,
+"ep": 7540,
+"gt": "scroll",
+"ok": false,
+"conf": 0.6807397603988647,
+"local": false,
+"top5": [
+47,
+49,
+81,
+80,
+35
+],
+"gold_in_top5": null
+},
+{
+"k": 633,
+"ep": 7540,
+"gt": "click",
+"ok": false,
+"conf": 0.38039869770275914,
+"local": false,
+"top5": [
+135,
+113,
+72,
+82,
+132
+],
+"gold_in_top5": true
+},
+{
+"k": 634,
+"ep": 7580,
+"gt": "click",
+"ok": true,
+"conf": 0.9992912062632797,
+"local": true,
+"top5": [
+96,
+93,
+92,
+95,
+94
+],
+"gold_in_top5": true
+},
+{
+"k": 635,
+"ep": 7580,
+"gt": "click",
+"ok": true,
+"conf": 0.9520742004711025,
+"local": false,
+"top5": [
+82,
+81,
+58,
+79,
+80
+],
+"gold_in_top5": true
+},
+{
+"k": 658,
+"ep": 7740,
+"gt": "click",
+"ok": true,
+"conf": 0.9978932172121233,
+"local": true,
+"top5": [
+79,
+107,
+106,
+109,
+105
+],
+"gold_in_top5": true
+},
+{
+"k": 660,
+"ep": 7740,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9992056488990784,
+"local": true,
+"top5": [
+229,
+212,
+231,
+225,
+249
+],
+"gold_in_top5": null
+},
+{
+"k": 663,
+"ep": 7740,
+"gt": "click",
+"ok": true,
+"conf": 0.997021343878643,
+"local": true,
+"top5": [
+126,
+82,
+128,
+123,
+120
+],
+"gold_in_top5": true
+},
+{
+"k": 665,
+"ep": 7740,
+"gt": "click",
+"ok": true,
+"conf": 0.9994558213607903,
+"local": true,
+"top5": [
+151,
+150,
+153,
+114,
+152
+],
+"gold_in_top5": true
+},
+{
+"k": 668,
+"ep": 7740,
+"gt": "click",
+"ok": true,
+"conf": 0.9994188626204021,
+"local": true,
+"top5": [
+77,
+75,
+76,
+82,
+86
+],
+"gold_in_top5": true
+},
+{
+"k": 674,
+"ep": 7780,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9987988471984863,
+"local": true,
+"top5": [
+47,
+50,
+48,
+49,
+65
+],
+"gold_in_top5": null
+},
+{
+"k": 675,
+"ep": 7780,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9933977127075195,
+"local": true,
+"top5": [
+77,
+73,
+50,
+96,
+119
+],
+"gold_in_top5": null
+},
+{
+"k": 676,
+"ep": 7780,
+"gt": "click",
+"ok": true,
+"conf": 0.9841428299150508,
+"local": false,
+"top5": [
+105,
+95,
+101,
+106,
+94
+],
+"gold_in_top5": true
+},
+{
+"k": 677,
+"ep": 7820,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9998646974563599,
+"local": true,
+"top5": [
+107,
+99,
+104,
+112,
+94
+],
+"gold_in_top5": null
+},
+{
+"k": 679,
+"ep": 7820,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9986563920974731,
+"local": true,
+"top5": [
+253,
+235,
+246,
+121,
+250
+],
+"gold_in_top5": null
+},
+{
+"k": 680,
+"ep": 7820,
+"gt": "click",
+"ok": true,
+"conf": 0.9994958080839744,
+"local": true,
+"top5": [
+121,
+198,
+103,
+187,
+195
+],
+"gold_in_top5": true
+},
+{
+"k": 681,
+"ep": 7820,
+"gt": "wait",
+"ok": true,
+"conf": 0.9979667663574219,
+"local": true,
+"top5": [
+98,
+114,
+99,
+113,
+111
+],
+"gold_in_top5": null
+},
+{
+"k": 713,
+"ep": 7900,
+"gt": "click",
+"ok": false,
+"conf": 0.9948439429387541,
+"local": true,
+"top5": [
+106,
+101,
+102,
+100,
+110
+],
+"gold_in_top5": false
+},
+{
+"k": 718,
+"ep": 7900,
+"gt": "click",
+"ok": true,
+"conf": 0.9987647904227934,
+"local": true,
+"top5": [
+99,
+74,
+97,
+98,
+96
+],
+"gold_in_top5": true
+},
+{
+"k": 720,
+"ep": 7900,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9962873458862305,
+"local": true,
+"top5": [
+125,
+124,
+123,
+126,
+78
+],
+"gold_in_top5": null
+},
+{
+"k": 725,
+"ep": 7940,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9998718500137329,
+"local": true,
+"top5": [
+41,
+28,
+38,
+33,
+34
+],
+"gold_in_top5": null
+},
+{
+"k": 727,
+"ep": 7940,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9984650611877441,
+"local": true,
+"top5": [
+97,
+40,
+85,
+55,
+47
+],
+"gold_in_top5": null
+},
+{
+"k": 742,
+"ep": 8060,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9996911287307739,
+"local": true,
+"top5": [
+55,
+84,
+50,
+39,
+43
+],
+"gold_in_top5": null
+},
+{
+"k": 751,
+"ep": 8100,
+"gt": "click",
+"ok": true,
+"conf": 0.5731167620321997,
+"local": false,
+"top5": [
+57,
+93,
+96,
+97,
+94
+],
+"gold_in_top5": true
+},
+{
+"k": 754,
+"ep": 8140,
+"gt": "click",
+"ok": true,
+"conf": 0.9062595179596578,
+"local": false,
+"top5": [
+54,
+55,
+56,
+52,
+79
+],
+"gold_in_top5": true
+},
+{
+"k": 762,
+"ep": 8180,
+"gt": "click",
+"ok": true,
+"conf": 0.9995640885693149,
+"local": true,
+"top5": [
+179,
+173,
+178,
+171,
+172
+],
+"gold_in_top5": true
+},
+{
+"k": 763,
+"ep": 8180,
+"gt": "input_text",
+"ok": true,
+"conf": 0.998808741569519,
+"local": true,
+"top5": [
+184,
+183,
+176,
+175,
+177
+],
+"gold_in_top5": null
+},
+{
+"k": 764,
+"ep": 8180,
+"gt": "click",
+"ok": true,
+"conf": 0.6939196587273528,
+"local": false,
+"top5": [
+168,
+167,
+157,
+169,
+170
+],
+"gold_in_top5": true
+},
+{
+"k": 765,
+"ep": 8180,
+"gt": "click",
+"ok": true,
+"conf": 0.9993516102642843,
+"local": true,
+"top5": [
+69,
+34,
+68,
+70,
+40
+],
+"gold_in_top5": true
+},
+{
+"k": 767,
+"ep": 8180,
+"gt": "click",
+"ok": true,
+"conf": 0.8311204677643786,
+"local": false,
+"top5": [
+48,
+47,
+36,
+49,
+50
+],
+"gold_in_top5": true
+},
+{
+"k": 768,
+"ep": 8180,
+"gt": "click",
+"ok": true,
+"conf": 0.9991593039765476,
+"local": true,
+"top5": [
+55,
+34,
+56,
+54,
+57
+],
+"gold_in_top5": true
+},
+{
+"k": 770,
+"ep": 8180,
+"gt": "click",
+"ok": true,
+"conf": 0.9997610539791069,
+"local": true,
+"top5": [
+34,
+33,
+39,
+37,
+46
+],
+"gold_in_top5": true
+},
+{
+"k": 774,
+"ep": 8220,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9985964894294739,
+"local": true,
+"top5": [
+172,
+174,
+168,
+86,
+177
+],
+"gold_in_top5": null
+},
+{
+"k": 792,
+"ep": 17300,
+"gt": "click",
+"ok": true,
+"conf": 0.819936506173164,
+"local": false,
+"top5": [
+110,
+84,
+90,
+100,
+69
+],
+"gold_in_top5": true
+},
+{
+"k": 793,
+"ep": 17300,
+"gt": "click",
+"ok": true,
+"conf": 0.9989715548594269,
+"local": true,
+"top5": [
+99,
+100,
+86,
+101,
+85
+],
+"gold_in_top5": true
+},
+{
+"k": 797,
+"ep": 17300,
+"gt": "click",
+"ok": true,
+"conf": 0.5082280971550546,
+"local": false,
+"top5": [
+109,
+104,
+110,
+107,
+108
+],
+"gold_in_top5": true
+},
+{
+"k": 798,
+"ep": 17300,
+"gt": "click",
+"ok": true,
+"conf": 0.9989743200068233,
+"local": true,
+"top5": [
+101,
+88,
+84,
+64,
+100
+],
+"gold_in_top5": true
+},
+{
+"k": 799,
+"ep": 17300,
+"gt": "wait",
+"ok": true,
+"conf": 0.999845027923584,
+"local": true,
+"top5": [
+62,
+61,
+11,
+14,
+16
+],
+"gold_in_top5": null
+},
+{
+"k": 807,
+"ep": 17340,
+"gt": "click",
+"ok": true,
+"conf": 0.9991544602124343,
+"local": true,
+"top5": [
+65,
+64,
+63,
+62,
+61
+],
+"gold_in_top5": true
+},
+{
+"k": 809,
+"ep": 17340,
+"gt": "click",
+"ok": true,
+"conf": 0.9987812148367716,
+"local": true,
+"top5": [
+70,
+172,
+165,
+174,
+173
+],
+"gold_in_top5": true
+},
+{
+"k": 816,
+"ep": 17380,
+"gt": "click",
+"ok": true,
+"conf": 0.9507162285997666,
+"local": false,
+"top5": [
+55,
+56,
+47,
+54,
+48
+],
+"gold_in_top5": true
+},
+{
+"k": 817,
+"ep": 17380,
+"gt": "click",
+"ok": true,
+"conf": 0.9976365100376086,
+"local": true,
+"top5": [
+46,
+45,
+44,
+43,
+39
+],
+"gold_in_top5": true
+},
+{
+"k": 823,
+"ep": 17420,
+"gt": "wait",
+"ok": true,
+"conf": 0.987541139125824,
+"local": true,
+"top5": [
+24,
+26,
+21,
+25,
+45
+],
+"gold_in_top5": null
+},
+{
+"k": 824,
+"ep": 17420,
+"gt": "wait",
+"ok": true,
+"conf": 0.45417457818984985,
+"local": false,
+"top5": [
+51,
+33,
+32,
+39,
+24
+],
+"gold_in_top5": null
+},
+{
+"k": 827,
+"ep": 17460,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9998360872268677,
+"local": true,
+"top5": [
+100,
+101,
+108,
+104,
+89
+],
+"gold_in_top5": null
+},
+{
+"k": 829,
+"ep": 17460,
+"gt": "click",
+"ok": true,
+"conf": 0.9932574796472338,
+"local": true,
+"top5": [
+68,
+90,
+89,
+88,
+87
+],
+"gold_in_top5": true
+},
+{
+"k": 831,
+"ep": 17460,
+"gt": "click",
+"ok": true,
+"conf": 0.9351652380857018,
+"local": false,
+"top5": [
+70,
+62,
+72,
+61,
+69
+],
+"gold_in_top5": true
+},
+{
+"k": 832,
+"ep": 17460,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9982309937477112,
+"local": true,
+"top5": [
+194,
+187,
+200,
+195,
+199
+],
+"gold_in_top5": null
+},
+{
+"k": 833,
+"ep": 17460,
+"gt": "wait",
+"ok": true,
+"conf": 0.9734828472137451,
+"local": false,
+"top5": [
+85,
+180,
+192,
+185,
+191
+],
+"gold_in_top5": null
+},
+{
+"k": 845,
+"ep": 17540,
+"gt": "click",
+"ok": true,
+"conf": 0.9995634372297104,
+"local": true,
+"top5": [
+45,
+38,
+42,
+44,
+43
+],
+"gold_in_top5": true
+},
+{
+"k": 848,
+"ep": 17540,
+"gt": "click",
+"ok": true,
+"conf": 0.9996152778009062,
+"local": true,
+"top5": [
+172,
+64,
+171,
+174,
+97
+],
+"gold_in_top5": true
+},
+{
+"k": 850,
+"ep": 17540,
+"gt": "click",
+"ok": false,
+"conf": 0.9971840977668762,
+"local": true,
+"top5": [
+38,
+73,
+43,
+75,
+40
+],
+"gold_in_top5": true
+},
+{
+"k": 854,
+"ep": 5740,
+"gt": "click",
+"ok": true,
+"conf": 0.9520447699540497,
+"local": false,
+"top5": [
+39,
+35,
+40,
+38,
+34
+],
+"gold_in_top5": true
+},
+{
+"k": 857,
+"ep": 5780,
+"gt": "click",
+"ok": true,
+"conf": 0.9964769550461483,
+"local": true,
+"top5": [
+36,
+37,
+44,
+49,
+34
+],
+"gold_in_top5": true
+},
+{
+"k": 868,
+"ep": 5820,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9987074136734009,
+"local": true,
+"top5": [
+3,
+9,
+16,
+18,
+17
+],
+"gold_in_top5": null
+},
+{
+"k": 869,
+"ep": 5820,
+"gt": "click",
+"ok": true,
+"conf": 0.9898793502943981,
+"local": true,
+"top5": [
+13,
+14,
+28,
+10,
+21
+],
+"gold_in_top5": true
+},
+{
+"k": 871,
+"ep": 5820,
+"gt": "wait",
+"ok": false,
+"conf": 0.3938400111106546,
+"local": false,
+"top5": [
+1,
+2,
+3,
+6,
+7
+],
+"gold_in_top5": null
+},
+{
+"k": 872,
+"ep": 5820,
+"gt": "click",
+"ok": true,
+"conf": 0.9491592821711947,
+"local": false,
+"top5": [
+3,
+5,
+2,
+6,
+1
+],
+"gold_in_top5": true
+},
+{
+"k": 873,
+"ep": 5820,
+"gt": "wait",
+"ok": true,
+"conf": 0.9892147183418274,
+"local": true,
+"top5": [
+9,
+2,
+10,
+6,
+1
+],
+"gold_in_top5": null
+},
+{
+"k": 875,
+"ep": 5860,
+"gt": "click",
+"ok": true,
+"conf": 0.9008831675575024,
+"local": false,
+"top5": [
+45,
+40,
+59,
+46,
+41
+],
+"gold_in_top5": true
+},
+{
+"k": 876,
+"ep": 5860,
+"gt": "click",
+"ok": true,
+"conf": 0.4374558220004445,
+"local": false,
+"top5": [
+67,
+32,
+83,
+61,
+84
+],
+"gold_in_top5": true
+},
+{
+"k": 887,
+"ep": 16740,
+"gt": "scroll",
+"ok": true,
+"conf": 0.998664379119873,
+"local": true,
+"top5": [
+64,
+142,
+126,
+124,
+141
+],
+"gold_in_top5": null
+},
+{
+"k": 903,
+"ep": 16820,
+"gt": "click",
+"ok": true,
+"conf": 0.9871177410398388,
+"local": true,
+"top5": [
+62,
+55,
+45,
+52,
+60
+],
+"gold_in_top5": true
+},
+{
+"k": 904,
+"ep": 16820,
+"gt": "wait",
+"ok": true,
+"conf": 0.8417882919311523,
+"local": false,
+"top5": [
+62,
+55,
+46,
+65,
+52
+],
+"gold_in_top5": null
+},
+{
+"k": 907,
+"ep": 16820,
+"gt": "wait",
+"ok": false,
+"conf": 0.9864158407530539,
+"local": true,
+"top5": [
+59,
+69,
+74,
+70,
+61
+],
+"gold_in_top5": null
+},
+{
+"k": 934,
+"ep": 16940,
+"gt": "click",
+"ok": false,
+"conf": 0.7034450050396224,
+"local": false,
+"top5": [
+172,
+173,
+166,
+195,
+201
+],
+"gold_in_top5": false
+},
+{
+"k": 937,
+"ep": 16940,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9947121143341064,
+"local": true,
+"top5": [
+157,
+121,
+120,
+146,
+125
+],
+"gold_in_top5": null
+},
+{
+"k": 938,
+"ep": 16940,
+"gt": "click",
+"ok": true,
+"conf": 0.9978281167311991,
+"local": true,
+"top5": [
+198,
+161,
+121,
+125,
+146
+],
+"gold_in_top5": true
+},
+{
+"k": 939,
+"ep": 16940,
+"gt": "wait",
+"ok": true,
+"conf": 0.9991796612739563,
+"local": true,
+"top5": [
+144,
+123,
+145,
+164,
+142
+],
+"gold_in_top5": null
+},
+{
+"k": 942,
+"ep": 5420,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9996646642684937,
+"local": true,
+"top5": [
+41,
+33,
+38,
+28,
+34
+],
+"gold_in_top5": null
+},
+{
+"k": 943,
+"ep": 5420,
+"gt": "wait",
+"ok": true,
+"conf": 0.9994238615036011,
+"local": true,
+"top5": [
+12,
+17,
+15,
+19,
+20
+],
+"gold_in_top5": null
+},
+{
+"k": 944,
+"ep": 5420,
+"gt": "click",
+"ok": true,
+"conf": 0.9991245937485473,
+"local": true,
+"top5": [
+34,
+47,
+31,
+48,
+46
+],
+"gold_in_top5": true
+},
+{
+"k": 945,
+"ep": 5420,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9981021285057068,
+"local": true,
+"top5": [
+165,
+175,
+170,
+176,
+57
+],
+"gold_in_top5": null
+},
+{
+"k": 949,
+"ep": 5540,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.999032735824585,
+"local": true,
+"top5": [
+48,
+95,
+42,
+104,
+103
+],
+"gold_in_top5": null
+},
+{
+"k": 950,
+"ep": 5540,
+"gt": "scroll",
+"ok": false,
+"conf": 0.607089638710022,
+"local": false,
+"top5": [
+35,
+82,
+41,
+80,
+71
+],
+"gold_in_top5": null
+},
+{
+"k": 951,
+"ep": 5540,
+"gt": "click",
+"ok": true,
+"conf": 0.9916473983189711,
+"local": true,
+"top5": [
+51,
+39,
+58,
+80,
+50
+],
+"gold_in_top5": true
+},
+{
+"k": 952,
+"ep": 5540,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9992617964744568,
+"local": true,
+"top5": [
+185,
+52,
+10,
+181,
+168
+],
+"gold_in_top5": null
+},
+{
+"k": 969,
+"ep": 5580,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9994884729385376,
+"local": true,
+"top5": [
+42,
+52,
+50,
+39,
+35
+],
+"gold_in_top5": null
+},
+{
+"k": 970,
+"ep": 5580,
+"gt": "click",
+"ok": true,
+"conf": 0.9994117243408169,
+"local": true,
+"top5": [
+30,
+29,
+26,
+31,
+32
+],
+"gold_in_top5": true
+},
+{
+"k": 971,
+"ep": 5580,
+"gt": "click",
+"ok": true,
+"conf": 0.9825352906750737,
+"local": false,
+"top5": [
+34,
+69,
+46,
+70,
+97
+],
+"gold_in_top5": true
+},
+{
+"k": 972,
+"ep": 5580,
+"gt": "click",
+"ok": false,
+"conf": 0.8893074280000803,
+"local": false,
+"top5": [
+47,
+56,
+55,
+38,
+57
+],
+"gold_in_top5": true
+},
+{
+"k": 974,
+"ep": 5580,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9981282353401184,
+"local": true,
+"top5": [
+169,
+200,
+178,
+192,
+183
+],
+"gold_in_top5": null
+},
+{
+"k": 987,
+"ep": 12260,
+"gt": "click",
+"ok": true,
+"conf": 0.9915735108921808,
+"local": true,
+"top5": [
+74,
+53,
+92,
+119,
+75
+],
+"gold_in_top5": true
+},
+{
+"k": 988,
+"ep": 12260,
+"gt": "click",
+"ok": true,
+"conf": 0.9996717823887593,
+"local": true,
+"top5": [
+49,
+48,
+52,
+39,
+47
+],
+"gold_in_top5": true
+},
+{
+"k": 989,
+"ep": 12260,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9982079267501831,
+"local": true,
+"top5": [
+58,
+59,
+50,
+60,
+49
+],
+"gold_in_top5": null
+},
+{
+"k": 994,
+"ep": 12340,
+"gt": "click",
+"ok": true,
+"conf": 0.9954993169221851,
+"local": true,
+"top5": [
+66,
+62,
+65,
+61,
+64
+],
+"gold_in_top5": true
+},
+{
+"k": 995,
+"ep": 12340,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9891642928123474,
+"local": true,
+"top5": [
+49,
+172,
+173,
+169,
+67
+],
+"gold_in_top5": null
+},
+{
+"k": 996,
+"ep": 12340,
+"gt": "click",
+"ok": true,
+"conf": 0.9987806546770912,
+"local": true,
+"top5": [
+67,
+162,
+49,
+161,
+144
+],
+"gold_in_top5": true
+},
+{
+"k": 1008,
+"ep": 16620,
+"gt": "click",
+"ok": false,
+"conf": 0.47394022492838417,
+"local": false,
+"top5": [
+168,
+147,
+111,
+114,
+157
+],
+"gold_in_top5": true
+},
+{
+"k": 1021,
+"ep": 4860,
+"gt": "wait",
+"ok": true,
+"conf": 0.9955659508705139,
+"local": true,
+"top5": [
+34,
+48,
+45,
+36,
+44
+],
+"gold_in_top5": null
+},
+{
+"k": 1022,
+"ep": 4860,
+"gt": "wait",
+"ok": true,
+"conf": 0.8693374991416931,
+"local": false,
+"top5": [
+32,
+46,
+43,
+34,
+44
+],
+"gold_in_top5": null
+},
+{
+"k": 1025,
+"ep": 4860,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9993361830711365,
+"local": true,
+"top5": [
+172,
+173,
+171,
+180,
+170
+],
+"gold_in_top5": null
+},
+{
+"k": 1026,
+"ep": 4860,
+"gt": "click",
+"ok": true,
+"conf": 0.9996246450879376,
+"local": true,
+"top5": [
+55,
+180,
+125,
+128,
+66
+],
+"gold_in_top5": true
+},
+{
+"k": 1027,
+"ep": 4860,
+"gt": "wait",
+"ok": true,
+"conf": 0.9965487122535706,
+"local": true,
+"top5": [
+33,
+53,
+55,
+57,
+54
+],
+"gold_in_top5": null
+},
+{
+"k": 1040,
+"ep": 4940,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9998341798782349,
+"local": true,
+"top5": [
+192,
+46,
+32,
+105,
+74
+],
+"gold_in_top5": null
+},
+{
+"k": 1041,
+"ep": 4940,
+"gt": "click",
+"ok": true,
+"conf": 0.9780383763262392,
+"local": false,
+"top5": [
+47,
+62,
+63,
+99,
+64
+],
+"gold_in_top5": true
+},
+{
+"k": 1042,
+"ep": 4940,
+"gt": "click",
+"ok": true,
+"conf": 0.9994396121490396,
+"local": true,
+"top5": [
+79,
+108,
+101,
+78,
+109
+],
+"gold_in_top5": true
+},
+{
+"k": 1043,
+"ep": 4940,
+"gt": "click",
+"ok": true,
+"conf": 0.8860949775612426,
+"local": false,
+"top5": [
+36,
+33,
+37,
+35,
+34
+],
+"gold_in_top5": true
+},
+{
+"k": 1044,
+"ep": 4940,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9988370537757874,
+"local": true,
+"top5": [
+81,
+169,
+66,
+173,
+82
+],
+"gold_in_top5": null
+},
+{
+"k": 1045,
+"ep": 4940,
+"gt": "click",
+"ok": true,
+"conf": 0.9998276296414588,
+"local": true,
+"top5": [
+156,
+55,
+155,
+152,
+151
+],
+"gold_in_top5": true
+},
+{
+"k": 1047,
+"ep": 4940,
+"gt": "click",
+"ok": false,
+"conf": 0.4845367238317806,
+"local": false,
+"top5": [
+121,
+74,
+120,
+75,
+76
+],
+"gold_in_top5": true
+},
+{
+"k": 1049,
+"ep": 4940,
+"gt": "click",
+"ok": true,
+"conf": 0.8661771364271402,
+"local": false,
+"top5": [
+123,
+125,
+131,
+127,
+132
+],
+"gold_in_top5": true
+},
+{
+"k": 1056,
+"ep": 4980,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9998093247413635,
+"local": true,
+"top5": [
+39,
+44,
+64,
+62,
+40
+],
+"gold_in_top5": null
+},
+{
+"k": 1065,
+"ep": 5020,
+"gt": "click",
+"ok": true,
+"conf": 0.9016724415461965,
+"local": false,
+"top5": [
+64,
+82,
+70,
+68,
+62
+],
+"gold_in_top5": true
+},
+{
+"k": 1067,
+"ep": 5020,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9992897510528564,
+"local": true,
+"top5": [
+206,
+207,
+203,
+202,
+199
+],
+"gold_in_top5": null
+},
+{
+"k": 1068,
+"ep": 5020,
+"gt": "click",
+"ok": true,
+"conf": 0.9993926414622507,
+"local": true,
+"top5": [
+187,
+207,
+203,
+188,
+186
+],
+"gold_in_top5": true
+},
+{
+"k": 1077,
+"ep": 5140,
+"gt": "click",
+"ok": true,
+"conf": 0.9786151467939952,
+"local": false,
+"top5": [
+41,
+61,
+60,
+143,
+73
+],
+"gold_in_top5": true
+},
+{
+"k": 1078,
+"ep": 5140,
+"gt": "wait",
+"ok": true,
+"conf": 0.8499140739440918,
+"local": false,
+"top5": [
+41,
+61,
+60,
+75,
+72
+],
+"gold_in_top5": null
+},
+{
+"k": 1090,
+"ep": 5180,
+"gt": "wait",
+"ok": true,
+"conf": 0.9978594183921814,
+"local": true,
+"top5": [
+54,
+60,
+62,
+61,
+43
+],
+"gold_in_top5": null
+},
+{
+"k": 1091,
+"ep": 5180,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9984112977981567,
+"local": true,
+"top5": [
+67,
+88,
+76,
+50,
+87
+],
+"gold_in_top5": null
+},
+{
+"k": 1095,
+"ep": 5220,
+"gt": "open_app",
+"ok": true,
+"conf": 0.999855637550354,
+"local": true,
+"top5": [
+53,
+61,
+63,
+54,
+66
+],
+"gold_in_top5": null
+},
+{
+"k": 1100,
+"ep": 5260,
+"gt": "click",
+"ok": true,
+"conf": 0.9651633823700188,
+"local": false,
+"top5": [
+128,
+129,
+130,
+103,
+141
+],
+"gold_in_top5": true
+},
+{
+"k": 1103,
+"ep": 5300,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9986438155174255,
+"local": true,
+"top5": [
+64,
+75,
+76,
+65,
+66
+],
+"gold_in_top5": null
+},
+{
+"k": 1105,
+"ep": 5300,
+"gt": "click",
+"ok": false,
+"conf": 0.6853424906730652,
+"local": false,
+"top5": [
+128,
+130,
+138,
+127,
+96
+],
+"gold_in_top5": true
+},
+{
+"k": 1113,
+"ep": 5340,
+"gt": "click",
+"ok": true,
+"conf": 0.9678084153657096,
+"local": false,
+"top5": [
+163,
+164,
+158,
+140,
+159
+],
+"gold_in_top5": true
+},
+{
+"k": 1116,
+"ep": 5340,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9994637370109558,
+"local": true,
+"top5": [
+199,
+179,
+180,
+186,
+187
+],
+"gold_in_top5": null
+},
+{
+"k": 1117,
+"ep": 5340,
+"gt": "click",
+"ok": false,
+"conf": 0.9981204021849841,
+"local": true,
+"top5": [
+165,
+164,
+166,
+157,
+160
+],
+"gold_in_top5": true
+},
+{
+"k": 1118,
+"ep": 5340,
+"gt": "click",
+"ok": false,
+"conf": 0.7571912712260342,
+"local": false,
+"top5": [
+107,
+121,
+122,
+123,
+91
+],
+"gold_in_top5": true
+},
+{
+"k": 1120,
+"ep": 5340,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9995005130767822,
+"local": true,
+"top5": [
+183,
+199,
+184,
+179,
+172
+],
+"gold_in_top5": null
+},
+{
+"k": 1124,
+"ep": 5340,
+"gt": "click",
+"ok": false,
+"conf": 0.6735938191413879,
+"local": false,
+"top5": [
+207,
+45,
+83,
+90,
+323
+],
+"gold_in_top5": true
+},
+{
+"k": 1125,
+"ep": 5340,
+"gt": "click",
+"ok": false,
+"conf": 0.8052906981580179,
+"local": false,
+"top5": [
+111,
+124,
+123,
+109,
+122
+],
+"gold_in_top5": true
+},
+{
+"k": 1127,
+"ep": 5340,
+"gt": "click",
+"ok": true,
+"conf": 0.9547813217189081,
+"local": false,
+"top5": [
+74,
+54,
+57,
+58,
+129
+],
+"gold_in_top5": true
+},
+{
+"k": 1128,
+"ep": 5340,
+"gt": "wait",
+"ok": true,
+"conf": 0.9996155500411987,
+"local": true,
+"top5": [
+59,
+47,
+71,
+57,
+64
+],
+"gold_in_top5": null
+},
+{
+"k": 1138,
+"ep": 5380,
+"gt": "click",
+"ok": true,
+"conf": 0.1478579209329176,
+"local": false,
+"top5": [
+127,
+36,
+125,
+126,
+129
+],
+"gold_in_top5": true
+},
+{
+"k": 1139,
+"ep": 5380,
+"gt": "click",
+"ok": true,
+"conf": 0.7297896637083454,
+"local": false,
+"top5": [
+117,
+77,
+130,
+55,
+118
+],
+"gold_in_top5": true
+},
+{
+"k": 1140,
+"ep": 11740,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9993653893470764,
+"local": true,
+"top5": [
+35,
+43,
+38,
+54,
+55
+],
+"gold_in_top5": null
+},
+{
+"k": 1142,
+"ep": 11740,
+"gt": "click",
+"ok": false,
+"conf": 0.9979746133168277,
+"local": true,
+"top5": [
+58,
+59,
+84,
+125,
+60
+],
+"gold_in_top5": false
+},
+{
+"k": 1143,
+"ep": 11740,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9967876672744751,
+"local": true,
+"top5": [
+56,
+53,
+57,
+44,
+59
+],
+"gold_in_top5": null
+},
+{
+"k": 1144,
+"ep": 11740,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9918140172958374,
+"local": true,
+"top5": [
+53,
+78,
+57,
+44,
+59
+],
+"gold_in_top5": null
+},
+{
+"k": 1145,
+"ep": 11740,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9921711683273315,
+"local": true,
+"top5": [
+53,
+57,
+56,
+44,
+59
+],
+"gold_in_top5": null
+},
+{
+"k": 1147,
+"ep": 11740,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9914261102676392,
+"local": true,
+"top5": [
+53,
+44,
+58,
+59,
+57
+],
+"gold_in_top5": null
+},
+{
+"k": 1148,
+"ep": 11780,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9994816184043884,
+"local": true,
+"top5": [
+34,
+32,
+21,
+33,
+22
+],
+"gold_in_top5": null
+},
+{
+"k": 1149,
+"ep": 11780,
+"gt": "wait",
+"ok": true,
+"conf": 0.97962886095047,
+"local": false,
+"top5": [
+26,
+45,
+31,
+27,
+28
+],
+"gold_in_top5": null
+},
+{
+"k": 1150,
+"ep": 11780,
+"gt": "click",
+"ok": true,
+"conf": 0.9002050871303027,
+"local": false,
+"top5": [
+21,
+24,
+41,
+22,
+23
+],
+"gold_in_top5": true
+},
+{
+"k": 1153,
+"ep": 11780,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9993135929107666,
+"local": true,
+"top5": [
+33,
+54,
+56,
+31,
+26
+],
+"gold_in_top5": null
+},
+{
+"k": 1154,
+"ep": 11780,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9984294772148132,
+"local": true,
+"top5": [
+33,
+61,
+60,
+31,
+62
+],
+"gold_in_top5": null
+},
+{
+"k": 1156,
+"ep": 11780,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9983159303665161,
+"local": true,
+"top5": [
+33,
+26,
+63,
+31,
+55
+],
+"gold_in_top5": null
+},
+{
+"k": 1158,
+"ep": 11780,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9983539581298828,
+"local": true,
+"top5": [
+33,
+60,
+54,
+40,
+59
+],
+"gold_in_top5": null
+},
+{
+"k": 1160,
+"ep": 11780,
+"gt": "wait",
+"ok": true,
+"conf": 0.8817848563194275,
+"local": false,
+"top5": [
+33,
+32,
+31,
+26,
+29
+],
+"gold_in_top5": null
+},
+{
+"k": 1163,
+"ep": 11820,
+"gt": "click",
+"ok": true,
+"conf": 0.9868602099172499,
+"local": true,
+"top5": [
+36,
+34,
+35,
+28,
+33
+],
+"gold_in_top5": true
+},
+{
+"k": 1169,
+"ep": 11820,
+"gt": "click",
+"ok": true,
+"conf": 0.9923372204900041,
+"local": true,
+"top5": [
+39,
+41,
+27,
+40,
+50
+],
+"gold_in_top5": true
+},
+{
+"k": 1170,
+"ep": 11860,
+"gt": "click",
+"ok": true,
+"conf": 0.8911956020037906,
+"local": false,
+"top5": [
+152,
+153,
+154,
+151,
+155
+],
+"gold_in_top5": true
+},
+{
+"k": 1171,
+"ep": 11860,
+"gt": "wait",
+"ok": true,
+"conf": 0.9990339279174805,
+"local": true,
+"top5": [
+40,
+27,
+28,
+24,
+26
+],
+"gold_in_top5": null
+},
+{
+"k": 1175,
+"ep": 11980,
+"gt": "click",
+"ok": true,
+"conf": 0.987431512667925,
+"local": true,
+"top5": [
+63,
+66,
+75,
+76,
+70
+],
+"gold_in_top5": true
+},
+{
+"k": 1185,
+"ep": 12020,
+"gt": "click",
+"ok": true,
+"conf": 0.9814247905905056,
+"local": false,
+"top5": [
+74,
+75,
+58,
+60,
+61
+],
+"gold_in_top5": true
+},
+{
+"k": 1192,
+"ep": 12100,
+"gt": "click",
+"ok": true,
+"conf": 0.9854467226967323,
+"local": true,
+"top5": [
+80,
+60,
+79,
+84,
+71
+],
+"gold_in_top5": true
+},
+{
+"k": 1197,
+"ep": 12140,
+"gt": "click",
+"ok": true,
+"conf": 0.999309688198295,
+"local": true,
+"top5": [
+130,
+124,
+121,
+136,
+132
+],
+"gold_in_top5": true
+},
+{
+"k": 1199,
+"ep": 12140,
+"gt": "wait",
+"ok": true,
+"conf": 0.9963974356651306,
+"local": true,
+"top5": [
+94,
+11,
+18,
+14,
+16
+],
+"gold_in_top5": null
+},
+{
+"k": 1204,
+"ep": 16500,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9993219375610352,
+"local": true,
+"top5": [
+28,
+37,
+60,
+52,
+31
+],
+"gold_in_top5": null
+},
+{
+"k": 1207,
+"ep": 16500,
+"gt": "click",
+"ok": true,
+"conf": 0.9996687447822126,
+"local": true,
+"top5": [
+58,
+150,
+70,
+129,
+39
+],
+"gold_in_top5": true
+},
+{
+"k": 1212,
+"ep": 16540,
+"gt": "open_app",
+"ok": true,
+"conf": 0.999821126461029,
+"local": true,
+"top5": [
+38,
+26,
+25,
+48,
+35
+],
+"gold_in_top5": null
+},
+{
+"k": 1213,
+"ep": 16540,
+"gt": "click",
+"ok": true,
+"conf": 0.9994344814293044,
+"local": true,
+"top5": [
+33,
+34,
+32,
+31,
+30
+],
+"gold_in_top5": true
+},
+{
+"k": 1214,
+"ep": 16540,
+"gt": "click",
+"ok": true,
+"conf": 0.9996773714920266,
+"local": true,
+"top5": [
+29,
+34,
+30,
+32,
+33
+],
+"gold_in_top5": true
+},
+{
+"k": 1217,
+"ep": 16540,
+"gt": "wait",
+"ok": true,
+"conf": 0.9988090991973877,
+"local": true,
+"top5": [
+29,
+27,
+26,
+25,
+24
+],
+"gold_in_top5": null
+},
+{
+"k": 1230,
+"ep": 4780,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9998551607131958,
+"local": true,
+"top5": [
+48,
+47,
+53,
+50,
+39
+],
+"gold_in_top5": null
+},
+{
+"k": 1231,
+"ep": 4780,
+"gt": "click",
+"ok": true,
+"conf": 0.9572902506457126,
+"local": false,
+"top5": [
+94,
+73,
+93,
+49,
+89
+],
+"gold_in_top5": true
+},
+{
+"k": 1232,
+"ep": 4780,
+"gt": "wait",
+"ok": true,
+"conf": 0.9952751398086548,
+"local": true,
+"top5": [
+36,
+42,
+41,
+62,
+76
+],
+"gold_in_top5": null
+},
+{
+"k": 1234,
+"ep": 4820,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9990254640579224,
+"local": true,
+"top5": [
+46,
+50,
+51,
+63,
+62
+],
+"gold_in_top5": null
+},
+{
+"k": 1235,
+"ep": 4820,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9988747239112854,
+"local": true,
+"top5": [
+46,
+81,
+79,
+78,
+76
+],
+"gold_in_top5": null
+},
+{
+"k": 1236,
+"ep": 4820,
+"gt": "click",
+"ok": true,
+"conf": 0.9964823651497454,
+"local": true,
+"top5": [
+79,
+82,
+83,
+60,
+61
+],
+"gold_in_top5": true
+},
+{
+"k": 1240,
+"ep": 16420,
+"gt": "click",
+"ok": false,
+"conf": 0.5970140396828718,
+"local": false,
+"top5": [
+90,
+144,
+91,
+114,
+145
+],
+"gold_in_top5": true
+},
+{
+"k": 1243,
+"ep": 16420,
+"gt": "click",
+"ok": true,
+"conf": 0.9831897055130661,
+"local": false,
+"top5": [
+108,
+107,
+98,
+110,
+79
+],
+"gold_in_top5": true
+},
+{
+"k": 1248,
+"ep": 16460,
+"gt": "click",
+"ok": true,
+"conf": 0.5103960947759916,
+"local": false,
+"top5": [
+34,
+54,
+55,
+52,
+53
+],
+"gold_in_top5": true
+},
+{
+"k": 1249,
+"ep": 16460,
+"gt": "click",
+"ok": true,
+"conf": 0.9991949611466993,
+"local": true,
+"top5": [
+61,
+71,
+70,
+62,
+59
+],
+"gold_in_top5": true
+},
+{
+"k": 1252,
+"ep": 16460,
+"gt": "click",
+"ok": true,
+"conf": 0.997968882181361,
+"local": true,
+"top5": [
+31,
+54,
+72,
+60,
+62
+],
+"gold_in_top5": true
+},
+{
+"k": 1253,
+"ep": 4660,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9998612403869629,
+"local": true,
+"top5": [
+139,
+105,
+94,
+64,
+121
+],
+"gold_in_top5": null
+},
+{
+"k": 1254,
+"ep": 4660,
+"gt": "wait",
+"ok": true,
+"conf": 0.998689591884613,
+"local": true,
+"top5": [
+55,
+56,
+57,
+58,
+52
+],
+"gold_in_top5": null
+},
+{
+"k": 1256,
+"ep": 4660,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9992089867591858,
+"local": true,
+"top5": [
+185,
+184,
+84,
+182,
+186
+],
+"gold_in_top5": null
+},
+{
+"k": 1260,
+"ep": 4700,
+"gt": "click",
+"ok": true,
+"conf": 0.7797065264154242,
+"local": false,
+"top5": [
+47,
+41,
+40,
+48,
+42
+],
+"gold_in_top5": true
+},
+{
+"k": 1261,
+"ep": 11580,
+"gt": "click",
+"ok": false,
+"conf": 0.5123324841862029,
+"local": false,
+"top5": [
+4,
+3,
+6,
+8,
+5
+],
+"gold_in_top5": true
+},
+{
+"k": 1262,
+"ep": 11580,
+"gt": "click",
+"ok": true,
+"conf": 0.9998123070298703,
+"local": true,
+"top5": [
+10,
+11,
+9,
+8
+],
+"gold_in_top5": true
+},
+{
+"k": 1263,
+"ep": 11580,
+"gt": "click",
+"ok": true,
+"conf": 0.9799700796111495,
+"local": false,
+"top5": [
+21,
+22,
+12,
+58,
+13
+],
+"gold_in_top5": true
+},
+{
+"k": 1269,
+"ep": 11620,
+"gt": "click",
+"ok": true,
+"conf": 0.9985175098653869,
+"local": true,
+"top5": [
+38,
+55,
+46,
+30,
+39
+],
+"gold_in_top5": true
+},
+{
+"k": 1283,
+"ep": 16020,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9923285841941833,
+"local": true,
+"top5": [
+80,
+79,
+77,
+78,
+53
+],
+"gold_in_top5": null
+},
+{
+"k": 1284,
+"ep": 16020,
+"gt": "click",
+"ok": true,
+"conf": 0.9740640320986067,
+"local": false,
+"top5": [
+80,
+79,
+81,
+88,
+87
+],
+"gold_in_top5": true
+},
+{
+"k": 1285,
+"ep": 16020,
+"gt": "click",
+"ok": true,
+"conf": 0.9847871362342175,
+"local": true,
+"top5": [
+60,
+61,
+63,
+62,
+50
+],
+"gold_in_top5": true
+},
+{
+"k": 1286,
+"ep": 16020,
+"gt": "click",
+"ok": true,
+"conf": 0.999853731429539,
+"local": true,
+"top5": [
+42,
+41,
+43,
+45,
+50
+],
+"gold_in_top5": true
+},
+{
+"k": 1289,
+"ep": 16060,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9988769888877869,
+"local": true,
+"top5": [
+47,
+38,
+45,
+55,
+46
+],
+"gold_in_top5": null
+},
+{
+"k": 1293,
+"ep": 16060,
+"gt": "wait",
+"ok": true,
+"conf": 0.9914231896400452,
+"local": true,
+"top5": [
+33,
+40,
+43,
+47,
+44
+],
+"gold_in_top5": null
+},
+{
+"k": 1298,
+"ep": 16100,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9998482465744019,
+"local": true,
+"top5": [
+86,
+72,
+90,
+35,
+75
+],
+"gold_in_top5": null
+},
+{
+"k": 1301,
+"ep": 16100,
+"gt": "click",
+"ok": true,
+"conf": 0.9993045282037265,
+"local": true,
+"top5": [
+58,
+133,
+130,
+90,
+93
+],
+"gold_in_top5": true
+},
+{
+"k": 1317,
+"ep": 16220,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9998934268951416,
+"local": true,
+"top5": [
+62,
+60,
+49,
+47,
+51
+],
+"gold_in_top5": null
+},
+{
+"k": 1318,
+"ep": 16220,
+"gt": "click",
+"ok": true,
+"conf": 0.9923307011052742,
+"local": true,
+"top5": [
+60,
+54,
+61,
+59,
+62
+],
+"gold_in_top5": true
+},
+{
+"k": 1319,
+"ep": 16220,
+"gt": "click",
+"ok": true,
+"conf": 0.9981368244697322,
+"local": true,
+"top5": [
+71,
+72,
+70,
+57,
+44
+],
+"gold_in_top5": true
+},
+{
+"k": 1322,
+"ep": 16220,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9990221261978149,
+"local": true,
+"top5": [
+188,
+189,
+190,
+162,
+179
+],
+"gold_in_top5": null
+},
+{
+"k": 1323,
+"ep": 16220,
+"gt": "click",
+"ok": true,
+"conf": 0.9983742566453273,
+"local": true,
+"top5": [
+149,
+150,
+151,
+176,
+158
+],
+"gold_in_top5": true
+},
+{
+"k": 1324,
+"ep": 16260,
+"gt": "click",
+"ok": true,
+"conf": 0.9996488990575969,
+"local": true,
+"top5": [
+123,
+121,
+122,
+131,
+119
+],
+"gold_in_top5": true
+},
+{
+"k": 1341,
+"ep": 16300,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9994408488273621,
+"local": true,
+"top5": [
+38,
+40,
+26,
+39,
+27
+],
+"gold_in_top5": null
+},
+{
+"k": 1342,
+"ep": 16300,
+"gt": "click",
+"ok": true,
+"conf": 0.9996510425293508,
+"local": true,
+"top5": [
+26,
+23,
+27,
+24,
+28
+],
+"gold_in_top5": true
+},
+{
+"k": 1343,
+"ep": 16300,
+"gt": "click",
+"ok": true,
+"conf": 0.9996837024912466,
+"local": true,
+"top5": [
+26,
+23,
+24,
+28,
+27
+],
+"gold_in_top5": true
+},
+{
+"k": 1344,
+"ep": 16300,
+"gt": "click",
+"ok": true,
+"conf": 0.997604304603712,
+"local": true,
+"top5": [
+40,
+38,
+39,
+22,
+31
+],
+"gold_in_top5": true
+},
+{
+"k": 1345,
+"ep": 16300,
+"gt": "wait",
+"ok": true,
+"conf": 0.998146653175354,
+"local": true,
+"top5": [
+48,
+47,
+29,
+45,
+36
+],
+"gold_in_top5": null
+},
+{
+"k": 1348,
+"ep": 16300,
+"gt": "wait",
+"ok": true,
+"conf": 0.9370494484901428,
+"local": false,
+"top5": [
+48,
+47,
+29,
+36,
+30
+],
+"gold_in_top5": null
+},
+{
+"k": 1349,
+"ep": 16300,
+"gt": "click",
+"ok": true,
+"conf": 0.9988061148271612,
+"local": true,
+"top5": [
+47,
+29,
+48,
+45,
+46
+],
+"gold_in_top5": true
+},
+{
+"k": 1356,
+"ep": 3820,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.999058187007904,
+"local": true,
+"top5": [
+67,
+80,
+65,
+91,
+68
+],
+"gold_in_top5": null
+},
+{
+"k": 1357,
+"ep": 3820,
+"gt": "click",
+"ok": true,
+"conf": 0.6681504618435881,
+"local": false,
+"top5": [
+75,
+76,
+77,
+72,
+73
+],
+"gold_in_top5": true
+},
+{
+"k": 1358,
+"ep": 3820,
+"gt": "click",
+"ok": true,
+"conf": 0.9995518784050006,
+"local": true,
+"top5": [
+95,
+76,
+96,
+75,
+72
+],
+"gold_in_top5": true
+},
+{
+"k": 1359,
+"ep": 3820,
+"gt": "click",
+"ok": true,
+"conf": 0.5647835634198017,
+"local": false,
+"top5": [
+111,
+112,
+109,
+72,
+79
+],
+"gold_in_top5": true
+},
+{
+"k": 1360,
+"ep": 3820,
+"gt": "click",
+"ok": true,
+"conf": 0.9988204019026199,
+"local": true,
+"top5": [
+75,
+111,
+85,
+112,
+72
+],
+"gold_in_top5": true
+},
+{
+"k": 1366,
+"ep": 3860,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9989387392997742,
+"local": true,
+"top5": [
+30,
+39,
+35,
+36,
+38
+],
+"gold_in_top5": null
+},
+{
+"k": 1367,
+"ep": 3860,
+"gt": "click",
+"ok": true,
+"conf": 0.5043270316757464,
+"local": false,
+"top5": [
+85,
+87,
+90,
+45,
+46
+],
+"gold_in_top5": true
+},
+{
+"k": 1368,
+"ep": 3900,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9974077343940735,
+"local": true,
+"top5": [
+43,
+42,
+50,
+40,
+41
+],
+"gold_in_top5": null
+},
+{
+"k": 1369,
+"ep": 3900,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9986152648925781,
+"local": true,
+"top5": [
+38,
+43,
+58,
+57,
+53
+],
+"gold_in_top5": null
+},
+{
+"k": 1372,
+"ep": 3900,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9983829259872437,
+"local": true,
+"top5": [
+38,
+51,
+52,
+48,
+32
+],
+"gold_in_top5": null
+},
+{
+"k": 1373,
+"ep": 3900,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9970548152923584,
+"local": true,
+"top5": [
+42,
+50,
+43,
+51,
+108
+],
+"gold_in_top5": null
+},
+{
+"k": 1380,
+"ep": 3940,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9949530959129333,
+"local": true,
+"top5": [
+59,
+71,
+39,
+60,
+57
+],
+"gold_in_top5": null
+},
+{
+"k": 1382,
+"ep": 3940,
+"gt": "click",
+"ok": false,
+"conf": 0.998421311378479,
+"local": true,
+"top5": [
+54,
+44,
+55,
+37,
+53
+],
+"gold_in_top5": true
+},
+{
+"k": 1383,
+"ep": 3980,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9987748265266418,
+"local": true,
+"top5": [
+33,
+45,
+50,
+34,
+39
+],
+"gold_in_top5": null
+},
+{
+"k": 1384,
+"ep": 3980,
+"gt": "click",
+"ok": true,
+"conf": 0.697529537121433,
+"local": false,
+"top5": [
+35,
+41,
+36,
+42,
+85
+],
+"gold_in_top5": true
+},
+{
+"k": 1385,
+"ep": 3980,
+"gt": "click",
+"ok": true,
+"conf": 0.9952187274026016,
+"local": true,
+"top5": [
+76,
+50,
+75,
+77,
+82
+],
+"gold_in_top5": true
+},
+{
+"k": 1386,
+"ep": 4020,
+"gt": "click",
+"ok": true,
+"conf": 0.8306407172163119,
+"local": false,
+"top5": [
+103,
+124,
+106,
+133,
+109
+],
+"gold_in_top5": true
+},
+{
+"k": 1387,
+"ep": 4020,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9987978935241699,
+"local": true,
+"top5": [
+121,
+73,
+154,
+160,
+125
+],
+"gold_in_top5": null
+},
+{
+"k": 1388,
+"ep": 4020,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9961168766021729,
+"local": true,
+"top5": [
+122,
+73,
+123,
+167,
+166
+],
+"gold_in_top5": null
+},
+{
+"k": 1389,
+"ep": 4020,
+"gt": "click",
+"ok": true,
+"conf": 0.9644608576028588,
+"local": false,
+"top5": [
+133,
+135,
+136,
+157,
+74
+],
+"gold_in_top5": true
+},
+{
+"k": 1393,
+"ep": 4020,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9967244267463684,
+"local": true,
+"top5": [
+208,
+145,
+165,
+124,
+141
+],
+"gold_in_top5": null
+},
+{
+"k": 1410,
+"ep": 4060,
+"gt": "wait",
+"ok": true,
+"conf": 0.996863842010498,
+"local": true,
+"top5": [
+87,
+36,
+88,
+63,
+79
+],
+"gold_in_top5": null
+},
+{
+"k": 1411,
+"ep": 4060,
+"gt": "click",
+"ok": false,
+"conf": 0.5958559513092041,
+"local": false,
+"top5": [
+82,
+40,
+99,
+88,
+59
+],
+"gold_in_top5": false
+},
+{
+"k": 1422,
+"ep": 4140,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9948539137840271,
+"local": true,
+"top5": [
+91,
+137,
+85,
+152,
+142
+],
+"gold_in_top5": null
+},
+{
+"k": 1423,
+"ep": 4140,
+"gt": "click",
+"ok": true,
+"conf": 0.9815482478314976,
+"local": false,
+"top5": [
+151,
+152,
+153,
+115,
+85
+],
+"gold_in_top5": true
+},
+{
+"k": 1424,
+"ep": 4140,
+"gt": "wait",
+"ok": true,
+"conf": 0.9994423985481262,
+"local": true,
+"top5": [
+100,
+96,
+99,
+97,
+98
+],
+"gold_in_top5": null
+},
+{
+"k": 1429,
+"ep": 4180,
+"gt": "click",
+"ok": true,
+"conf": 0.9597301702459404,
+"local": false,
+"top5": [
+95,
+92,
+59,
+60,
+57
+],
+"gold_in_top5": true
+},
+{
+"k": 1431,
+"ep": 4180,
+"gt": "click",
+"ok": true,
+"conf": 0.9977552887335435,
+"local": true,
+"top5": [
+166,
+167,
+149,
+168,
+172
+],
+"gold_in_top5": true
+},
+{
+"k": 1434,
+"ep": 4220,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9997898936271667,
+"local": true,
+"top5": [
+55,
+69,
+71,
+60,
+56
+],
+"gold_in_top5": null
+},
+{
+"k": 1435,
+"ep": 4220,
+"gt": "click",
+"ok": true,
+"conf": 0.9369296169179364,
+"local": false,
+"top5": [
+168,
+172,
+173,
+170,
+171
+],
+"gold_in_top5": true
+},
+{
+"k": 1436,
+"ep": 4220,
+"gt": "click",
+"ok": true,
+"conf": 0.9306234613079667,
+"local": false,
+"top5": [
+111,
+110,
+109,
+90,
+112
+],
+"gold_in_top5": true
+},
+{
+"k": 1437,
+"ep": 4220,
+"gt": "click",
+"ok": true,
+"conf": 0.6795305600674197,
+"local": false,
+"top5": [
+46,
+48,
+47,
+44,
+50
+],
+"gold_in_top5": true
+},
+{
+"k": 1438,
+"ep": 4220,
+"gt": "click",
+"ok": true,
+"conf": 0.9993417735504266,
+"local": true,
+"top5": [
+34,
+60,
+54,
+52,
+48
+],
+"gold_in_top5": true
+},
+{
+"k": 1458,
+"ep": 4380,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9970557689666748,
+"local": true,
+"top5": [
+53,
+82,
+81,
+80,
+78
+],
+"gold_in_top5": null
+},
+{
+"k": 1461,
+"ep": 4380,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9979162812232971,
+"local": true,
+"top5": [
+76,
+84,
+77,
+87,
+59
+],
+"gold_in_top5": null
+},
+{
+"k": 1463,
+"ep": 4380,
+"gt": "scroll",
+"ok": true,
+"conf": 0.995299220085144,
+"local": true,
+"top5": [
+57,
+52,
+55,
+58,
+59
+],
+"gold_in_top5": null
+},
+{
+"k": 1471,
+"ep": 4580,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9979520440101624,
+"local": true,
+"top5": [
+57,
+65,
+29,
+58,
+60
+],
+"gold_in_top5": null
+},
+{
+"k": 1475,
+"ep": 4580,
+"gt": "click",
+"ok": true,
+"conf": 0.9991942144121353,
+"local": true,
+"top5": [
+20,
+22,
+21,
+23,
+11
+],
+"gold_in_top5": true
+},
+{
+"k": 1476,
+"ep": 4580,
+"gt": "click",
+"ok": true,
+"conf": 0.9978380736344974,
+"local": true,
+"top5": [
+44,
+45,
+30,
+36,
+29
+],
+"gold_in_top5": true
+},
+{
+"k": 1477,
+"ep": 4580,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9990670084953308,
+"local": true,
+"top5": [
+178,
+179,
+177,
+171,
+175
+],
+"gold_in_top5": null
+},
+{
+"k": 1484,
+"ep": 4620,
+"gt": "click",
+"ok": true,
+"conf": 0.9975115375479291,
+"local": true,
+"top5": [
+65,
+60,
+59,
+63,
+64
+],
+"gold_in_top5": true
+},
+{
+"k": 1487,
+"ep": 11220,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9977329969406128,
+"local": true,
+"top5": [
+52,
+54,
+49,
+32,
+53
+],
+"gold_in_top5": null
+},
+{
+"k": 1488,
+"ep": 11220,
+"gt": "click",
+"ok": true,
+"conf": 0.9800712777892961,
+"local": false,
+"top5": [
+35,
+33,
+36,
+34,
+37
+],
+"gold_in_top5": true
+},
+{
+"k": 1490,
+"ep": 11220,
+"gt": "click",
+"ok": true,
+"conf": 0.9976192835813364,
+"local": true,
+"top5": [
+52,
+53,
+39,
+59,
+55
+],
+"gold_in_top5": true
+},
+{
+"k": 1494,
+"ep": 11220,
+"gt": "click",
+"ok": true,
+"conf": 0.9987732667504474,
+"local": true,
+"top5": [
+32,
+28,
+29,
+33,
+11
+],
+"gold_in_top5": true
+},
+{
+"k": 1495,
+"ep": 11220,
+"gt": "click",
+"ok": false,
+"conf": 0.815297416604011,
+"local": false,
+"top5": [
+105,
+106,
+104,
+108,
+111
+],
+"gold_in_top5": false
+},
+{
+"k": 1497,
+"ep": 11220,
+"gt": "click",
+"ok": true,
+"conf": 0.20797740278092114,
+"local": false,
+"top5": [
+118,
+113,
+115,
+116,
+119
+],
+"gold_in_top5": true
+},
+{
+"k": 1498,
+"ep": 11220,
+"gt": "click",
+"ok": false,
+"conf": 0.18472131058023145,
+"local": false,
+"top5": [
+113,
+115,
+116,
+112,
+121
+],
+"gold_in_top5": true
+},
+{
+"k": 1499,
+"ep": 11220,
+"gt": "click",
+"ok": true,
+"conf": 0.9985626230244584,
+"local": true,
+"top5": [
+35,
+51,
+36,
+49,
+46
+],
+"gold_in_top5": true
+},
+{
+"k": 1500,
+"ep": 11220,
+"gt": "click",
+"ok": true,
+"conf": 0.9390067273831484,
+"local": false,
+"top5": [
+64,
+60,
+53,
+57,
+71
+],
+"gold_in_top5": true
+},
+{
+"k": 1505,
+"ep": 11340,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9992996454238892,
+"local": true,
+"top5": [
+48,
+49,
+47,
+46,
+34
+],
+"gold_in_top5": null
+},
+{
+"k": 1506,
+"ep": 11340,
+"gt": "click",
+"ok": true,
+"conf": 0.9993374248204532,
+"local": true,
+"top5": [
+64,
+63,
+46,
+66,
+65
+],
+"gold_in_top5": true
+},
+{
+"k": 1518,
+"ep": 11420,
+"gt": "input_text",
+"ok": true,
+"conf": 0.8776562809944153,
+"local": false,
+"top5": [
+103,
+182,
+174,
+175,
+188
+],
+"gold_in_top5": null
+},
+{
+"k": 1519,
+"ep": 11420,
+"gt": "click",
+"ok": false,
+"conf": 0.8664198184737089,
+"local": false,
+"top5": [
+173,
+174,
+166,
+177,
+168
+],
+"gold_in_top5": true
+},
+{
+"k": 1520,
+"ep": 11420,
+"gt": "click",
+"ok": true,
+"conf": 0.9992407569488471,
+"local": true,
+"top5": [
+68,
+50,
+44,
+52,
+69
+],
+"gold_in_top5": true
+},
+{
+"k": 1523,
+"ep": 11420,
+"gt": "click",
+"ok": true,
+"conf": 0.99921687390313,
+"local": true,
+"top5": [
+53,
+60,
+65,
+54,
+52
+],
+"gold_in_top5": true
+},
+{
+"k": 1525,
+"ep": 11420,
+"gt": "click",
+"ok": true,
+"conf": 0.9996984816894852,
+"local": true,
+"top5": [
+44,
+68,
+67,
+58,
+61
+],
+"gold_in_top5": true
+},
+{
+"k": 1533,
+"ep": 11460,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9980941414833069,
+"local": true,
+"top5": [
+33,
+41,
+46,
+29,
+45
+],
+"gold_in_top5": null
+},
+{
+"k": 1534,
+"ep": 11460,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9938202500343323,
+"local": true,
+"top5": [
+31,
+37,
+38,
+30,
+39
+],
+"gold_in_top5": null
+},
+{
+"k": 1539,
+"ep": 11540,
+"gt": "open_app",
+"ok": false,
+"conf": 0.999842643737793,
+"local": true,
+"top5": [
+52,
+44,
+40,
+41,
+49
+],
+"gold_in_top5": null
+},
+{
+"k": 1540,
+"ep": 11540,
+"gt": "click",
+"ok": true,
+"conf": 0.9904197421238621,
+"local": true,
+"top5": [
+59,
+63,
+60,
+64,
+52
+],
+"gold_in_top5": true
+},
+{
+"k": 1541,
+"ep": 11540,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9880512952804565,
+"local": true,
+"top5": [
+61,
+56,
+52,
+59,
+62
+],
+"gold_in_top5": null
+},
+{
+"k": 1552,
+"ep": 15780,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9982197880744934,
+"local": true,
+"top5": [
+43,
+44,
+56,
+53,
+48
+],
+"gold_in_top5": null
+},
+{
+"k": 1557,
+"ep": 15780,
+"gt": "click",
+"ok": true,
+"conf": 0.9671644078357495,
+"local": false,
+"top5": [
+56,
+46,
+55,
+61,
+47
+],
+"gold_in_top5": true
+},
+{
+"k": 1562,
+"ep": 15780,
+"gt": "click",
+"ok": true,
+"conf": 0.9259757002081486,
+"local": false,
+"top5": [
+63,
+53,
+62,
+68,
+54
+],
+"gold_in_top5": true
+},
+{
+"k": 1563,
+"ep": 15780,
+"gt": "click",
+"ok": true,
+"conf": 0.9963477486138501,
+"local": true,
+"top5": [
+44,
+88,
+38,
+58,
+89
+],
+"gold_in_top5": true
+},
+{
+"k": 1566,
+"ep": 15820,
+"gt": "click",
+"ok": true,
+"conf": 0.9963231272646951,
+"local": true,
+"top5": [
+78,
+77,
+54,
+72,
+55
+],
+"gold_in_top5": true
+},
+{
+"k": 1567,
+"ep": 15820,
+"gt": "click",
+"ok": true,
+"conf": 0.9997935372260116,
+"local": true,
+"top5": [
+44,
+43,
+39,
+46,
+42
+],
+"gold_in_top5": true
+},
+{
+"k": 1576,
+"ep": 15940,
+"gt": "click",
+"ok": true,
+"conf": 0.9993576758007272,
+"local": true,
+"top5": [
+58,
+59,
+57,
+63,
+71
+],
+"gold_in_top5": true
+},
+{
+"k": 1577,
+"ep": 15940,
+"gt": "click",
+"ok": true,
+"conf": 0.9950287335273345,
+"local": true,
+"top5": [
+65,
+63,
+66,
+68,
+64
+],
+"gold_in_top5": true
+},
+{
+"k": 1590,
+"ep": 3740,
+"gt": "click",
+"ok": true,
+"conf": 0.9993503525246297,
+"local": true,
+"top5": [
+40,
+34,
+39,
+38,
+42
+],
+"gold_in_top5": true
+},
+{
+"k": 1591,
+"ep": 3740,
+"gt": "click",
+"ok": true,
+"conf": 0.8041038597039005,
+"local": false,
+"top5": [
+40,
+38,
+34,
+39,
+42
+],
+"gold_in_top5": true
+},
+{
+"k": 1602,
+"ep": 11180,
+"gt": "click",
+"ok": true,
+"conf": 0.9986433804776134,
+"local": true,
+"top5": [
+72,
+68,
+71,
+106,
+73
+],
+"gold_in_top5": true
+},
+{
+"k": 1603,
+"ep": 11180,
+"gt": "input_text",
+"ok": false,
+"conf": 0.9986542463302612,
+"local": true,
+"top5": [
+173,
+172,
+169,
+176,
+159
+],
+"gold_in_top5": null
+},
+{
+"k": 1604,
+"ep": 11180,
+"gt": "click",
+"ok": true,
+"conf": 0.999748601968804,
+"local": true,
+"top5": [
+52,
+124,
+65,
+127,
+159
+],
+"gold_in_top5": true
+},
+{
+"k": 1613,
+"ep": 15660,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9998992681503296,
+"local": true,
+"top5": [
+53,
+52,
+50,
+47,
+51
+],
+"gold_in_top5": null
+},
+{
+"k": 1615,
+"ep": 15660,
+"gt": "click",
+"ok": true,
+"conf": 0.993838609485806,
+"local": true,
+"top5": [
+71,
+67,
+53,
+72,
+68
+],
+"gold_in_top5": true
+},
+{
+"k": 1618,
+"ep": 15660,
+"gt": "click",
+"ok": false,
+"conf": 0.5800867080688477,
+"local": false,
+"top5": [
+48,
+47,
+49,
+43,
+52
+],
+"gold_in_top5": true
+},
+{
+"k": 1619,
+"ep": 15660,
+"gt": "click",
+"ok": false,
+"conf": 0.42992503038574625,
+"local": false,
+"top5": [
+61,
+72,
+51,
+68,
+54
+],
+"gold_in_top5": true
+},
+{
+"k": 1621,
+"ep": 15660,
+"gt": "click",
+"ok": true,
+"conf": 0.952751443076032,
+"local": false,
+"top5": [
+173,
+174,
+172,
+176,
+177
+],
+"gold_in_top5": true
+},
+{
+"k": 1622,
+"ep": 15660,
+"gt": "click",
+"ok": true,
+"conf": 0.977020555675832,
+"local": false,
+"top5": [
+73,
+62,
+74,
+69,
+63
+],
+"gold_in_top5": true
+},
+{
+"k": 1624,
+"ep": 15660,
+"gt": "click",
+"ok": true,
+"conf": 0.9963514559357591,
+"local": true,
+"top5": [
+132,
+79,
+133,
+131,
+38
+],
+"gold_in_top5": true
+},
+{
+"k": 1625,
+"ep": 15660,
+"gt": "click",
+"ok": true,
+"conf": 0.9922001825514677,
+"local": true,
+"top5": [
+138,
+137,
+139,
+89,
+38
+],
+"gold_in_top5": true
+},
+{
+"k": 1626,
+"ep": 15660,
+"gt": "click",
+"ok": true,
+"conf": 0.9720777107844469,
+"local": false,
+"top5": [
+42,
+39,
+38,
+103,
+128
+],
+"gold_in_top5": true
+},
+{
+"k": 1627,
+"ep": 15660,
+"gt": "click",
+"ok": true,
+"conf": 0.6877218452036686,
+"local": false,
+"top5": [
+52,
+48,
+56,
+54,
+53
+],
+"gold_in_top5": true
+},
+{
+"k": 1640,
+"ep": 15700,
+"gt": "click",
+"ok": false,
+"conf": 0.6690834702961865,
+"local": false,
+"top5": [
+127,
+114,
+128,
+107,
+125
+],
+"gold_in_top5": true
+},
+{
+"k": 1642,
+"ep": 15700,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9979994893074036,
+"local": true,
+"top5": [
+265,
+266,
+229,
+268,
+248
+],
+"gold_in_top5": null
+},
+{
+"k": 1645,
+"ep": 3460,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9998857975006104,
+"local": true,
+"top5": [
+37,
+57,
+34,
+35,
+60
+],
+"gold_in_top5": null
+},
+{
+"k": 1652,
+"ep": 3500,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.998714804649353,
+"local": true,
+"top5": [
+27,
+28,
+52,
+44,
+49
+],
+"gold_in_top5": null
+},
+{
+"k": 1656,
+"ep": 3540,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9894205331802368,
+"local": true,
+"top5": [
+35,
+34,
+46,
+43,
+39
+],
+"gold_in_top5": null
+},
+{
+"k": 1657,
+"ep": 3540,
+"gt": "click",
+"ok": false,
+"conf": 0.9214837599058789,
+"local": false,
+"top5": [
+61,
+62,
+39,
+40,
+51
+],
+"gold_in_top5": true
+},
+{
+"k": 1659,
+"ep": 3540,
+"gt": "click",
+"ok": false,
+"conf": 0.5397799811977251,
+"local": false,
+"top5": [
+180,
+179,
+182,
+186,
+181
+],
+"gold_in_top5": true
+},
+{
+"k": 1666,
+"ep": 3540,
+"gt": "click",
+"ok": true,
+"conf": 0.6245892815379293,
+"local": false,
+"top5": [
+71,
+64,
+72,
+70,
+147
+],
+"gold_in_top5": true
+},
+{
+"k": 1667,
+"ep": 3540,
+"gt": "wait",
+"ok": true,
+"conf": 0.8773921132087708,
+"local": false,
+"top5": [
+84,
+77,
+153,
+70,
+120
+],
+"gold_in_top5": null
+},
+{
+"k": 1678,
+"ep": 3580,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9976377487182617,
+"local": true,
+"top5": [
+203,
+150,
+172,
+123,
+144
+],
+"gold_in_top5": null
+},
+{
+"k": 1680,
+"ep": 3580,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9969853758811951,
+"local": true,
+"top5": [
+181,
+158,
+133,
+145,
+193
+],
+"gold_in_top5": null
+},
+{
+"k": 1688,
+"ep": 3620,
+"gt": "wait",
+"ok": true,
+"conf": 0.999393105506897,
+"local": true,
+"top5": [
+38,
+9,
+27,
+12,
+21
+],
+"gold_in_top5": null
+},
+{
+"k": 1689,
+"ep": 3620,
+"gt": "click",
+"ok": true,
+"conf": 0.9995051285798979,
+"local": true,
+"top5": [
+66,
+63,
+60,
+49,
+61
+],
+"gold_in_top5": true
+},
+{
+"k": 1690,
+"ep": 3620,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9983398914337158,
+"local": true,
+"top5": [
+217,
+210,
+61,
+197,
+196
+],
+"gold_in_top5": null
+},
+{
+"k": 1691,
+"ep": 3620,
+"gt": "click",
+"ok": true,
+"conf": 0.9994615399163891,
+"local": true,
+"top5": [
+61,
+189,
+41,
+58,
+190
+],
+"gold_in_top5": true
+},
+{
+"k": 1697,
+"ep": 10980,
+"gt": "click",
+"ok": true,
+"conf": 0.9688346732300808,
+"local": false,
+"top5": [
+56,
+59,
+60,
+42,
+43
+],
+"gold_in_top5": true
+},
+{
+"k": 1698,
+"ep": 10980,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9993822574615479,
+"local": true,
+"top5": [
+52,
+51,
+54,
+53,
+30
+],
+"gold_in_top5": null
+},
+{
+"k": 1699,
+"ep": 10980,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9993743300437927,
+"local": true,
+"top5": [
+48,
+47,
+33,
+58,
+37
+],
+"gold_in_top5": null
+},
+{
+"k": 1707,
+"ep": 11020,
+"gt": "click",
+"ok": true,
+"conf": 0.9904992741726346,
+"local": true,
+"top5": [
+30,
+26,
+35,
+36,
+33
+],
+"gold_in_top5": true
+},
+{
+"k": 1708,
+"ep": 11020,
+"gt": "click",
+"ok": true,
+"conf": 0.9993079883914326,
+"local": true,
+"top5": [
+29,
+28,
+38,
+40,
+41
+],
+"gold_in_top5": true
+},
+{
+"k": 1709,
+"ep": 11020,
+"gt": "wait",
+"ok": true,
+"conf": 0.9993775486946106,
+"local": true,
+"top5": [
+26,
+11,
+16,
+14,
+18
+],
+"gold_in_top5": null
+},
+{
+"k": 1712,
+"ep": 11020,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9931057095527649,
+"local": true,
+"top5": [
+26,
+11,
+16,
+23,
+14
+],
+"gold_in_top5": null
+},
+{
+"k": 1713,
+"ep": 11020,
+"gt": "click",
+"ok": true,
+"conf": 0.9940801312247842,
+"local": true,
+"top5": [
+26,
+11,
+19,
+16,
+14
+],
+"gold_in_top5": true
+},
+{
+"k": 1716,
+"ep": 11060,
+"gt": "click",
+"ok": true,
+"conf": 0.9941718128018096,
+"local": true,
+"top5": [
+46,
+44,
+47,
+59,
+41
+],
+"gold_in_top5": true
+},
+{
+"k": 1720,
+"ep": 11100,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9997733235359192,
+"local": true,
+"top5": [
+35,
+77,
+89,
+47,
+83
+],
+"gold_in_top5": null
+},
+{
+"k": 1721,
+"ep": 11100,
+"gt": "click",
+"ok": true,
+"conf": 0.9361761864739151,
+"local": false,
+"top5": [
+8,
+5,
+4,
+22,
+19
+],
+"gold_in_top5": true
+},
+{
+"k": 1722,
+"ep": 11100,
+"gt": "click",
+"ok": true,
+"conf": 0.995410118921523,
+"local": true,
+"top5": [
+31,
+30,
+36,
+32,
+3
+],
+"gold_in_top5": true
+},
+{
+"k": 1723,
+"ep": 11100,
+"gt": "click",
+"ok": true,
+"conf": 0.9992150362214289,
+"local": true,
+"top5": [
+7,
+6,
+8,
+3,
+11
+],
+"gold_in_top5": true
+},
+{
+"k": 1725,
+"ep": 11100,
+"gt": "click",
+"ok": true,
+"conf": 0.6166298621468478,
+"local": false,
+"top5": [
+123,
+127,
+129,
+133,
+125
+],
+"gold_in_top5": true
+},
+{
+"k": 1728,
+"ep": 15260,
+"gt": "click",
+"ok": true,
+"conf": 0.9958258680241734,
+"local": true,
+"top5": [
+131,
+132,
+133,
+141,
+135
+],
+"gold_in_top5": true
+},
+{
+"k": 1730,
+"ep": 15260,
+"gt": "scroll",
+"ok": true,
+"conf": 0.998690664768219,
+"local": true,
+"top5": [
+105,
+117,
+118,
+97,
+106
+],
+"gold_in_top5": null
+},
+{
+"k": 1732,
+"ep": 15300,
+"gt": "click",
+"ok": true,
+"conf": 0.9996995543337235,
+"local": true,
+"top5": [
+73,
+72,
+71,
+68,
+70
+],
+"gold_in_top5": true
+},
+{
+"k": 1733,
+"ep": 15300,
+"gt": "input_text",
+"ok": true,
+"conf": 0.984898030757904,
+"local": true,
+"top5": [
+66,
+73,
+61,
+67,
+81
+],
+"gold_in_top5": null
+},
+{
+"k": 1746,
+"ep": 15420,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9998915195465088,
+"local": true,
+"top5": [
+74,
+61,
+62,
+84,
+82
+],
+"gold_in_top5": null
+},
+{
+"k": 1747,
+"ep": 15420,
+"gt": "click",
+"ok": false,
+"conf": 0.9877638220787048,
+"local": true,
+"top5": [
+58,
+62,
+63,
+60,
+59
+],
+"gold_in_top5": true
+},
+{
+"k": 1748,
+"ep": 15420,
+"gt": "click",
+"ok": true,
+"conf": 0.9950108006118725,
+"local": true,
+"top5": [
+86,
+93,
+83,
+90,
+92
+],
+"gold_in_top5": true
+},
+{
+"k": 1749,
+"ep": 15420,
+"gt": "click",
+"ok": false,
+"conf": 0.5943981157736218,
+"local": false,
+"top5": [
+72,
+70,
+75,
+68,
+71
+],
+"gold_in_top5": true
+},
+{
+"k": 1750,
+"ep": 15420,
+"gt": "click",
+"ok": true,
+"conf": 0.967914289356127,
+"local": false,
+"top5": [
+69,
+68,
+135,
+129,
+66
+],
+"gold_in_top5": true
+},
+{
+"k": 1751,
+"ep": 15420,
+"gt": "click",
+"ok": false,
+"conf": 0.8588492997223085,
+"local": false,
+"top5": [
+71,
+72,
+73,
+70,
+62
+],
+"gold_in_top5": true
+},
+{
+"k": 1752,
+"ep": 15420,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9976391792297363,
+"local": true,
+"top5": [
+204,
+191,
+123,
+200,
+202
+],
+"gold_in_top5": null
+},
+{
+"k": 1757,
+"ep": 15460,
+"gt": "click",
+"ok": true,
+"conf": 0.5120459977117768,
+"local": false,
+"top5": [
+104,
+126,
+125,
+70,
+128
+],
+"gold_in_top5": true
+},
+{
+"k": 1758,
+"ep": 15460,
+"gt": "click",
+"ok": true,
+"conf": 0.9689119879667274,
+"local": false,
+"top5": [
+61,
+55,
+62,
+60,
+59
+],
+"gold_in_top5": true
+},
+{
+"k": 1759,
+"ep": 15460,
+"gt": "click",
+"ok": true,
+"conf": 0.99921504627563,
+"local": true,
+"top5": [
+67,
+59,
+54,
+66,
+52
+],
+"gold_in_top5": true
+},
+{
+"k": 1762,
+"ep": 15500,
+"gt": "open_app",
+"ok": true,
+"conf": 0.996536374092102,
+"local": true,
+"top5": [
+44,
+36,
+43,
+33,
+32
+],
+"gold_in_top5": null
+},
+{
+"k": 1763,
+"ep": 15500,
+"gt": "wait",
+"ok": true,
+"conf": 0.9774439930915833,
+"local": false,
+"top5": [
+30,
+9,
+12,
+27,
+17
+],
+"gold_in_top5": null
+},
+{
+"k": 1764,
+"ep": 15500,
+"gt": "click",
+"ok": true,
+"conf": 0.5215898313401084,
+"local": false,
+"top5": [
+44,
+37,
+30,
+43,
+33
+],
+"gold_in_top5": true
+},
+{
+"k": 1766,
+"ep": 15500,
+"gt": "click",
+"ok": true,
+"conf": 0.9876652390532215,
+"local": true,
+"top5": [
+177,
+167,
+178,
+164,
+176
+],
+"gold_in_top5": true
+},
+{
+"k": 1768,
+"ep": 15500,
+"gt": "click",
+"ok": true,
+"conf": 0.712708286415868,
+"local": false,
+"top5": [
+39,
+38,
+37,
+44,
+46
+],
+"gold_in_top5": true
+},
+{
+"k": 1771,
+"ep": 15580,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9982349872589111,
+"local": true,
+"top5": [
+80,
+66,
+51,
+79,
+65
+],
+"gold_in_top5": null
+},
+{
+"k": 1781,
+"ep": 2900,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9950736165046692,
+"local": true,
+"top5": [
+47,
+58,
+57,
+112,
+62
+],
+"gold_in_top5": null
+},
+{
+"k": 1785,
+"ep": 2900,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9955645799636841,
+"local": true,
+"top5": [
+44,
+45,
+38,
+37,
+34
+],
+"gold_in_top5": null
+},
+{
+"k": 1788,
+"ep": 2940,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9998925924301147,
+"local": true,
+"top5": [
+26,
+24,
+45,
+25,
+43
+],
+"gold_in_top5": null
+},
+{
+"k": 1789,
+"ep": 2940,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9997084736824036,
+"local": true,
+"top5": [
+47,
+45,
+46,
+37,
+39
+],
+"gold_in_top5": null
+},
+{
+"k": 1790,
+"ep": 2940,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9994192123413086,
+"local": true,
+"top5": [
+34,
+25,
+27,
+31,
+36
+],
+"gold_in_top5": null
+},
+{
+"k": 1791,
+"ep": 2940,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9990127086639404,
+"local": true,
+"top5": [
+39,
+33,
+40,
+41,
+37
+],
+"gold_in_top5": null
+},
+{
+"k": 1792,
+"ep": 2940,
+"gt": "click",
+"ok": true,
+"conf": 0.997725609644931,
+"local": true,
+"top5": [
+64,
+54,
+71,
+72,
+69
+],
+"gold_in_top5": true
+},
+{
+"k": 1800,
+"ep": 3020,
+"gt": "click",
+"ok": true,
+"conf": 0.9956068002881402,
+"local": true,
+"top5": [
+67,
+94,
+74,
+75,
+87
+],
+"gold_in_top5": true
+},
+{
+"k": 1801,
+"ep": 3020,
+"gt": "click",
+"ok": true,
+"conf": 0.9869535373039007,
+"local": true,
+"top5": [
+92,
+99,
+103,
+96,
+105
+],
+"gold_in_top5": true
+},
+{
+"k": 1803,
+"ep": 3060,
+"gt": "click",
+"ok": true,
+"conf": 0.9663863350830582,
+"local": false,
+"top5": [
+40,
+62,
+63,
+66,
+64
+],
+"gold_in_top5": true
+},
+{
+"k": 1805,
+"ep": 3060,
+"gt": "click",
+"ok": true,
+"conf": 0.9253672828320525,
+"local": false,
+"top5": [
+60,
+59,
+42,
+111,
+58
+],
+"gold_in_top5": true
+},
+{
+"k": 1807,
+"ep": 3060,
+"gt": "wait",
+"ok": true,
+"conf": 0.9936872124671936,
+"local": true,
+"top5": [
+33,
+35,
+34,
+32,
+30
+],
+"gold_in_top5": null
+},
+{
+"k": 1809,
+"ep": 3140,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9998977184295654,
+"local": true,
+"top5": [
+63,
+66,
+88,
+90,
+76
+],
+"gold_in_top5": null
+},
+{
+"k": 1810,
+"ep": 3140,
+"gt": "click",
+"ok": true,
+"conf": 0.578552900401526,
+"local": false,
+"top5": [
+103,
+109,
+110,
+111,
+107
+],
+"gold_in_top5": true
+},
+{
+"k": 1811,
+"ep": 3140,
+"gt": "click",
+"ok": true,
+"conf": 0.9744877884415075,
+"local": false,
+"top5": [
+75,
+93,
+91,
+83,
+92
+],
+"gold_in_top5": true
+},
+{
+"k": 1812,
+"ep": 3140,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9992862343788147,
+"local": true,
+"top5": [
+202,
+213,
+215,
+204,
+217
+],
+"gold_in_top5": null
+},
+{
+"k": 1813,
+"ep": 3140,
+"gt": "click",
+"ok": false,
+"conf": 0.5772080186906265,
+"local": false,
+"top5": [
+205,
+199,
+204,
+207,
+200
+],
+"gold_in_top5": true
+},
+{
+"k": 1814,
+"ep": 3140,
+"gt": "click",
+"ok": true,
+"conf": 0.9995500556019365,
+"local": true,
+"top5": [
+108,
+81,
+110,
+102,
+109
+],
+"gold_in_top5": true
+},
+{
+"k": 1817,
+"ep": 3140,
+"gt": "click",
+"ok": true,
+"conf": 0.9962954116989522,
+"local": true,
+"top5": [
+86,
+69,
+80,
+87,
+85
+],
+"gold_in_top5": true
+},
+{
+"k": 1818,
+"ep": 3140,
+"gt": "click",
+"ok": true,
+"conf": 0.9923747710490716,
+"local": true,
+"top5": [
+84,
+85,
+78,
+79,
+90
+],
+"gold_in_top5": true
+},
+{
+"k": 1820,
+"ep": 3140,
+"gt": "click",
+"ok": true,
+"conf": 0.9997741076369095,
+"local": true,
+"top5": [
+71,
+70,
+78,
+69,
+84
+],
+"gold_in_top5": true
+},
+{
+"k": 1821,
+"ep": 3140,
+"gt": "wait",
+"ok": true,
+"conf": 0.9988434314727783,
+"local": true,
+"top5": [
+70,
+69,
+12,
+71,
+65
+],
+"gold_in_top5": null
+},
+{
+"k": 1822,
+"ep": 3140,
+"gt": "click",
+"ok": false,
+"conf": 0.9881120165525203,
+"local": true,
+"top5": [
+211,
+202,
+210,
+213,
+212
+],
+"gold_in_top5": true
+},
+{
+"k": 1823,
+"ep": 3140,
+"gt": "click",
+"ok": true,
+"conf": 0.9979929388243391,
+"local": true,
+"top5": [
+88,
+78,
+87,
+89,
+69
+],
+"gold_in_top5": true
+},
+{
+"k": 1827,
+"ep": 3140,
+"gt": "wait",
+"ok": true,
+"conf": 0.9987471103668213,
+"local": true,
+"top5": [
+70,
+69,
+12,
+71,
+65
+],
+"gold_in_top5": null
+},
+{
+"k": 1828,
+"ep": 3140,
+"gt": "wait",
+"ok": true,
+"conf": 0.9334872961044312,
+"local": false,
+"top5": [
+67,
+109,
+112,
+113,
+108
+],
+"gold_in_top5": null
+},
+{
+"k": 1852,
+"ep": 3220,
+"gt": "click",
+"ok": true,
+"conf": 0.9997269634342132,
+"local": true,
+"top5": [
+29,
+28,
+30,
+12,
+14
+],
+"gold_in_top5": true
+},
+{
+"k": 1855,
+"ep": 3300,
+"gt": "click",
+"ok": true,
+"conf": 0.9559088945837892,
+"local": false,
+"top5": [
+33,
+90,
+40,
+65,
+80
+],
+"gold_in_top5": true
+},
+{
+"k": 1856,
+"ep": 3300,
+"gt": "click",
+"ok": false,
+"conf": 0.9399827755535739,
+"local": false,
+"top5": [
+61,
+33,
+81,
+86,
+31
+],
+"gold_in_top5": true
+},
+{
+"k": 1859,
+"ep": 3300,
+"gt": "wait",
+"ok": false,
+"conf": 0.8898355086041398,
+"local": false,
+"top5": [
+61,
+33,
+81,
+86,
+31
+],
+"gold_in_top5": null
+},
+{
+"k": 1861,
+"ep": 3300,
+"gt": "click",
+"ok": true,
+"conf": 0.9975969183963329,
+"local": true,
+"top5": [
+33,
+31,
+32,
+30,
+28
+],
+"gold_in_top5": true
+},
+{
+"k": 1866,
+"ep": 3340,
+"gt": "click",
+"ok": true,
+"conf": 0.7675964567286968,
+"local": false,
+"top5": [
+57,
+41,
+59,
+60,
+61
+],
+"gold_in_top5": true
+},
+{
+"k": 1893,
+"ep": 10780,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9977784752845764,
+"local": true,
+"top5": [
+198,
+190,
+191,
+71,
+185
+],
+"gold_in_top5": null
+},
+{
+"k": 1898,
+"ep": 10820,
+"gt": "click",
+"ok": false,
+"conf": 0.6013832865341087,
+"local": false,
+"top5": [
+55,
+54,
+56,
+72,
+181
+],
+"gold_in_top5": true
+},
+{
+"k": 1900,
+"ep": 10820,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9949990510940552,
+"local": true,
+"top5": [
+52,
+50,
+51,
+89,
+86
+],
+"gold_in_top5": null
+},
+{
+"k": 1901,
+"ep": 10900,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9988273978233337,
+"local": true,
+"top5": [
+46,
+84,
+47,
+65,
+66
+],
+"gold_in_top5": null
+},
+{
+"k": 1902,
+"ep": 10900,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9784027338027954,
+"local": false,
+"top5": [
+47,
+51,
+50,
+85,
+46
+],
+"gold_in_top5": null
+},
+{
+"k": 1904,
+"ep": 10900,
+"gt": "click",
+"ok": true,
+"conf": 0.996175588261341,
+"local": true,
+"top5": [
+101,
+89,
+60,
+88,
+61
+],
+"gold_in_top5": true
+},
+{
+"k": 1905,
+"ep": 10900,
+"gt": "click",
+"ok": true,
+"conf": 0.9990112384693717,
+"local": true,
+"top5": [
+137,
+114,
+136,
+115,
+126
+],
+"gold_in_top5": true
+},
+{
+"k": 1906,
+"ep": 10900,
+"gt": "click",
+"ok": true,
+"conf": 0.9971546902902659,
+"local": true,
+"top5": [
+116,
+98,
+126,
+97,
+125
+],
+"gold_in_top5": true
+},
+{
+"k": 1907,
+"ep": 10900,
+"gt": "click",
+"ok": true,
+"conf": 0.9878942153932719,
+"local": true,
+"top5": [
+118,
+128,
+97,
+67,
+98
+],
+"gold_in_top5": true
+},
+{
+"k": 1920,
+"ep": 10940,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9891771674156189,
+"local": true,
+"top5": [
+50,
+42,
+34,
+43,
+93
+],
+"gold_in_top5": null
+},
+{
+"k": 1921,
+"ep": 10940,
+"gt": "click",
+"ok": true,
+"conf": 0.8748686169242319,
+"local": false,
+"top5": [
+87,
+89,
+100,
+99,
+101
+],
+"gold_in_top5": true
+},
+{
+"k": 1929,
+"ep": 15140,
+"gt": "click",
+"ok": false,
+"conf": 0.9209410440528742,
+"local": false,
+"top5": [
+78,
+77,
+79,
+93,
+81
+],
+"gold_in_top5": true
+},
+{
+"k": 1930,
+"ep": 15140,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9984323382377625,
+"local": true,
+"top5": [
+39,
+49,
+42,
+50,
+44
+],
+"gold_in_top5": null
+},
+{
+"k": 1932,
+"ep": 15180,
+"gt": "click",
+"ok": true,
+"conf": 0.9946343061161507,
+"local": true,
+"top5": [
+11,
+7,
+13,
+25,
+73
+],
+"gold_in_top5": true
+},
+{
+"k": 1933,
+"ep": 15180,
+"gt": "click",
+"ok": true,
+"conf": 0.9985342494464078,
+"local": true,
+"top5": [
+55,
+56,
+57,
+75,
+69
+],
+"gold_in_top5": true
+},
+{
+"k": 1934,
+"ep": 15180,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9980300068855286,
+"local": true,
+"top5": [
+181,
+189,
+193,
+194,
+196
+],
+"gold_in_top5": null
+},
+{
+"k": 1935,
+"ep": 15180,
+"gt": "click",
+"ok": true,
+"conf": 0.9996293516395127,
+"local": true,
+"top5": [
+74,
+147,
+85,
+56,
+107
+],
+"gold_in_top5": true
+},
+{
+"k": 1940,
+"ep": 15220,
+"gt": "click",
+"ok": true,
+"conf": 0.9941100161331917,
+"local": true,
+"top5": [
+45,
+25,
+26,
+53,
+27
+],
+"gold_in_top5": true
+},
+{
+"k": 1965,
+"ep": 20060,
+"gt": "click",
+"ok": true,
+"conf": 0.998295472907671,
+"local": true,
+"top5": [
+77,
+69,
+79,
+96,
+97
+],
+"gold_in_top5": true
+},
+{
+"k": 1966,
+"ep": 20060,
+"gt": "click",
+"ok": true,
+"conf": 0.9994615420871327,
+"local": true,
+"top5": [
+74,
+73,
+75,
+100,
+102
+],
+"gold_in_top5": true
+},
+{
+"k": 1967,
+"ep": 20060,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9990234375,
+"local": true,
+"top5": [
+190,
+204,
+189,
+191,
+202
+],
+"gold_in_top5": null
+},
+{
+"k": 1968,
+"ep": 20060,
+"gt": "click",
+"ok": true,
+"conf": 0.9994517694860505,
+"local": true,
+"top5": [
+196,
+195,
+209,
+207,
+194
+],
+"gold_in_top5": true
+},
+{
+"k": 1969,
+"ep": 20060,
+"gt": "input_text",
+"ok": false,
+"conf": 0.9992226362228394,
+"local": true,
+"top5": [
+191,
+190,
+204,
+202,
+97
+],
+"gold_in_top5": null
+},
+{
+"k": 1970,
+"ep": 20060,
+"gt": "click",
+"ok": true,
+"conf": 0.9991288194222818,
+"local": true,
+"top5": [
+207,
+208,
+209,
+197,
+199
+],
+"gold_in_top5": true
+},
+{
+"k": 1971,
+"ep": 20060,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9968243837356567,
+"local": true,
+"top5": [
+144,
+78,
+77,
+81,
+146
+],
+"gold_in_top5": null
+},
+{
+"k": 1974,
+"ep": 20060,
+"gt": "click",
+"ok": true,
+"conf": 0.9982400595759451,
+"local": true,
+"top5": [
+218,
+214,
+219,
+200,
+201
+],
+"gold_in_top5": true
+},
+{
+"k": 1978,
+"ep": 20100,
+"gt": "click",
+"ok": true,
+"conf": 0.9978640974513127,
+"local": true,
+"top5": [
+80,
+81,
+105,
+107,
+108
+],
+"gold_in_top5": true
+},
+{
+"k": 1989,
+"ep": 20140,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9584676027297974,
+"local": false,
+"top5": [
+147,
+138,
+55,
+135,
+143
+],
+"gold_in_top5": null
+},
+{
+"k": 1992,
+"ep": 20140,
+"gt": "click",
+"ok": false,
+"conf": 0.7000450491905212,
+"local": false,
+"top5": [
+81,
+94,
+78,
+69,
+95
+],
+"gold_in_top5": true
+},
+{
+"k": 2014,
+"ep": 2380,
+"gt": "click",
+"ok": true,
+"conf": 0.9983107528280399,
+"local": true,
+"top5": [
+58,
+45,
+91,
+92,
+66
+],
+"gold_in_top5": true
+},
+{
+"k": 2020,
+"ep": 2420,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9990039467811584,
+"local": true,
+"top5": [
+66,
+69,
+80,
+115,
+105
+],
+"gold_in_top5": null
+},
+{
+"k": 2022,
+"ep": 2420,
+"gt": "click",
+"ok": false,
+"conf": 0.8640421460670069,
+"local": false,
+"top5": [
+117,
+118,
+103,
+116,
+114
+],
+"gold_in_top5": true
+},
+{
+"k": 2023,
+"ep": 2420,
+"gt": "click",
+"ok": true,
+"conf": 0.9968924156807901,
+"local": true,
+"top5": [
+104,
+74,
+119,
+120,
+103
+],
+"gold_in_top5": true
+},
+{
+"k": 2025,
+"ep": 2420,
+"gt": "click",
+"ok": true,
+"conf": 0.9957779696067313,
+"local": true,
+"top5": [
+71,
+133,
+117,
+86,
+87
+],
+"gold_in_top5": true
+},
+{
+"k": 2033,
+"ep": 2460,
+"gt": "click",
+"ok": true,
+"conf": 0.9996262982011785,
+"local": true,
+"top5": [
+32,
+33,
+27,
+45,
+30
+],
+"gold_in_top5": true
+},
+{
+"k": 2035,
+"ep": 2460,
+"gt": "click",
+"ok": true,
+"conf": 0.9996581856259183,
+"local": true,
+"top5": [
+155,
+157,
+152,
+159,
+145
+],
+"gold_in_top5": true
+},
+{
+"k": 2036,
+"ep": 2460,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9976995587348938,
+"local": true,
+"top5": [
+90,
+38,
+106,
+39,
+94
+],
+"gold_in_top5": null
+},
+{
+"k": 2037,
+"ep": 2460,
+"gt": "click",
+"ok": true,
+"conf": 0.9991377422925751,
+"local": true,
+"top5": [
+53,
+70,
+56,
+35,
+58
+],
+"gold_in_top5": true
+},
+{
+"k": 2038,
+"ep": 2460,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9990578293800354,
+"local": true,
+"top5": [
+164,
+170,
+160,
+172,
+166
+],
+"gold_in_top5": null
+},
+{
+"k": 2039,
+"ep": 2460,
+"gt": "click",
+"ok": true,
+"conf": 0.999429958948113,
+"local": true,
+"top5": [
+55,
+136,
+35,
+133,
+135
+],
+"gold_in_top5": true
+},
+{
+"k": 2040,
+"ep": 2460,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9984503984451294,
+"local": true,
+"top5": [
+166,
+164,
+160,
+86,
+170
+],
+"gold_in_top5": null
+},
+{
+"k": 2041,
+"ep": 2460,
+"gt": "click",
+"ok": true,
+"conf": 0.9994191145478837,
+"local": true,
+"top5": [
+55,
+136,
+35,
+133,
+125
+],
+"gold_in_top5": true
+},
+{
+"k": 2043,
+"ep": 2460,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9988793730735779,
+"local": true,
+"top5": [
+172,
+170,
+164,
+174,
+166
+],
+"gold_in_top5": null
+},
+{
+"k": 2046,
+"ep": 2500,
+"gt": "click",
+"ok": true,
+"conf": 0.9953141524199154,
+"local": true,
+"top5": [
+56,
+55,
+57,
+58,
+39
+],
+"gold_in_top5": true
+},
+{
+"k": 2050,
+"ep": 2580,
+"gt": "click",
+"ok": true,
+"conf": 0.9981624572875205,
+"local": true,
+"top5": [
+79,
+76,
+77,
+75,
+80
+],
+"gold_in_top5": true
+},
+{
+"k": 2052,
+"ep": 2580,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9986328482627869,
+"local": true,
+"top5": [
+175,
+176,
+173,
+169,
+157
+],
+"gold_in_top5": null
+},
+{
+"k": 2053,
+"ep": 2580,
+"gt": "click",
+"ok": true,
+"conf": 0.9993584813543066,
+"local": true,
+"top5": [
+157,
+174,
+177,
+156,
+158
+],
+"gold_in_top5": true
+},
+{
+"k": 2055,
+"ep": 9940,
+"gt": "wait",
+"ok": false,
+"conf": 0.9851760864257812,
+"local": true,
+"top5": [
+172,
+39,
+58,
+153,
+152
+],
+"gold_in_top5": null
+},
+{
+"k": 2056,
+"ep": 9940,
+"gt": "click",
+"ok": true,
+"conf": 0.565817579136997,
+"local": false,
+"top5": [
+35,
+43,
+44,
+34,
+42
+],
+"gold_in_top5": true
+},
+{
+"k": 2062,
+"ep": 9980,
+"gt": "click",
+"ok": true,
+"conf": 0.9989218143299823,
+"local": true,
+"top5": [
+56,
+42,
+57,
+58,
+55
+],
+"gold_in_top5": true
+},
+{
+"k": 2063,
+"ep": 9980,
+"gt": "input_text",
+"ok": true,
+"conf": 0.998406708240509,
+"local": true,
+"top5": [
+160,
+159,
+161,
+96,
+162
+],
+"gold_in_top5": null
+},
+{
+"k": 2064,
+"ep": 9980,
+"gt": "click",
+"ok": true,
+"conf": 0.9997267909271272,
+"local": true,
+"top5": [
+159,
+157,
+158,
+160,
+161
+],
+"gold_in_top5": true
+},
+{
+"k": 2074,
+"ep": 10020,
+"gt": "wait",
+"ok": false,
+"conf": 0.9954726099967957,
+"local": true,
+"top5": [
+88,
+38,
+90,
+91,
+68
+],
+"gold_in_top5": null
+},
+{
+"k": 2076,
+"ep": 10020,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9985221028327942,
+"local": true,
+"top5": [
+51,
+69,
+36,
+70,
+76
+],
+"gold_in_top5": null
+},
+{
+"k": 2078,
+"ep": 10020,
+"gt": "click",
+"ok": true,
+"conf": 0.7331496872329097,
+"local": false,
+"top5": [
+63,
+78,
+65,
+64,
+77
+],
+"gold_in_top5": true
+},
+{
+"k": 2082,
+"ep": 10060,
+"gt": "click",
+"ok": true,
+"conf": 0.8147625788235047,
+"local": false,
+"top5": [
+29,
+30,
+25,
+35,
+34
+],
+"gold_in_top5": true
+},
+{
+"k": 2083,
+"ep": 10060,
+"gt": "click",
+"ok": true,
+"conf": 0.9996357876201785,
+"local": true,
+"top5": [
+25,
+27,
+26,
+12,
+19
+],
+"gold_in_top5": true
+},
+{
+"k": 2084,
+"ep": 10060,
+"gt": "wait",
+"ok": true,
+"conf": 0.9915061593055725,
+"local": true,
+"top5": [
+25,
+29,
+26,
+28,
+27
+],
+"gold_in_top5": null
+},
+{
+"k": 2089,
+"ep": 10100,
+"gt": "click",
+"ok": true,
+"conf": 0.953025457526735,
+"local": false,
+"top5": [
+84,
+121,
+86,
+85,
+122
+],
+"gold_in_top5": true
+},
+{
+"k": 2090,
+"ep": 10100,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9990795850753784,
+"local": true,
+"top5": [
+207,
+224,
+83,
+210,
+208
+],
+"gold_in_top5": null
+},
+{
+"k": 2104,
+"ep": 10220,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9998117089271545,
+"local": true,
+"top5": [
+67,
+44,
+89,
+66,
+51
+],
+"gold_in_top5": null
+},
+{
+"k": 2105,
+"ep": 10220,
+"gt": "click",
+"ok": true,
+"conf": 0.9985029420258655,
+"local": true,
+"top5": [
+45,
+53,
+59,
+48,
+43
+],
+"gold_in_top5": true
+},
+{
+"k": 2108,
+"ep": 10220,
+"gt": "click",
+"ok": true,
+"conf": 0.9990547980496558,
+"local": true,
+"top5": [
+68,
+86,
+66,
+67,
+73
+],
+"gold_in_top5": true
+},
+{
+"k": 2118,
+"ep": 10340,
+"gt": "click",
+"ok": true,
+"conf": 0.9996229123863856,
+"local": true,
+"top5": [
+66,
+64,
+65,
+70,
+67
+],
+"gold_in_top5": true
+},
+{
+"k": 2127,
+"ep": 10380,
+"gt": "click",
+"ok": true,
+"conf": 0.9990777914648845,
+"local": true,
+"top5": [
+176,
+165,
+177,
+175,
+178
+],
+"gold_in_top5": true
+},
+{
+"k": 2128,
+"ep": 10380,
+"gt": "wait",
+"ok": true,
+"conf": 0.9990010857582092,
+"local": true,
+"top5": [
+30,
+11,
+17,
+14,
+20
+],
+"gold_in_top5": null
+},
+{
+"k": 2129,
+"ep": 14500,
+"gt": "open_app",
+"ok": false,
+"conf": 0.9997974038124084,
+"local": true,
+"top5": [
+37,
+87,
+74,
+69,
+70
+],
+"gold_in_top5": null
+},
+{
+"k": 2130,
+"ep": 14500,
+"gt": "click",
+"ok": true,
+"conf": 0.9913766230349736,
+"local": true,
+"top5": [
+38,
+55,
+37,
+56,
+39
+],
+"gold_in_top5": true
+},
+{
+"k": 2131,
+"ep": 14500,
+"gt": "click",
+"ok": false,
+"conf": 0.8216736316680908,
+"local": false,
+"top5": [
+39,
+38,
+37,
+40,
+55
+],
+"gold_in_top5": true
+},
+{
+"k": 2132,
+"ep": 14500,
+"gt": "click",
+"ok": false,
+"conf": 0.8417753577232361,
+"local": false,
+"top5": [
+39,
+55,
+38,
+54,
+37
+],
+"gold_in_top5": true
+},
+{
+"k": 2135,
+"ep": 14500,
+"gt": "wait",
+"ok": true,
+"conf": 0.9634227752685547,
+"local": false,
+"top5": [
+55,
+54,
+45,
+39,
+46
+],
+"gold_in_top5": null
+},
+{
+"k": 2137,
+"ep": 14500,
+"gt": "click",
+"ok": false,
+"conf": 0.6910736560821533,
+"local": false,
+"top5": [
+39,
+38,
+58,
+37,
+55
+],
+"gold_in_top5": true
+},
+{
+"k": 2138,
+"ep": 14500,
+"gt": "click",
+"ok": false,
+"conf": 0.911310613155365,
+"local": false,
+"top5": [
+39,
+61,
+37,
+38,
+55
+],
+"gold_in_top5": true
+},
+{
+"k": 2139,
+"ep": 14500,
+"gt": "wait",
+"ok": true,
+"conf": 0.9853090643882751,
+"local": true,
+"top5": [
+41,
+44,
+42,
+43,
+40
+],
+"gold_in_top5": null
+},
+{
+"k": 2143,
+"ep": 14540,
+"gt": "click",
+"ok": true,
+"conf": 0.5175775904125146,
+"local": false,
+"top5": [
+40,
+57,
+58,
+41,
+68
+],
+"gold_in_top5": true
+},
+{
+"k": 2145,
+"ep": 14540,
+"gt": "click",
+"ok": true,
+"conf": 0.998649549604167,
+"local": true,
+"top5": [
+49,
+57,
+34,
+32,
+50
+],
+"gold_in_top5": true
+},
+{
+"k": 2147,
+"ep": 14540,
+"gt": "click",
+"ok": true,
+"conf": 0.9983740876061447,
+"local": true,
+"top5": [
+43,
+37,
+34,
+42,
+39
+],
+"gold_in_top5": true
+},
+{
+"k": 2148,
+"ep": 14540,
+"gt": "click",
+"ok": true,
+"conf": 0.9994717336867289,
+"local": true,
+"top5": [
+34,
+32,
+33,
+46,
+39
+],
+"gold_in_top5": true
+},
+{
+"k": 2149,
+"ep": 14540,
+"gt": "wait",
+"ok": true,
+"conf": 0.9812639951705933,
+"local": false,
+"top5": [
+41,
+89,
+90,
+47,
+76
+],
+"gold_in_top5": null
+},
+{
+"k": 2152,
+"ep": 14660,
+"gt": "click",
+"ok": true,
+"conf": 0.9760310335517914,
+"local": false,
+"top5": [
+98,
+99,
+100,
+96,
+82
+],
+"gold_in_top5": true
+},
+{
+"k": 2153,
+"ep": 14660,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9965667724609375,
+"local": true,
+"top5": [
+232,
+230,
+234,
+224,
+231
+],
+"gold_in_top5": null
+},
+{
+"k": 2159,
+"ep": 14700,
+"gt": "click",
+"ok": true,
+"conf": 0.9993243028693151,
+"local": true,
+"top5": [
+69,
+68,
+81,
+75,
+82
+],
+"gold_in_top5": true
+},
+{
+"k": 2160,
+"ep": 14700,
+"gt": "click",
+"ok": true,
+"conf": 0.9951163443694249,
+"local": true,
+"top5": [
+97,
+96,
+55,
+54,
+99
+],
+"gold_in_top5": true
+},
+{
+"k": 2163,
+"ep": 14700,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9986571073532104,
+"local": true,
+"top5": [
+178,
+172,
+161,
+176,
+166
+],
+"gold_in_top5": null
+},
+{
+"k": 2164,
+"ep": 14700,
+"gt": "click",
+"ok": true,
+"conf": 0.9780067905118983,
+"local": false,
+"top5": [
+179,
+180,
+176,
+182,
+174
+],
+"gold_in_top5": true
+},
+{
+"k": 2167,
+"ep": 14740,
+"gt": "click",
+"ok": false,
+"conf": 0.7498827925694656,
+"local": false,
+"top5": [
+96,
+75,
+98,
+101,
+99
+],
+"gold_in_top5": true
+},
+{
+"k": 2168,
+"ep": 14740,
+"gt": "click",
+"ok": true,
+"conf": 0.7293861907890928,
+"local": false,
+"top5": [
+82,
+87,
+106,
+107,
+88
+],
+"gold_in_top5": true
+},
+{
+"k": 2173,
+"ep": 14780,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9993209838867188,
+"local": true,
+"top5": [
+45,
+54,
+53,
+66,
+50
+],
+"gold_in_top5": null
+},
+{
+"k": 2175,
+"ep": 14780,
+"gt": "click",
+"ok": true,
+"conf": 0.9996435342717334,
+"local": true,
+"top5": [
+31,
+32,
+26,
+48,
+44
+],
+"gold_in_top5": true
+},
+{
+"k": 2193,
+"ep": 14900,
+"gt": "click",
+"ok": false,
+"conf": 0.5076591773703001,
+"local": false,
+"top5": [
+70,
+76,
+77,
+78,
+66
+],
+"gold_in_top5": true
+},
+{
+"k": 2194,
+"ep": 14900,
+"gt": "click",
+"ok": true,
+"conf": 0.9997439547042148,
+"local": true,
+"top5": [
+70,
+71,
+69,
+76,
+89
+],
+"gold_in_top5": true
+},
+{
+"k": 2200,
+"ep": 18820,
+"gt": "click",
+"ok": true,
+"conf": 0.9298466702462633,
+"local": false,
+"top5": [
+107,
+103,
+108,
+98,
+97
+],
+"gold_in_top5": true
+},
+{
+"k": 2201,
+"ep": 18820,
+"gt": "wait",
+"ok": true,
+"conf": 0.9733834862709045,
+"local": false,
+"top5": [
+103,
+97,
+100,
+96,
+107
+],
+"gold_in_top5": null
+},
+{
+"k": 2202,
+"ep": 18820,
+"gt": "click",
+"ok": true,
+"conf": 0.8233088557705344,
+"local": false,
+"top5": [
+98,
+97,
+108,
+105,
+109
+],
+"gold_in_top5": true
+},
+{
+"k": 2204,
+"ep": 18820,
+"gt": "wait",
+"ok": true,
+"conf": 0.9739217162132263,
+"local": false,
+"top5": [
+103,
+97,
+100,
+96,
+107
+],
+"gold_in_top5": null
+},
+{
+"k": 2205,
+"ep": 18820,
+"gt": "click",
+"ok": true,
+"conf": 0.9777418391458568,
+"local": false,
+"top5": [
+114,
+109,
+116,
+113,
+112
+],
+"gold_in_top5": true
+},
+{
+"k": 2206,
+"ep": 18820,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9983933568000793,
+"local": true,
+"top5": [
+113,
+114,
+116,
+100,
+96
+],
+"gold_in_top5": null
+},
+{
+"k": 2209,
+"ep": 18860,
+"gt": "click",
+"ok": true,
+"conf": 0.9994402712130146,
+"local": true,
+"top5": [
+87,
+36,
+37,
+35,
+79
+],
+"gold_in_top5": true
+},
+{
+"k": 2214,
+"ep": 18860,
+"gt": "click",
+"ok": true,
+"conf": 0.9996299412562593,
+"local": true,
+"top5": [
+37,
+53,
+38,
+50,
+48
+],
+"gold_in_top5": true
+},
+{
+"k": 2215,
+"ep": 18860,
+"gt": "wait",
+"ok": true,
+"conf": 0.9969438910484314,
+"local": true,
+"top5": [
+43,
+49,
+37,
+52,
+57
+],
+"gold_in_top5": null
+},
+{
+"k": 2216,
+"ep": 18860,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9986030459403992,
+"local": true,
+"top5": [
+187,
+186,
+180,
+190,
+183
+],
+"gold_in_top5": null
+},
+{
+"k": 2217,
+"ep": 18860,
+"gt": "click",
+"ok": true,
+"conf": 0.9989571098136452,
+"local": true,
+"top5": [
+60,
+40,
+141,
+166,
+140
+],
+"gold_in_top5": true
+},
+{
+"k": 2218,
+"ep": 18860,
+"gt": "click",
+"ok": true,
+"conf": 0.9990531641531071,
+"local": true,
+"top5": [
+166,
+191,
+185,
+167,
+184
+],
+"gold_in_top5": true
+},
+{
+"k": 2220,
+"ep": 18900,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9990496039390564,
+"local": true,
+"top5": [
+40,
+55,
+54,
+53,
+43
+],
+"gold_in_top5": null
+},
+{
+"k": 2222,
+"ep": 18900,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9977826476097107,
+"local": true,
+"top5": [
+35,
+33,
+36,
+34,
+30
+],
+"gold_in_top5": null
+},
+{
+"k": 2223,
+"ep": 18900,
+"gt": "click",
+"ok": true,
+"conf": 0.9973350183406033,
+"local": true,
+"top5": [
+37,
+36,
+34,
+35,
+38
+],
+"gold_in_top5": true
+},
+{
+"k": 2227,
+"ep": 18900,
+"gt": "click",
+"ok": true,
+"conf": 0.9930266901767126,
+"local": true,
+"top5": [
+60,
+52,
+47,
+50,
+46
+],
+"gold_in_top5": true
+},
+{
+"k": 2228,
+"ep": 18900,
+"gt": "click",
+"ok": true,
+"conf": 0.6824082344439972,
+"local": false,
+"top5": [
+60,
+51,
+54,
+56,
+52
+],
+"gold_in_top5": true
+},
+{
+"k": 2232,
+"ep": 18940,
+"gt": "click",
+"ok": true,
+"conf": 0.7012359276176738,
+"local": false,
+"top5": [
+90,
+91,
+86,
+88,
+89
+],
+"gold_in_top5": true
+},
+{
+"k": 2234,
+"ep": 18980,
+"gt": "click",
+"ok": true,
+"conf": 0.7577374174219997,
+"local": false,
+"top5": [
+146,
+102,
+103,
+96,
+104
+],
+"gold_in_top5": true
+},
+{
+"k": 2237,
+"ep": 18980,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9947555065155029,
+"local": true,
+"top5": [
+97,
+96,
+50,
+49,
+105
+],
+"gold_in_top5": null
+},
+{
+"k": 2243,
+"ep": 2620,
+"gt": "click",
+"ok": true,
+"conf": 0.9847717486638139,
+"local": true,
+"top5": [
+75,
+77,
+74,
+76,
+55
+],
+"gold_in_top5": true
+},
+{
+"k": 2245,
+"ep": 2620,
+"gt": "click",
+"ok": true,
+"conf": 0.9996533090751214,
+"local": true,
+"top5": [
+45,
+44,
+74,
+72,
+35
+],
+"gold_in_top5": true
+},
+{
+"k": 2246,
+"ep": 2620,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9991329312324524,
+"local": true,
+"top5": [
+174,
+173,
+189,
+187,
+172
+],
+"gold_in_top5": null
+},
+{
+"k": 2252,
+"ep": 10420,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9973735809326172,
+"local": true,
+"top5": [
+76,
+74,
+69,
+111,
+88
+],
+"gold_in_top5": null
+},
+{
+"k": 2256,
+"ep": 10460,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9953590035438538,
+"local": true,
+"top5": [
+105,
+79,
+107,
+109,
+76
+],
+"gold_in_top5": null
+},
+{
+"k": 2257,
+"ep": 10460,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9933180809020996,
+"local": true,
+"top5": [
+61,
+85,
+78,
+87,
+80
+],
+"gold_in_top5": null
+},
+{
+"k": 2258,
+"ep": 10460,
+"gt": "click",
+"ok": true,
+"conf": 0.9957878910266444,
+"local": true,
+"top5": [
+88,
+61,
+110,
+76,
+75
+],
+"gold_in_top5": true
+},
+{
+"k": 2261,
+"ep": 10460,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9967656135559082,
+"local": true,
+"top5": [
+79,
+78,
+82,
+83,
+74
+],
+"gold_in_top5": null
+},
+{
+"k": 2265,
+"ep": 14980,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9989357590675354,
+"local": true,
+"top5": [
+28,
+38,
+33,
+30,
+31
+],
+"gold_in_top5": null
+},
+{
+"k": 2268,
+"ep": 14980,
+"gt": "click",
+"ok": true,
+"conf": 0.9984037041081386,
+"local": true,
+"top5": [
+32,
+31,
+33,
+30,
+25
+],
+"gold_in_top5": true
+},
+{
+"k": 2269,
+"ep": 14980,
+"gt": "click",
+"ok": true,
+"conf": 0.9994577175620449,
+"local": true,
+"top5": [
+28,
+32,
+29,
+33,
+31
+],
+"gold_in_top5": true
+},
+{
+"k": 2270,
+"ep": 14980,
+"gt": "wait",
+"ok": true,
+"conf": 0.9987001419067383,
+"local": true,
+"top5": [
+28,
+23,
+24,
+26,
+25
+],
+"gold_in_top5": null
+},
+{
+"k": 2279,
+"ep": 19020,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9998724460601807,
+"local": true,
+"top5": [
+39,
+40,
+42,
+41,
+46
+],
+"gold_in_top5": null
+},
+{
+"k": 2280,
+"ep": 19020,
+"gt": "click",
+"ok": true,
+"conf": 0.9994179259888938,
+"local": true,
+"top5": [
+41,
+39,
+38,
+40,
+37
+],
+"gold_in_top5": true
+},
+{
+"k": 2281,
+"ep": 19020,
+"gt": "click",
+"ok": true,
+"conf": 0.995001644592719,
+"local": true,
+"top5": [
+42,
+41,
+40,
+39,
+38
+],
+"gold_in_top5": true
+},
+{
+"k": 2282,
+"ep": 19020,
+"gt": "wait",
+"ok": true,
+"conf": 0.998100221157074,
+"local": true,
+"top5": [
+42,
+57,
+58,
+37,
+59
+],
+"gold_in_top5": null
+},
+{
+"k": 2283,
+"ep": 19020,
+"gt": "click",
+"ok": true,
+"conf": 0.9979875163117669,
+"local": true,
+"top5": [
+61,
+67,
+47,
+50,
+33
+],
+"gold_in_top5": true
+},
+{
+"k": 2285,
+"ep": 19020,
+"gt": "click",
+"ok": true,
+"conf": 0.9284344960352939,
+"local": false,
+"top5": [
+69,
+60,
+70,
+76,
+71
+],
+"gold_in_top5": true
+},
+{
+"k": 2286,
+"ep": 19020,
+"gt": "click",
+"ok": true,
+"conf": 0.9997636215551609,
+"local": true,
+"top5": [
+51,
+41,
+50,
+61,
+44
+],
+"gold_in_top5": true
+},
+{
+"k": 2287,
+"ep": 19020,
+"gt": "click",
+"ok": true,
+"conf": 0.9973442373445707,
+"local": true,
+"top5": [
+163,
+164,
+162,
+60,
+166
+],
+"gold_in_top5": true
+},
+{
+"k": 2288,
+"ep": 19020,
+"gt": "click",
+"ok": true,
+"conf": 0.9996014545027521,
+"local": true,
+"top5": [
+35,
+44,
+43,
+48,
+46
+],
+"gold_in_top5": true
+},
+{
+"k": 2289,
+"ep": 19020,
+"gt": "click",
+"ok": true,
+"conf": 0.998999567674673,
+"local": true,
+"top5": [
+48,
+50,
+49,
+46,
+44
+],
+"gold_in_top5": true
+},
+{
+"k": 2290,
+"ep": 19020,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9959020018577576,
+"local": true,
+"top5": [
+45,
+46,
+58,
+61,
+47
+],
+"gold_in_top5": null
+},
+{
+"k": 2295,
+"ep": 19060,
+"gt": "click",
+"ok": true,
+"conf": 0.999502631037501,
+"local": true,
+"top5": [
+84,
+82,
+59,
+54,
+35
+],
+"gold_in_top5": true
+},
+{
+"k": 2297,
+"ep": 19060,
+"gt": "click",
+"ok": true,
+"conf": 0.9989215306814216,
+"local": true,
+"top5": [
+60,
+2,
+149,
+160,
+41
+],
+"gold_in_top5": true
+},
+{
+"k": 2309,
+"ep": 19100,
+"gt": "click",
+"ok": true,
+"conf": 0.9787649411323684,
+"local": false,
+"top5": [
+92,
+80,
+94,
+79,
+91
+],
+"gold_in_top5": true
+},
+{
+"k": 2310,
+"ep": 19100,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9991101622581482,
+"local": true,
+"top5": [
+175,
+174,
+166,
+168,
+177
+],
+"gold_in_top5": null
+},
+{
+"k": 2311,
+"ep": 19100,
+"gt": "click",
+"ok": true,
+"conf": 0.9786962624168538,
+"local": false,
+"top5": [
+157,
+155,
+158,
+156,
+153
+],
+"gold_in_top5": true
+},
+{
+"k": 2313,
+"ep": 19100,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9992890357971191,
+"local": true,
+"top5": [
+177,
+176,
+166,
+169,
+179
+],
+"gold_in_top5": null
+},
+{
+"k": 2314,
+"ep": 19100,
+"gt": "click",
+"ok": true,
+"conf": 0.9805285722055821,
+"local": false,
+"top5": [
+157,
+155,
+158,
+156,
+153
+],
+"gold_in_top5": true
+},
+{
+"k": 2317,
+"ep": 19100,
+"gt": "wait",
+"ok": true,
+"conf": 0.9874032735824585,
+"local": true,
+"top5": [
+32,
+70,
+71,
+33,
+125
+],
+"gold_in_top5": null
+},
+{
+"k": 2319,
+"ep": 19140,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9949277639389038,
+"local": true,
+"top5": [
+53,
+24,
+64,
+30,
+38
+],
+"gold_in_top5": null
+},
+{
+"k": 2320,
+"ep": 19140,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9954342246055603,
+"local": true,
+"top5": [
+27,
+69,
+39,
+55,
+70
+],
+"gold_in_top5": null
+},
+{
+"k": 2322,
+"ep": 19140,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9947999715805054,
+"local": true,
+"top5": [
+28,
+64,
+70,
+67,
+65
+],
+"gold_in_top5": null
+},
+{
+"k": 2342,
+"ep": 19220,
+"gt": "click",
+"ok": true,
+"conf": 0.9990724361514935,
+"local": true,
+"top5": [
+64,
+11,
+61,
+14,
+25
+],
+"gold_in_top5": true
+},
+{
+"k": 2346,
+"ep": 19220,
+"gt": "click",
+"ok": true,
+"conf": 0.993250897101106,
+"local": true,
+"top5": [
+92,
+96,
+64,
+80,
+97
+],
+"gold_in_top5": true
+},
+{
+"k": 2347,
+"ep": 19260,
+"gt": "scroll",
+"ok": true,
+"conf": 0.990813672542572,
+"local": true,
+"top5": [
+89,
+127,
+83,
+110,
+128
+],
+"gold_in_top5": null
+},
+{
+"k": 2364,
+"ep": 19380,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9997792840003967,
+"local": true,
+"top5": [
+49,
+39,
+47,
+46,
+40
+],
+"gold_in_top5": null
+},
+{
+"k": 2367,
+"ep": 19380,
+"gt": "click",
+"ok": false,
+"conf": 0.9379569888114929,
+"local": false,
+"top5": [
+180,
+181,
+162,
+173,
+177
+],
+"gold_in_top5": true
+},
+{
+"k": 2368,
+"ep": 19380,
+"gt": "input_text",
+"ok": true,
+"conf": 0.914961040019989,
+"local": false,
+"top5": [
+181,
+182,
+162,
+180,
+177
+],
+"gold_in_top5": null
+},
+{
+"k": 2369,
+"ep": 19380,
+"gt": "wait",
+"ok": false,
+"conf": 0.7873906493186951,
+"local": false,
+"top5": [
+182,
+183,
+162,
+185,
+179
+],
+"gold_in_top5": null
+},
+{
+"k": 2370,
+"ep": 19380,
+"gt": "click",
+"ok": true,
+"conf": 0.9957985152198425,
+"local": true,
+"top5": [
+162,
+178,
+183,
+163,
+161
+],
+"gold_in_top5": true
+},
+{
+"k": 2378,
+"ep": 19500,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9999115467071533,
+"local": true,
+"top5": [
+28,
+27,
+25,
+29,
+37
+],
+"gold_in_top5": null
+},
+{
+"k": 2379,
+"ep": 19500,
+"gt": "click",
+"ok": false,
+"conf": 0.9799962162713669,
+"local": false,
+"top5": [
+75,
+67,
+71,
+62,
+68
+],
+"gold_in_top5": true
+},
+{
+"k": 2388,
+"ep": 19540,
+"gt": "open_app",
+"ok": true,
+"conf": 0.999795138835907,
+"local": true,
+"top5": [
+76,
+93,
+77,
+99,
+78
+],
+"gold_in_top5": null
+},
+{
+"k": 2389,
+"ep": 19540,
+"gt": "click",
+"ok": false,
+"conf": 0.4787289827979322,
+"local": false,
+"top5": [
+49,
+40,
+48,
+51,
+44
+],
+"gold_in_top5": true
+},
+{
+"k": 2390,
+"ep": 19540,
+"gt": "click",
+"ok": true,
+"conf": 0.967702570830653,
+"local": false,
+"top5": [
+59,
+60,
+61,
+54,
+53
+],
+"gold_in_top5": true
+},
+{
+"k": 2393,
+"ep": 19540,
+"gt": "scroll",
+"ok": true,
+"conf": 0.992617666721344,
+"local": true,
+"top5": [
+80,
+83,
+79,
+76,
+85
+],
+"gold_in_top5": null
+},
+{
+"k": 2394,
+"ep": 19540,
+"gt": "click",
+"ok": true,
+"conf": 0.7727611481681151,
+"local": false,
+"top5": [
+67,
+68,
+54,
+53,
+66
+],
+"gold_in_top5": true
+},
+{
+"k": 2404,
+"ep": 19620,
+"gt": "click",
+"ok": true,
+"conf": 0.9951345807512268,
+"local": true,
+"top5": [
+85,
+189,
+141,
+191,
+36
+],
+"gold_in_top5": true
+},
+{
+"k": 2405,
+"ep": 19620,
+"gt": "click",
+"ok": true,
+"conf": 0.9787208647542265,
+"local": false,
+"top5": [
+60,
+54,
+141,
+128,
+69
+],
+"gold_in_top5": true
+},
+{
+"k": 2425,
+"ep": 2700,
+"gt": "click",
+"ok": true,
+"conf": 0.9995693354628088,
+"local": true,
+"top5": [
+44,
+42,
+43,
+41,
+35
+],
+"gold_in_top5": true
+},
+{
+"k": 2426,
+"ep": 2700,
+"gt": "click",
+"ok": true,
+"conf": 0.9892739727106665,
+"local": true,
+"top5": [
+28,
+29,
+25,
+24,
+23
+],
+"gold_in_top5": true
+},
+{
+"k": 2427,
+"ep": 2700,
+"gt": "click",
+"ok": true,
+"conf": 0.9993178931604874,
+"local": true,
+"top5": [
+28,
+27,
+36,
+26,
+25
+],
+"gold_in_top5": true
+},
+{
+"k": 2428,
+"ep": 2700,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9982349872589111,
+"local": true,
+"top5": [
+171,
+172,
+173,
+161,
+157
+],
+"gold_in_top5": null
+},
+{
+"k": 2431,
+"ep": 2700,
+"gt": "click",
+"ok": false,
+"conf": 0.8353467126405576,
+"local": false,
+"top5": [
+44,
+45,
+46,
+47,
+42
+],
+"gold_in_top5": true
+},
+{
+"k": 2432,
+"ep": 2700,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9983869791030884,
+"local": true,
+"top5": [
+28,
+33,
+25,
+32,
+34
+],
+"gold_in_top5": null
+},
+{
+"k": 2436,
+"ep": 2740,
+"gt": "click",
+"ok": true,
+"conf": 0.997754584528451,
+"local": true,
+"top5": [
+31,
+27,
+40,
+42,
+25
+],
+"gold_in_top5": true
+},
+{
+"k": 2437,
+"ep": 2740,
+"gt": "click",
+"ok": true,
+"conf": 0.9929698100620996,
+"local": true,
+"top5": [
+34,
+29,
+33,
+32,
+25
+],
+"gold_in_top5": true
+},
+{
+"k": 2440,
+"ep": 2740,
+"gt": "wait",
+"ok": true,
+"conf": 0.9997181296348572,
+"local": true,
+"top5": [
+27,
+26,
+31,
+30,
+34
+],
+"gold_in_top5": null
+},
+{
+"k": 2454,
+"ep": 10500,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9989302754402161,
+"local": true,
+"top5": [
+168,
+208,
+220,
+175,
+209
+],
+"gold_in_top5": null
+},
+{
+"k": 2455,
+"ep": 10500,
+"gt": "click",
+"ok": true,
+"conf": 0.9996121892964496,
+"local": true,
+"top5": [
+59,
+134,
+94,
+58,
+72
+],
+"gold_in_top5": true
+},
+{
+"k": 2460,
+"ep": 10580,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9997932314872742,
+"local": true,
+"top5": [
+63,
+65,
+73,
+52,
+72
+],
+"gold_in_top5": null
+},
+{
+"k": 2461,
+"ep": 10580,
+"gt": "click",
+"ok": false,
+"conf": 0.6459866973226056,
+"local": false,
+"top5": [
+63,
+105,
+76,
+56,
+134
+],
+"gold_in_top5": false
+},
+{
+"k": 2463,
+"ep": 10580,
+"gt": "click",
+"ok": false,
+"conf": 0.9879847277794163,
+"local": true,
+"top5": [
+122,
+121,
+215,
+93,
+195
+],
+"gold_in_top5": true
+},
+{
+"k": 2465,
+"ep": 10580,
+"gt": "click",
+"ok": true,
+"conf": 0.9941557400196643,
+"local": true,
+"top5": [
+95,
+96,
+148,
+195,
+160
+],
+"gold_in_top5": true
+},
+{
+"k": 2471,
+"ep": 10620,
+"gt": "click",
+"ok": true,
+"conf": 0.9974508804739202,
+"local": true,
+"top5": [
+57,
+55,
+67,
+72,
+93
+],
+"gold_in_top5": true
+},
+{
+"k": 2472,
+"ep": 10620,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9988414645195007,
+"local": true,
+"top5": [
+168,
+218,
+165,
+57,
+180
+],
+"gold_in_top5": null
+},
+{
+"k": 2473,
+"ep": 10620,
+"gt": "click",
+"ok": true,
+"conf": 0.9995872206574781,
+"local": true,
+"top5": [
+57,
+132,
+70,
+129,
+89
+],
+"gold_in_top5": true
+},
+{
+"k": 2474,
+"ep": 10620,
+"gt": "click",
+"ok": true,
+"conf": 0.9978115839611981,
+"local": true,
+"top5": [
+69,
+68,
+70,
+71,
+72
+],
+"gold_in_top5": true
+},
+{
+"k": 2481,
+"ep": 15060,
+"gt": "click",
+"ok": true,
+"conf": 0.9766318404200085,
+"local": false,
+"top5": [
+88,
+81,
+89,
+82,
+90
+],
+"gold_in_top5": true
+},
+{
+"k": 2490,
+"ep": 19700,
+"gt": "wait",
+"ok": true,
+"conf": 0.9982030391693115,
+"local": true,
+"top5": [
+41,
+40,
+37,
+38,
+12
+],
+"gold_in_top5": null
+},
+{
+"k": 2494,
+"ep": 19740,
+"gt": "scroll",
+"ok": true,
+"conf": 0.99818354845047,
+"local": true,
+"top5": [
+11,
+6
+],
+"gold_in_top5": null
+},
+{
+"k": 2495,
+"ep": 19740,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9932524561882019,
+"local": true,
+"top5": [
+11,
+6
+],
+"gold_in_top5": null
+},
+{
+"k": 2496,
+"ep": 19740,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9920084476470947,
+"local": true,
+"top5": [
+11,
+6
+],
+"gold_in_top5": null
+},
+{
+"k": 2497,
+"ep": 19740,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9925752878189087,
+"local": true,
+"top5": [
+11,
+6
+],
+"gold_in_top5": null
+},
+{
+"k": 2498,
+"ep": 19740,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9911948442459106,
+"local": true,
+"top5": [
+11,
+6
+],
+"gold_in_top5": null
+},
+{
+"k": 2510,
+"ep": 19780,
+"gt": "open_app",
+"ok": true,
+"conf": 0.999818742275238,
+"local": true,
+"top5": [
+82,
+58,
+92,
+83,
+40
+],
+"gold_in_top5": null
+},
+{
+"k": 2511,
+"ep": 19780,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9908761382102966,
+"local": true,
+"top5": [
+73,
+100,
+89,
+91,
+93
+],
+"gold_in_top5": null
+},
+{
+"k": 2515,
+"ep": 19780,
+"gt": "wait",
+"ok": true,
+"conf": 0.9994043111801147,
+"local": true,
+"top5": [
+30,
+31,
+28,
+25,
+26
+],
+"gold_in_top5": null
+},
+{
+"k": 2517,
+"ep": 19820,
+"gt": "click",
+"ok": true,
+"conf": 0.6064634333587406,
+"local": false,
+"top5": [
+61,
+54,
+64,
+65,
+63
+],
+"gold_in_top5": true
+},
+{
+"k": 2521,
+"ep": 19860,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9995598196983337,
+"local": true,
+"top5": [
+185,
+184,
+175,
+182,
+173
+],
+"gold_in_top5": null
+},
+{
+"k": 2522,
+"ep": 19860,
+"gt": "click",
+"ok": true,
+"conf": 0.9987088540585702,
+"local": true,
+"top5": [
+57,
+52,
+51,
+49,
+85
+],
+"gold_in_top5": true
+},
+{
+"k": 2523,
+"ep": 19860,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9991613626480103,
+"local": true,
+"top5": [
+181,
+70,
+175,
+178,
+12
+],
+"gold_in_top5": null
+},
+{
+"k": 2524,
+"ep": 19860,
+"gt": "click",
+"ok": true,
+"conf": 0.9977610802775132,
+"local": true,
+"top5": [
+164,
+163,
+104,
+70,
+150
+],
+"gold_in_top5": true
+},
+{
+"k": 2525,
+"ep": 19900,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9974972605705261,
+"local": true,
+"top5": [
+74,
+80,
+75,
+81,
+78
+],
+"gold_in_top5": null
+},
+{
+"k": 2526,
+"ep": 19900,
+"gt": "scroll",
+"ok": true,
+"conf": 0.99254310131073,
+"local": true,
+"top5": [
+69,
+94,
+81,
+91,
+80
+],
+"gold_in_top5": null
+},
+{
+"k": 2527,
+"ep": 19900,
+"gt": "click",
+"ok": true,
+"conf": 0.9976118406911283,
+"local": true,
+"top5": [
+88,
+99,
+117,
+89,
+82
+],
+"gold_in_top5": true
+},
+{
+"k": 2530,
+"ep": 19900,
+"gt": "click",
+"ok": true,
+"conf": 0.9989900089633323,
+"local": true,
+"top5": [
+103,
+114,
+116,
+102,
+92
+],
+"gold_in_top5": true
+},
+{
+"k": 2532,
+"ep": 19900,
+"gt": "wait",
+"ok": true,
+"conf": 0.9471880197525024,
+"local": false,
+"top5": [
+115,
+80,
+135,
+105,
+134
+],
+"gold_in_top5": null
+},
+{
+"k": 2544,
+"ep": 540,
+"gt": "click",
+"ok": true,
+"conf": 0.9973862248783121,
+"local": true,
+"top5": [
+157,
+56,
+140,
+154,
+118
+],
+"gold_in_top5": true
+},
+{
+"k": 2551,
+"ep": 700,
+"gt": "click",
+"ok": true,
+"conf": 0.9921476162662053,
+"local": true,
+"top5": [
+94,
+73,
+95,
+85,
+84
+],
+"gold_in_top5": true
+},
+{
+"k": 2560,
+"ep": 8300,
+"gt": "click",
+"ok": true,
+"conf": 0.9997463887207658,
+"local": true,
+"top5": [
+42,
+41,
+40,
+43,
+38
+],
+"gold_in_top5": true
+},
+{
+"k": 2563,
+"ep": 8340,
+"gt": "click",
+"ok": true,
+"conf": 0.9982164204966075,
+"local": true,
+"top5": [
+55,
+54,
+76,
+78,
+77
+],
+"gold_in_top5": true
+},
+{
+"k": 2564,
+"ep": 8340,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9970269799232483,
+"local": true,
+"top5": [
+154,
+172,
+155,
+173,
+156
+],
+"gold_in_top5": null
+},
+{
+"k": 2565,
+"ep": 8340,
+"gt": "click",
+"ok": true,
+"conf": 0.9995986620465835,
+"local": true,
+"top5": [
+51,
+126,
+144,
+33,
+64
+],
+"gold_in_top5": true
+},
+{
+"k": 2566,
+"ep": 8340,
+"gt": "wait",
+"ok": true,
+"conf": 0.9981984496116638,
+"local": true,
+"top5": [
+28,
+24,
+38,
+37,
+36
+],
+"gold_in_top5": null
+},
+{
+"k": 2567,
+"ep": 8380,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9998362064361572,
+"local": true,
+"top5": [
+36,
+30,
+80,
+81,
+82
+],
+"gold_in_top5": null
+},
+{
+"k": 2568,
+"ep": 8380,
+"gt": "click",
+"ok": true,
+"conf": 0.9779385087256145,
+"local": false,
+"top5": [
+26,
+51,
+52,
+133,
+93
+],
+"gold_in_top5": true
+},
+{
+"k": 2569,
+"ep": 8420,
+"gt": "click",
+"ok": true,
+"conf": 0.961120494637342,
+"local": false,
+"top5": [
+52,
+53,
+50,
+54,
+59
+],
+"gold_in_top5": true
+},
+{
+"k": 2584,
+"ep": 8460,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9981922507286072,
+"local": true,
+"top5": [
+64,
+95,
+65,
+75,
+88
+],
+"gold_in_top5": null
+},
+{
+"k": 2586,
+"ep": 8460,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9947121143341064,
+"local": true,
+"top5": [
+113,
+121,
+64,
+103,
+104
+],
+"gold_in_top5": null
+},
+{
+"k": 2601,
+"ep": 8580,
+"gt": "click",
+"ok": true,
+"conf": 0.9793351619883239,
+"local": false,
+"top5": [
+84,
+79,
+106,
+73,
+48
+],
+"gold_in_top5": true
+},
+{
+"k": 2603,
+"ep": 8620,
+"gt": "click",
+"ok": false,
+"conf": 0.4944572697844052,
+"local": false,
+"top5": [
+122,
+120,
+124,
+121,
+123
+],
+"gold_in_top5": true
+},
+{
+"k": 2608,
+"ep": 8660,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9962891340255737,
+"local": true,
+"top5": [
+128,
+119,
+121,
+63,
+95
+],
+"gold_in_top5": null
+},
+{
+"k": 2611,
+"ep": 8660,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9911009669303894,
+"local": true,
+"top5": [
+58,
+60,
+57,
+59,
+11
+],
+"gold_in_top5": null
+},
+{
+"k": 2613,
+"ep": 8700,
+"gt": "click",
+"ok": true,
+"conf": 0.7540021574042939,
+"local": false,
+"top5": [
+70,
+71,
+68,
+72,
+77
+],
+"gold_in_top5": true
+},
+{
+"k": 2614,
+"ep": 8700,
+"gt": "click",
+"ok": true,
+"conf": 0.9994723195798372,
+"local": true,
+"top5": [
+62,
+61,
+60,
+63,
+58
+],
+"gold_in_top5": true
+},
+{
+"k": 2617,
+"ep": 8700,
+"gt": "click",
+"ok": true,
+"conf": 0.9997802432208971,
+"local": true,
+"top5": [
+54,
+56,
+73,
+75,
+62
+],
+"gold_in_top5": true
+},
+{
+"k": 2671,
+"ep": 8820,
+"gt": "click",
+"ok": true,
+"conf": 0.9965538528972786,
+"local": true,
+"top5": [
+102,
+101,
+85,
+84,
+83
+],
+"gold_in_top5": true
+},
+{
+"k": 2672,
+"ep": 8820,
+"gt": "click",
+"ok": true,
+"conf": 0.9912184402147588,
+"local": true,
+"top5": [
+135,
+203,
+204,
+172,
+102
+],
+"gold_in_top5": true
+},
+{
+"k": 2673,
+"ep": 8820,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9983471632003784,
+"local": true,
+"top5": [
+205,
+135,
+204,
+201,
+203
+],
+"gold_in_top5": null
+},
+{
+"k": 2674,
+"ep": 8820,
+"gt": "click",
+"ok": true,
+"conf": 0.999437939551413,
+"local": true,
+"top5": [
+192,
+189,
+191,
+193,
+102
+],
+"gold_in_top5": true
+},
+{
+"k": 2684,
+"ep": 8860,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9997056126594543,
+"local": true,
+"top5": [
+52,
+51,
+62,
+67,
+46
+],
+"gold_in_top5": null
+},
+{
+"k": 2687,
+"ep": 8860,
+"gt": "input_text",
+"ok": true,
+"conf": 0.99847811460495,
+"local": true,
+"top5": [
+159,
+157,
+158,
+164,
+55
+],
+"gold_in_top5": null
+},
+{
+"k": 2696,
+"ep": 8900,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9972949624061584,
+"local": true,
+"top5": [
+111,
+120,
+112,
+119,
+113
+],
+"gold_in_top5": null
+},
+{
+"k": 2697,
+"ep": 8900,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9950411915779114,
+"local": true,
+"top5": [
+133,
+107,
+125,
+113,
+119
+],
+"gold_in_top5": null
+},
+{
+"k": 2700,
+"ep": 8900,
+"gt": "click",
+"ok": true,
+"conf": 0.9788773189894329,
+"local": false,
+"top5": [
+140,
+130,
+122,
+141,
+121
+],
+"gold_in_top5": true
+},
+{
+"k": 2701,
+"ep": 8900,
+"gt": "click",
+"ok": true,
+"conf": 0.9976751867361884,
+"local": true,
+"top5": [
+121,
+118,
+108,
+105,
+110
+],
+"gold_in_top5": true
+},
+{
+"k": 2708,
+"ep": 8940,
+"gt": "click",
+"ok": false,
+"conf": 0.8647021480302151,
+"local": false,
+"top5": [
+35,
+49,
+51,
+64,
+67
+],
+"gold_in_top5": true
+},
+{
+"k": 2711,
+"ep": 8980,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9987603425979614,
+"local": true,
+"top5": [
+49,
+51,
+50,
+54,
+48
+],
+"gold_in_top5": null
+},
+{
+"k": 2715,
+"ep": 8980,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9954982995986938,
+"local": true,
+"top5": [
+61,
+72,
+64,
+71,
+48
+],
+"gold_in_top5": null
+},
+{
+"k": 2716,
+"ep": 8980,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9902320504188538,
+"local": true,
+"top5": [
+59,
+57,
+49,
+48,
+58
+],
+"gold_in_top5": null
+},
+{
+"k": 2717,
+"ep": 8980,
+"gt": "click",
+"ok": true,
+"conf": 0.9990617370742783,
+"local": true,
+"top5": [
+67,
+49,
+70,
+65,
+68
+],
+"gold_in_top5": true
+},
+{
+"k": 2723,
+"ep": 9020,
+"gt": "click",
+"ok": true,
+"conf": 0.9447804131188846,
+"local": false,
+"top5": [
+43,
+55,
+54,
+79,
+80
+],
+"gold_in_top5": true
+},
+{
+"k": 2724,
+"ep": 9020,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9984221458435059,
+"local": true,
+"top5": [
+52,
+76,
+92,
+94,
+77
+],
+"gold_in_top5": null
+},
+{
+"k": 2725,
+"ep": 9020,
+"gt": "click",
+"ok": false,
+"conf": 0.762472873943679,
+"local": false,
+"top5": [
+66,
+79,
+80,
+67,
+43
+],
+"gold_in_top5": false
+},
+{
+"k": 2726,
+"ep": 9020,
+"gt": "click",
+"ok": true,
+"conf": 0.9859809187651152,
+"local": true,
+"top5": [
+54,
+53,
+37,
+51,
+88
+],
+"gold_in_top5": true
+},
+{
+"k": 2727,
+"ep": 9020,
+"gt": "wait",
+"ok": true,
+"conf": 0.9955160021781921,
+"local": true,
+"top5": [
+41,
+38,
+42,
+45,
+36
+],
+"gold_in_top5": null
+},
+{
+"k": 2728,
+"ep": 9060,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9997705817222595,
+"local": true,
+"top5": [
+36,
+46,
+59,
+47,
+58
+],
+"gold_in_top5": null
+},
+{
+"k": 2729,
+"ep": 9060,
+"gt": "click",
+"ok": true,
+"conf": 0.9991103761439,
+"local": true,
+"top5": [
+65,
+40,
+69,
+64,
+66
+],
+"gold_in_top5": true
+},
+{
+"k": 2735,
+"ep": 9100,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9998564720153809,
+"local": true,
+"top5": [
+38,
+37,
+36,
+34,
+42
+],
+"gold_in_top5": null
+},
+{
+"k": 2736,
+"ep": 9100,
+"gt": "click",
+"ok": true,
+"conf": 0.9840191583202369,
+"local": false,
+"top5": [
+61,
+74,
+64,
+71,
+63
+],
+"gold_in_top5": true
+},
+{
+"k": 2737,
+"ep": 9100,
+"gt": "click",
+"ok": true,
+"conf": 0.9936381371419003,
+"local": true,
+"top5": [
+75,
+64,
+65,
+76,
+61
+],
+"gold_in_top5": true
+},
+{
+"k": 2741,
+"ep": 9100,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9989639520645142,
+"local": true,
+"top5": [
+167,
+168,
+166,
+164,
+165
+],
+"gold_in_top5": null
+},
+{
+"k": 2742,
+"ep": 9100,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9960357546806335,
+"local": true,
+"top5": [
+46,
+164,
+163,
+162,
+66
+],
+"gold_in_top5": null
+},
+{
+"k": 2743,
+"ep": 9100,
+"gt": "click",
+"ok": true,
+"conf": 0.9969161021791173,
+"local": true,
+"top5": [
+50,
+48,
+49,
+47,
+43
+],
+"gold_in_top5": true
+},
+{
+"k": 2747,
+"ep": 9140,
+"gt": "click",
+"ok": true,
+"conf": 0.9997305371674798,
+"local": true,
+"top5": [
+34,
+35,
+32,
+33,
+36
+],
+"gold_in_top5": true
+},
+{
+"k": 2765,
+"ep": 9180,
+"gt": "click",
+"ok": true,
+"conf": 0.9975290863313973,
+"local": true,
+"top5": [
+34,
+31,
+32,
+33,
+35
+],
+"gold_in_top5": true
+},
+{
+"k": 2766,
+"ep": 9180,
+"gt": "click",
+"ok": false,
+"conf": 0.9968796703167371,
+"local": true,
+"top5": [
+156,
+151,
+149,
+150,
+153
+],
+"gold_in_top5": false
+},
+{
+"k": 2768,
+"ep": 9180,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9965871572494507,
+"local": true,
+"top5": [
+133,
+134,
+135,
+130,
+129
+],
+"gold_in_top5": null
+},
+{
+"k": 2769,
+"ep": 9180,
+"gt": "click",
+"ok": true,
+"conf": 0.9993948581452266,
+"local": true,
+"top5": [
+141,
+147,
+59,
+146,
+142
+],
+"gold_in_top5": true
+},
+{
+"k": 2772,
+"ep": 9180,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9986415505409241,
+"local": true,
+"top5": [
+166,
+165,
+161,
+162,
+90
+],
+"gold_in_top5": null
+},
+{
+"k": 2773,
+"ep": 9180,
+"gt": "click",
+"ok": true,
+"conf": 0.9996332861009236,
+"local": true,
+"top5": [
+153,
+154,
+57,
+158,
+150
+],
+"gold_in_top5": true
+},
+{
+"k": 2777,
+"ep": 9220,
+"gt": "click",
+"ok": true,
+"conf": 0.9947616645527368,
+"local": true,
+"top5": [
+62,
+63,
+65,
+57,
+64
+],
+"gold_in_top5": true
+},
+{
+"k": 2778,
+"ep": 9220,
+"gt": "click",
+"ok": true,
+"conf": 0.9927866582031619,
+"local": true,
+"top5": [
+36,
+49,
+50,
+55,
+51
+],
+"gold_in_top5": true
+},
+{
+"k": 2779,
+"ep": 9220,
+"gt": "click",
+"ok": true,
+"conf": 0.9813078030872582,
+"local": false,
+"top5": [
+34,
+37,
+36,
+39,
+65
+],
+"gold_in_top5": true
+},
+{
+"k": 2780,
+"ep": 9220,
+"gt": "click",
+"ok": true,
+"conf": 0.9867791625424225,
+"local": true,
+"top5": [
+20,
+39,
+47,
+41,
+44
+],
+"gold_in_top5": true
+},
+{
+"k": 2792,
+"ep": 9260,
+"gt": "open_app",
+"ok": true,
+"conf": 0.99988853931427,
+"local": true,
+"top5": [
+62,
+84,
+67,
+61,
+75
+],
+"gold_in_top5": null
+},
+{
+"k": 2794,
+"ep": 9260,
+"gt": "click",
+"ok": true,
+"conf": 0.5067187267009388,
+"local": false,
+"top5": [
+26,
+28,
+25,
+27,
+11
+],
+"gold_in_top5": true
+},
+{
+"k": 2796,
+"ep": 9260,
+"gt": "wait",
+"ok": true,
+"conf": 0.9845538139343262,
+"local": true,
+"top5": [
+147,
+152,
+53,
+84,
+151
+],
+"gold_in_top5": null
+},
+{
+"k": 2799,
+"ep": 9300,
+"gt": "click",
+"ok": false,
+"conf": 0.9977195858955383,
+"local": true,
+"top5": [
+71,
+72,
+78,
+77,
+75
+],
+"gold_in_top5": true
+},
+{
+"k": 2801,
+"ep": 9300,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9939451813697815,
+"local": true,
+"top5": [
+278,
+277,
+224,
+240,
+225
+],
+"gold_in_top5": null
+},
+{
+"k": 2803,
+"ep": 9300,
+"gt": "wait",
+"ok": false,
+"conf": 0.994207501411438,
+"local": true,
+"top5": [
+149,
+150,
+95,
+100,
+116
+],
+"gold_in_top5": null
+},
+{
+"k": 2805,
+"ep": 9300,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9988918900489807,
+"local": true,
+"top5": [
+220,
+96,
+216,
+210,
+213
+],
+"gold_in_top5": null
+},
+{
+"k": 2806,
+"ep": 9300,
+"gt": "click",
+"ok": true,
+"conf": 0.9993230010821286,
+"local": true,
+"top5": [
+96,
+173,
+170,
+206,
+211
+],
+"gold_in_top5": true
+},
+{
+"k": 2808,
+"ep": 9340,
+"gt": "click",
+"ok": true,
+"conf": 0.9907916629176796,
+"local": true,
+"top5": [
+64,
+99,
+100,
+38,
+65
+],
+"gold_in_top5": true
+},
+{
+"k": 2809,
+"ep": 9340,
+"gt": "click",
+"ok": true,
+"conf": 0.9893792110262076,
+"local": true,
+"top5": [
+39,
+44,
+40,
+37,
+60
+],
+"gold_in_top5": true
+},
+{
+"k": 2821,
+"ep": 14060,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9992677569389343,
+"local": true,
+"top5": [
+43,
+48,
+49,
+44,
+46
+],
+"gold_in_top5": null
+},
+{
+"k": 2823,
+"ep": 14060,
+"gt": "click",
+"ok": true,
+"conf": 0.999743647431039,
+"local": true,
+"top5": [
+80,
+58,
+81,
+85,
+86
+],
+"gold_in_top5": true
+},
+{
+"k": 2824,
+"ep": 14060,
+"gt": "click",
+"ok": true,
+"conf": 0.9995796157294876,
+"local": true,
+"top5": [
+51,
+50,
+49,
+46,
+53
+],
+"gold_in_top5": true
+},
+{
+"k": 2825,
+"ep": 14060,
+"gt": "click",
+"ok": true,
+"conf": 0.9988249225040846,
+"local": true,
+"top5": [
+49,
+47,
+53,
+54,
+51
+],
+"gold_in_top5": true
+},
+{
+"k": 2829,
+"ep": 14060,
+"gt": "click",
+"ok": true,
+"conf": 0.9984864278880394,
+"local": true,
+"top5": [
+49,
+47,
+53,
+54,
+51
+],
+"gold_in_top5": true
+},
+{
+"k": 2834,
+"ep": 14140,
+"gt": "click",
+"ok": true,
+"conf": 0.9985894370135355,
+"local": true,
+"top5": [
+39,
+58,
+54,
+57,
+65
+],
+"gold_in_top5": true
+},
+{
+"k": 2851,
+"ep": 17700,
+"gt": "open_app",
+"ok": true,
+"conf": 0.997462272644043,
+"local": true,
+"top5": [
+65,
+64,
+62,
+63,
+51
+],
+"gold_in_top5": null
+},
+{
+"k": 2854,
+"ep": 17700,
+"gt": "click",
+"ok": true,
+"conf": 0.9970911204550248,
+"local": true,
+"top5": [
+10,
+8,
+13,
+11,
+14
+],
+"gold_in_top5": true
+},
+{
+"k": 2855,
+"ep": 17700,
+"gt": "click",
+"ok": true,
+"conf": 0.9990978723593464,
+"local": true,
+"top5": [
+12,
+11,
+15,
+10,
+8
+],
+"gold_in_top5": true
+},
+{
+"k": 2864,
+"ep": 17780,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9998956918716431,
+"local": true,
+"top5": [
+26,
+27,
+46,
+45,
+102
+],
+"gold_in_top5": null
+},
+{
+"k": 2868,
+"ep": 17820,
+"gt": "click",
+"ok": true,
+"conf": 0.9967451355987293,
+"local": true,
+"top5": [
+39,
+35,
+49,
+48,
+54
+],
+"gold_in_top5": true
+},
+{
+"k": 2869,
+"ep": 17820,
+"gt": "click",
+"ok": true,
+"conf": 0.9966652750293008,
+"local": true,
+"top5": [
+37,
+36,
+33,
+35,
+32
+],
+"gold_in_top5": true
+},
+{
+"k": 2870,
+"ep": 17820,
+"gt": "click",
+"ok": true,
+"conf": 0.8779505407022725,
+"local": false,
+"top5": [
+63,
+64,
+61,
+55,
+62
+],
+"gold_in_top5": true
+},
+{
+"k": 2871,
+"ep": 17820,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9972779154777527,
+"local": true,
+"top5": [
+30,
+43,
+34,
+36,
+35
+],
+"gold_in_top5": null
+},
+{
+"k": 2872,
+"ep": 17820,
+"gt": "click",
+"ok": true,
+"conf": 0.9861366480597233,
+"local": true,
+"top5": [
+48,
+44,
+47,
+43,
+41
+],
+"gold_in_top5": true
+},
+{
+"k": 2879,
+"ep": 17940,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9973384737968445,
+"local": true,
+"top5": [
+43,
+32,
+34,
+36,
+11
+],
+"gold_in_top5": null
+},
+{
+"k": 2880,
+"ep": 17940,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9970272183418274,
+"local": true,
+"top5": [
+11,
+14,
+40,
+28,
+18
+],
+"gold_in_top5": null
+},
+{
+"k": 2881,
+"ep": 17940,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9966906309127808,
+"local": true,
+"top5": [
+11,
+36,
+14,
+18,
+41
+],
+"gold_in_top5": null
+},
+{
+"k": 2884,
+"ep": 780,
+"gt": "click",
+"ok": true,
+"conf": 0.9995086793672208,
+"local": true,
+"top5": [
+33,
+45,
+36,
+34,
+46
+],
+"gold_in_top5": true
+},
+{
+"k": 2890,
+"ep": 820,
+"gt": "input_text",
+"ok": true,
+"conf": 0.997944176197052,
+"local": true,
+"top5": [
+162,
+174,
+170,
+175,
+55
+],
+"gold_in_top5": null
+},
+{
+"k": 2897,
+"ep": 860,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9983816146850586,
+"local": true,
+"top5": [
+204,
+206,
+191,
+93,
+193
+],
+"gold_in_top5": null
+},
+{
+"k": 2898,
+"ep": 860,
+"gt": "click",
+"ok": true,
+"conf": 0.9985740215936652,
+"local": true,
+"top5": [
+195,
+192,
+177,
+182,
+184
+],
+"gold_in_top5": true
+},
+{
+"k": 2899,
+"ep": 900,
+"gt": "click",
+"ok": false,
+"conf": 0.9637968615652426,
+"local": false,
+"top5": [
+118,
+117,
+33,
+44,
+46
+],
+"gold_in_top5": false
+},
+{
+"k": 2906,
+"ep": 980,
+"gt": "click",
+"ok": false,
+"conf": 0.9569590988154175,
+"local": false,
+"top5": [
+138,
+111,
+102,
+113,
+86
+],
+"gold_in_top5": false
+},
+{
+"k": 2920,
+"ep": 14260,
+"gt": "scroll",
+"ok": true,
+"conf": 0.99748295545578,
+"local": true,
+"top5": [
+72,
+74,
+73,
+48,
+75
+],
+"gold_in_top5": null
+},
+{
+"k": 2922,
+"ep": 14300,
+"gt": "scroll",
+"ok": true,
+"conf": 0.996914267539978,
+"local": true,
+"top5": [
+98,
+145,
+132,
+84,
+111
+],
+"gold_in_top5": null
+},
+{
+"k": 2923,
+"ep": 14300,
+"gt": "click",
+"ok": true,
+"conf": 0.8477291272428964,
+"local": false,
+"top5": [
+140,
+141,
+130,
+142,
+143
+],
+"gold_in_top5": true
+},
+{
+"k": 2925,
+"ep": 17980,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9981369972229004,
+"local": true,
+"top5": [
+26,
+36,
+37,
+35,
+34
+],
+"gold_in_top5": null
+},
+{
+"k": 2938,
+"ep": 18020,
+"gt": "open_app",
+"ok": true,
+"conf": 0.999819815158844,
+"local": true,
+"top5": [
+44,
+36,
+32,
+41,
+31
+],
+"gold_in_top5": null
+},
+{
+"k": 2939,
+"ep": 18020,
+"gt": "click",
+"ok": true,
+"conf": 0.9483788577953192,
+"local": false,
+"top5": [
+44,
+42,
+45,
+43,
+59
+],
+"gold_in_top5": true
+},
+{
+"k": 2940,
+"ep": 18020,
+"gt": "input_text",
+"ok": true,
+"conf": 0.99858558177948,
+"local": true,
+"top5": [
+186,
+187,
+164,
+165,
+168
+],
+"gold_in_top5": null
+},
+{
+"k": 2942,
+"ep": 18020,
+"gt": "click",
+"ok": true,
+"conf": 0.9993058346596193,
+"local": true,
+"top5": [
+44,
+60,
+80,
+45,
+43
+],
+"gold_in_top5": true
+},
+{
+"k": 2944,
+"ep": 18020,
+"gt": "click",
+"ok": true,
+"conf": 0.9994086088641225,
+"local": true,
+"top5": [
+45,
+46,
+37,
+49,
+47
+],
+"gold_in_top5": true
+},
+{
+"k": 2945,
+"ep": 18020,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9985969662666321,
+"local": true,
+"top5": [
+59,
+57,
+49,
+47,
+63
+],
+"gold_in_top5": null
+},
+{
+"k": 2947,
+"ep": 18020,
+"gt": "click",
+"ok": true,
+"conf": 0.9994977150984248,
+"local": true,
+"top5": [
+49,
+71,
+68,
+51,
+74
+],
+"gold_in_top5": true
+},
+{
+"k": 2948,
+"ep": 18020,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9985271692276001,
+"local": true,
+"top5": [
+83,
+64,
+91,
+43,
+44
+],
+"gold_in_top5": null
+},
+{
+"k": 2949,
+"ep": 18020,
+"gt": "scroll",
+"ok": true,
+"conf": 0.996362030506134,
+"local": true,
+"top5": [
+64,
+35,
+80,
+93,
+79
+],
+"gold_in_top5": null
+},
+{
+"k": 2951,
+"ep": 18060,
+"gt": "click",
+"ok": true,
+"conf": 0.9300386625614152,
+"local": false,
+"top5": [
+34,
+42,
+53,
+44,
+40
+],
+"gold_in_top5": true
+},
+{
+"k": 2952,
+"ep": 18060,
+"gt": "click",
+"ok": false,
+"conf": 0.4859714769611525,
+"local": false,
+"top5": [
+40,
+69,
+70,
+63,
+64
+],
+"gold_in_top5": true
+},
+{
+"k": 2953,
+"ep": 18060,
+"gt": "click",
+"ok": false,
+"conf": 0.7622551918029785,
+"local": false,
+"top5": [
+40,
+64,
+70,
+69,
+63
+],
+"gold_in_top5": true
+},
+{
+"k": 2955,
+"ep": 18060,
+"gt": "click",
+"ok": true,
+"conf": 0.9987646318373677,
+"local": true,
+"top5": [
+66,
+81,
+65,
+40,
+32
+],
+"gold_in_top5": true
+},
+{
+"k": 2957,
+"ep": 18060,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9991621971130371,
+"local": true,
+"top5": [
+183,
+182,
+179,
+178,
+175
+],
+"gold_in_top5": null
+},
+{
+"k": 2959,
+"ep": 18060,
+"gt": "click",
+"ok": true,
+"conf": 0.9985419170259746,
+"local": true,
+"top5": [
+164,
+163,
+165,
+184,
+180
+],
+"gold_in_top5": true
+},
+{
+"k": 2980,
+"ep": 18220,
+"gt": "click",
+"ok": true,
+"conf": 0.9992333330334162,
+"local": true,
+"top5": [
+98,
+92,
+61,
+93,
+97
+],
+"gold_in_top5": true
+},
+{
+"k": 2984,
+"ep": 18260,
+"gt": "click",
+"ok": true,
+"conf": 0.9622123516772128,
+"local": false,
+"top5": [
+161,
+163,
+138,
+162,
+165
+],
+"gold_in_top5": true
+},
+{
+"k": 2991,
+"ep": 18420,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9991874098777771,
+"local": true,
+"top5": [
+61,
+50,
+79,
+62,
+73
+],
+"gold_in_top5": null
+},
+{
+"k": 2993,
+"ep": 18420,
+"gt": "click",
+"ok": true,
+"conf": 0.9729583831593729,
+"local": false,
+"top5": [
+175,
+172,
+39,
+171,
+173
+],
+"gold_in_top5": true
+},
+{
+"k": 2995,
+"ep": 18420,
+"gt": "click",
+"ok": true,
+"conf": 0.9910137028841959,
+"local": true,
+"top5": [
+178,
+179,
+170,
+154,
+180
+],
+"gold_in_top5": true
+},
+{
+"k": 2997,
+"ep": 18420,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9976812601089478,
+"local": true,
+"top5": [
+190,
+191,
+189,
+177,
+167
+],
+"gold_in_top5": null
+},
+{
+"k": 2998,
+"ep": 18420,
+"gt": "click",
+"ok": true,
+"conf": 0.9996810213519893,
+"local": true,
+"top5": [
+57,
+131,
+128,
+39,
+69
+],
+"gold_in_top5": true
+},
+{
+"k": 3000,
+"ep": 18420,
+"gt": "click",
+"ok": true,
+"conf": 0.9945192668906699,
+"local": true,
+"top5": [
+81,
+79,
+80,
+70,
+64
+],
+"gold_in_top5": true
+},
+{
+"k": 3001,
+"ep": 18460,
+"gt": "click",
+"ok": true,
+"conf": 0.999716232361628,
+"local": true,
+"top5": [
+110,
+106,
+108,
+98,
+101
+],
+"gold_in_top5": true
+},
+{
+"k": 3004,
+"ep": 18460,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9990094900131226,
+"local": true,
+"top5": [
+186,
+189,
+183,
+179,
+166
+],
+"gold_in_top5": null
+},
+{
+"k": 3012,
+"ep": 18500,
+"gt": "click",
+"ok": true,
+"conf": 0.8501023584626495,
+"local": false,
+"top5": [
+120,
+92,
+93,
+91,
+119
+],
+"gold_in_top5": true
+},
+{
+"k": 3013,
+"ep": 18500,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9988565444946289,
+"local": true,
+"top5": [
+193,
+214,
+215,
+205,
+227
+],
+"gold_in_top5": null
+},
+{
+"k": 3014,
+"ep": 18500,
+"gt": "click",
+"ok": false,
+"conf": 0.5002240774174993,
+"local": false,
+"top5": [
+238,
+237,
+236,
+231,
+235
+],
+"gold_in_top5": true
+},
+{
+"k": 3015,
+"ep": 18540,
+"gt": "open_app",
+"ok": true,
+"conf": 0.999220609664917,
+"local": true,
+"top5": [
+46,
+36,
+31,
+51,
+44
+],
+"gold_in_top5": null
+},
+{
+"k": 3017,
+"ep": 18540,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9978415966033936,
+"local": true,
+"top5": [
+184,
+60,
+177,
+180,
+174
+],
+"gold_in_top5": null
+},
+{
+"k": 3020,
+"ep": 1100,
+"gt": "click",
+"ok": true,
+"conf": 0.9866530511560967,
+"local": true,
+"top5": [
+70,
+61,
+71,
+62,
+73
+],
+"gold_in_top5": true
+},
+{
+"k": 3021,
+"ep": 1100,
+"gt": "click",
+"ok": true,
+"conf": 0.9890839444156683,
+"local": true,
+"top5": [
+34,
+29,
+35,
+30,
+31
+],
+"gold_in_top5": true
+},
+{
+"k": 3025,
+"ep": 1140,
+"gt": "click",
+"ok": true,
+"conf": 0.9961135621346102,
+"local": true,
+"top5": [
+39,
+31,
+32,
+40,
+41
+],
+"gold_in_top5": true
+},
+{
+"k": 3026,
+"ep": 1140,
+"gt": "click",
+"ok": true,
+"conf": 0.9994985819145441,
+"local": true,
+"top5": [
+28,
+26,
+31,
+27,
+29
+],
+"gold_in_top5": true
+},
+{
+"k": 3047,
+"ep": 1380,
+"gt": "click",
+"ok": true,
+"conf": 0.8994292562923896,
+"local": false,
+"top5": [
+58,
+60,
+59,
+214,
+244
+],
+"gold_in_top5": true
+},
+{
+"k": 3051,
+"ep": 1380,
+"gt": "click",
+"ok": true,
+"conf": 0.9996562833109337,
+"local": true,
+"top5": [
+35,
+34,
+30,
+47,
+28
+],
+"gold_in_top5": true
+},
+{
+"k": 3074,
+"ep": 1460,
+"gt": "click",
+"ok": true,
+"conf": 0.5623503661227858,
+"local": false,
+"top5": [
+123,
+122,
+128,
+129,
+121
+],
+"gold_in_top5": true
+},
+{
+"k": 3075,
+"ep": 1460,
+"gt": "click",
+"ok": true,
+"conf": 0.9471592639429254,
+"local": false,
+"top5": [
+104,
+105,
+93,
+101,
+94
+],
+"gold_in_top5": true
+},
+{
+"k": 3076,
+"ep": 1460,
+"gt": "click",
+"ok": true,
+"conf": 0.9988003158304437,
+"local": true,
+"top5": [
+89,
+88,
+105,
+87,
+103
+],
+"gold_in_top5": true
+},
+{
+"k": 3079,
+"ep": 1540,
+"gt": "click",
+"ok": true,
+"conf": 0.999686324766401,
+"local": true,
+"top5": [
+69,
+66,
+56,
+72,
+70
+],
+"gold_in_top5": true
+},
+{
+"k": 3081,
+"ep": 1540,
+"gt": "click",
+"ok": true,
+"conf": 0.9982912879840953,
+"local": true,
+"top5": [
+135,
+134,
+96,
+95,
+149
+],
+"gold_in_top5": true
+},
+{
+"k": 3083,
+"ep": 1540,
+"gt": "click",
+"ok": true,
+"conf": 0.9961648116592983,
+"local": true,
+"top5": [
+92,
+93,
+60,
+59,
+74
+],
+"gold_in_top5": true
+},
+{
+"k": 3093,
+"ep": 1580,
+"gt": "click",
+"ok": true,
+"conf": 0.9972012618191748,
+"local": true,
+"top5": [
+81,
+66,
+79,
+90,
+80
+],
+"gold_in_top5": true
+},
+{
+"k": 3094,
+"ep": 1620,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9992215633392334,
+"local": true,
+"top5": [
+43,
+42,
+25,
+41,
+26
+],
+"gold_in_top5": null
+},
+{
+"k": 3095,
+"ep": 1620,
+"gt": "click",
+"ok": true,
+"conf": 0.9986310304783785,
+"local": true,
+"top5": [
+29,
+68,
+97,
+45,
+47
+],
+"gold_in_top5": true
+},
+{
+"k": 3096,
+"ep": 1620,
+"gt": "click",
+"ok": true,
+"conf": 0.6121220664016107,
+"local": false,
+"top5": [
+56,
+57,
+39,
+114,
+92
+],
+"gold_in_top5": true
+},
+{
+"k": 3098,
+"ep": 1620,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9980027079582214,
+"local": true,
+"top5": [
+31,
+32,
+33,
+34,
+30
+],
+"gold_in_top5": null
+},
+{
+"k": 3099,
+"ep": 1620,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9921171069145203,
+"local": true,
+"top5": [
+39,
+32,
+28,
+40,
+34
+],
+"gold_in_top5": null
+},
+{
+"k": 3101,
+"ep": 1620,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9924134612083435,
+"local": true,
+"top5": [
+37,
+31,
+28,
+33,
+35
+],
+"gold_in_top5": null
+},
+{
+"k": 3102,
+"ep": 1620,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9925622344017029,
+"local": true,
+"top5": [
+30,
+33,
+32,
+41,
+34
+],
+"gold_in_top5": null
+},
+{
+"k": 3103,
+"ep": 1620,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9923008680343628,
+"local": true,
+"top5": [
+33,
+35,
+30,
+31,
+28
+],
+"gold_in_top5": null
+},
+{
+"k": 3104,
+"ep": 1620,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9921534657478333,
+"local": true,
+"top5": [
+44,
+42,
+43,
+39,
+37
+],
+"gold_in_top5": null
+},
+{
+"k": 3105,
+"ep": 1620,
+"gt": "click",
+"ok": true,
+"conf": 0.9983664623837498,
+"local": true,
+"top5": [
+32,
+33,
+34,
+37,
+28
+],
+"gold_in_top5": true
+},
+{
+"k": 3106,
+"ep": 1620,
+"gt": "click",
+"ok": true,
+"conf": 0.9996000802796345,
+"local": true,
+"top5": [
+29,
+30,
+32,
+31,
+27
+],
+"gold_in_top5": true
+},
+{
+"k": 3113,
+"ep": 1660,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9998923540115356,
+"local": true,
+"top5": [
+32,
+27,
+28,
+37,
+44
+],
+"gold_in_top5": null
+},
+{
+"k": 3114,
+"ep": 1660,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9928827285766602,
+"local": true,
+"top5": [
+53,
+96,
+51,
+84,
+82
+],
+"gold_in_top5": null
+},
+{
+"k": 3116,
+"ep": 1660,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9945622086524963,
+"local": true,
+"top5": [
+51,
+49,
+147,
+59,
+74
+],
+"gold_in_top5": null
+},
+{
+"k": 3117,
+"ep": 1660,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9940325617790222,
+"local": true,
+"top5": [
+51,
+74,
+49,
+88,
+90
+],
+"gold_in_top5": null
+},
+{
+"k": 3121,
+"ep": 1660,
+"gt": "click",
+"ok": false,
+"conf": 0.11034031554816082,
+"local": false,
+"top5": [
+139,
+85,
+125,
+87,
+145
+],
+"gold_in_top5": true
+},
+{
+"k": 3125,
+"ep": 1700,
+"gt": "click",
+"ok": true,
+"conf": 0.998683564077858,
+"local": true,
+"top5": [
+52,
+53,
+132,
+86,
+51
+],
+"gold_in_top5": true
+},
+{
+"k": 3133,
+"ep": 1780,
+"gt": "click",
+"ok": true,
+"conf": 0.9994571031290604,
+"local": true,
+"top5": [
+141,
+140,
+139,
+95,
+92
+],
+"gold_in_top5": true
+},
+{
+"k": 3140,
+"ep": 1860,
+"gt": "click",
+"ok": true,
+"conf": 0.9914156948591923,
+"local": true,
+"top5": [
+68,
+78,
+76,
+67,
+62
+],
+"gold_in_top5": true
+},
+{
+"k": 3141,
+"ep": 1860,
+"gt": "click",
+"ok": true,
+"conf": 0.996150401466025,
+"local": true,
+"top5": [
+68,
+69,
+52,
+56,
+70
+],
+"gold_in_top5": true
+},
+{
+"k": 3146,
+"ep": 1900,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9996758699417114,
+"local": true,
+"top5": [
+45,
+31,
+60,
+42,
+40
+],
+"gold_in_top5": null
+},
+{
+"k": 3147,
+"ep": 1900,
+"gt": "wait",
+"ok": true,
+"conf": 0.9965078234672546,
+"local": true,
+"top5": [
+27,
+32,
+35,
+38,
+36
+],
+"gold_in_top5": null
+},
+{
+"k": 3148,
+"ep": 1900,
+"gt": "click",
+"ok": true,
+"conf": 0.8697175369706258,
+"local": false,
+"top5": [
+36,
+39,
+40,
+37,
+47
+],
+"gold_in_top5": true
+},
+{
+"k": 3150,
+"ep": 1900,
+"gt": "click",
+"ok": true,
+"conf": 0.9996932380368975,
+"local": true,
+"top5": [
+54,
+129,
+144,
+35,
+128
+],
+"gold_in_top5": true
+},
+{
+"k": 3151,
+"ep": 1900,
+"gt": "wait",
+"ok": true,
+"conf": 0.9995023012161255,
+"local": true,
+"top5": [
+39,
+27,
+32,
+38,
+36
+],
+"gold_in_top5": null
+},
+{
+"k": 3156,
+"ep": 1940,
+"gt": "click",
+"ok": true,
+"conf": 0.999767434403168,
+"local": true,
+"top5": [
+82,
+79,
+78,
+61,
+81
+],
+"gold_in_top5": true
+},
+{
+"k": 3157,
+"ep": 1940,
+"gt": "click",
+"ok": true,
+"conf": 0.9967662646779729,
+"local": true,
+"top5": [
+69,
+68,
+71,
+50,
+49
+],
+"gold_in_top5": true
+},
+{
+"k": 3158,
+"ep": 1940,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9986804127693176,
+"local": true,
+"top5": [
+56,
+44,
+57,
+59,
+51
+],
+"gold_in_top5": null
+},
+{
+"k": 3159,
+"ep": 1940,
+"gt": "click",
+"ok": true,
+"conf": 0.9700371554541505,
+"local": false,
+"top5": [
+58,
+59,
+61,
+60,
+51
+],
+"gold_in_top5": true
+},
+{
+"k": 3167,
+"ep": 1980,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9997929930686951,
+"local": true,
+"top5": [
+82,
+55,
+80,
+81,
+87
+],
+"gold_in_top5": null
+},
+{
+"k": 3168,
+"ep": 1980,
+"gt": "click",
+"ok": true,
+"conf": 0.9968125574420128,
+"local": true,
+"top5": [
+37,
+34,
+43,
+33,
+44
+],
+"gold_in_top5": true
+},
+{
+"k": 3171,
+"ep": 1980,
+"gt": "click",
+"ok": true,
+"conf": 0.579092208657503,
+"local": false,
+"top5": [
+38,
+39,
+40,
+42,
+35
+],
+"gold_in_top5": true
+},
+{
+"k": 3172,
+"ep": 1980,
+"gt": "click",
+"ok": true,
+"conf": 0.9983401758395871,
+"local": true,
+"top5": [
+60,
+41,
+43,
+42,
+62
+],
+"gold_in_top5": true
+},
+{
+"k": 3174,
+"ep": 1980,
+"gt": "click",
+"ok": false,
+"conf": 0.5393423404114657,
+"local": false,
+"top5": [
+80,
+79,
+41,
+43,
+42
+],
+"gold_in_top5": true
+},
+{
+"k": 3175,
+"ep": 1980,
+"gt": "click",
+"ok": true,
+"conf": 0.9984621840859376,
+"local": true,
+"top5": [
+34,
+56,
+45,
+44,
+68
+],
+"gold_in_top5": true
+},
+{
+"k": 3181,
+"ep": 2020,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9997804760932922,
+"local": true,
+"top5": [
+54,
+52,
+48,
+55,
+50
+],
+"gold_in_top5": null
+},
+{
+"k": 3182,
+"ep": 2020,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9993626475334167,
+"local": true,
+"top5": [
+54,
+51,
+60,
+37,
+56
+],
+"gold_in_top5": null
+},
+{
+"k": 3196,
+"ep": 2180,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9998862743377686,
+"local": true,
+"top5": [
+59,
+75,
+60,
+55,
+54
+],
+"gold_in_top5": null
+},
+{
+"k": 3197,
+"ep": 2180,
+"gt": "click",
+"ok": true,
+"conf": 0.9979026836710041,
+"local": true,
+"top5": [
+79,
+78,
+77,
+96,
+75
+],
+"gold_in_top5": true
+},
+{
+"k": 3200,
+"ep": 2220,
+"gt": "click",
+"ok": true,
+"conf": 0.9972333799560857,
+"local": true,
+"top5": [
+47,
+58,
+57,
+43,
+34
+],
+"gold_in_top5": true
+},
+{
+"k": 3201,
+"ep": 2220,
+"gt": "click",
+"ok": true,
+"conf": 0.9100551234737253,
+"local": false,
+"top5": [
+98,
+100,
+99,
+65,
+101
+],
+"gold_in_top5": true
+},
+{
+"k": 3202,
+"ep": 2220,
+"gt": "click",
+"ok": false,
+"conf": 0.9990013241767883,
+"local": true,
+"top5": [
+34,
+36,
+50,
+49,
+35
+],
+"gold_in_top5": true
+},
+{
+"k": 3203,
+"ep": 2220,
+"gt": "click",
+"ok": true,
+"conf": 0.9963905574891108,
+"local": true,
+"top5": [
+38,
+37,
+43,
+39,
+34
+],
+"gold_in_top5": true
+},
+{
+"k": 3208,
+"ep": 9460,
+"gt": "click",
+"ok": false,
+"conf": 0.5905284911492963,
+"local": false,
+"top5": [
+66,
+77,
+63,
+61,
+67
+],
+"gold_in_top5": true
+},
+{
+"k": 3210,
+"ep": 9460,
+"gt": "click",
+"ok": true,
+"conf": 0.6092095038781871,
+"local": false,
+"top5": [
+74,
+79,
+80,
+59,
+63
+],
+"gold_in_top5": true
+},
+{
+"k": 3219,
+"ep": 9500,
+"gt": "click",
+"ok": true,
+"conf": 0.8907457035892463,
+"local": false,
+"top5": [
+41,
+59,
+43,
+44,
+60
+],
+"gold_in_top5": true
+},
+{
+"k": 3220,
+"ep": 9500,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9972109198570251,
+"local": true,
+"top5": [
+73,
+74,
+84,
+40,
+72
+],
+"gold_in_top5": null
+},
+{
+"k": 3231,
+"ep": 9540,
+"gt": "click",
+"ok": true,
+"conf": 0.9959952293764616,
+"local": true,
+"top5": [
+37,
+38,
+45,
+52,
+44
+],
+"gold_in_top5": true
+},
+{
+"k": 3233,
+"ep": 9540,
+"gt": "click",
+"ok": true,
+"conf": 0.9997165400756103,
+"local": true,
+"top5": [
+53,
+153,
+66,
+35,
+130
+],
+"gold_in_top5": true
+},
+{
+"k": 3235,
+"ep": 9580,
+"gt": "click",
+"ok": true,
+"conf": 0.8235383687418789,
+"local": false,
+"top5": [
+61,
+67,
+70,
+62,
+73
+],
+"gold_in_top5": true
+},
+{
+"k": 3240,
+"ep": 9660,
+"gt": "click",
+"ok": true,
+"conf": 0.9974605786786128,
+"local": true,
+"top5": [
+50,
+49,
+51,
+73,
+62
+],
+"gold_in_top5": true
+},
+{
+"k": 3241,
+"ep": 9660,
+"gt": "click",
+"ok": false,
+"conf": 0.6736580867187705,
+"local": false,
+"top5": [
+172,
+173,
+164,
+165,
+54
+],
+"gold_in_top5": true
+},
+{
+"k": 3244,
+"ep": 9660,
+"gt": "click",
+"ok": true,
+"conf": 0.9983437318716106,
+"local": true,
+"top5": [
+47,
+48,
+39,
+33,
+40
+],
+"gold_in_top5": true
+},
+{
+"k": 3246,
+"ep": 9660,
+"gt": "click",
+"ok": true,
+"conf": 0.9991391812225174,
+"local": true,
+"top5": [
+160,
+180,
+181,
+161,
+159
+],
+"gold_in_top5": true
+},
+{
+"k": 3259,
+"ep": 9740,
+"gt": "click",
+"ok": true,
+"conf": 0.9991381103910442,
+"local": true,
+"top5": [
+37,
+34,
+35,
+36,
+32
+],
+"gold_in_top5": true
+},
+{
+"k": 3260,
+"ep": 9740,
+"gt": "wait",
+"ok": true,
+"conf": 0.9967442750930786,
+"local": true,
+"top5": [
+31,
+11,
+14,
+28,
+25
+],
+"gold_in_top5": null
+},
+{
+"k": 3263,
+"ep": 9740,
+"gt": "wait",
+"ok": false,
+"conf": 0.70294211928843,
+"local": false,
+"top5": [
+37,
+73,
+35,
+46,
+52
+],
+"gold_in_top5": null
+},
+{
+"k": 3264,
+"ep": 9740,
+"gt": "click",
+"ok": true,
+"conf": 0.9894966717528177,
+"local": true,
+"top5": [
+48,
+53,
+54,
+46,
+55
+],
+"gold_in_top5": true
+},
+{
+"k": 3265,
+"ep": 9740,
+"gt": "click",
+"ok": true,
+"conf": 0.9990678687010757,
+"local": true,
+"top5": [
+39,
+40,
+38,
+34,
+48
+],
+"gold_in_top5": true
+},
+{
+"k": 3266,
+"ep": 9740,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9992153644561768,
+"local": true,
+"top5": [
+163,
+162,
+164,
+170,
+160
+],
+"gold_in_top5": null
+},
+{
+"k": 3269,
+"ep": 9780,
+"gt": "click",
+"ok": true,
+"conf": 0.6465331482567365,
+"local": false,
+"top5": [
+62,
+54,
+63,
+91,
+64
+],
+"gold_in_top5": true
+},
+{
+"k": 3283,
+"ep": 9900,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9966128468513489,
+"local": true,
+"top5": [
+47,
+39,
+52,
+50,
+51
+],
+"gold_in_top5": null
+},
+{
+"k": 3284,
+"ep": 9900,
+"gt": "click",
+"ok": true,
+"conf": 0.9974301182449032,
+"local": true,
+"top5": [
+31,
+57,
+70,
+68,
+74
+],
+"gold_in_top5": true
+},
+{
+"k": 3288,
+"ep": 9900,
+"gt": "click",
+"ok": true,
+"conf": 0.9982161418978563,
+"local": true,
+"top5": [
+32,
+30,
+42,
+43,
+48
+],
+"gold_in_top5": true
+},
+{
+"k": 3289,
+"ep": 9900,
+"gt": "click",
+"ok": true,
+"conf": 0.9805387813601385,
+"local": false,
+"top5": [
+52,
+53,
+38,
+54,
+39
+],
+"gold_in_top5": true
+},
+{
+"k": 3292,
+"ep": 9900,
+"gt": "click",
+"ok": true,
+"conf": 0.9851591427869266,
+"local": true,
+"top5": [
+54,
+50,
+46,
+51,
+43
+],
+"gold_in_top5": true
+},
+{
+"k": 3295,
+"ep": 9900,
+"gt": "click",
+"ok": true,
+"conf": 0.9957156666980502,
+"local": true,
+"top5": [
+33,
+41,
+46,
+48,
+52
+],
+"gold_in_top5": true
+},
+{
+"k": 3296,
+"ep": 9900,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9972660541534424,
+"local": true,
+"top5": [
+162,
+89,
+156,
+160,
+171
+],
+"gold_in_top5": null
+},
+{
+"k": 3299,
+"ep": 14340,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9972299933433533,
+"local": true,
+"top5": [
+116,
+99,
+98,
+112,
+109
+],
+"gold_in_top5": null
+},
+{
+"k": 3304,
+"ep": 14380,
+"gt": "wait",
+"ok": true,
+"conf": 0.9989787340164185,
+"local": true,
+"top5": [
+44,
+41,
+48,
+49,
+46
+],
+"gold_in_top5": null
+},
+{
+"k": 3305,
+"ep": 14380,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9979715943336487,
+"local": true,
+"top5": [
+60,
+59,
+41,
+47,
+48
+],
+"gold_in_top5": null
+},
+{
+"k": 3307,
+"ep": 14420,
+"gt": "click",
+"ok": true,
+"conf": 0.9979375806387623,
+"local": true,
+"top5": [
+36,
+44,
+38,
+65,
+55
+],
+"gold_in_top5": true
+},
+{
+"k": 3308,
+"ep": 14420,
+"gt": "click",
+"ok": true,
+"conf": 0.988931845316074,
+"local": true,
+"top5": [
+38,
+35,
+34,
+33,
+44
+],
+"gold_in_top5": true
+},
+{
+"k": 3318,
+"ep": 14460,
+"gt": "click",
+"ok": true,
+"conf": 0.9610548098080542,
+"local": false,
+"top5": [
+36,
+42,
+43,
+37,
+44
+],
+"gold_in_top5": true
+},
+{
+"k": 3319,
+"ep": 14460,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9993488192558289,
+"local": true,
+"top5": [
+164,
+163,
+160,
+162,
+94
+],
+"gold_in_top5": null
+},
+{
+"k": 3324,
+"ep": 18660,
+"gt": "click",
+"ok": true,
+"conf": 0.4903155632918086,
+"local": false,
+"top5": [
+50,
+49,
+41,
+48,
+73
+],
+"gold_in_top5": true
+},
+{
+"k": 3326,
+"ep": 18660,
+"gt": "click",
+"ok": true,
+"conf": 0.9994399731966865,
+"local": true,
+"top5": [
+57,
+138,
+37,
+160,
+135
+],
+"gold_in_top5": true
+},
+{
+"k": 3331,
+"ep": 18700,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9997695088386536,
+"local": true,
+"top5": [
+159,
+169,
+151,
+160,
+170
+],
+"gold_in_top5": null
+},
+{
+"k": 3332,
+"ep": 18700,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9915128350257874,
+"local": true,
+"top5": [
+67,
+79,
+70,
+74,
+68
+],
+"gold_in_top5": null
+},
+{
+"k": 3336,
+"ep": 18740,
+"gt": "click",
+"ok": false,
+"conf": 0.9467856287956238,
+"local": false,
+"top5": [
+48,
+50,
+49,
+46,
+51
+],
+"gold_in_top5": true
+},
+{
+"k": 3337,
+"ep": 18740,
+"gt": "click",
+"ok": true,
+"conf": 0.9992673309066227,
+"local": true,
+"top5": [
+51,
+53,
+42,
+75,
+71
+],
+"gold_in_top5": true
+},
+{
+"k": 3338,
+"ep": 18740,
+"gt": "click",
+"ok": true,
+"conf": 0.9995701774548813,
+"local": true,
+"top5": [
+61,
+43,
+62,
+67,
+66
+],
+"gold_in_top5": true
+},
+{
+"k": 3339,
+"ep": 18740,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9982701539993286,
+"local": true,
+"top5": [
+167,
+162,
+154,
+159,
+152
+],
+"gold_in_top5": null
+},
+{
+"k": 3342,
+"ep": 18740,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9963107705116272,
+"local": true,
+"top5": [
+123,
+49,
+118,
+117,
+124
+],
+"gold_in_top5": null
+},
+{
+"k": 3352,
+"ep": 340,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9998371601104736,
+"local": true,
+"top5": [
+84,
+75,
+51,
+78,
+60
+],
+"gold_in_top5": null
+},
+{
+"k": 3353,
+"ep": 340,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9970341920852661,
+"local": true,
+"top5": [
+43,
+87,
+92,
+122,
+93
+],
+"gold_in_top5": null
+},
+{
+"k": 3356,
+"ep": 340,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9926814436912537,
+"local": true,
+"top5": [
+49,
+60,
+68,
+75,
+76
+],
+"gold_in_top5": null
+},
+{
+"k": 3357,
+"ep": 340,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9925599098205566,
+"local": true,
+"top5": [
+55,
+61,
+71,
+73,
+58
+],
+"gold_in_top5": null
+},
+{
+"k": 3359,
+"ep": 340,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9916611909866333,
+"local": true,
+"top5": [
+54,
+55,
+63,
+64,
+94
+],
+"gold_in_top5": null
+},
+{
+"k": 3366,
+"ep": 420,
+"gt": "click",
+"ok": false,
+"conf": 0.6823984092636692,
+"local": false,
+"top5": [
+124,
+55,
+123,
+127,
+79
+],
+"gold_in_top5": true
+},
+{
+"k": 3368,
+"ep": 13660,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9981456995010376,
+"local": true,
+"top5": [
+60,
+59,
+52,
+28,
+61
+],
+"gold_in_top5": null
+},
+{
+"k": 3369,
+"ep": 13660,
+"gt": "scroll",
+"ok": true,
+"conf": 0.999029278755188,
+"local": true,
+"top5": [
+79,
+74,
+28,
+86,
+80
+],
+"gold_in_top5": null
+},
+{
+"k": 3370,
+"ep": 13660,
+"gt": "scroll",
+"ok": true,
+"conf": 0.998977780342102,
+"local": true,
+"top5": [
+66,
+67,
+64,
+53,
+68
+],
+"gold_in_top5": null
+},
+{
+"k": 3371,
+"ep": 13660,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9990203380584717,
+"local": true,
+"top5": [
+50,
+49,
+51,
+24,
+47
+],
+"gold_in_top5": null
+},
+{
+"k": 3384,
+"ep": 13700,
+"gt": "click",
+"ok": true,
+"conf": 0.9988668096518012,
+"local": true,
+"top5": [
+24,
+32,
+48,
+26,
+28
+],
+"gold_in_top5": true
+},
+{
+"k": 3395,
+"ep": 13780,
+"gt": "open_app",
+"ok": true,
+"conf": 0.9998247027397156,
+"local": true,
+"top5": [
+37,
+67,
+107,
+93,
+43
+],
+"gold_in_top5": null
+},
+{
+"k": 3397,
+"ep": 13820,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9991248250007629,
+"local": true,
+"top5": [
+48,
+49,
+46,
+40,
+34
+],
+"gold_in_top5": null
+},
+{
+"k": 3398,
+"ep": 13820,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9966384172439575,
+"local": true,
+"top5": [
+64,
+38,
+67,
+68,
+39
+],
+"gold_in_top5": null
+},
+{
+"k": 3399,
+"ep": 13820,
+"gt": "click",
+"ok": true,
+"conf": 0.9832162413526291,
+"local": false,
+"top5": [
+89,
+86,
+92,
+94,
+57
+],
+"gold_in_top5": true
+},
+{
+"k": 3401,
+"ep": 13820,
+"gt": "click",
+"ok": true,
+"conf": 0.9996549778719768,
+"local": true,
+"top5": [
+55,
+67,
+36,
+129,
+57
+],
+"gold_in_top5": true
+},
+{
+"k": 3402,
+"ep": 13820,
+"gt": "click",
+"ok": true,
+"conf": 0.9957135971117914,
+"local": true,
+"top5": [
+82,
+89,
+87,
+91,
+81
+],
+"gold_in_top5": true
+},
+{
+"k": 3412,
+"ep": 13860,
+"gt": "click",
+"ok": true,
+"conf": 0.9861821002709696,
+"local": true,
+"top5": [
+8,
+5,
+22,
+19,
+4
+],
+"gold_in_top5": true
+},
+{
+"k": 3413,
+"ep": 13860,
+"gt": "click",
+"ok": true,
+"conf": 0.9937965910509305,
+"local": true,
+"top5": [
+31,
+30,
+36,
+32,
+34
+],
+"gold_in_top5": true
+},
+{
+"k": 3415,
+"ep": 13860,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9983505010604858,
+"local": true,
+"top5": [
+146,
+145,
+58,
+113,
+66
+],
+"gold_in_top5": null
+},
+{
+"k": 3432,
+"ep": 13980,
+"gt": "click",
+"ok": true,
+"conf": 0.9995053419123501,
+"local": true,
+"top5": [
+61,
+41,
+62,
+56,
+42
+],
+"gold_in_top5": true
+},
+{
+"k": 3433,
+"ep": 13980,
+"gt": "click",
+"ok": false,
+"conf": 0.9918222045237144,
+"local": true,
+"top5": [
+38,
+30,
+31,
+39,
+33
+],
+"gold_in_top5": true
+},
+{
+"k": 3434,
+"ep": 13980,
+"gt": "wait",
+"ok": true,
+"conf": 0.978285014629364,
+"local": false,
+"top5": [
+12,
+15,
+18,
+29,
+17
+],
+"gold_in_top5": null
+},
+{
+"k": 3435,
+"ep": 13980,
+"gt": "click",
+"ok": true,
+"conf": 0.9960052377927298,
+"local": true,
+"top5": [
+49,
+52,
+56,
+48,
+54
+],
+"gold_in_top5": true
+},
+{
+"k": 3436,
+"ep": 13980,
+"gt": "click",
+"ok": true,
+"conf": 0.9989287621257823,
+"local": true,
+"top5": [
+70,
+37,
+43,
+35,
+44
+],
+"gold_in_top5": true
+},
+{
+"k": 3437,
+"ep": 13980,
+"gt": "click",
+"ok": true,
+"conf": 0.9974371881250477,
+"local": true,
+"top5": [
+37,
+44,
+70,
+36,
+43
+],
+"gold_in_top5": true
+},
+{
+"k": 3439,
+"ep": 13980,
+"gt": "click",
+"ok": true,
+"conf": 0.9907976572809787,
+"local": true,
+"top5": [
+42,
+56,
+55,
+57,
+36
+],
+"gold_in_top5": true
+},
+{
+"k": 3463,
+"ep": 17580,
+"gt": "navigate_back",
+"ok": true,
+"conf": 0.9981920123100281,
+"local": true,
+"top5": [
+80,
+96,
+95,
+119,
+72
+],
+"gold_in_top5": null
+},
+{
+"k": 3464,
+"ep": 17580,
+"gt": "click",
+"ok": true,
+"conf": 0.7266858341950311,
+"local": false,
+"top5": [
+44,
+37,
+45,
+46,
+30
+],
+"gold_in_top5": true
+},
+{
+"k": 3465,
+"ep": 17580,
+"gt": "click",
+"ok": true,
+"conf": 0.9995458612814438,
+"local": true,
+"top5": [
+58,
+57,
+71,
+62,
+72
+],
+"gold_in_top5": true
+},
+{
+"k": 3467,
+"ep": 17580,
+"gt": "wait",
+"ok": true,
+"conf": 0.9959756731987,
+"local": true,
+"top5": [
+25,
+11,
+14,
+23,
+19
+],
+"gold_in_top5": null
+},
+{
+"k": 3470,
+"ep": 17580,
+"gt": "scroll",
+"ok": true,
+"conf": 0.9937537312507629,
+"local": true,
+"top5": [
+61,
+67,
+92,
+32,
+86
+],
+"gold_in_top5": null
+},
+{
+"k": 3478,
+"ep": 17620,
+"gt": "click",
+"ok": true,
+"conf": 0.981211884814126,
+"local": false,
+"top5": [
+146,
+147,
+156,
+139,
+158
+],
+"gold_in_top5": true
+},
+{
+"k": 3479,
+"ep": 17620,
+"gt": "click",
+"ok": true,
+"conf": 0.9898137961882156,
+"local": true,
+"top5": [
+138,
+110,
+126,
+139,
+111
+],
+"gold_in_top5": true
+},
+{
+"k": 3481,
+"ep": 17660,
+"gt": "open_app",
+"ok": false,
+"conf": 0.9987851977348328,
+"local": true,
+"top5": [
+43,
+33,
+53,
+38,
+28
+],
+"gold_in_top5": null
+},
+{
+"k": 3482,
+"ep": 17660,
+"gt": "click",
+"ok": true,
+"conf": 0.9506010844628108,
+"local": false,
+"top5": [
+95,
+96,
+87,
+86,
+112
+],
+"gold_in_top5": true
+},
+{
+"k": 3483,
+"ep": 17660,
+"gt": "click",
+"ok": true,
+"conf": 0.9899757717600437,
+"local": true,
+"top5": [
+42,
+53,
+55,
+48,
+60
+],
+"gold_in_top5": true
+},
+{
+"k": 3484,
+"ep": 17660,
+"gt": "click",
+"ok": true,
+"conf": 0.99816704235527,
+"local": true,
+"top5": [
+52,
+54,
+53,
+55,
+51
+],
+"gold_in_top5": true
+},
+{
+"k": 3486,
+"ep": 17660,
+"gt": "click",
+"ok": true,
+"conf": 0.8590293031915053,
+"local": false,
+"top5": [
+52,
+54,
+53,
+43,
+58
+],
+"gold_in_top5": true
+},
+{
+"k": 3487,
+"ep": 17660,
+"gt": "click",
+"ok": false,
+"conf": 0.6388362646102905,
+"local": false,
+"top5": [
+32,
+35,
+50,
+44,
+53
+],
+"gold_in_top5": true
+},
+{
+"k": 3488,
+"ep": 17660,
+"gt": "input_text",
+"ok": true,
+"conf": 0.998218834400177,
+"local": true,
+"top5": [
+161,
+169,
+178,
+165,
+170
+],
+"gold_in_top5": null
+},
+{
+"k": 3490,
+"ep": 17660,
+"gt": "click",
+"ok": true,
+"conf": 0.9978551035953984,
+"local": true,
+"top5": [
+54,
+43,
+52,
+58,
+55
+],
+"gold_in_top5": true
+},
+{
+"k": 3491,
+"ep": 17660,
+"gt": "click",
+"ok": false,
+"conf": 0.9668830633163452,
+"local": false,
+"top5": [
+32,
+43,
+34,
+49,
+52
+],
+"gold_in_top5": true
+},
+{
+"k": 3492,
+"ep": 17660,
+"gt": "input_text",
+"ok": true,
+"conf": 0.9984846711158752,
+"local": true,
+"top5": [
+161,
+171,
+165,
+168,
+163
+],
+"gold_in_top5": null
+}
+]
+}
