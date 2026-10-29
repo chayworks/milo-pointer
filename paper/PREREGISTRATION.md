@@ -759,7 +759,7 @@ Also reported: the registered max-probability rule (THR 0.9854) on the same step
   rule on the same steps: 595 (73.5% local), +2.2 [+0.5, +3.9], p = 0.020. Learned vs registered rule: +0.6 [-0.7, +1.9], p = 0.48.
   Batch msgbatch_01RwgNVPwRbQxhBpmwu7NCNi, $6.15 (estimate).
 
-## AC-Shortlist (registered 2026-10-29 13:40 EDT, before any frontier model sees these steps): the small model's top candidates as the fallback's input
+## AC-Shortlist (registered 2026-10-29 13:34 EDT (commit 9689c9d), before any frontier model sees these steps): the small model's top candidates as the fallback's input
 Motivation: on deferred taps the small model's top 5 contains the target for 91% (held-out) and 90% (confirmatory) of steps, including
 45 of 53 and 24 of 32 Opus errors (bench/ac_topk.py). The test split is exhausted, so this test uses fresh steps from the clean retrain's
 validation episodes (TRAIN episodes with ep % 20 == 0, never trained on by the clean model).
