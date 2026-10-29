@@ -47,6 +47,7 @@ fz = json.load(open(ROOT / "bench/results/learned_router_frozen.json"))
 F = json.load(open(ROOT / "bench/results/ac_features.json"))
 F.update(json.load(open(ROOT / "bench/results/ac_features_ac_confirm650.json")))
 print("\n--- routing rules on curated labels ---")
+POOL = {}
 for s, idx in S.items():
     learn = dict(zip(idx, score(fz, F[s]) >= fz["threshold"]))
     opus = {r["i"]: r["got"] for r in json.load(open(ROOT / f"bench/results/acfs_claude-opus-5-5_{s}.json"))["rows"]}
@@ -61,6 +62,11 @@ for s, idx in S.items():
         y = sum(O[t] and not cas[t] for t in T)
         d = (x - y) / n
         se = math.sqrt((x + y) / n - d * d) / math.sqrt(n)
+        a = POOL.setdefault(name, [0, 0, 0]); a[0] += x; a[1] += y; a[2] += n
         out.append(f"  {name}: routed {sum(cas.values())} ({100*sum(cas.values())/n:.1f}%) vs Opus {100*d:+.1f} "
                    f"[{100*(d-1.96*se):+.1f},{100*(d+1.96*se):+.1f}] +{x}/-{y} p={mcn(x, y):.2g}; local {np.mean([loc[t] for t in T]):.3f}")
     print("\n".join(out))
+for name, (x, y, n) in POOL.items():  # pooled over both samples (the learned rule's threshold was set on ac_fresh1000)
+    d = (x - y) / n
+    se = math.sqrt((x + y) / n - d * d) / math.sqrt(n)
+    print(f"POOLED {name}: {100*d:+.1f} [{100*(d-1.96*se):+.1f}, {100*(d+1.96*se):+.1f}] (+{x}/-{y}, n={n}) p={mcn(x, y):.3g}")
