@@ -1,0 +1,15 @@
+1000 steps; local 746; small alone 903
+routed: full 901  cand_full 906  cand_only 908  claude-haiku-5-5 alone 826
+deferred 254: full 178  cand_full 183  cand_only 185
+deferred taps 221: full 162  cand_full 171  cand_only 165
+H-SL1 cand_full better than full (routed): +0.5 [-0.6, +1.6] (+18/-13) p=0.473 -> NOT supported
+H-SL2 cand_only non-inferior to full (routed), margin 2: +0.7 [-0.5, +1.9] (+23/-16) p=0.337 -> SUPPORTED
+H-SL3 routed cand_full better than claude-haiku-5-5 alone: +8.0 [+5.9, +10.1] (+102/-22) p=1.66e-13 -> SUPPORTED
+secondary: routed full vs claude-haiku-5-5 alone +7.5 [+5.7, +9.3] (+84/-9) p=2.17e-16
+Sonnet full_def: deferred 191, taps 172; routed 914
+H-SL4 routed claude-haiku-5-5 cand_full non-inferior to routed Sonnet full_def, margin 2: -0.8 [-2.1, +0.5] (+17/-25) p=0.28 -> NOT supported
+secondary: routed Sonnet full_def vs small alone +1.1 [-0.5, +2.7] (+37/-26) p=0.207
+secondary: routed Sonnet full_def vs claude-haiku-5-5 alone +8.8 [+6.6, +11.0] (+111/-23) p=5.04e-15
+secondary: routed cand_full vs small alone +0.3 [-1.3, +1.9] (+34/-31) p=0.804
+secondary: routed cand_only vs small alone +0.5 [-0.8, +1.8] (+26/-21) p=0.56
+secondary: routed cand_only vs routed Sonnet full_def -0.6 [-1.9, +0.7] (+19/-25) p=0.451

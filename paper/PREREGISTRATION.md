@@ -780,3 +780,15 @@ Secondary (no correction): routing with full non-inferior to Opus full alone, ma
 accuracy on deferred taps; billed cost per arm. Estimated cost (count_tokens, Batch prices): full $10.27, cand_full $2.72, cand_only
 $1.40. If only the deferred-step arms can be funded, the baseline runs as arm full_def (full screen, the 254 deferred steps only); H-SL1 and H-SL2 are then tested and H-SL3
 is reported as not run. No arm, prompt or sample changes after the first batch is created.
+
+### AC-Shortlist amendment (2026-10-29, before any frontier model sees these steps): budget forces a model change
+The remaining API budget is $2.12, below the cheapest registered Opus plan ($6.80), so no Opus arm runs. Billed costs per step on
+earlier samples, and free count_tokens estimates on this sample, fix the plan below; nothing about the sample, threshold, prompts,
+arms or harness changes.
+- Primary family (H-SL1 to H-SL3, unchanged tests, Holm over the three): frontier = claude-haiku-5-5, arms full ($0.26),
+  cand_full and cand_only (about $0.07 and $0.04). H-SL3 reads "routing with cand_full better than Haiku full alone".
+- Secondary (no correction): claude-sonnet-5-5 arm full_def ($1.34). Test H-SL4: routing with Haiku cand_full is non-inferior to
+  routing with Sonnet full_def, margin 2 points (does the cheapest model with the shortlist replace a fallback that costs about
+  20 times more?). Also reported: routing with Sonnet full_def against Haiku full alone and against the small model alone.
+- Order: Haiku full, cand_full, cand_only, then Sonnet full_def. If the ledger shows less than $1.40 left before the Sonnet arm,
+  it is not run and H-SL4 is reported as not run.

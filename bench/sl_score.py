@@ -38,7 +38,7 @@ base = full or fdef
 assert base and cf and co, "missing arm outputs"
 R_full, R_cf, R_co = routed(base), routed(cf), routed(co)
 print(f"{N} steps; local {sum(x['local'] for x in L)}; small alone {sum(x['ok'] for x in L)}")
-print(f"routed: full {sum(R_full)}  cand_full {sum(R_cf)}  cand_only {sum(R_co)}" + (f"  Opus alone {sum(full.values())}" if full else ""))
+print(f"routed: full {sum(R_full)}  cand_full {sum(R_cf)}  cand_only {sum(R_co)}" + (f"  {M} alone {sum(full.values())}" if full else ""))
 D = [j for j in range(N) if not L[j]["local"]]
 print(f"deferred {len(D)}: full {sum(base[j] for j in D)}  cand_full {sum(cf[j] for j in D)}  cand_only {sum(co[j] for j in D)}")
 T = [j for j in D if L[j]["gold_in_top5"] is not None]
@@ -46,7 +46,7 @@ print(f"deferred taps {len(T)}: full {sum(base[j] for j in T)}  cand_full {sum(c
 tests = [("H-SL1 cand_full better than full (routed)", cmp(R_cf, R_full), "sup"),
          ("H-SL2 cand_only non-inferior to full (routed), margin 2", cmp(R_co, R_full), "ni")]
 if full:
-    tests.append(("H-SL3 routed cand_full better than Opus alone", cmp(R_cf, [full[j] for j in range(N)]), "sup"))
+    tests.append((f"H-SL3 routed cand_full better than {M} alone", cmp(R_cf, [full[j] for j in range(N)]), "sup"))
 ps = sorted(range(len(tests)), key=lambda i: tests[i][1][3])
 holm = {}
 for r, i in enumerate(ps):  # Holm step-down over the superiority p-values (non-inferiority uses its CI bound)
@@ -57,4 +57,20 @@ for i, (name, c, kind) in enumerate(tests):
 if not full:
     print("H-SL3: not run (deferred-step arms only)")
 else:
-    print("secondary: routed full vs Opus alone", fmt(cmp(R_full, [full[j] for j in range(N)])))
+    print(f"secondary: routed full vs {M} alone", fmt(cmp(R_full, [full[j] for j in range(N)])))
+S = ROOT / "bench/results/sl_claude-sonnet-5-5_full_def.json"
+if S.exists():  # H-SL4 (amendment): routed Haiku cand_full non-inferior to routed Sonnet full_def, margin 2
+    sd = {x["j"]: x["ok"] for x in json.load(open(S))["rows"]}
+    R_s = routed(sd)
+    small = [x["ok"] for x in L]
+    print(f"Sonnet full_def: deferred {sum(sd[j] for j in D)}, taps {sum(sd[j] for j in T)}; routed {sum(R_s)}")
+    c = cmp(R_cf, R_s)
+    print(f"H-SL4 routed {M} cand_full non-inferior to routed Sonnet full_def, margin 2: {fmt(c)} -> "
+          f"{'SUPPORTED' if c[1] > -0.02 else 'NOT supported'}")
+    print("secondary: routed Sonnet full_def vs small alone", fmt(cmp(R_s, small)))
+    if full:
+        print(f"secondary: routed Sonnet full_def vs {M} alone", fmt(cmp(R_s, [full[j] for j in range(N)])))
+print("secondary: routed cand_full vs small alone", fmt(cmp(R_cf, [x["ok"] for x in L])))
+print("secondary: routed cand_only vs small alone", fmt(cmp(R_co, [x["ok"] for x in L])))
+if S.exists():
+    print("secondary: routed cand_only vs routed Sonnet full_def", fmt(cmp(R_co, R_s)))
