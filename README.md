@@ -14,6 +14,10 @@ On 1,000 held-out AndroidControl steps (offline, one step at a time, pre-registe
 | Claude Sonnet 5.5, 16 retrieved examples | 857 | 862 | 0% | 4.80 |
 | **Small model, then Sonnet when unsure** | **881** | **889** | **70.7%** | **1.41** |
 
+A further registered test on the last 650 unused test steps, with a learned hand-off rule frozen beforehand, found routing to Opus
+**more accurate than Opus alone: 599 vs 581 (+2.8 points, 95% CI [+1.0, +4.5], p = 0.003)**, with 73.7% of steps answered locally
+(`python bench/ac_confirm_score.py`, needs numpy).
+
 Limits: offline single steps with a human-written step instruction; a comparable cascade lost on live AndroidWorld tasks; the small
 model alone is not better than Opus given the same examples; on a Pixel 6a CPU the model takes a median 3.4 s per step.
 Details in [`paper/main.pdf`](paper/main.pdf).

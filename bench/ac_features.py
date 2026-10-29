@@ -79,8 +79,9 @@ def run(m, r, keep):
 
 if __name__ == "__main__":
     m = MiloPointer.load(ROOT / "release/milo-pointer")
-    S = {s: json.load(open(ROOT / f"bench/{s}.json")) for s in ("ac_sample1000", "ac_fresh1000")}
-    T = wanted_test_rows(set(S["ac_sample1000"]) | set(S["ac_fresh1000"]))
+    names = sys.argv[1].split(",") if len(sys.argv) > 1 else ["ac_sample1000", "ac_fresh1000"]
+    S = {s: json.load(open(ROOT / f"bench/{s}.json")) for s in names}
+    T = wanted_test_rows(set().union(*S.values()))
     out = {}
     t0 = time.time()
     for name, idx in S.items():
@@ -94,7 +95,8 @@ if __name__ == "__main__":
             if n % 250 == 0:
                 print(name, n, f"{time.time() - t0:.0f}s", flush=True)
         out[name] = rows
-    json.dump(out, open(ROOT / "bench/results/ac_features.json", "w"))
+    suffix = "" if len(sys.argv) == 1 else "_" + "_".join(names)
+    json.dump(out, open(ROOT / f"bench/results/ac_features{suffix}.json", "w"))
     for name, rows in out.items():
         for v in ("full", "pruned"):
             ok = sum(r[v]["ok"] for r in rows)

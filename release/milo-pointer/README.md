@@ -5,6 +5,9 @@ tags: [gui-agent, android, accessibility, on-device, androidcontrol]
 ---
 # Milo Pointer (149M)
 
+Paper: *A Small First Tier for Phone Agents: A Pre-Registered Offline Study of Routing Step-Instructed Actions to a 149M Local Model*
+(Chaitanya Talapalli, 2026). Code, per-step results and the registration log: https://github.com/chayworks/milo-pointer
+
 A 149M-parameter model that picks the next action on an Android screen from its accessibility tree, in about 0.3 s on a laptop.
 It is meant to sit **in front of** a frontier agent: it answers the steps it is sure about and returns `defer: true` for the rest.
 
@@ -23,7 +26,10 @@ mildly optimistic. Costs: billed tokens, Batch API prices (50% off); double them
 | Claude Sonnet 5.5 + 16 retrieved examples | 857 | 862 | 0% | 4.80 |
 | **Milo Pointer, defer to Sonnet 5.5** | **881** | **889** | **70.7%** | **1.41** |
 
-The cascade is non-inferior to Opus alone (+1.0 points, 95% CI [-0.2, +2.2]; not significantly better, p = 0.14) and uses 29% of
+A further registered test on the last 650 unused test steps, with a learned hand-off rule frozen in advance, found routing to Opus
+**more accurate than Opus alone: 599 vs 581 (+2.8 points, 95% CI [+1.0, +4.5], p = 0.003)**, with 73.7% of steps kept local.
+
+On the 1,000 steps above, the cascade is non-inferior to Opus alone (+1.0 points, 95% CI [-0.2, +2.2]; not significantly better, p = 0.14) and uses 29% of
 its calls. On the steps the pointer keeps it is right 94.9% of the time, against 93.5% for Opus on the same steps.
 
 Full AndroidControl test set (8,444 steps, strict metric): 88.5% step accuracy; IDD 89.8, unseen app 87.9, unseen task 87.2,
@@ -37,8 +43,12 @@ Claude arms use AndroidControl's 74k labelled training steps; on your own apps e
 ## Use
 
 ```python
+# pip install torch transformers safetensors huggingface_hub
+from huggingface_hub import snapshot_download
+path = snapshot_download("coolnow/milo-pointer")
+import sys; sys.path.insert(0, path)
 from milo_pointer import MiloPointer
-m = MiloPointer.load("milo-pointer")
+m = MiloPointer.load(path)
 a = m.predict(goal="Turn on dark mode", instruction="Open display settings",
               elements=[{"cls": "TextView", "text": "Display", "b": [0, 400, 1080, 520], "click": 1}, ...],
               width=1080, height=2400, last_step="new step")
@@ -60,8 +70,9 @@ navigate_home, open_app (name copied from the instruction), wait. `last_step` de
 | Apple M2 laptop GPU (PyTorch, fp16) | 0.29 s | ~2 GB process |
 | Pixel 6a CPU, ONNX Runtime 1.20, 4 threads, fp32 | 4.5 s (p90 11.9 s) | 1.94 GB |
 | Pixel 6a CPU, ONNX Runtime 1.20, 4 threads, int8 | 3.4 s (p90 11.2 s) | 1.45 GB (agrees with fp32 on 34/40 steps) |
+| Same, empty layout containers removed from the input | 1.18 s (p90 4.9 s) | 1.45 GB (0.8 points lower accuracy, routing intact) |
 
-Phone CPU latency is too slow for interactive use today. `android/` has the export, the benchmark and a live demo.
+Phone CPU latency is not yet sub-second. `android/` has the export, the benchmark and a live demo.
 
 ## Limits
 
