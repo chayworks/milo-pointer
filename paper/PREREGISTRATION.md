@@ -758,3 +758,25 @@ Also reported: the registered max-probability rule (THR 0.9854) on the same step
   581; learned-rule cascade 599 (73.7% local), +2.8 [+1.0, +4.5] vs Opus alone (+26/-8), McNemar p = 0.003. Registered max-probability
   rule on the same steps: 595 (73.5% local), +2.2 [+0.5, +3.9], p = 0.020. Learned vs registered rule: +0.6 [-0.7, +1.9], p = 0.48.
   Batch msgbatch_01RwgNVPwRbQxhBpmwu7NCNi, $6.15 (estimate).
+
+## AC-Shortlist (registered 2026-10-29 13:40 EDT, before any frontier model sees these steps): the small model's top candidates as the fallback's input
+Motivation: on deferred taps the small model's top 5 contains the target for 91% (held-out) and 90% (confirmatory) of steps, including
+45 of 53 and 24 of 32 Opus errors (bench/ac_topk.py). The test split is exhausted, so this test uses fresh steps from the clean retrain's
+validation episodes (TRAIN episodes with ep % 20 == 0, never trained on by the clean model).
+Frozen before this entry (bench/sl_prepare.py, committed with this entry):
+- Small model: the clean pruned-input retrain (training/kaggle_pointer-clean-r3, pointer_clean_r3.pt), pruned input as in training.
+- Threshold: tau = 0.9842, the 30th percentile of the stored clean-model confidences on the calibration half (ep % 40 == 0, 1,691 steps).
+- Sample: 1,000 steps drawn (random.seed(20261029)) from the test half (ep % 40 == 20, 1,804 steps); per-step row index,
+  local decision and top-5 candidates in bench/results/sl_local.json (746 local, 254 deferred; small model alone 903).
+- Frontier: claude-opus-5-5, effort medium, Batch API, same system prompt and 16 TF-IDF-retrieved examples as AC-Router; the retrieval
+  pool excludes every validation episode. Harness bench/sl_frontier.py. Arms: full (all 1,000 steps, full screen); cand_full (deferred
+  steps, full screen plus the top-5 candidate numbers); cand_only (deferred steps, only the 5 candidate elements shown).
+- Disclosed: the sample comes from TRAIN-split episodes, so apps and task templates overlap with training (in-domain only).
+Hypotheses (Holm correction over H-SL1 to H-SL3, family alpha 0.05; exact McNemar, two-sided, Wald 95% CI, on the 1,000 steps):
+H-SL1: routing with cand_full better than routing with full (the candidate hint helps the fallback).
+H-SL2: routing with cand_only non-inferior to routing with full, margin 2 points; reported with the mean screen tokens per deferred step.
+H-SL3: routing with cand_full better than Opus full alone.
+Secondary (no correction): routing with full non-inferior to Opus full alone, margin 2 (fresh-data replication of AC-Router); per-arm
+accuracy on deferred taps; billed cost per arm. Estimated cost (count_tokens, Batch prices): full $10.27, cand_full $2.72, cand_only
+$1.40. If only the deferred-step arms can be funded, the baseline runs as arm full_def (full screen, the 254 deferred steps only); H-SL1 and H-SL2 are then tested and H-SL3
+is reported as not run. No arm, prompt or sample changes after the first batch is created.
