@@ -1,0 +1,2534 @@
+{
+"model": "claude-haiku-5-5",
+"arm": "cand_full",
+"batch": "msgbatch_01W6W9CWV1jkoTzob5HHRxgq",
+"n": 254,
+"ok": 183,
+"errored": 0,
+"tokens_in": 1282459,
+"tokens_out": 43901,
+"est_cost_usd": 0.0751,
+"rows": [
+{
+"j": 1,
+"ep": 5900,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 41
+},
+"ok": true
+},
+{
+"j": 4,
+"ep": 5940,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 32
+},
+"ok": true
+},
+{
+"j": 8,
+"ep": 5980,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 39
+},
+"ok": false
+},
+{
+"j": 22,
+"ep": 12540,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 186
+},
+"ok": true
+},
+{
+"j": 23,
+"ep": 12540,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 94
+},
+"ok": true
+},
+{
+"j": 24,
+"ep": 12540,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 67
+},
+"ok": true
+},
+{
+"j": 37,
+"ep": 17020,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 215
+},
+"ok": true
+},
+{
+"j": 43,
+"ep": 6260,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 104
+},
+"ok": false
+},
+{
+"j": 47,
+"ep": 6260,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 56
+},
+"ok": true
+},
+{
+"j": 48,
+"ep": 6260,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "Is the neighborhood around the home safe, and are there any local security concerns I should know about?"
+},
+"ok": false
+},
+{
+"j": 50,
+"ep": 6260,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 179
+},
+"ok": false
+},
+{
+"j": 63,
+"ep": 6620,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 52
+},
+"ok": true
+},
+{
+"j": 65,
+"ep": 6660,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 98
+},
+"ok": true
+},
+{
+"j": 66,
+"ep": 6660,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 102
+},
+"ok": true
+},
+{
+"j": 68,
+"ep": 6700,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 33
+},
+"ok": true
+},
+{
+"j": 72,
+"ep": 6820,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 40
+},
+"ok": true
+},
+{
+"j": 78,
+"ep": 17060,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 34
+},
+"ok": false
+},
+{
+"j": 80,
+"ep": 17060,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 87
+},
+"ok": true
+},
+{
+"j": 85,
+"ep": 17140,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 72
+},
+"ok": true
+},
+{
+"j": 91,
+"ep": 6060,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"j": 94,
+"ep": 6100,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 38
+},
+"ok": false
+},
+{
+"j": 96,
+"ep": 6100,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 38
+},
+"ok": false
+},
+{
+"j": 98,
+"ep": 6100,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 159
+},
+"ok": true
+},
+{
+"j": 99,
+"ep": 6100,
+"gt": "wait",
+"got": {
+"action_type": "open_app",
+"app_name": "Easynotes"
+},
+"ok": false
+},
+{
+"j": 101,
+"ep": 12940,
+"gt": "scroll_up",
+"got": {
+"action_type": "click",
+"element": 100
+},
+"ok": false
+},
+{
+"j": 102,
+"ep": 13140,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 102
+},
+"ok": true
+},
+{
+"j": 109,
+"ep": 13340,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 63
+},
+"ok": true
+},
+{
+"j": 110,
+"ep": 13340,
+"gt": "click",
+"got": {
+"action_type": "input_text",
+"text": "250"
+},
+"ok": false
+},
+{
+"j": 117,
+"ep": 13460,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 61
+},
+"ok": true
+},
+{
+"j": 120,
+"ep": 13500,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 166
+},
+"ok": true
+},
+{
+"j": 128,
+"ep": 60,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 39
+},
+"ok": false
+},
+{
+"j": 135,
+"ep": 220,
+"gt": "click",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": false
+},
+{
+"j": 139,
+"ep": 6860,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 80
+},
+"ok": true
+},
+{
+"j": 140,
+"ep": 6940,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 95
+},
+"ok": false
+},
+{
+"j": 141,
+"ep": 6940,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 42
+},
+"ok": true
+},
+{
+"j": 148,
+"ep": 7180,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 198
+},
+"ok": true
+},
+{
+"j": 150,
+"ep": 7180,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 122
+},
+"ok": true
+},
+{
+"j": 151,
+"ep": 7180,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 42
+},
+"ok": true
+},
+{
+"j": 153,
+"ep": 7180,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 45
+},
+"ok": true
+},
+{
+"j": 159,
+"ep": 7300,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 30
+},
+"ok": true
+},
+{
+"j": 169,
+"ep": 7500,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 48
+},
+"ok": true
+},
+{
+"j": 170,
+"ep": 7500,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 88
+},
+"ok": false
+},
+{
+"j": 173,
+"ep": 7540,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"j": 174,
+"ep": 7540,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 72
+},
+"ok": false
+},
+{
+"j": 176,
+"ep": 7580,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 82
+},
+"ok": true
+},
+{
+"j": 184,
+"ep": 7780,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 105
+},
+"ok": true
+},
+{
+"j": 195,
+"ep": 8100,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 57
+},
+"ok": true
+},
+{
+"j": 196,
+"ep": 8140,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 54
+},
+"ok": true
+},
+{
+"j": 199,
+"ep": 8180,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 168
+},
+"ok": true
+},
+{
+"j": 201,
+"ep": 8180,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 48
+},
+"ok": true
+},
+{
+"j": 205,
+"ep": 17300,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 110
+},
+"ok": true
+},
+{
+"j": 207,
+"ep": 17300,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 104
+},
+"ok": true
+},
+{
+"j": 212,
+"ep": 17380,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 47
+},
+"ok": true
+},
+{
+"j": 215,
+"ep": 17420,
+"gt": "wait",
+"got": {
+"action_type": "open_app",
+"app_name": "ClockBuddy"
+},
+"ok": false
+},
+{
+"j": 218,
+"ep": 17460,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 70
+},
+"ok": true
+},
+{
+"j": 220,
+"ep": 17460,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 85
+},
+"ok": false
+},
+{
+"j": 224,
+"ep": 5740,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": true
+},
+{
+"j": 228,
+"ep": 5820,
+"gt": "wait",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": false
+},
+{
+"j": 229,
+"ep": 5820,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 3
+},
+"ok": true
+},
+{
+"j": 231,
+"ep": 5860,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 45
+},
+"ok": true
+},
+{
+"j": 232,
+"ep": 5860,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 67
+},
+"ok": true
+},
+{
+"j": 235,
+"ep": 16820,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"j": 237,
+"ep": 16940,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 173
+},
+"ok": false
+},
+{
+"j": 246,
+"ep": 5540,
+"gt": "scroll_up",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": false
+},
+{
+"j": 251,
+"ep": 5580,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 34
+},
+"ok": true
+},
+{
+"j": 252,
+"ep": 5580,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 47
+},
+"ok": false
+},
+{
+"j": 260,
+"ep": 16620,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 147
+},
+"ok": true
+},
+{
+"j": 262,
+"ep": 4860,
+"gt": "wait",
+"got": {
+"action_type": "open_app",
+"app_name": "Yummly"
+},
+"ok": false
+},
+{
+"j": 267,
+"ep": 4940,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 63
+},
+"ok": false
+},
+{
+"j": 269,
+"ep": 4940,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 36
+},
+"ok": true
+},
+{
+"j": 272,
+"ep": 4940,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 120
+},
+"ok": true
+},
+{
+"j": 273,
+"ep": 4940,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 125
+},
+"ok": false
+},
+{
+"j": 275,
+"ep": 5020,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 64
+},
+"ok": true
+},
+{
+"j": 278,
+"ep": 5140,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 41
+},
+"ok": true
+},
+{
+"j": 279,
+"ep": 5140,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 41
+},
+"ok": false
+},
+{
+"j": 283,
+"ep": 5260,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 103
+},
+"ok": true
+},
+{
+"j": 285,
+"ep": 5300,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 128
+},
+"ok": true
+},
+{
+"j": 286,
+"ep": 5340,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 164
+},
+"ok": false
+},
+{
+"j": 289,
+"ep": 5340,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 107
+},
+"ok": false
+},
+{
+"j": 291,
+"ep": 5340,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 207
+},
+"ok": true
+},
+{
+"j": 292,
+"ep": 5340,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 111
+},
+"ok": false
+},
+{
+"j": 293,
+"ep": 5340,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 74
+},
+"ok": true
+},
+{
+"j": 295,
+"ep": 5380,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 116
+},
+"ok": true
+},
+{
+"j": 296,
+"ep": 5380,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 117
+},
+"ok": true
+},
+{
+"j": 304,
+"ep": 11780,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 26
+},
+"ok": false
+},
+{
+"j": 305,
+"ep": 11780,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 21
+},
+"ok": true
+},
+{
+"j": 310,
+"ep": 11780,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 33
+},
+"ok": false
+},
+{
+"j": 313,
+"ep": 11860,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 152
+},
+"ok": true
+},
+{
+"j": 316,
+"ep": 12020,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 74
+},
+"ok": true
+},
+{
+"j": 327,
+"ep": 4780,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 73
+},
+"ok": true
+},
+{
+"j": 332,
+"ep": 16420,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 115
+},
+"ok": true
+},
+{
+"j": 333,
+"ep": 16420,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 108
+},
+"ok": true
+},
+{
+"j": 334,
+"ep": 16460,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 34
+},
+"ok": true
+},
+{
+"j": 340,
+"ep": 4700,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 47
+},
+"ok": true
+},
+{
+"j": 341,
+"ep": 11580,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 6
+},
+"ok": true
+},
+{
+"j": 343,
+"ep": 11580,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 12
+},
+"ok": true
+},
+{
+"j": 346,
+"ep": 16020,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 80
+},
+"ok": true
+},
+{
+"j": 364,
+"ep": 16300,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"j": 367,
+"ep": 3820,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 75
+},
+"ok": true
+},
+{
+"j": 369,
+"ep": 3820,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 111
+},
+"ok": true
+},
+{
+"j": 372,
+"ep": 3860,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 85
+},
+"ok": true
+},
+{
+"j": 380,
+"ep": 3980,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": true
+},
+{
+"j": 382,
+"ep": 4020,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 85
+},
+"ok": false
+},
+{
+"j": 385,
+"ep": 4020,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 135
+},
+"ok": false
+},
+{
+"j": 388,
+"ep": 4060,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 82
+},
+"ok": false
+},
+{
+"j": 390,
+"ep": 4140,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 151
+},
+"ok": true
+},
+{
+"j": 392,
+"ep": 4180,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 92
+},
+"ok": true
+},
+{
+"j": 395,
+"ep": 4220,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 168
+},
+"ok": true
+},
+{
+"j": 396,
+"ep": 4220,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 90
+},
+"ok": true
+},
+{
+"j": 397,
+"ep": 4220,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 46
+},
+"ok": true
+},
+{
+"j": 408,
+"ep": 11220,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": true
+},
+{
+"j": 411,
+"ep": 11220,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 107
+},
+"ok": true
+},
+{
+"j": 412,
+"ep": 11220,
+"gt": "click",
+"got": {
+"action_type": "wait"
+},
+"ok": false
+},
+{
+"j": 413,
+"ep": 11220,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 121
+},
+"ok": true
+},
+{
+"j": 415,
+"ep": 11220,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 64
+},
+"ok": true
+},
+{
+"j": 418,
+"ep": 11420,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "meeting with the manager"
+},
+"ok": true
+},
+{
+"j": 419,
+"ep": 11420,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 174
+},
+"ok": true
+},
+{
+"j": 429,
+"ep": 15780,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 46
+},
+"ok": true
+},
+{
+"j": 430,
+"ep": 15780,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 53
+},
+"ok": true
+},
+{
+"j": 437,
+"ep": 3740,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 40
+},
+"ok": true
+},
+{
+"j": 443,
+"ep": 15660,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 48
+},
+"ok": true
+},
+{
+"j": 444,
+"ep": 15660,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 61
+},
+"ok": false
+},
+{
+"j": 445,
+"ep": 15660,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 173
+},
+"ok": true
+},
+{
+"j": 446,
+"ep": 15660,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 62
+},
+"ok": false
+},
+{
+"j": 449,
+"ep": 15660,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 42
+},
+"ok": true
+},
+{
+"j": 450,
+"ep": 15660,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 52
+},
+"ok": true
+},
+{
+"j": 451,
+"ep": 15700,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 114
+},
+"ok": false
+},
+{
+"j": 456,
+"ep": 3540,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 51
+},
+"ok": true
+},
+{
+"j": 457,
+"ep": 3540,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 179
+},
+"ok": true
+},
+{
+"j": 458,
+"ep": 3540,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 71
+},
+"ok": true
+},
+{
+"j": 459,
+"ep": 3540,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 77
+},
+"ok": false
+},
+{
+"j": 466,
+"ep": 10980,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 56
+},
+"ok": true
+},
+{
+"j": 476,
+"ep": 11100,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 8
+},
+"ok": true
+},
+{
+"j": 479,
+"ep": 11100,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 123
+},
+"ok": true
+},
+{
+"j": 487,
+"ep": 15420,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 70
+},
+"ok": true
+},
+{
+"j": 488,
+"ep": 15420,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 69
+},
+"ok": true
+},
+{
+"j": 489,
+"ep": 15420,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 62
+},
+"ok": true
+},
+{
+"j": 491,
+"ep": 15460,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 104
+},
+"ok": true
+},
+{
+"j": 492,
+"ep": 15460,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 55
+},
+"ok": true
+},
+{
+"j": 495,
+"ep": 15500,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"j": 496,
+"ep": 15500,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 37
+},
+"ok": true
+},
+{
+"j": 498,
+"ep": 15500,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 39
+},
+"ok": true
+},
+{
+"j": 509,
+"ep": 3060,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 40
+},
+"ok": true
+},
+{
+"j": 510,
+"ep": 3060,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 60
+},
+"ok": true
+},
+{
+"j": 513,
+"ep": 3140,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 103
+},
+"ok": true
+},
+{
+"j": 514,
+"ep": 3140,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 75
+},
+"ok": true
+},
+{
+"j": 516,
+"ep": 3140,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 199
+},
+"ok": false
+},
+{
+"j": 525,
+"ep": 3140,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"j": 527,
+"ep": 3300,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 33
+},
+"ok": true
+},
+{
+"j": 528,
+"ep": 3300,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 61
+},
+"ok": false
+},
+{
+"j": 529,
+"ep": 3300,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"j": 531,
+"ep": 3340,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 41
+},
+"ok": true
+},
+{
+"j": 533,
+"ep": 10820,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 55
+},
+"ok": false
+},
+{
+"j": 536,
+"ep": 10900,
+"gt": "navigate_back",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": true
+},
+{
+"j": 542,
+"ep": 10940,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 87
+},
+"ok": true
+},
+{
+"j": 543,
+"ep": 15140,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 53
+},
+"ok": true
+},
+{
+"j": 559,
+"ep": 20140,
+"gt": "scroll_down",
+"got": {
+"action_type": "scroll_down"
+},
+"ok": true
+},
+{
+"j": 560,
+"ep": 20140,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 78
+},
+"ok": false
+},
+{
+"j": 563,
+"ep": 2420,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 103
+},
+"ok": false
+},
+{
+"j": 580,
+"ep": 9940,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 35
+},
+"ok": true
+},
+{
+"j": 586,
+"ep": 10020,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 63
+},
+"ok": true
+},
+{
+"j": 587,
+"ep": 10060,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 29
+},
+"ok": true
+},
+{
+"j": 590,
+"ep": 10100,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 84
+},
+"ok": true
+},
+{
+"j": 600,
+"ep": 14500,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 39
+},
+"ok": true
+},
+{
+"j": 601,
+"ep": 14500,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 39
+},
+"ok": true
+},
+{
+"j": 602,
+"ep": 14500,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 55
+},
+"ok": false
+},
+{
+"j": 603,
+"ep": 14500,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 39
+},
+"ok": true
+},
+{
+"j": 604,
+"ep": 14500,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 39
+},
+"ok": true
+},
+{
+"j": 606,
+"ep": 14540,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 57
+},
+"ok": true
+},
+{
+"j": 610,
+"ep": 14540,
+"gt": "wait",
+"got": {
+"action_type": "wait"
+},
+"ok": true
+},
+{
+"j": 611,
+"ep": 14660,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 99
+},
+"ok": false
+},
+{
+"j": 616,
+"ep": 14700,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 179
+},
+"ok": true
+},
+{
+"j": 617,
+"ep": 14740,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 99
+},
+"ok": true
+},
+{
+"j": 618,
+"ep": 14740,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 87
+},
+"ok": true
+},
+{
+"j": 621,
+"ep": 14900,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 76
+},
+"ok": true
+},
+{
+"j": 623,
+"ep": 18820,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 107
+},
+"ok": true
+},
+{
+"j": 624,
+"ep": 18820,
+"gt": "wait",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": false
+},
+{
+"j": 625,
+"ep": 18820,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 98
+},
+"ok": true
+},
+{
+"j": 626,
+"ep": 18820,
+"gt": "wait",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": false
+},
+{
+"j": 627,
+"ep": 18820,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 114
+},
+"ok": true
+},
+{
+"j": 639,
+"ep": 18900,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 60
+},
+"ok": true
+},
+{
+"j": 640,
+"ep": 18940,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 90
+},
+"ok": true
+},
+{
+"j": 641,
+"ep": 18980,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 103
+},
+"ok": false
+},
+{
+"j": 660,
+"ep": 19020,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 69
+},
+"ok": true
+},
+{
+"j": 668,
+"ep": 19100,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 92
+},
+"ok": true
+},
+{
+"j": 670,
+"ep": 19100,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 157
+},
+"ok": true
+},
+{
+"j": 672,
+"ep": 19100,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 157
+},
+"ok": true
+},
+{
+"j": 681,
+"ep": 19380,
+"gt": "click",
+"got": {
+"action_type": "input_text",
+"text": "jeetu945424@gmail.com"
+},
+"ok": false
+},
+{
+"j": 682,
+"ep": 19380,
+"gt": "input_text",
+"got": {
+"action_type": "input_text",
+"text": "jeetu945424@gmail.com"
+},
+"ok": true
+},
+{
+"j": 683,
+"ep": 19380,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 183
+},
+"ok": false
+},
+{
+"j": 686,
+"ep": 19500,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 62
+},
+"ok": true
+},
+{
+"j": 688,
+"ep": 19540,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 49
+},
+"ok": false
+},
+{
+"j": 689,
+"ep": 19540,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 59
+},
+"ok": true
+},
+{
+"j": 691,
+"ep": 19540,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 67
+},
+"ok": true
+},
+{
+"j": 693,
+"ep": 19620,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 60
+},
+"ok": true
+},
+{
+"j": 698,
+"ep": 2700,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 44
+},
+"ok": false
+},
+{
+"j": 706,
+"ep": 10580,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 63
+},
+"ok": false
+},
+{
+"j": 713,
+"ep": 15060,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 81
+},
+"ok": true
+},
+{
+"j": 723,
+"ep": 19820,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 61
+},
+"ok": true
+},
+{
+"j": 732,
+"ep": 19900,
+"gt": "wait",
+"got": {
+"action_type": "click",
+"element": 115
+},
+"ok": false
+},
+{
+"j": 741,
+"ep": 8380,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 26
+},
+"ok": true
+},
+{
+"j": 742,
+"ep": 8420,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 52
+},
+"ok": true
+},
+{
+"j": 745,
+"ep": 8580,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 84
+},
+"ok": true
+},
+{
+"j": 746,
+"ep": 8620,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 120
+},
+"ok": true
+},
+{
+"j": 749,
+"ep": 8700,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 70
+},
+"ok": true
+},
+{
+"j": 760,
+"ep": 8900,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 140
+},
+"ok": true
+},
+{
+"j": 762,
+"ep": 8940,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 63
+},
+"ok": false
+},
+{
+"j": 767,
+"ep": 9020,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 43
+},
+"ok": true
+},
+{
+"j": 769,
+"ep": 9020,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 66
+},
+"ok": false
+},
+{
+"j": 775,
+"ep": 9100,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 61
+},
+"ok": true
+},
+{
+"j": 789,
+"ep": 9220,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 34
+},
+"ok": true
+},
+{
+"j": 792,
+"ep": 9260,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 26
+},
+"ok": true
+},
+{
+"j": 813,
+"ep": 17820,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 63
+},
+"ok": true
+},
+{
+"j": 823,
+"ep": 900,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 118
+},
+"ok": false
+},
+{
+"j": 824,
+"ep": 980,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 111
+},
+"ok": false
+},
+{
+"j": 827,
+"ep": 14300,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 130
+},
+"ok": true
+},
+{
+"j": 830,
+"ep": 18020,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 44
+},
+"ok": true
+},
+{
+"j": 838,
+"ep": 18060,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 34
+},
+"ok": true
+},
+{
+"j": 839,
+"ep": 18060,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 69
+},
+"ok": true
+},
+{
+"j": 840,
+"ep": 18060,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 40
+},
+"ok": false
+},
+{
+"j": 845,
+"ep": 18260,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 163
+},
+"ok": false
+},
+{
+"j": 847,
+"ep": 18420,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 172
+},
+"ok": true
+},
+{
+"j": 854,
+"ep": 18500,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 92
+},
+"ok": true
+},
+{
+"j": 856,
+"ep": 18500,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 188
+},
+"ok": true
+},
+{
+"j": 863,
+"ep": 1380,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 60
+},
+"ok": true
+},
+{
+"j": 865,
+"ep": 1460,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 123
+},
+"ok": true
+},
+{
+"j": 866,
+"ep": 1460,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 104
+},
+"ok": true
+},
+{
+"j": 874,
+"ep": 1620,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 57
+},
+"ok": false
+},
+{
+"j": 887,
+"ep": 1660,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 85
+},
+"ok": true
+},
+{
+"j": 894,
+"ep": 1900,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 36
+},
+"ok": true
+},
+{
+"j": 900,
+"ep": 1940,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 58
+},
+"ok": true
+},
+{
+"j": 903,
+"ep": 1980,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 38
+},
+"ok": true
+},
+{
+"j": 905,
+"ep": 1980,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 80
+},
+"ok": false
+},
+{
+"j": 912,
+"ep": 2220,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 98
+},
+"ok": true
+},
+{
+"j": 915,
+"ep": 9460,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 66
+},
+"ok": false
+},
+{
+"j": 916,
+"ep": 9460,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 79
+},
+"ok": true
+},
+{
+"j": 917,
+"ep": 9500,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 41
+},
+"ok": true
+},
+{
+"j": 921,
+"ep": 9580,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 61
+},
+"ok": true
+},
+{
+"j": 923,
+"ep": 9660,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 172
+},
+"ok": false
+},
+{
+"j": 928,
+"ep": 9740,
+"gt": "wait",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": false
+},
+{
+"j": 932,
+"ep": 9780,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 54
+},
+"ok": true
+},
+{
+"j": 936,
+"ep": 9900,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 53
+},
+"ok": false
+},
+{
+"j": 945,
+"ep": 14460,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 36
+},
+"ok": true
+},
+{
+"j": 947,
+"ep": 18660,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 41
+},
+"ok": true
+},
+{
+"j": 951,
+"ep": 18740,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 48
+},
+"ok": false
+},
+{
+"j": 961,
+"ep": 420,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 55
+},
+"ok": false
+},
+{
+"j": 970,
+"ep": 13820,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 86
+},
+"ok": true
+},
+{
+"j": 978,
+"ep": 13980,
+"gt": "wait",
+"got": {
+"action_type": "navigate_back"
+},
+"ok": false
+},
+{
+"j": 984,
+"ep": 17580,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 44
+},
+"ok": true
+},
+{
+"j": 988,
+"ep": 17620,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 146
+},
+"ok": true
+},
+{
+"j": 991,
+"ep": 17660,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 96
+},
+"ok": false
+},
+{
+"j": 994,
+"ep": 17660,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 52
+},
+"ok": true
+},
+{
+"j": 995,
+"ep": 17660,
+"gt": "click",
+"got": {
+"action_type": "wait"
+},
+"ok": false
+},
+{
+"j": 998,
+"ep": 17660,
+"gt": "click",
+"got": {
+"action_type": "click",
+"element": 32
+},
+"ok": true
+}
+]
+}
