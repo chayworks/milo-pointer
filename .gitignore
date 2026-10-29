@@ -1,0 +1,6 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+*.onnx
+model.safetensors
+training/ac/androidcontrol_text.jsonl.gz

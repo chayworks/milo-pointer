@@ -1,0 +1,222 @@
+\documentclass[10pt]{article}
+\usepackage[preprint]{tmlr}
+\usepackage{hyperref,url,booktabs,graphicx,amsmath,xcolor,microtype}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta,shapes.geometric}
+
+\title{A Small First Tier for Phone Agents:\\A Pre-Registered Offline Study of Routing Step-Instructed\\Actions to a 149M Local Model}
+
+\author{\name Chaitanya Talapalli \email chayt128@gmail.com\\
+\addr Independent researcher}
+
+\def\month{10}
+\def\year{2026}
+\def\openreview{}
+
+\newcommand{\pts}{\,pts}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Phone agents usually send every step to a frontier language model, although many steps are easy. In an offline, step-instructed setting, we test whether a 149M-parameter model that reads the screen's accessibility tree can answer the steps it is confident about and pass the rest to a frontier model without losing accuracy. All hypotheses, the routing threshold and the evaluation sample were fixed in a dated log before any frontier model saw the test steps. On 1{,}000 held-out AndroidControl steps, evaluated offline with a human-written instruction for each step, the small model answers 70.7\% of steps. Deferring the rest to Claude Opus~5.5, which is shown 16 similar solved training examples, scores 892 against 882 for Opus alone (paired difference $+1.0$, 95\% CI $[-0.2, +2.2]$) at 29.5\% of its cost. Deferring to Claude Sonnet~5.5 instead scores 881 against 857 for Sonnet alone and stays within the registered 2-point margin of Opus alone at 14.8\% of Opus's cost. A second run of both frontier models replicates these results; they also hold on apps absent from training and, for Opus, on corrected labels. Deferring to the weaker Haiku~5.5 adds nothing over the small model alone. The small model alone scores 869, between few-shot Sonnet and few-shot Opus. The results are limited to single steps: a related cascade lost to a frontier agent on live multi-step tasks, and on a phone CPU the model needs a median 3.4\,s per step. We release the model, per-step outputs of every system, and the registration log.
+\end{abstract}
+
+\section{Introduction}
+A phone agent reads the screen, chooses an action, acts, and repeats. The most accurate agents call a frontier model at every step, which costs money, adds a network round trip and sends the screen's contents off the device. Many steps are nevertheless easy: tap the tab labelled ``Timers'', press ``5'', go back. If a small local model answered those steps and deferred only the hard ones, most frontier calls would disappear.
+
+Deferring uncertain inputs to a stronger decision maker is well studied in selective classification~\citep{chow,geifman} and learning to defer~\citep{mozannar}, and routing between cheap and expensive language models is an active area~\citep{frugalgpt,automix,hybridllm,routellm}. Phone agents have recently adopted the idea: OpenPhone~\citep{openphone}, MAI-UI~\citep{maiui} and CORE~\citep{core} combine a billion-parameter local model with a cloud model and report end-to-end gains. Two questions remain open. How much of a phone agent's work can a model one to two orders of magnitude smaller take on, step by step, without costing the frontier model accuracy? And is the comparison fair? Small fine-tuned models are routinely compared with frontier models prompted zero-shot~\citep{limac}, a known source of inflated gains~\citep{melis,dacrema}.
+
+We answer both questions on AndroidControl~\citep{androidcontrol} under a pre-registered protocol (Fig.~\ref{fig:overview}). Our contributions are:
+\begin{itemize}\setlength\itemsep{1pt}
+\item A routing study on 1{,}000 held-out steps with three frontier models, replicated with a second run, broken down by unseen apps and action types, and re-scored on corrected labels (Sec.~\ref{sec:router}).
+\item A fair-baseline study showing that the small model's 6--8 point lead over zero-shot frontier models disappears once those models see similar solved examples (Sec.~\ref{sec:fair}).
+\item On-device measurements on a phone CPU, a quantized model evaluated end to end, a live phone demonstration, and a live multi-step result that bounds the claims (Secs.~\ref{sec:device} and~\ref{sec:live}).
+\item The released model, per-step outputs of every system and the registration log (Appendix~\ref{app:reg}).
+\end{itemize}
+Neither the model design, which follows candidate selection in MindAct~\citep{mind2web} and LiMAC~\citep{limac}, nor the deferral rule is new; the contribution is the measurement and the released first-tier model.
+
+\begin{figure}[t]
+\centering
+\begin{tikzpicture}[font=\small, node distance=6mm and 8mm,
+  box/.style={draw, rounded corners=2pt, align=center, minimum height=9mm, inner sep=4pt, fill=gray!6},
+  dec/.style={draw, diamond, aspect=2.2, align=center, inner sep=1pt, fill=gray!6},
+  arr/.style={-{Stealth[length=2.2mm]}, thick}]
+\node[box] (in) {Goal, step instruction,\\accessibility tree};
+\node[box, right=of in] (enc) {149M encoder\\(local)};
+\node[dec, right=of enc] (gate) {confidence\\$\geq\tau$?};
+\node[box, right=of gate, fill=green!8] (local) {Act locally\\(70.7\% of steps)};
+\node[box, below=7mm of gate, fill=blue!6] (cloud) {Frontier model +\\16 retrieved examples};
+\node[box, right=of cloud, fill=blue!6] (act2) {Act\\(29.3\% of steps)};
+\draw[arr] (in) -- (enc); \draw[arr] (enc) -- (gate);
+\draw[arr] (gate) -- node[above]{yes} (local);
+\draw[arr] (gate) -- node[right]{no} (cloud);
+\draw[arr] (cloud) -- (act2);
+\end{tikzpicture}
+\caption{Local-first routing. The small model predicts an action and a confidence; steps at or above the threshold $\tau$ are answered locally, the rest by a frontier model shown similar solved examples. The threshold was fixed before the evaluation.}\label{fig:overview}
+\end{figure}
+
+\section{Related Work}
+\paragraph{Phone and GUI agents.} AndroidControl~\citep{androidcontrol} provides step-level supervision with out-of-distribution splits; AndroidControl-Curated~\citep{accurated} corrects its labels. Screenshot agents such as OS-Atlas~\citep{osatlas}, UI-TARS~\citep{uitars}, InfiGUI-R1~\citep{infiguir1} and Ferret-UI Lite~\citep{ferretlite} lead the benchmark. LiMAC~\citep{limac} is the closest small system. AndroidWorld~\citep{androidworld} evaluates agents live. AutoDroid-V2~\citep{autodroidv2} lets a small on-device model write multi-step scripts instead of choosing one action at a time.
+
+\paragraph{Deferral and routing.} Selective classification abstains at low confidence~\citep{chow,geifman}, and learning to defer trains a model to hand cases to an expert~\citep{mozannar}. For language models, FrugalGPT~\citep{frugalgpt} cascades APIs from cheap to expensive, AutoMix~\citep{automix} escalates after self-verification, and Hybrid LLM~\citep{hybridllm} and RouteLLM~\citep{routellm} learn routers. For phone agents, OpenPhone~\citep{openphone} escalates hard subtasks from a 3B on-device model to the cloud, MAI-UI~\citep{maiui} hands off when the local trajectory drifts from the user's intent and reports over 40\% fewer cloud calls, and CORE~\citep{core} lets a local model rank screen regions so that the cloud model sees less of the screen. Our local model is far smaller, and we isolate its effect at the step level against a frontier baseline matched for in-domain data.
+
+\paragraph{Fair baselines.} Retrieved demonstrations raise frontier models' mobile-agent accuracy substantially~\citep{learnact,raggui}; we use retrieval only to strengthen the baseline. Under-tuned baselines have inflated reported gains across machine learning~\citep{melis,dacrema,musgrave,lipton}, and model accuracy depends on prompt format~\citep{sclar}, element order~\citep{ordering} and reasoning budget~\citep{inversettc}. Computer-use agents vary across reruns~\citep{cuareliability,beyondpass}, which motivates our replication.
+
+\section{Method}\label{sec:method}
+\paragraph{Task.} Each AndroidControl step provides the task goal, a human-written instruction for the step and the accessibility tree of the current screen. The system outputs one of 11 actions (tap, long press, type text, scroll in one of four directions, back, home, open app, wait) with its argument. Evaluation is offline: every step starts from the recorded history.
+
+\paragraph{Small model.} Each accessibility tree is flattened into at most 220 elements, each rendered as class, visible text or description, hint, resource-id words, a coarse screen position and state flags. A ModernBERT-base encoder~\citep{modernbert} (149M parameters) reads the instruction, a one-line history (previous action and whether the screen changed) and the goal, followed by the elements, each preceded by a marker token. Three heads predict the action type, the target element (one logit per marker) and, for typed text and app names, a span copied from the instruction. We release the model as Milo Pointer. Training details are in Appendix~\ref{app:train}. We chose extraction over generation after a registered comparison at equal training data: on steps that fit the generators' context, the encoder with copy heads was 2.4--6.8 points more accurate than LoRA-tuned Qwen2.5-3B and 7B models that generate the action as text, and three training seeds gave $80.8\pm0.7\%$ on that subset.
+
+\paragraph{Routing.} Confidence is the probability of the predicted action type, multiplied for taps by the probability of the chosen element. A step is answered locally if its confidence is at least $\tau = 0.9854$, the 30th percentile on a separate sample of 1{,}000 test steps; $\tau$ was fixed before any frontier model saw the evaluation steps.
+
+\paragraph{Frontier baseline.} Claude Opus~5.5, Sonnet~5.5 and Haiku~5.5 (Anthropic; Claude Fable~5.1, a further Anthropic model, appears in Sec.~\ref{sec:fair}) receive a system prompt describing the actions, the same inputs as the small model, and 16 solved training steps retrieved by TF-IDF similarity of goal and instruction, each with its correct action and, for taps, the target element in words. The routing arms use adaptive reasoning at medium effort through the Batch API; the earlier arms in Table~\ref{tab:frontier} list their effort. We call this setting few-shot (FS).
+
+\paragraph{Metric, statistics and costs.} A step is correct if the action type matches the record and, for taps, the centre of the chosen element lies inside the recorded target; typed text must match exactly after normalisation. We report paired differences with Wald 95\% intervals and exact McNemar tests; intervals computed by resampling whole episodes are essentially identical. The registered non-inferiority margin is 2 points, about a quarter of the gain Opus gets from examples (7.9 points); because a per-step loss compounds over a task, it suits single-step claims only. Costs are billed tokens at October 2026 Batch API prices (per million input/output tokens before the 50\% batch discount: Opus \$4/\$20, Sonnet \$2/\$10, Haiku \$0.10/\$0.50); real-time prices double every figure without changing ratios. On-device compute is not priced.
+
+\paragraph{Pre-registration.} Each comparison was written to a dated log, with hypotheses, sample, threshold and margin, and committed to version control before any frontier request on its data. The log is self-hosted rather than held by a third-party registry. As an external check, every frontier run was submitted through the Message Batches API, which records the batch creation time on the provider's servers; for every routing study the registration commit precedes its batch (released table of commits and batch identifiers).
+
+\section{Local-First Routing}\label{sec:router}
+The evaluation set is 1{,}000 test steps (579 episodes) drawn at random from the 836 test episodes not used to set $\tau$. We registered that routing to Opus is non-inferior to Opus alone; that at least 60\% of steps stay local; and that routing to Sonnet is non-inferior both to Sonnet alone and to Opus alone. Routing to Haiku was registered later, after an internal review.
+
+\begin{table}[t]\centering\small
+\caption{Correct steps out of 1{,}000 held-out steps. Run 2 repeats every frontier request unchanged. Cost per 1{,}000 steps from billed tokens (Batch API).}\label{tab:router}
+\begin{tabular}{lrrrr}\toprule
+System & Run 1 & Run 2 & Answered locally & Cost (\$)\\\midrule
+Small model alone & 869 & 869 & 100\% & 0\\\midrule
+Opus 5.5 FS alone & 882 & 879 & 0\% & 9.54\\
+Small model $\rightarrow$ Opus 5.5 FS & \textbf{892} & \textbf{890} & 70.7\% & 2.82\\\midrule
+Sonnet 5.5 FS alone & 857 & 862 & 0\% & 4.80\\
+Small model $\rightarrow$ Sonnet 5.5 FS & \textbf{881} & \textbf{889} & 70.7\% & 1.41\\\midrule
+Haiku 5.5 FS alone & 805 & -- & 0\% & 0.26\\
+Small model $\rightarrow$ Haiku 5.5 FS & 865 & -- & 70.7\% & $\approx$0.08\\\bottomrule
+\end{tabular}\end{table}
+
+\begin{table}[t]\centering\small
+\caption{Paired differences in points, with 95\% CI and exact McNemar $p$. Last column: registered hypothesis and outcome.}\label{tab:diffs}
+\begin{tabular}{llll}\toprule
+Comparison & Run 1 & Run 2 & Registered\\\midrule
+Small$\rightarrow$Opus vs Opus alone & $+1.0$ $[-0.2,+2.2]$, $p{=}0.14$ & $+1.1$ $[-0.2,+2.4]$ & non-inferior: held\\
+Small$\rightarrow$Sonnet vs Sonnet alone & $+2.4$ $[+1.1,+3.7]$, $p{=}0.0005$ & $+2.7$ $[+1.3,+4.1]$ & non-inferior: held\\
+Small$\rightarrow$Sonnet vs Opus alone & $-0.1$ $[-1.7,+1.5]$ & $+1.0$ $[-0.7,+2.7]$ & non-inferior: held\\
+Small$\rightarrow$Haiku vs Opus alone & $-1.7$ $[-3.5,+0.1]$ & -- & non-inferior: failed\\
+Small$\rightarrow$Opus vs small alone & $+2.3$, $p{=}0.011$ & & --\\
+Small alone vs Opus alone & $-1.3$ $[-3.4,+0.8]$ & & --\\\bottomrule
+\end{tabular}\end{table}
+
+\paragraph{Results.} The small model answers 70.7\% of steps (Table~\ref{tab:router}). Routing to Opus scores 892 against 882 for Opus alone: non-inferior, not significantly better. Routing to Sonnet lifts Sonnet by 2.4 points and reaches Opus alone. A second run of each frontier model replicates every registered result (Table~\ref{tab:diffs}); each model's two runs differ in correctness on 21 of 1{,}000 steps. Routing to Haiku lifts Haiku from 805 to 865 but is no better than the small model alone: a fallback helps only if it is stronger than the small model on the deferred steps, where Opus is right 75.4\% of the time and the small model 67.6\%. Alone, the small model is 1.3 points behind Opus and outside the non-inferiority bound ($-3.4$), so the frontier tier is needed to match Opus. Routing to Opus costs \$2.82 per 1{,}000 steps (29.5\% of Opus alone); deferred steps produce more output tokens (56 vs 31), but input tokens dominate cost.
+
+\begin{figure}[t]\centering\includegraphics[width=0.56\linewidth]{fig_router.pdf}
+\caption{Accuracy of the routed system as the share of locally answered steps varies (run 1). Dotted lines: frontier models alone. The gain appears once the small model keeps more than about half of the steps.}\label{fig:router}
+\end{figure}
+
+\paragraph{What stays local.} Table~\ref{tab:types} breaks run 1 down by action. The small model keeps nearly all scrolls down, waits, back presses, typing and app launches, and 59\% of taps. On the steps it keeps, its advantage over Opus comes from the dataset's conventions rather than from taps (Table~\ref{tab:examples}): waiting when the previous action has not yet taken effect (50 vs 46), naming scroll direction by where new content appears (98 vs 92) and going back (33 vs 31), against 337 vs 334 on taps. Opus is slightly better on the kept typing and app-launch steps. The deferred steps are mostly taps, often on icons without text, which a text-only model cannot read.
+
+\begin{table}[t]\centering\small
+\caption{Run 1 by recorded action: share answered locally and correct answers on kept and deferred steps.}\label{tab:types}
+\begin{tabular}{lrrccc}\toprule
+Action & Steps & Kept & Small model, kept & Opus, kept & Opus, deferred\\\midrule
+Tap & 605 & 59\% & 337/358 & 334/358 & 194/247\\
+Scroll down & 102 & 96\% & 98/98 & 92/98 & 4/4\\
+Type text & 88 & 93\% & 79/82 & 80/82 & 1/6\\
+Open app & 79 & 99\% & 71/78 & 76/78 & 0/1\\
+Wait & 62 & 81\% & 50/50 & 46/50 & 10/12\\
+Back & 40 & 82\% & 33/33 & 31/33 & 6/7\\
+Other scrolls & 24 & 33\% & 3/8 & 2/8 & 6/16\\\bottomrule
+\end{tabular}\end{table}
+
+\begin{table}[t]\centering\small
+\caption{Examples from the held-out steps (instructions verbatim; confidence in parentheses).}\label{tab:examples}
+\begin{tabular}{p{0.40\linewidth}p{0.15\linewidth}p{0.17\linewidth}p{0.16\linewidth}}\toprule
+Instruction and history & Recorded action & Small model & Opus FS\\\midrule
+``Click on the convert button''; same instruction as the previous step, screen half unchanged & wait & wait, kept (0.997) & tap\\
+``Scroll up on the screen until you find the ratings \& reviews section'' & scroll down & scroll down, kept (0.996) & wait\\
+``Click on the headphone icon to listen to news'' & tap the icon & deferred (0.635) & tap the icon\\\bottomrule
+\end{tabular}\end{table}
+
+\paragraph{Unseen apps, corrected labels and other scores.} These analyses were not registered. On the 457 steps from apps absent from training, routing to Opus scores 408 against 405 for Opus alone, and routing to Sonnet 403 against 391 for Sonnet alone. On AndroidControl-Curated labels~\citep{accurated} (995 matched steps), routing to Opus scores 928 against 925 for Opus alone ($+0.3$, $[-0.8, +1.4]$); routing to Sonnet scores 914, $-1.1$ ($[-2.5, +0.3]$) against Opus alone, narrowly outside the margin. Over all 8{,}377 matched test steps the small model scores 92.0\% on curated labels and 88.6\% on the original ones. Ordering steps by the margin between the top two probabilities or by entropy gives the same accuracy as the registered score (890 and 889 with Opus at 70\% local); the action-type probability alone is clearly worse (862).
+
+\paragraph{A learned deferral rule (exploratory).} The registered score ignores how sure the model is about copied text, whether the chosen element is an icon without text, and the kind of action. We fit two logistic regressions on the separate sample used to set $\tau$, one predicting whether the small model is right and one whether few-shot Opus is right, from the action-type probability, margin and entropy, the element probability and margin, the copy-span probability, an unlabelled-icon flag, the predicted action type and the screen size. Keeping the 70.7\% of steps with the largest predicted advantage of the small model, and testing on the held-out steps, routing to Opus scores 902 (run 1) and 900 (run 2) against 882 and 879 for Opus alone: $+2.0$ ($[+0.6, +3.4]$, $p=0.006$) and $+2.1$ ($[+0.8, +3.4]$, $p=0.003$), significantly better rather than only non-inferior. Routing to Sonnet scores 891 and 898. Against the registered rule the learned rule gains 0.9--1.0 points in all four comparisons, each not significant on its own ($p=0.10$--$0.14$). Type entropy, the element margin and screen size carry most weight; icons and wait steps push towards deferral. This rule was not registered and needs a confirmatory test on new data.
+
+\section{Fair Baselines: The Small Model Alone}\label{sec:fair}
+\begin{table}[t]\centering\small
+\caption{The separate sample of 1{,}000 test steps used to set $\tau$. ZS: no examples. Unseen apps: 401 steps.}\label{tab:frontier}
+\begin{tabular}{llrrr}\toprule
+System & Reasoning effort & Correct & Unseen apps & Cost (\$/1k)\\\midrule
+Haiku 5.5 FS & low & 797 & -- & 0.25\\
+Opus 5.5 ZS & low & 800 & 320 & 5.93\\
+Sonnet 5.5 ZS & low & 804 & -- & 3.00\\
+Opus 5.5 ZS & medium & 814 & -- & 6.08\\
+Fable 5.1 FS & medium & 870 & 350 & 23.36\\
+Small model & -- & 878 & 350 & 0\\
+Opus 5.5 FS & medium & \textbf{893} & \textbf{359} & 9.44\\\bottomrule
+\end{tabular}\end{table}
+
+Without examples, Opus~5.5 and Sonnet~5.5 trail the small model by 7.8 and 7.4 points (both $p<10^{-5}$; Table~\ref{tab:frontier}, Fig.~\ref{fig:ac}). Many of their errors are dataset conventions rather than reasoning: 28 ``scroll down'' instructions answered with scroll up and 27 wait steps answered with a tap. At equal reasoning effort, 16 retrieved examples raise Opus from 814 to 893 ($+7.9$\pts, $p<10^{-14}$), including on apps absent from training (320 to 359 of 401). The small model is then 1.5 points behind Opus ($p=0.17$, CI $[-3.5, +0.5]$) and 0.8 ahead of Fable~5.1 ($p=0.52$); the registered criterion, that it exceed every few-shot arm, is not met. For reference, on the full test set (8{,}444 steps) the small model scores 89.8\% in-domain and 86.7--87.9\% on the unseen-app, -task and -category splits, against 76.8--83.2\% for the best fine-tuned PaLM~2S~\citep{androidcontrol}; on a stricter holdout of 72 apps never seen in training it drops from 86.2\% to 82.6\%.
+
+\begin{figure}[t]\centering\includegraphics[width=0.5\linewidth]{fig_ac.pdf}
+\caption{The sample used to set $\tau$. Grey: frontier models without examples. Blue: with 16 retrieved examples. Red: the small model.}\label{fig:ac}
+\end{figure}
+
+\section{Running on a Phone}\label{sec:device}
+We exported the model to ONNX and ran it with ONNX Runtime~1.20 on the CPU of a Pixel~6a (4 threads) over 40 real inputs (median 1{,}228 tokens). At full precision the outputs match PyTorch on all 40 steps, with a median latency of 4.5\,s (90th percentile 11.9\,s) and 1.94\,GB peak memory. With 8-bit weights (150\,MB on disk) latency falls to 3.4\,s (11.2\,s) and memory to 1.45\,GB. Over all 1{,}000 held-out steps the 8-bit model scores 851 alone (869 at full precision), keeps 66.6\% of steps under the unchanged threshold, and routing still holds: 886 against 882 for Opus alone ($+0.4$, $[-0.7, +1.5]$). On a laptop GPU (Apple M2, fp16) the median is 0.29\,s. Most of the input is layout containers that show nothing and cannot be acted on. Removing them before encoding (without retraining) cuts the median input from 1{,}247 to 800 tokens on the held-out steps, costs 0.8 points alone (861 vs 869), and keeps routing intact (888 against 882 for Opus alone; 879 against 857 for Sonnet alone; 71.3\% local). On the phone, the 8-bit model with pruned input takes a median 1.18\,s (90th percentile 4.9\,s), 2.9 times faster than unpruned, because attention cost grows faster than input length. Peak memory stays at 1.45\,GB, dominated by ONNX Runtime's memory pool rather than by activations: disabling the pool lowers it to 0.97\,GB but doubles latency. Sub-second latency on the phone will need its neural accelerator or a smaller encoder.
+
+As a demonstration, with the model on a laptop driving the phone over USB, the small model completed a five-step Clock task (open the Timers tab, enter 5:00, start the timer) from step instructions, answering every step locally in 0.22--0.31\,s.
+
+\section{Live Multi-Step Tasks}\label{sec:live}
+Offline evaluation starts every step from the recorded history, so errors cannot compound. On AndroidWorld~\citep{androidworld} (116 live tasks) a related cascade, in which a goal-only variant of the small model acted when confident and otherwise the T3A agent with Gemini-3.5-Flash acted, completed fewer tasks than T3A alone (41.9\% vs 54.8\%, $p=0.008$, 93 tasks valid in both arms); a registered variant with app-name grounding and a no-effect guard also trailed (50.4\% vs 58.3\%). Run-to-run variation is large: across 43 identically configured episodes with greedy decoding, 65\% followed a different action sequence and 9\% changed outcome. A second registered design split the work the other way: a frontier planner wrote one to five step instructions from a compressed screen and the small model executed them, re-planning on low confidence or an unchanged screen. In an offline pilot on goal-only AndroidControl steps it scored 49.0\% against 61.3\% for the planner's model acting alone, with 5.6 times fewer frontier tokens. Taps were close (65.4\% vs 69.1\%); the loss came from the planner's instructions for app launches, waits and scrolls, which did not follow the conventions the small model had learned. Jev-Mobile~\citep{jevmobile} reports a similar split on AndroidWorld (79\% vs 84\% at 73\% lower cost) with a remote decision service as the executor rather than an on-device model. The offline results above should not be read as evidence for deployed multi-step agents.
+
+\section{Discussion and Limitations}
+\paragraph{What the evidence supports.} For single steps with a step instruction, a 149M model can take about 70\% of a phone agent's steps while the routed system stays within 2 points of a frontier model that sees the same training data, at 15--30\% of its cost. The result replicates, holds on unseen apps and, for Opus, on corrected labels, and survives 8-bit quantization. Most of the benefit is cost and data exposure: seven in ten screens never leave the device. The fallback must be strong; Haiku behind the small model adds nothing.
+
+\paragraph{What it does not support.} The small model alone is not better than a frontier model given the same examples, and its advantage on the steps it keeps comes from AndroidControl's labelling conventions (waiting, scroll direction), not from better grounding. Without step instructions the picture is mixed: in an earlier registered study on 1{,}000 fresh goal-only steps, a goal-only variant of the small model with Gemini-3.5-Flash as fallback scored 67.0\% against 58.0\% for Flash with eight fixed examples ($+9.0$, $[+6.3, +11.8]$), calling Flash on 38\% of steps, but that baseline was weaker than the retrieved-example baseline used here, and the same design lost live (Sec.~\ref{sec:live}). The model is too slow on a phone CPU for interactive use.
+
+\paragraph{Limitations.} Inputs are text only, so unlabelled icons are hard. The small model's design was selected using the AndroidControl test split during development, so the held-out steps are fresh for the threshold and the frontier models but not for the design. Both the small model and the frontier prompts rely on 74{,}714 labelled in-domain steps. The frontier models were given text only; a screenshot could help them most on the deferred steps, many of which are taps on unlabelled icons, so a multimodal frontier baseline may be stronger than ours. The headline small model is a single training seed; three seeds of the same recipe on a 18{,}481-step training subset gave $80.8\pm0.7$\%. The frontier models are proprietary API versions that may change. Costs exclude on-device compute and the latency of a second call. Phone measurements cover one device and one runtime. This paper draws on a log of about 40 registered experiments and amendments, many with negative outcomes (Table~\ref{tab:neg}); each result reported here was confirmed on data not used to design it, but we apply no correction across the program.
+
+\begin{table}[t]\centering\small
+\caption{Hypotheses not supported and ideas that did not help.}\label{tab:neg}
+\begin{tabular}{p{0.52\linewidth}p{0.4\linewidth}}\toprule
+Hypothesis or idea & Outcome\\\midrule
+Small model better than few-shot frontier models & Not supported (878 vs 893 for Opus, $p=0.17$)\\
+No accuracy drop on apps unseen in training & Not supported on a 72-app holdout ($-3.6$\pts)\\
+Cascade to Haiku~4.5, then Sonnet (AndroidControl) & 842, below the small model alone\\
+Routing to Haiku~5.5 matches Opus & Not supported ($-1.7$ $[-3.5, +0.1]$)\\
+Live cascade, distillation, self-training, completion guard & Below the frontier agent or no change\\
+Retrieval memory for the small model; ModernBERT-large & $+0.0$ to $+0.3$\pts; 81.7\% vs 88.5\%\\\bottomrule
+\end{tabular}\end{table}
+
+\section*{Broader Impact}
+A phone agent acts for a person and can expose what is on the screen. Keeping most steps local reduces what reaches a cloud provider but does not remove it: 29.3\% of screens were still sent. Automated actions can cause harm (purchases, messages, deletions), and we did not evaluate safeguards. The live demonstration used an app that requires no account, and no personal data was recorded. AndroidControl is released under the Apache~2.0 license.
+
+\section*{Reproducibility}
+We release the registration log with its commit history, the evaluation harness and prompts, the per-step outputs and billed token counts of every frontier request, the routing and re-scoring scripts, the trained model (safetensors and ONNX) with a one-call Python interface, the phone benchmark and the demonstration script. Tables~\ref{tab:router}--\ref{tab:types} and the routing curves are recomputed by one script from the released files without new model calls, and a test suite asserts them; the curated-label, unseen-app and latency analyses also need the AndroidControl text file (built by a released notebook) or a phone.
+
+\section*{Use of AI Assistance}
+The author designed and directed this work. Code, analyses and drafting were done with substantial help from Claude (Anthropic), and independent AI reviews were used to check the analysis and presentation. The author is responsible for the content.
+
+\bibliography{refs}
+\bibliographystyle{tmlr}
+
+\appendix
+\section{Training Details}\label{app:train}
+ModernBERT-base fine-tuned for 2 epochs on the 74{,}714 AndroidControl training steps with AdamW (learning rate $5\times10^{-5}$, weight decay 0.01), batch size 1 with 8-step gradient accumulation, 200 warm-up steps and linear decay, fp16 mixed precision, on one NVIDIA T4 GPU, seed 0. Inputs are truncated to 28 tokens per element and 3{,}072 tokens in total. Losses: cross-entropy over action types; for taps, a multi-positive cross-entropy over element markers in which every element whose centre lies inside the target counts as correct; for typed text and app names, cross-entropy over start and end positions (weight 0.5).
+
+\section{Registered Experiments}\label{app:reg}
+\begin{table}[!htbp]\centering\small
+\caption{Registrations this paper relies on; all entries, with timestamps and amendments, are in the released log.}\label{tab:reg}
+\begin{tabular}{p{0.22\linewidth}p{0.44\linewidth}p{0.26\linewidth}}\toprule
+Registration & Question & Outcome\\\midrule
+AC, AC-Opus & Small model vs zero-shot frontier models; three-tier cascade & Small model ahead; cascade 842\\
+AC-Fair (+ effort control) & Small model vs few-shot Opus~5.5 and Fable~5.1 & Not better; examples add 7.9\pts\\
+AC-Router & Routing to few-shot Opus on held-out steps & Non-inferior; 70.7\% local\\
+AC-Router-Sonnet & Routing to few-shot Sonnet & Non-inferior to Sonnet and Opus\\
+AC-Router-Rerun & Second run of Opus and Sonnet & Replicated\\
+AC-Router-Haiku & Routing to few-shot Haiku & Non-inferior to Haiku only\\
+W3--W12 & A separate web system (not reported here) & See log\\
+E14b--E14d & Goal-only routing offline (Gemini 3.5 Flash / Pro) & Routing $+9.0$ over few-shot Flash\\
+E13--E24 (live) & Live cascades, distillation, self-training, guards & Below frontier agent or null\\
+E1, E4, E5 & Copying vs generating; seeds; generator scale & Copying ahead of 3B/7B generators by 2.4--6.8\pts; 3 seeds $80.8\pm0.7$\%\\
+E2 & Goal-only small model vs LiMAC (63.1\%) & Not supported: 61.7\% [60.5, 63.0]\\
+E3, E6--E12 & Model scale, features, selective prediction & Design choices; see log\\\bottomrule
+\end{tabular}\end{table}
+\end{document}
