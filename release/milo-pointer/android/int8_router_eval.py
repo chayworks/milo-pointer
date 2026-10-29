@@ -1,8 +1,9 @@
 """Accuracy and routing of the phone-ready ONNX model (int8 or fp32) on the 1,000 fresh steps, scored exactly like the frozen PyTorch
 outputs (strict metric, no clickable-ancestor lift) and routed with the registered threshold to the registered Opus/Sonnet run-1 outputs.
-Usage (repo root): .venv/bin/python release/milo-pointer/android/int8_router_eval.py pointer_int8.onnx"""
+Usage (repo root): .venv/bin/python release/milo-pointer/android/int8_router_eval.py pointer_int8.onnx [sample=ac_fresh1000]
+(model variants are chosen on ac_sample1000, the calibration sample, and then reported once on ac_fresh1000)"""
 
-import json, math, sys, time
+import json, math, os, sys, time
 from pathlib import Path
 import numpy as np, onnxruntime as ort
 
@@ -16,7 +17,9 @@ from milo_pointer import TYPES, el_text
 from transformers import AutoTokenizer
 
 tok = AutoTokenizer.from_pretrained(HERE.parent)  # tokenizer files ship with the package
-idx = json.load(open(ROOT / "bench/ac_fresh1000.json"))
+SAMPLE = sys.argv[2] if len(sys.argv) > 2 else "ac_fresh1000"
+idx = json.load(open(ROOT / f"bench/{SAMPLE}.json"))
+N = len(idx)
 T = wanted_test_rows(set(idx))
 so = ort.SessionOptions()
 so.intra_op_num_threads = 4
@@ -67,19 +70,19 @@ for n, i in enumerate(idx):
 ref = [bool(strict[i]) for i in idx]
 loc = [c >= THR for c in cf]
 print(
-    f"{sys.argv[1]}: accuracy {sum(ok)} vs PyTorch {sum(ref)}; same outcome {sum(a == b for a, b in zip(ok, ref))}/1000; local share {100*sum(loc)/1000:.1f}%; median CPU s {sorted(ts)[500]:.2f}"
+    f"{sys.argv[1]}: accuracy {sum(ok)} vs PyTorch {sum(ref)}; same outcome {sum(a == b for a, b in zip(ok, ref))}/{N}; local share {100*sum(loc)/N:.1f}%; median CPU s {sorted(ts)[N // 2]:.2f} ({SAMPLE})"
 )
 for m in ("opus", "sonnet"):
-    F = [
-        x["ok"]
-        for x in json.load(open(ROOT / f"bench/results/acfs_claude-{m}-5-5_ac_fresh1000.json"))["rows"]
-    ]
+    fp = ROOT / f"bench/results/acfs_claude-{m}-5-5_{SAMPLE}.json"
+    if not fp.exists():
+        continue
+    F = [x["ok"] for x in json.load(open(fp))["rows"]]
     cas = [p if l else f for p, f, l in zip(ok, F, loc)]
     x = sum(c and not f for c, f in zip(cas, F))
     y = sum(f and not c for c, f in zip(cas, F))
-    d = (x - y) / 1000
-    se = math.sqrt((x + y) / 1000 - d * d) / math.sqrt(1000)
+    d = (x - y) / N
+    se = math.sqrt((x + y) / N - d * d) / math.sqrt(N)
     print(
         f"  int8 -> {m}: {sum(cas)} vs {m} alone {sum(F)}: {100*d:+.1f} [{100*(d-1.96*se):+.1f}, {100*(d+1.96*se):+.1f}] p={mcnemar(x, y):.2g}"
     )
-json.dump({"ok": ok, "conf": cf}, open(HERE / f"router_eval_{Path(sys.argv[1]).stem}.json", "w"))
+json.dump({"ok": ok, "conf": cf}, open(HERE / f"router_eval_{Path(sys.argv[1]).stem}_{SAMPLE}.json", "w"))
