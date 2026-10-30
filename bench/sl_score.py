@@ -1,12 +1,12 @@
 """Score AC-Shortlist (paper/PREREGISTRATION.md) from bench/results/sl_local.json and the frontier arms' outputs.
-Usage: .venv/bin/python bench/sl_score.py [model=claude-opus-5-5]"""
+Usage: python bench/sl_score.py [model=claude-haiku-5-5]"""
 import json
 import math
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-M = sys.argv[1] if len(sys.argv) > 1 else "claude-opus-5-5"
+M = sys.argv[1] if len(sys.argv) > 1 else "claude-haiku-5-5"
 L = json.load(open(ROOT / "bench/results/sl_local.json"))["rows"]
 N = len(L)
 

@@ -31,8 +31,8 @@ TYPES = [
 ]
 PRICE = {
     "claude-haiku-4-5-20251001": (1.0, 5.0),
-    "claude-sonnet-5-5": (3.0, 15.0),
-    "claude-opus-5-5": (5.0, 25.0),
+    "claude-sonnet-5-5": (2.0, 10.0),
+    "claude-opus-5-5": (4.0, 20.0),
 }
 SYSTEM = (
     "You control an Android phone for a user. You get the user's overall goal, the instruction for this one step, what happened "
@@ -168,9 +168,7 @@ if __name__ == "__main__":
     idx = idx[: int(sys.argv[3])] if len(sys.argv) > 3 else idx
     T = test_rows()
     rows = [T[i] for i in idx]
-    client = __import__("anthropic").Anthropic(
-        api_key=open(os.path.expanduser("~/.config/milo/anthropic_key")).read().strip()
-    )
+    client = __import__("anthropic").Anthropic()  # reads ANTHROPIC_API_KEY
     think = "sonnet" in model or "opus" in model
     reqs = [
         {
@@ -227,7 +225,7 @@ if __name__ == "__main__":
         )
     )
     led = ROOT / "bench/results/frontier_spend.json"
-    L = json.loads(led.read_text())
+    L = json.loads(led.read_text()) if led.exists() else []
     L.append(
         {
             "model": model,

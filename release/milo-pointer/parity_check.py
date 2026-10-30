@@ -1,6 +1,6 @@
 """Parity: the released fp16 package must reproduce the frozen pointer_v2 strict outcomes on AndroidControl test steps.
 Streams the dataset and keeps only the steps it checks (the 8 GB Mac cannot hold the whole file next to the model).
-Usage (repo root): .venv/bin/python release/milo-pointer/parity_check.py [n]"""
+Usage (repo root): python release/milo-pointer/parity_check.py [n]"""
 
 import gzip, json, sys, time
 from collections import Counter

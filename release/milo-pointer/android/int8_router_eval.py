@@ -1,6 +1,6 @@
 """Accuracy and routing of the phone-ready ONNX model (int8 or fp32) on the 1,000 fresh steps, scored exactly like the frozen PyTorch
 outputs (strict metric, no clickable-ancestor lift) and routed with the registered threshold to the registered Opus/Sonnet run-1 outputs.
-Usage (repo root): .venv/bin/python release/milo-pointer/android/int8_router_eval.py pointer_int8.onnx [sample=ac_fresh1000]
+Usage (repo root): python release/milo-pointer/android/int8_router_eval.py pointer_int8.onnx [sample=ac_fresh1000]
 (model variants are chosen on ac_sample1000, the calibration sample, and then reported once on ac_fresh1000)"""
 
 import json, math, os, sys, time
@@ -9,7 +9,7 @@ import numpy as np, onnxruntime as ort
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
-sys.path[:0] = [str(HERE.parent), str(ROOT / "bench")]  # package first: bench/ has its own parity_check.py
+sys.path[:0] = [str(HERE.parent), str(ROOT / "bench")]  # the package's modules take precedence
 from ac_frontier import strict_ok
 from ac_router_score import THR, mcnemar, strict
 from parity_check import wanted_test_rows

@@ -1,5 +1,5 @@
 """Figure 1: correct steps out of the same 1,000 AndroidControl test steps (strict metric), recomputed from committed per-step results.
-Usage: training/plotenv/bin/python paper/fig_ac.py"""
+Usage: python paper/fig_ac.py"""
 import json
 from pathlib import Path
 import matplotlib

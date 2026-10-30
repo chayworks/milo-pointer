@@ -16,10 +16,10 @@ Paper: *A 149M Text Encoder as the First Tier for Phone Agents: Pre-Registered R
 - **What did not work is documented too.** About 40 registered experiments, negative ones included, with timestamps
   (`paper/PREREGISTRATION.md`).
 
-All Claude API calls behind the AndroidControl results cost **$89.73** in total (Batch prices); each training run takes about
+All Claude API calls behind the AndroidControl results cost **$86.75** in total (Batch prices); each training run takes about
 **6.4 hours on one NVIDIA T4**.
 
-![Cost and accuracy on 1,000 held-out steps; routing curves](fig_router.png)
+![Cost and accuracy on 1,000 held-out steps; routing curves](https://huggingface.co/coolnow/milo-pointer/resolve/main/fig_router.png)
 
 Demo: the model drives a Pixel 6a through a five-step Clock task ("set a 5 minute timer"), every step answered locally
 ([video](https://huggingface.co/coolnow/milo-pointer/resolve/main/milo_demo_clean.mp4)).

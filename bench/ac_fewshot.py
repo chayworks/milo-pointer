@@ -24,10 +24,10 @@ PRICE = {
     "claude-sonnet-5-5": (2.0, 10.0),
 }
 EFFORT = os.environ.get("EFFORT", "medium")
-RUNTAG = os.environ.get("RUNTAG", "")  # TICK: rerun / perturbed arms
+RUNTAG = os.environ.get("RUNTAG", "")  # tag for reruns and perturbed-input arms
 
 
-def tick(r):  # TICK perturbation P: clock +1 minute, battery -1 percent; nothing added, removed or reordered
+def tick(r):  # perturbed-input arm: clock +1 minute, battery -1 percent; nothing added, removed or reordered
     def plus1(m):
         h, mi = int(m.group(1)), int(m.group(2)) + 1
         if mi == 60:
@@ -164,9 +164,7 @@ if __name__ == "__main__":
         print(msgs[0])
         print(sum(len(m) for m in msgs) / len(msgs), "chars/msg")
         sys.exit()
-    client = __import__("anthropic").Anthropic(
-        api_key=open(os.path.expanduser("~/.config/milo/anthropic_key")).read().strip()
-    )
+    client = __import__("anthropic").Anthropic()  # reads ANTHROPIC_API_KEY
     reqs = [
         {
             "custom_id": f"r{k}",
@@ -225,7 +223,7 @@ if __name__ == "__main__":
         )
     )
     led = ROOT / "bench/results/frontier_spend.json"
-    L = json.loads(led.read_text())
+    L = json.loads(led.read_text()) if led.exists() else []
     L.append(
         {
             "model": model,

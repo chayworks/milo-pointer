@@ -1,6 +1,6 @@
 """Build int8 variants of the released pointer for the phone. The shipped model (pointer_int8.onnx) quantizes every supported op
 per tensor; these variants keep more precision where 8 bits hurt most. Choose on ac_sample1000 with int8_router_eval.py.
-Usage (repo root): .venv/bin/python release/milo-pointer/android/quant_variants.py"""
+Usage (repo root): python release/milo-pointer/android/quant_variants.py"""
 
 from pathlib import Path
 
@@ -21,7 +21,7 @@ if not fp.exists():
     cfg = AutoConfig.from_pretrained(HERE.parent)
     cfg._attn_implementation = "eager"
     net = _Net(cfg)
-    net.load_state_dict({k: v.float() for k, v in load_file(str(HERE.parent / "model.safetensors")).items()}, strict=False)
+    net.load_state_dict({k: v.float() for k, v in load_file(str(HERE.parent / "model.safetensors")).items()}, strict=True)
     net.eval()
 
     class Wrap(torch.nn.Module):

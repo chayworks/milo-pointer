@@ -48,7 +48,7 @@ o = report("Opus-FS", R / f"acfs_claude-opus-5-5_{sample}.json")
 f = report("Fable-FS", R / f"acfs_claude-fable-5-1_{sample}.json")
 if o and f and len(idx) == 1000:
     print(
-        "KILL CHECK:",
+        "Stop criterion:",
         (
             "FAILS - a frontier arm ties or beats the pointer"
             if max(o[0], f[0]) >= o[1]

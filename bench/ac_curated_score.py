@@ -2,7 +2,7 @@
 action types are unchanged; a tap is correct if the centre of the chosen element lies inside the curated gt_max_bbox; typed text and
 app names are compared with the curated value (same normalisation as the strict metric). Pointer: all matched test steps. Pointer,
 Claude arms and the registered routers: the 1,000 fresh steps. Streams the dataset (8 GB machine).
-Usage: .venv/bin/python bench/ac_curated_score.py /path/to/android_control_low_bbox.json"""
+Usage: python bench/ac_curated_score.py /path/to/android_control_low_bbox.json"""
 
 import gzip, json, math, re, sys
 from pathlib import Path

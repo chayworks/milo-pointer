@@ -1,7 +1,7 @@
 """Top-K element recall of the small model on tap steps, split by whether the registered rule keeps or defers the step, plus
 how often the target is in the local top-K on the deferred taps that few-shot Opus gets wrong (the room a candidate-guided
 fallback could use). Full input, no frontier calls.
-Usage (repo root): HF_HUB_OFFLINE=1 .venv/bin/python bench/ac_topk.py"""
+Usage (repo root): HF_HUB_OFFLINE=1 python bench/ac_topk.py"""
 import json
 import sys
 from pathlib import Path

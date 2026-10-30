@@ -1,6 +1,6 @@
 """Pooled paired estimate of routing vs Opus alone over all 1,650 test steps the routing rules never saw (held-out 1,000 +
 confirmatory 650), on original labels; curated-label pooling is in ac_curated_learned.py. Not registered.
-Usage: .venv/bin/python bench/ac_pooled.py"""
+Usage: python bench/ac_pooled.py"""
 import json
 import math
 import sys

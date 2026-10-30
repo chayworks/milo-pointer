@@ -1,5 +1,5 @@
 """Export the released pointer to ONNX (fp32 and int8 dynamic) and check it against PyTorch on real AndroidControl inputs.
-Usage (repo root): .venv/bin/python release/milo-pointer/android/export_onnx.py"""
+Usage (repo root): python release/milo-pointer/android/export_onnx.py"""
 
 import json, sys
 from pathlib import Path
@@ -18,7 +18,7 @@ cfg = AutoConfig.from_pretrained("answerdotai/ModernBERT-base")
 cfg._attn_implementation = "eager"
 net = _Net(cfg)
 net.load_state_dict(
-    {k: v.float() for k, v in load_file(str(PKG / "model.safetensors")).items()}, strict=False
+    {k: v.float() for k, v in load_file(str(PKG / "model.safetensors")).items()}, strict=True
 )
 net.eval()
 

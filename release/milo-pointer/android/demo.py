@@ -1,7 +1,7 @@
 """Live demo: the 149M pointer drives a real Pixel 6a through a Clock task from step instructions. The model runs locally on the
 laptop next to the phone (no cloud calls); the phone is read and driven over adb. Steps the model is unsure of are flagged as
 'defer' (in deployment they would go to a frontier model); this demo then stops rather than guess.
-Usage (repo root): .venv/bin/python release/milo-pointer/android/demo.py"""
+Usage (repo root): python release/milo-pointer/android/demo.py"""
 
 import json, sys, time
 from pathlib import Path

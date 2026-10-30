@@ -56,6 +56,9 @@ First commit containing each heading of `PREREGISTRATION.md` (from the author's 
 | AC-Router-Sonnet (registered 2026-10-28 20:23 EDT, before Sonnet sees the fresh steps): do | `0bb6cac` | 2026-10-28 20:23:34 -0400 |
 | AC-Router-Rerun (registered 2026-10-28 21:11 EDT, before the reruns): run-to-run stability | `cc2e232` | 2026-10-28 21:11:18 -0400 |
 | AC-Router-Haiku (registered 2026-10-28 21:44 EDT, before Haiku sees the fresh steps): a ch | `ef6a676` | 2026-10-28 21:44:04 -0400 |
+| AC-LearnedRouter (registered 2026-10-29 00:01 EDT, before any model sees these steps): confirm | `3737164` | 2026-10-29 00:01:55 -0400 |
+| AC-Shortlist (registered 2026-10-29 13:34 EDT, before any frontier model sees these steps) | `9689c9d` | 2026-10-29 13:34:31 -0400 |
+| AC-Shortlist amendment (before any frontier model sees these steps): model change | `0b4e50c` | 2026-10-29 18:16:00 -0400 |
 
 ## Registration before data: third-party timestamps
 
@@ -68,3 +71,8 @@ Each frontier run was submitted through Anthropic's Message Batches API, which r
 | AC-Router-Rerun: Opus run 2 | cc2e232 2026-10-29 01:11:18 UTC | `msgbatch_01G7EStoccezP5WMYqeHJJxd` | 2026-10-29 01:13:14 |
 | AC-Router-Rerun: Sonnet run 2 | cc2e232 2026-10-29 01:11:18 UTC | `msgbatch_014zhz8RF1yYvxKUKBjnr17x` | 2026-10-29 01:15:21 |
 | AC-Router-Haiku: Haiku | ef6a676 2026-10-29 01:44:04 UTC | `msgbatch_0112g2XY7rmoa1QPCuVN11Wx` | 2026-10-29 01:45:59 |
+| AC-LearnedRouter: Opus, 650 confirmatory steps | 3737164 2026-10-29 04:01:55 UTC | `msgbatch_01RwgNVPwRbQxhBpmwu7NCNi` | 2026-10-29 04:03:20 |
+| AC-Shortlist: Haiku full | 0b4e50c 2026-10-29 22:16:00 UTC | `msgbatch_01T36DxAG56BTKmE182hdwW7` | 2026-10-29 22:18:15 |
+| AC-Shortlist: Haiku cand_full | 0b4e50c 2026-10-29 22:16:00 UTC | `msgbatch_01W6W9CWV1jkoTzob5HHRxgq` | 2026-10-29 22:22:53 |
+| AC-Shortlist: Haiku cand_only | 0b4e50c 2026-10-29 22:16:00 UTC | `msgbatch_01TgU1RYYkDx6E6wGaD1yLrS` | 2026-10-29 22:27:29 |
+| AC-Shortlist: Sonnet full_def | 0b4e50c 2026-10-29 22:16:00 UTC | `msgbatch_01B6K2GVAJr5YHA8nvJQxzL3` | 2026-10-29 22:35:54 |
