@@ -1,7 +1,7 @@
 """Learned deferral router (exploratory). Trained only on ac_sample1000 (the sample used to set the registered threshold, where Opus-FS
 outputs also exist); tested on ac_fresh1000 against the registered max-probability rule at matched local shares.
 Model A: logistic regression predicting whether the small model is right. Model B: also predicts whether Opus is right, and keeps a step
-local when P(small right) - P(Opus right) is highest. Usage: .venv/bin/python bench/ac_learned_router.py"""
+local when P(small right) - P(Opus right) is highest. Usage: python bench/ac_learned_router.py"""
 import json
 import math
 from pathlib import Path

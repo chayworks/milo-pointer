@@ -1,10 +1,10 @@
 """Read the connected Android phone's current screen (uiautomator accessibility dump over adb) into Milo Pointer elements,
 and perform actions. Only for apps without accounts (the demo uses Clock and Settings)."""
 
-import re, subprocess, xml.etree.ElementTree as ET
+import os, re, shutil, subprocess, xml.etree.ElementTree as ET
 from pathlib import Path
 
-ADB = str(Path.home() / "tools/platform-tools/adb")
+ADB = os.environ.get("ADB") or shutil.which("adb") or "adb"  # set $ADB if adb is not on PATH
 
 
 def sh(*a, timeout=30):

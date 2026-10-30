@@ -96,7 +96,7 @@ class MiloPointer:
         cfg = AutoConfig.from_pretrained(p if (p / "config.json").exists() else BASE)
         net = _Net(cfg)
         net.load_state_dict(
-            {k: v.float() for k, v in load_file(str(p / "model.safetensors")).items()}, strict=False
+            {k: v.float() for k, v in load_file(str(p / "model.safetensors")).items()}, strict=True
         )
         net = net.to(device).eval()
         if device != "cpu":

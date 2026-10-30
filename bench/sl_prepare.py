@@ -1,10 +1,10 @@
 """AC-Shortlist, local preparation (no frontier calls). Fresh data: the clean retrain held out every TRAIN episode with ep % 20 == 0
 as validation. Half of those episodes (ep % 40 == 0) set the routing threshold; a random sample of steps from the other half
 (ep % 40 == 20), which no model, threshold or prompt has seen, is the registered test sample. The clean pruned-input model
-(training/kaggle_pointer-clean-r3) gives, per sample step, its prediction, confidence and top-5 candidate elements (original
+(training/kaggle_pointer-clean/pointer_clean_r3.py) gives, per sample step, its prediction, confidence and top-5 candidate elements (original
 element indices, so they match the frontier model's screen numbering).
 Writes bench/results/sl_local.json (validation-row index k, local decision and top-5 per sample step).
-Usage (repo root): HF_HUB_OFFLINE=1 .venv/bin/python bench/sl_prepare.py [n=1000] [seed=20261029]"""
+Usage (repo root): HF_HUB_OFFLINE=1 python bench/sl_prepare.py [n=1000] [seed=20261029]"""
 import gzip
 import json
 import random
@@ -24,7 +24,7 @@ from milo_pointer import BASE, MiloPointer, _Net  # noqa: E402
 
 LAYOUT = {"FrameLayout", "LinearLayout", "RelativeLayout", "ViewGroup", "ConstraintLayout", "CoordinatorLayout", "View",
           "ScrollView", "HorizontalScrollView", "RecyclerView", "ListView", "ViewPager", "DrawerLayout", "LinearLayoutCompat",
-          "CardView"}  # identical to training/kaggle_pointer-clean-r3/pointer_clean_r3.py
+          "CardView"}  # identical to training/kaggle_pointer-clean/pointer_clean_r3.py
 
 
 def keep_r3(e):

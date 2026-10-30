@@ -1,7 +1,7 @@
 """Run the released small model over both 1,000-step samples, with the full screen and with empty layout wrappers removed, and
 record per step: correctness (strict metric), every confidence feature, input length, and whether the target element survives the
 220-element cap. Feeds the pruning study and the learned deferral router (no frontier calls).
-Usage (repo root): HF_HUB_OFFLINE=1 .venv/bin/python bench/ac_features.py"""
+Usage (repo root): HF_HUB_OFFLINE=1 python bench/ac_features.py"""
 import json
 import math
 import sys

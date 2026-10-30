@@ -1,6 +1,6 @@
 """Re-score both routing rules on AndroidControl-Curated labels, on the 1,000 held-out steps and the 650 confirmatory steps, plus
 the oracle ceiling (a step counts if either model is right). Same curated matching as ac_curated_score.py. Not registered.
-Usage: .venv/bin/python bench/ac_curated_learned.py /path/to/android_control_low_bbox.json"""
+Usage: python bench/ac_curated_learned.py /path/to/android_control_low_bbox.json"""
 import gzip
 import json
 import math

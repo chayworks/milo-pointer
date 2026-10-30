@@ -1,5 +1,5 @@
 """Score AC-LearnedRouter (paper/PREREGISTRATION.md) on bench/ac_confirm650.json with the frozen rule.
-Usage: .venv/bin/python bench/ac_confirm_score.py"""
+Usage: python bench/ac_confirm_score.py"""
 import json
 import math
 import sys

@@ -2,7 +2,7 @@
 
 Paper: [`paper/main.pdf`](paper/main.pdf). Model: [Milo Pointer on Hugging Face](https://huggingface.co/coolnow/milo-pointer).
 
-All Claude API calls behind the AndroidControl results cost **$89.73** in total (Batch prices), and each training run of the model takes about **6.4 hours on one NVIDIA T4**.
+All Claude API calls behind the AndroidControl results cost **$86.75** in total (Batch prices), and each training run of the model takes about **6.4 hours on one NVIDIA T4**.
 
 ![Cost and accuracy on 1,000 held-out steps; routing curves](paper/fig_router.png)
 
@@ -47,19 +47,30 @@ Details in [`paper/main.pdf`](paper/main.pdf).
 ## Reproduce the headline numbers (no model calls, no cost)
 
 ```
-./reproduce.sh          # standard library only
-pytest -q tests         # asserts every headline number and registered outcome
+./reproduce.sh                       # standard library only
+pip install pytest numpy && pytest -q tests   # asserts every headline number and registered outcome
 ```
 
 Re-scoring on AndroidControl-Curated labels and re-running Claude need the AndroidControl text file
 (`training/ac/androidcontrol_text.jsonl.gz`, built from the public AndroidControl release by `training/kaggle_ac/androidcontrol_text.ipynb`),
-`pip install -r requirements.txt` and, for Claude, an Anthropic API key (the Claude arms cost money).
+`pip install -r requirements.txt` and, for Claude, an Anthropic API key in `ANTHROPIC_API_KEY` (the Claude arms cost money).
+
+Scripts that run the model need the weights next to `milo_pointer.py`:
+
+```
+hf download coolnow/milo-pointer --local-dir release/milo-pointer
+```
+
+The clean retrain used by the shortlist test (`bench/sl_prepare.py`) is on the same model page under `clean_r3/`; copy
+`clean_r3/pointer_clean_r3.pt` to `training/ac/pointer_clean_r3/`. `bench/ptr_latency.py` reads the training checkpoint
+`training/ac/pointer_v2/pointer.pt` and `bench/pointer_eval_local.py` takes one as an argument; neither checkpoint is shipped, and the
+released `model.safetensors` holds the same weights.
 
 ## Use the model
 
 ```python
 from milo_pointer import MiloPointer
-m = MiloPointer.load("milo-pointer")           # folder with model.safetensors
+m = MiloPointer.load("release/milo-pointer")   # folder with model.safetensors (see above)
 a = m.predict(goal, instruction, elements, width, height, last_step="new step")
 if a["defer"]:
     ...  # send this step to your frontier agent
@@ -71,4 +82,11 @@ Code: Apache 2.0. Model: Apache 2.0, fine-tuned from ModernBERT-base (Apache 2.0
 
 ## Citation
 
-Chaitanya Talapalli. A Small First Tier for Phone Agents: A Pre-Registered Offline Study of Routing Steps to a 149M Local Model. 2026.
+```bibtex
+@misc{talapalli2026firsttier,
+  title  = {A 149M Text Encoder as the First Tier for Phone Agents: Pre-Registered Routing to Frontier Models},
+  author = {Talapalli, Chaitanya},
+  year   = {2026},
+  url    = {https://github.com/chayworks/milo-pointer}
+}
+```

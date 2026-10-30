@@ -5,7 +5,7 @@ Arms:
   full_def   deferred steps only, full screen (the baseline when only the deferred-step arms are funded)
   cand_full  deferred steps only, full screen plus the on-device model's top-5 candidates
   cand_only  deferred steps only, only the top-5 candidate elements are shown (the rest of the screen stays on the device)
-Usage: .venv/bin/python bench/sl_frontier.py <model> <arm>   (DRY=1: build prompts and count tokens, no batch)"""
+Usage: python bench/sl_frontier.py <model> <arm>   (DRY=1: build prompts and count tokens, no batch)"""
 import gzip
 import json
 import os
@@ -69,7 +69,7 @@ if __name__ == "__main__":
     msgs = [INTRO.format(ex="\n\n".join(docs[i][1] for i in ix.top(r["goal"] + " " + r["instr"], K))) + step_msg(r, arm, L[j]["top5"])
             for j, r in zip(pick, rows)]
     del docs, ix
-    client = __import__("anthropic").Anthropic(api_key=open(os.path.expanduser("~/.config/milo/anthropic_key")).read().strip())
+    client = __import__("anthropic").Anthropic()  # reads ANTHROPIC_API_KEY
     if os.environ.get("DRY"):
         print(msgs[0][-1500:])
         probe = msgs[:: max(1, len(msgs) // 20)]
@@ -107,7 +107,7 @@ if __name__ == "__main__":
         {"model": model, "arm": arm, "batch": batch.id, "n": len(res), "ok": sum(x["ok"] for x in res), "errored": err,
          "tokens_in": tin, "tokens_out": tout, "est_cost_usd": round(cost, 4), "rows": res}, indent=0))
     led = ROOT / "bench/results/frontier_spend.json"
-    lg = json.loads(led.read_text())
+    lg = json.loads(led.read_text()) if led.exists() else []
     lg.append({"model": model, "eval": f"ac-shortlist:{arm}", "n": len(res), "usd": round(cost, 4), "t": time.strftime("%Y-%m-%d %H:%M")})
     led.write_text(json.dumps(lg, indent=1))
     print(json.dumps({"arm": arm, "n": len(res), "ok": sum(x["ok"] for x in res), "errored": err, "usd": round(cost, 4)}))

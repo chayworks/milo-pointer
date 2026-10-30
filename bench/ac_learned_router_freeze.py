@@ -1,7 +1,7 @@
 """Freeze the learned deferral router for its confirmatory test: fit both logistic models on ac_sample1000 (as in
 ac_learned_router.py), and fix the threshold on the score s = P(small right) - P(Opus right) at the value that keeps 70.7% of the
 development steps (ac_fresh1000) local. Writes bench/results/learned_router_frozen.json.
-Usage: .venv/bin/python bench/ac_learned_router_freeze.py"""
+Usage: python bench/ac_learned_router_freeze.py"""
 import json
 from pathlib import Path
 

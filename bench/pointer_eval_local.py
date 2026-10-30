@@ -3,7 +3,7 @@
   OS-Atlas / UI-TARS protocol: click within 14% of screen width of the gold point; text token-F1 > 0.5; history given.
 Reports on all 8,444 test steps and on the 7,868-step subset without wait/long_press (the set UI-R1 reports).
 Uses the exact training-time source (encode/Pointer) pulled from the Kaggle kernel.
-Usage: .venv/bin/python bench/pointer_eval_local.py <kernel_source.py> <pointer.pt> androidcontrol_text.jsonl.gz out.json"""
+Usage: python bench/pointer_eval_local.py <kernel_source.py> <pointer.pt> androidcontrol_text.jsonl.gz out.json"""
 import gzip, json, math, re, sys, time
 import torch
 

@@ -1,5 +1,5 @@
 """Accuracy, routing and input length of the small model when empty layout containers are removed from the screen (rule R3), on the
-1,000 fresh steps, with the unchanged checkpoint. Usage: HF_HUB_OFFLINE=1 .venv/bin/python bench/ac_prune_eval.py"""
+1,000 fresh steps, with the unchanged checkpoint. Usage: HF_HUB_OFFLINE=1 python bench/ac_prune_eval.py"""
 import json
 import sys
 from pathlib import Path

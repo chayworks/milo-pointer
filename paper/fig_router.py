@@ -1,6 +1,6 @@
 """Figure 2: (a) correct steps vs API cost per 1,000 steps; (b) routed accuracy vs share of steps kept on the device, registered and
 learned rules, with the perfect-router line (1,000 held-out AndroidControl steps, run 1).
-Usage: training/plotenv/bin/python paper/fig_router.py"""
+Usage: python paper/fig_router.py"""
 import json
 import sys
 from pathlib import Path
@@ -59,5 +59,5 @@ b.axhline(869, color="#777", lw=0.7, ls="-."); b.annotate("small model alone", (
 b.axvline(70.7, color="#555", lw=0.6, ls="--")
 b.set_xlabel("steps answered on the device (%)"); b.set_ylim(845, 940); b.set_xlim(0, 100)
 b.legend(fontsize=6.5, frameon=False, loc="upper left", bbox_to_anchor=(0.0, 0.86)); b.set_title("(b) routing to Opus 5.5", fontsize=8)
-fig.tight_layout(); fig.savefig(R / "paper/fig_router.pdf")
+fig.tight_layout(); fig.savefig(R / "paper/fig_router.pdf"); fig.savefig(R / "paper/fig_router.png", dpi=200)
 print("learned at 70.7%:", ys[71], "oracle", int((small | op).sum()))

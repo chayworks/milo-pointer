@@ -1,6 +1,6 @@
 """Exploratory router analyses on the fresh steps (paper Fig. 2 and Table 5): cascade accuracy vs on-device share for several confidence
 scores, and the pointer-alone comparisons. Uses the registered Opus/Sonnet outputs; no new model calls.
-Usage: .venv/bin/python bench/ac_router_curves.py"""
+Usage: python bench/ac_router_curves.py"""
 
 import json, math
 from pathlib import Path
