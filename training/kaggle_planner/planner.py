@@ -22,7 +22,7 @@ SEED = 20261030
 MAXLEN = 512
 W = "/kaggle/working"
 
-subprocess.run("pip install -q -U 'transformers>=4.48' peft accelerate huggingface_hub", shell=True, check=True)
+subprocess.run("pip uninstall -y -q torchao; pip install -q -U 'transformers>=4.48' peft accelerate huggingface_hub", shell=True, check=True)  # Kaggle's torchao breaks peft
 import torch  # noqa: E402
 from huggingface_hub import snapshot_download  # noqa: E402
 from peft import LoraConfig, get_peft_model  # noqa: E402
