@@ -35,6 +35,12 @@ Limits: offline single steps with a human-written step instruction; a comparable
 model alone is not better than Opus given the same examples; on a Pixel 6a CPU the model takes a median 3.4 s per step.
 Details in [`paper/main.pdf`](paper/main.pdf).
 
+**Follow-up, goal only (registered 2026-10-30, after the paper):** a 1.5B planner (Qwen2.5-1.5B, LoRA, trained on the dataset's
+human step instructions) writes the instruction for the same executor. On 1,804 in-domain steps: human instruction 90.2%, goal
+alone 19.3%, planner 53.0%. The planner helps (+33.7 points, p < 1e-100) but does not come within 10 points of human instructions
+(registered margin missed by a wide gap), and the executor's confidence does not catch wrong plans. Details:
+[`training/kaggle_planner/RESULT.md`](training/kaggle_planner/RESULT.md).
+
 ## Contents
 
 | Path | What |
