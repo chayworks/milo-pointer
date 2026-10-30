@@ -86,6 +86,7 @@ Code: Apache 2.0. Model: Apache 2.0, fine-tuned from ModernBERT-base (Apache 2.0
 @misc{talapalli2026firsttier,
   title  = {A 149M Text Encoder as the First Tier for Phone Agents: Pre-Registered Routing to Frontier Models},
   author = {Talapalli, Chaitanya},
+  note   = {ORCID 0009-0000-8811-3349},
   year   = {2026},
   url    = {https://github.com/chayworks/milo-pointer}
 }

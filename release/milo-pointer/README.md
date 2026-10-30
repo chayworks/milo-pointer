@@ -6,7 +6,7 @@ tags: [gui-agent, android, accessibility, on-device, androidcontrol]
 # Milo Pointer (149M)
 
 Paper: *A 149M Text Encoder as the First Tier for Phone Agents: Pre-Registered Routing to Frontier Models*
-(Chaitanya Talapalli, 2026). Code, per-step results and the registration log: https://github.com/chayworks/milo-pointer
+(Chaitanya Talapalli, 2026; ORCID [0009-0000-8811-3349](https://orcid.org/0009-0000-8811-3349)). Code, per-step results and the registration log: https://github.com/chayworks/milo-pointer
 
 - **A 149M text-only model scores 86.1% on AndroidControl-Low** under the protocol screenshot agents report, above the 85.2%
   reported for OS-Atlas-7B (step sets differ slightly).
