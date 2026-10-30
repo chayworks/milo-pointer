@@ -10,6 +10,8 @@ Paper: [`paper/main.pdf`](paper/main.pdf). The model is released as **Milo Point
 - **What did not work is documented too.** About 40 registered experiments, negative ones included, with timestamps
   (`paper/PREREGISTRATION.md`).
 
+![Cost and accuracy on 1,000 held-out steps; routing curves](paper/fig_router.png)
+
 A 149M-parameter local model answers the phone-agent steps it is confident about and hands the rest to a frontier model.
 On 1,000 held-out AndroidControl steps (offline, one step at a time, pre-registered):
 
