@@ -2,6 +2,10 @@
 
 Paper: [`paper/main.pdf`](paper/main.pdf). The model is released as **Milo Pointer**.
 
+All Claude API calls behind the AndroidControl results cost **$89.73** in total (Batch prices), and each training run of the model takes about **6.4 hours on one NVIDIA T4**.
+
+![Cost and accuracy on 1,000 held-out steps; routing curves](paper/fig_router.png)
+
 - **A 149M text-only model scores 86.1% on AndroidControl-Low** under the protocol screenshot agents report, above the 85.2%
   reported for OS-Atlas-7B (step sets differ slightly).
 - **Small model + frontier beats the frontier alone.** The small model answers about 70% of steps on the device and hands the
@@ -9,8 +13,6 @@ Paper: [`paper/main.pdf`](paper/main.pdf). The model is released as **Milo Point
   all 1,650 test steps the gain is 1.5 points (95% CI [+0.5, +2.4]), at under a third of Opus's API cost.
 - **What did not work is documented too.** About 40 registered experiments, negative ones included, with timestamps
   (`paper/PREREGISTRATION.md`).
-
-![Cost and accuracy on 1,000 held-out steps; routing curves](paper/fig_router.png)
 
 A 149M-parameter local model answers the phone-agent steps it is confident about and hands the rest to a frontier model.
 On 1,000 held-out AndroidControl steps (offline, one step at a time, pre-registered):
