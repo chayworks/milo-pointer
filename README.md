@@ -1,6 +1,6 @@
 # A 149M Text Encoder as the First Tier for Phone Agents: Pre-Registered Routing to Frontier Models
 
-Paper: [`paper/main.pdf`](paper/main.pdf). The model is released as **Milo Pointer**.
+Paper: [`paper/main.pdf`](paper/main.pdf). Model: [Milo Pointer on Hugging Face](https://huggingface.co/coolnow/milo-pointer).
 
 All Claude API calls behind the AndroidControl results cost **$89.73** in total (Batch prices), and each training run of the model takes about **6.4 hours on one NVIDIA T4**.
 
@@ -38,7 +38,7 @@ Details in [`paper/main.pdf`](paper/main.pdf).
 | Path | What |
 |---|---|
 | `paper/` | Paper (PDF, LaTeX), figures, and `PREREGISTRATION.md`: every hypothesis with its timestamp, written before the data were scored |
-| `release/milo-pointer/` | The model's Python interface (`milo_pointer.py`), model card, parity check; weights: Hugging Face link added at release |
+| `release/milo-pointer/` | The model's Python interface (`milo_pointer.py`), model card, parity check; weights: https://huggingface.co/coolnow/milo-pointer |
 | `release/milo-pointer/android/` | ONNX export, on-phone benchmark (ONNX Runtime via `app_process`, no APK), live phone demo and its recording |
 | `bench/` | Frontier harnesses (`ac_frontier.py`, `ac_fewshot.py`), routing and re-scoring scripts, step samples |
 | `bench/results/` | Per-step outputs of every Claude run, and billed token counts |

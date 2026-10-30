@@ -16,6 +16,14 @@ Paper: *A 149M Text Encoder as the First Tier for Phone Agents: Pre-Registered R
 - **What did not work is documented too.** About 40 registered experiments, negative ones included, with timestamps
   (`paper/PREREGISTRATION.md`).
 
+All Claude API calls behind the AndroidControl results cost **$89.73** in total (Batch prices); each training run takes about
+**6.4 hours on one NVIDIA T4**.
+
+![Cost and accuracy on 1,000 held-out steps; routing curves](fig_router.png)
+
+Demo: the model drives a Pixel 6a through a five-step Clock task ("set a 5 minute timer"), every step answered locally
+([video](https://huggingface.co/coolnow/milo-pointer/resolve/main/milo_demo_clean.mp4)).
+
 A 149M-parameter model that picks the next action on an Android screen from its accessibility tree, in about 0.3 s on a laptop.
 It is meant to sit **in front of** a frontier agent: it answers the steps it is sure about and returns `defer: true` for the rest.
 
@@ -80,7 +88,7 @@ navigate_home, open_app (name copied from the instruction), wait. `last_step` de
 | Pixel 6a CPU, ONNX Runtime 1.20, 4 threads, int8 | 3.4 s (p90 11.2 s) | 1.45 GB (agrees with fp32 on 34/40 steps) |
 | Same, empty layout containers removed from the input | 1.18 s (p90 4.9 s) | 1.45 GB (0.8 points lower accuracy, routing intact) |
 
-int8 accuracy on 1,000 held-out AndroidControl steps (fp32: 869): per-tensor `pointer_int8.onnx` 851, per-channel `android/quant_variants.py` (`pointer_int8_pc.onnx`, 151 MB) 862. Per-channel was chosen on a separate calibration sample. Phone latencies above are for the per-tensor model; on the phone the per-channel model runs within 5% of it.
+int8 accuracy on 1,000 held-out AndroidControl steps (fp32: 869): per-tensor `pointer_int8.onnx` 851, per-channel `onnx/pointer_int8_pc.onnx` (151 MB, recommended; built by `android/quant_variants.py`) 862. Per-channel was chosen on a separate calibration sample. Phone latencies above are for the per-tensor model; on the phone the per-channel model runs within 5% of it.
 
 Phone CPU latency is not yet sub-second. `android/` has the export, the benchmark and a live demo.
 
