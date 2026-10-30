@@ -80,7 +80,7 @@ navigate_home, open_app (name copied from the instruction), wait. `last_step` de
 | Pixel 6a CPU, ONNX Runtime 1.20, 4 threads, int8 | 3.4 s (p90 11.2 s) | 1.45 GB (agrees with fp32 on 34/40 steps) |
 | Same, empty layout containers removed from the input | 1.18 s (p90 4.9 s) | 1.45 GB (0.8 points lower accuracy, routing intact) |
 
-int8 accuracy on 1,000 held-out AndroidControl steps (fp32: 869): per-tensor `pointer_int8.onnx` 851, per-channel `android/quant_variants.py` (`pointer_int8_pc.onnx`, 151 MB) 862. Per-channel was chosen on a separate calibration sample. Phone latencies above are for the per-tensor model.
+int8 accuracy on 1,000 held-out AndroidControl steps (fp32: 869): per-tensor `pointer_int8.onnx` 851, per-channel `android/quant_variants.py` (`pointer_int8_pc.onnx`, 151 MB) 862. Per-channel was chosen on a separate calibration sample. Phone latencies above are for the per-tensor model; on the phone the per-channel model runs within 5% of it.
 
 Phone CPU latency is not yet sub-second. `android/` has the export, the benchmark and a live demo.
 
