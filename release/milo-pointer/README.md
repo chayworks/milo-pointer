@@ -5,8 +5,16 @@ tags: [gui-agent, android, accessibility, on-device, androidcontrol]
 ---
 # Milo Pointer (149M)
 
-Paper: *A Small First Tier for Phone Agents: A Pre-Registered Offline Study of Routing Step-Instructed Actions to a 149M Local Model*
+Paper: *A 149M Text Encoder as the First Tier for Phone Agents: Pre-Registered Routing to Frontier Models*
 (Chaitanya Talapalli, 2026). Code, per-step results and the registration log: https://github.com/chayworks/milo-pointer
+
+- **A 149M text-only model scores 86.1% on AndroidControl-Low** under the protocol screenshot agents report, above the 85.2%
+  reported for OS-Atlas-7B (step sets differ slightly).
+- **Small model + frontier beats the frontier alone.** The small model answers about 70% of steps on the device and hands the
+  rest to Claude Opus 5.5. In a pre-registered confirmatory test routing beat Opus alone by 2.8 points (p = 0.003); pooled over
+  all 1,650 test steps the gain is 1.5 points (95% CI [+0.5, +2.4]), at under a third of Opus's API cost.
+- **What did not work is documented too.** About 40 registered experiments, negative ones included, with timestamps
+  (`paper/PREREGISTRATION.md`).
 
 A 149M-parameter model that picks the next action on an Android screen from its accessibility tree, in about 0.3 s on a laptop.
 It is meant to sit **in front of** a frontier agent: it answers the steps it is sure about and returns `defer: true` for the rest.
