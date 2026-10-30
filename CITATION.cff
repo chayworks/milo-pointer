@@ -8,8 +8,18 @@ authors:
     affiliation: Independent researcher
     email: chayt128@gmail.com
     orcid: "https://orcid.org/0009-0000-8811-3349"
+doi: 10.5281/zenodo.23818333
 repository-code: "https://github.com/chayworks/milo-pointer"
 url: "https://huggingface.co/coolnow/milo-pointer"
 license: Apache-2.0
 date-released: "2026-10-29"
 keywords: [phone agents, GUI agents, AndroidControl, LLM routing, on-device, pre-registration]
+preferred-citation:
+  type: article
+  title: "A 149M Text Encoder as the First Tier for Phone Agents: Pre-Registered Routing to Frontier Models"
+  authors:
+    - family-names: Talapalli
+      given-names: Chaitanya
+      orcid: "https://orcid.org/0009-0000-8811-3349"
+  doi: 10.5281/zenodo.23818333
+  year: 2026

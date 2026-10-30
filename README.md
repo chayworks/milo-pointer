@@ -1,6 +1,8 @@
 # A 149M Text Encoder as the First Tier for Phone Agents: Pre-Registered Routing to Frontier Models
 
-Paper: [`paper/main.pdf`](paper/main.pdf). Model: [Milo Pointer on Hugging Face](https://huggingface.co/coolnow/milo-pointer).
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23818333.svg)](https://doi.org/10.5281/zenodo.23818333)
+
+Paper: [`paper/main.pdf`](paper/main.pdf) (preprint: [doi:10.5281/zenodo.23818333](https://doi.org/10.5281/zenodo.23818333)). Model: [Milo Pointer on Hugging Face](https://huggingface.co/coolnow/milo-pointer).
 
 All Claude API calls behind the AndroidControl results cost **$86.75** in total (Batch prices), and each training run of the model takes about **6.4 hours on one NVIDIA T4**.
 
@@ -88,6 +90,7 @@ Code: Apache 2.0. Model: Apache 2.0, fine-tuned from ModernBERT-base (Apache 2.0
   author = {Talapalli, Chaitanya},
   note   = {ORCID 0009-0000-8811-3349},
   year   = {2026},
-  url    = {https://github.com/chayworks/milo-pointer}
+  doi    = {10.5281/zenodo.23818333},
+  url    = {https://doi.org/10.5281/zenodo.23818333}
 }
 ```
