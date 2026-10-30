@@ -792,3 +792,24 @@ arms or harness changes.
   20 times more?). Also reported: routing with Sonnet full_def against Haiku full alone and against the small model alone.
 - Order: Haiku full, cand_full, cand_only, then Sonnet full_def. If the ledger shows less than $1.40 left before the Sonnet arm,
   it is not run and H-SL4 is reported as not run.
+
+## AC-Planner (registered 2026-10-30, before any planner is trained): a distilled planner for goal-only operation
+Question: can a small open model, trained on AndroidControl's own human step instructions, write instructions the 149M executor can
+act on, so that the system works from the goal alone? The earlier pilot (E13p) lost because a frontier planner's instructions did not
+follow the executor's conventions. No frontier model is used anywhere in this test.
+Frozen before this entry:
+- Planner: Qwen2.5-1.5B-Instruct with LoRA (rank 16, all attention and MLP projections), one epoch on up to 40,000 steps drawn
+  (seed 20261030) from TRAIN episodes with ep % 20 != 0 (the clean retrain's training episodes). Input: goal, the episode's last four
+  recorded actions, and up to 40 labelled screen elements; target: the human step instruction. Greedy decoding, at most 40 tokens.
+- Executor: the clean pruned-input retrain (pointer_clean_r3.pt, released on Hugging Face under clean_r3/), pruned input, unchanged.
+- Threshold for the local share: tau = 0.9842 (AC-Shortlist, set on ep % 40 == 0). Harness: training/kaggle_planner/planner.py.
+- Test steps: every TRAIN step of episodes with ep % 40 == 20 (1,804 steps). The executor never trained on them; 1,000 of them were
+  the AC-Shortlist sample (frontier fallback study); no planner choice uses them. In-domain (same apps and task templates as training).
+Arms on the same steps, all with the same executor: A = human instruction (ceiling); B = the goal used as the instruction (no planner);
+C = planner instruction. The history string uses each arm's own instructions (B: "new step" plus the last action).
+Hypotheses (exact McNemar, two-sided, Wald 95% CI, Holm over the two):
+H-PL1: C is more accurate than B (the planner helps a goal-only executor).
+H-PL2: C is within 10 points of A (the planner recovers most of what human instructions give). Tested as the lower CI bound of C - A
+       above -10 points.
+Secondary (no correction): local share and accuracy on locally answered steps for each arm at tau; per-action accuracy; exact-match
+rate of planner instructions against the human ones. A smoke run on 50 test steps checks the pipeline only; its numbers are not reported.
