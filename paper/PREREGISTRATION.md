@@ -813,3 +813,32 @@ H-PL2: C is within 10 points of A (the planner recovers most of what human instr
        above -10 points.
 Secondary (no correction): local share and accuracy on locally answered steps for each arm at tau; per-action accuracy; exact-match
 rate of planner instructions against the human ones. A smoke run on 50 test steps checks the pipeline only; its numbers are not reported.
+
+## AC-PlanConf (registered 2026-11-18, before any plan-confidence signal is computed): can the system tell when the plan is wrong?
+Question: AC-Planner showed that the executor's confidence does not catch wrong planner instructions (confident local steps were
+right 62.8% of the time). Can cheap signals from the planner itself (token likelihood, agreement between sampled plans) separate
+right from wrong plans well enough that a goal-only system could keep half of its steps local at a useful accuracy? No frontier
+model is used anywhere in this test.
+Frozen before this entry:
+- Planner: the AC-Planner LoRA adapter exactly as trained on 2026-10-30 (Kaggle output of chaitu6/milo-planner-distill), same
+  prompt, greedy decoding, at most 40 tokens. Executor: pointer_clean_r3.pt, pruned input, history string from the greedy plans
+  (as in AC-Planner arm C).
+- Dev steps (signal fitting and thresholds): every TRAIN step of episodes with ep % 40 == 0 (1,691 steps).
+  Test steps: every TRAIN step of episodes with ep % 40 == 20 (1,804 steps, the AC-Planner test set; no planner choice or signal
+  choice uses them). All in-domain. Outcome per step: whether the executor is right when acting on the greedy plan (strict metric).
+- Signals per step: (1) exec = executor confidence on the greedy plan (the AC-Planner baseline); (2) lp_mean and lp_min = mean and
+  minimum token log-probability of the greedy plan; (3) agree = share of K = 8 sampled plans (temperature 0.8, seed 20261118) on
+  which the executor chooses the same action as on the greedy plan (same type and element, or same normalized text / app);
+  (4) comb = logistic regression on the standardized four features above, fitted on dev only.
+- Threshold for H-PC2: the comb score that keeps 50% of dev steps.
+Hypotheses (Holm over the two):
+H-PC1: agree separates right from wrong plans better than exec on test: AUROC(agree) - AUROC(exec) > 0, tested as the lower bound
+       of a 95% episode-cluster bootstrap CI (2,000 resamples) above 0.
+H-PC2: at the frozen dev threshold, the test steps kept by comb are right at least 70% of the time: lower bound of the Wilson 95%
+       CI of their accuracy at or above 70%. (Reference: frontier goal-only accuracy in the E13p pilot was 61.3%; the steps kept
+       local must be better than what the fallback would do on them for routing to pay off.)
+Secondary (no correction): AUROC of every signal; accuracy of kept steps at 30/50/70% coverage for each signal; the same for exec
+alone; per-action breakdown; how often the greedy plans reproduce AC-Planner's plans (a determinism check).
+Decision rule: if H-PC2 passes, a frontier goal-only arm (Claude Sonnet 5.5, 16 retrieved examples) is registered separately and run
+with new API credit; if it fails, the next step is a stronger planner, not a frontier run. A smoke run on 50 dev steps checks the
+pipeline only; its numbers are not reported.
