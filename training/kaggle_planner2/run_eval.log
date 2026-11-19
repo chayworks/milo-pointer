@@ -1,0 +1,19 @@
+[   1.4 min] dev steps 1691 | test steps 1804
+[   2.2 min] adapter /kaggle/input/notebooks/chaitu6/milo-planner2-train/planner2_lora
+[  79.1 min] dev plans done
+[ 160.5 min] test plans done; example: I would want to identify the plants by snapping a picture of them on the flora app to learn about which species they are. -> Open the Flora app | samples: ['Open the Flora app', 'Open flora app', 'Open the flora app']
+[ 173.5 min] dev executed
+[ 187.4 min] test executed
+[ 187.4 min] H-P2a planner2 0.598 vs AC-Planner 0.530: +0.067 [+0.047, +0.087] gained 238 lost 117 p 1.27e-10 -> PASS
+[ 187.4 min] exact match with human instruction 0.139
+[ 187.5 min] comb coefficients {'exec': np.float64(0.402), 'lp_mean': np.float64(0.387), 'lp_min': np.float64(0.385), 'agree': np.float64(0.598)}
+[ 187.5 min] base accuracy test 0.598 dev 0.582
+[ 187.5 min] (secondary) agree vs exec AUROC agree 0.718 vs exec 0.667: diff +0.051 [+0.016, +0.085] boot p 0.0060 -> PASS
+[ 187.5 min] H-P2b comb >= 0.6398: keeps 0.502 of test, accuracy 0.779 [0.751, 0.805] -> PASS
+[ 187.5 min] exec     AUROC 0.667 | 30%: cov 0.31 acc 0.744 | 50%: cov 0.51 acc 0.710 | 70%: cov 0.71 acc 0.680
+[ 187.5 min] lp_mean  AUROC 0.627 | 30%: cov 0.30 acc 0.718 | 50%: cov 0.50 acc 0.669 | 70%: cov 0.69 acc 0.655
+[ 187.5 min] lp_min   AUROC 0.669 | 30%: cov 0.30 acc 0.752 | 50%: cov 0.49 acc 0.719 | 70%: cov 0.68 acc 0.680
+[ 187.5 min] agree    AUROC 0.718 | 30%: cov 0.45 acc 0.770 | 50%: cov 0.59 acc 0.740 | 70%: cov 0.71 acc 0.703
+[ 187.5 min] comb     AUROC 0.747 | 30%: cov 0.30 acc 0.806 | 50%: cov 0.50 acc 0.779 | 70%: cov 0.69 acc 0.724
+[ 187.5 min] per action {'click': {'n': 1110, 'acc': 0.609009009009009, 'kept': 0.46396396396396394, 'acc_kept': 0.7766990291262136}, 'input_text': {'n': 135, 'acc': 0.6592592592592592, 'kept': 0.5851851851851851, 'acc_kept': 0.8860759493670886}, 'long_press': {'n': 2, 'acc': 0.0, 'kept': 0.0, 'acc_kept': None}, 'navigate_back': {'n': 74, 'acc': 0.5, 'kept': 0.44594594594594594, 'acc_kept': 0.7575757575757576}, 'open_app': {'n': 125, 'acc': 0.776, 'kept': 0.768, 'acc_kept': 0.9166666666666666}, 'scroll': {'n': 230, 'acc': 0.6043478260869565, 'kept': 0.48695652173913045, 'acc_kept': 0.7767857142857143}, 'wait': {'n': 128, 'acc': 0.3125, 'kept': 0.546875, 'acc_kept': 0.5}}
+[ 187.5 min] done
