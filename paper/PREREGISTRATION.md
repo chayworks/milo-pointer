@@ -842,3 +842,24 @@ alone; per-action breakdown; how often the greedy plans reproduce AC-Planner's p
 Decision rule: if H-PC2 passes, a frontier goal-only arm (Claude Sonnet 5.5, 16 retrieved examples) is registered separately and run
 with new API credit; if it fails, the next step is a stronger planner, not a frontier run. A smoke run on 50 dev steps checks the
 pipeline only; its numbers are not reported.
+
+## AC-Planner2 (registered 2026-11-18, before the planner is trained): a stronger planner with the plan check on top
+Question: AC-PlanConf showed the plan check works but the 1.5B planner is too often wrong (kept half right 71.2% [68.1, 74.1]).
+Does a larger planner with more history raise both the executor's accuracy and the accuracy of the steps the check keeps? No frontier
+model is used anywhere in this test.
+Frozen before this entry:
+- Planner: Qwen3-4B-Instruct-2507, 4-bit NF4 (QLoRA), LoRA rank 16 on all attention and MLP projections, lr 2e-4, effective batch
+  32, one pass over up to 24,000 steps drawn (seed 20261118) from TRAIN episodes with ep % 20 != 0, stopped early only by a 10.5-hour
+  time budget (the number of examples seen is reported). Input: goal, step number, the episode's last eight recorded actions, up to
+  60 labelled screen elements (scrollable containers marked); target: the human step instruction. Greedy decoding, at most 40 tokens.
+- Executor, history string, dev and test steps, signals (exec, lp_mean, lp_min, agree with K = 8 at temperature 0.8, comb fitted on
+  dev) and the 50%-of-dev threshold: exactly as in AC-PlanConf. Harness: training/kaggle_planner2/planner2.py.
+Hypotheses (Holm over the two):
+H-P2a: with the executor acting on the greedy plan, AC-Planner2 is more accurate than AC-Planner (53.0%) on the same 1,804 test steps
+       (exact McNemar, two-sided, paired against AC-PlanConf's per-step outcomes).
+H-P2b: at the frozen dev threshold, the test steps kept by comb are right at least 70% of the time (lower bound of the Wilson 95% CI
+       at or above 70%), the bound AC-PlanConf missed.
+Secondary (no correction): AUROC of every signal; kept accuracy at 30/50/70%; per-action breakdown; exact-match rate with the human
+instruction. Decision rule as in AC-PlanConf: if H-P2b passes, a frontier goal-only arm is registered separately and needs API credit;
+if not, the result is reported and the planner line is reconsidered. A smoke run (a few hundred training steps, 100 dev steps)
+checks the pipeline only; its numbers are not reported.
