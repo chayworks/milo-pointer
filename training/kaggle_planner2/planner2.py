@@ -22,6 +22,7 @@ SEED, K, TEMP = 20261118, 8, 0.8
 N_PREV, N_ELS, MAXLEN = 8, 60, 768
 TRAIN_BUDGET_H = 0.15 if SMOKE else 10.5
 W = "/kaggle/working"
+os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 
 subprocess.run("pip uninstall -y -q torchao; pip install -q -U 'transformers>=4.51' peft accelerate bitsandbytes huggingface_hub",
                shell=True, check=True)  # Kaggle's torchao breaks peft
@@ -143,6 +144,8 @@ if STAGE in ("train", "both"):
     json.dump({"examples_seen": (i + 1) * BS, "batches": i + 1, "of": len(batches)}, open(f"{W}/planner2_train.json", "w"))
     log("planner trained")
     del lm, opt
+    import gc
+    gc.collect()
     torch.cuda.empty_cache()
 
 if STAGE == "train":
@@ -182,8 +185,8 @@ def first_line(ids, lps=None):
 
 def plan_all(steps):
     order = sorted(range(len(steps)), key=lambda i: len(prompt(steps[i])))
-    for s in range(0, len(order), 32):
-        idx = order[s:s + 32]
+    for s in range(0, len(order), 8):
+        idx = order[s:s + 8]
         enc = tok([prompt(steps[i]) for i in idx], return_tensors="pt", padding=True, truncation=True, max_length=MAXLEN - 40,
                   add_special_tokens=False).to("cuda")
         with torch.no_grad(), torch.autocast("cuda", dtype=torch.float16):
@@ -197,8 +200,8 @@ def plan_all(steps):
             steps[i]["lp_mean"] = float(np.mean(lps)) if lps else -20.0
             steps[i]["lp_min"] = float(np.min(lps)) if lps else -20.0
     torch.manual_seed(SEED)
-    for s in range(0, len(order), 8):
-        idx = order[s:s + 8]
+    for s in range(0, len(order), 4):
+        idx = order[s:s + 4]
         enc = tok([prompt(steps[i]) for i in idx], return_tensors="pt", padding=True, truncation=True, max_length=MAXLEN - 40,
                   add_special_tokens=False).to("cuda")
         with torch.no_grad(), torch.autocast("cuda", dtype=torch.float16):
