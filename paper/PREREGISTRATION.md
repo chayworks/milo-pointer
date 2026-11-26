@@ -863,3 +863,29 @@ Secondary (no correction): AUROC of every signal; kept accuracy at 30/50/70%; pe
 instruction. Decision rule as in AC-PlanConf: if H-P2b passes, a frontier goal-only arm is registered separately and needs API credit;
 if not, the result is reported and the planner line is reconsidered. A smoke run (a few hundred training steps, 100 dev steps)
 checks the pipeline only; its numbers are not reported.
+
+## AC-GoalFront (registered 2026-11-25, before any test step is sent to a frontier model): goal-only routing against the frontier model
+Question: from the goal alone (no step instructions), does the AC-Planner2 system, which acts locally on the half of steps its plan
+check trusts and sends the rest to Claude Sonnet 5.5, match Sonnet 5.5 acting alone with 16 retrieved examples?
+Frozen before this entry:
+- Test steps: the 1,804 AC-Planner2 test steps (every TRAIN step of episodes with ep % 40 == 20), all of them, in-domain.
+- Local decisions: taken unchanged from training/kaggle_planner2/planner2_results.json (greedy 4B plan, clean executor, comb score
+  and the dev threshold 0.6398 frozen there; 905 test steps kept local, 899 sent to the frontier model).
+- Frontier arm F: claude-sonnet-5-5 through Kaggle Benchmarks (free quota), temperature 0, reasoning "low", max 2,048 output
+  tokens, a fresh chat per step. Prompt (bench/ac_goalfront_build.py): the ac_frontier.py instructions rewritten for goal-only use,
+  16 TRAIN examples retrieved by TF-IDF over goal + previous actions from episodes with ep % 20 != 0 (target element in words),
+  then the goal, the episode's last eight recorded actions and the screen (first 220 elements, el_text). Replies parsed and scored
+  with ac_frontier.parse and strict_ok; an unparsed reply or a call that fails three times counts as wrong. Sonnet is called once per
+  test step; the routed system R uses that same reply on the steps it sends away.
+- R = local action where comb >= 0.6398, otherwise F's action.
+- Before this entry, 30 dev steps (ep % 40 == 0) were sent to Sonnet to check the format and cost ($0.010 per step); no test step
+  has been sent. The run is split into slices by the daily quota; every slice uses the same notebook (bench/goalfront/kb_notebook.py).
+Hypotheses (fixed sequence, two-sided alpha 0.05):
+H-GF1: R is non-inferior to F with a margin of 3 points: the lower bound of the paired Wald 95% CI of acc(R) - acc(F) is above -3.
+       (Margin 3 rather than the 2 used for routed comparisons in the paper: with about 1,800 paired steps the CI half-width is about
+       2 points, so a 2-point margin would need R to beat F outright; whether a 2-point margin would also pass is reported.)
+H-GF2 (tested only if H-GF1 passes): R is more accurate than F (exact McNemar, two-sided, p < 0.05).
+Secondary (no correction): share of steps sent to Sonnet (49.8%, fixed by the threshold) and Sonnet cost of R vs F from the logged
+usage; on kept steps, local accuracy vs Sonnet's accuracy on the same steps; per-action accuracy of R and F; unparsed and failed
+calls. Context for the write-up: the October E2/E14b goal-only pointer (149M trained on goals directly, 61.7 to 63.3% on the official
+test split, different steps) is the earlier goal-only result of this project and is cited next to this one.
