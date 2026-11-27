@@ -1,0 +1,28 @@
+{
+  "taskVersion": {
+    "versionNumber": 1,
+    "name": "milo goalfront",
+    "description": "goal-only next action on AndroidControl screens",
+    "definition": "@kbench.task(name=\"milo goalfront\", description=\"goal-only next action on AndroidControl screens\")\ndef goalfront(llm) -> None:\n    t0 = time.time()\n    for n, r in enumerate(rows):\n        u = None\n        for attempt in range(3):\n            try:\n                with kbench.chats.new(name=f\"{SPLIT}-{r['i']}\", orphan=True):  # fresh chat: no earlier steps in context\n                    txt = llm.prompt(r[\"msg\"], temperature=0, reasoning=\"low\", extra_api_params={\"max_tokens\": 2048})\n                    u = kbench.chats.get_current_chat().usage\n                break\n            except Exception as e:\n                txt = f\"ERROR {e!r}\"[:500]\n                time.sleep(5 * (attempt + 1))\n        out.write(json.dumps({\"split\": SPLIT, \"i\": r[\"i\"], \"reply\": str(txt),\n                              \"usage\": None if u is None else {\"in\": u.input_tokens, \"out\": u.output_tokens,\n                                        \"nanodollars\": (u.input_tokens_cost_nanodollars or 0) + (u.output_tokens_cost_nanodollars or 0)}}) + \"\\n\")\n        out.flush()\n        if n % 50 == 0:\n            print(n, f\"{time.time() - t0:.0f}s\", str(txt)[:120], flush=True)\n"
+  },
+  "modelVersion": {
+    "slug": "anthropic/claude-sonnet-5-5@default"
+  },
+  "state": "BENCHMARK_TASK_RUN_STATE_COMPLETED",
+  "startTime": "2026-11-27T17:34:20.843699Z",
+  "endTime": "2026-11-27T17:55:16.710980Z",
+  "conversations": [
+    {
+      "id": "milo goalfront-9bf4cd6d",
+      "metrics": {},
+      "modelVersionSlug": "model_version_slug for conversation is DEPRECATED"
+    }
+  ],
+  "results": [
+    {
+      "type": "AGGREGATED",
+      "booleanResult": true
+    }
+  ],
+  "pyRunId": "milo goalfront-Run #1"
+}

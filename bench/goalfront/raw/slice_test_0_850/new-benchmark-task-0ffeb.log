@@ -1,0 +1,33 @@
+[{"stream_name":"stdout","time":0.829443008,"data":"{\"status\":\"BOUND\",\"bound_ip\":\"35.221.189.89\",\"bound_time\":\"2026-11-26T02:10:04Z\",\"effective_expire_time\":\"2026-11-26T14:10:04Z\"}\n"}
+,{"stream_name":"stdout","time":13.354727054,"data":"anthropic/claude-sonnet-5-5@default test 0 850 850\n"}
+,{"stream_name":"stdout","time":14.317842118,"data":"0 1s {\"action_type\": \"open_app\", \"app_name\": \"Flora\"}\n"}
+,{"stream_name":"stdout","time":74.885981526,"data":"50 62s The Recorder app is open with a paused recording. The goal is to save it with the title John, so I'll start by entering \n"}
+,{"stream_name":"stdout","time":136.838856829,"data":"100 123s The menu popup is open and shows \"Share with...\", so the next step is to click that option.\n"}
+,{"stream_name":"stdout","time":136.838894139,"data":"\n"}
+,{"stream_name":"stdout","time":136.838901347,"data":"{\"action_type\": \"click\", \"e\n"}
+,{"stream_name":"stdout","time":207.08571477,"data":"150 194s The password is typed in, but the keyboard is still covering part of the dialog. The OK button (element 142) is visible \n"}
+,{"stream_name":"stdout","time":276.119971638,"data":"200 263s {\"action_type\": \"open_app\", \"app_name\": \"Photos\"}\n"}
+,{"stream_name":"stdout","time":344.979760351,"data":"250 332s Gmail's compose screen now shows the typed address with a suggestion row beneath it. Following the earlier examples, the\n"}
+,{"stream_name":"stdout","time":409.219811929,"data":"300 396s The screen shows the Clock app, which has nothing to do with searching for earbuds. The goal doesn't name an app, so a b\n"}
+,{"stream_name":"stdout","time":472.272652665,"data":"350 459s The goal asks for the first place above 4.9 stars. The list shows Fort Pitt Block House at 4.9 stars, which is not above\n"}
+,{"stream_name":"stdout","time":538.89799134,"data":"400 526s {\"action_type\": \"click\", \"element\": 25}\n"}
+,{"stream_name":"stdout","time":607.393778259,"data":"450 594s {\"action_type\": \"scroll_down\"}\n"}
+,{"stream_name":"stdout","time":678.85925515,"data":"500 665s The earlier actions show two quick_action clicks, so two songs have likely been added. The snackbar \"Added to XYZ.\" conf\n"}
+,{"stream_name":"stdout","time":758.872628875,"data":"550 746s The app is already open on the \"Exchange Rate Adjustment\" screen. In the examples, the first step on this screen was nav\n"}
+,{"stream_name":"stdout","time":825.149360598,"data":"600 812s Way easier is already clicked, so the next step is to tap Done.\n"}
+,{"stream_name":"stdout","time":825.149398226,"data":"\n"}
+,{"stream_name":"stdout","time":825.149423768,"data":"{\"action_type\": \"click\", \"element\": 29}\n"}
+,{"stream_name":"stdout","time":885.971267214,"data":"650 873s {\"action_type\": \"input_text\", \"text\": \"Raymond Kurtas for Men\"}\n"}
+,{"stream_name":"stdout","time":950.419227979,"data":"700 937s The goal is to select the category \"2023.7.21 ArtStickers\". The Home screen has tabs, and the Artworks tab may lead to c\n"}
+,{"stream_name":"stdout","time":1018.906033638,"data":"750 1006s {\"action_type\": \"click\", \"element\": 44}\n"}
+,{"stream_name":"stdout","time":1090.2986887,"data":"800 1077s The Download folder lists several files. \"The Martian - Andy Weir.pdf\" is the original file, so I'll tap its item card. \n"}
+,{"stream_name":"stdout","time":1154.770775844,"data":"done\n"}
+,{"stream_name":"stderr","time":1159.45354196,"data":"/benchmarks/.venv/lib/python3.12/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":1159.453578186,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":1159.48355554,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":1159.604371596,"data":"[NbConvertApp] Writing 66917 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":1163.132477688,"data":"/benchmarks/.venv/lib/python3.12/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":1163.132636913,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":1163.175479717,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1163.992203998,"data":"[NbConvertApp] Writing 318442 bytes to __results__.html\n"}
+]
